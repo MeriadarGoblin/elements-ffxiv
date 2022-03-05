@@ -1,1 +1,22 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/source.xml" />
+		</update>
+	</info>
+	<element name="FFXIV Dungeons and Dragons" type="Source" source="FFXIV" id="ID_GMBINDER_SOURCE_FFXIV_DND">
+		<description>
+			<![CDATA[<p><strong>Uhhhh</strong> The content trying of Dungeons and Dragons in the FFXIV setting.]]>
+		</description>
+		<setters>
+			<set name="abbreviation">FFXIV</set>
+			<set name="url">https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv</set>
+			<set name="image">https://cdn-prod.scalefast.com/public/assets/img/resized/squareenix-store-v3/febce3456c5d5a467fc44239a84897c5_1920_KR.jpg</set>
+			<set name="author" abbreviation="SilentSoren" url="https://www.reddit.com/user/SilentSoren/">Silent Soren</set>
+			<set name="official">false</set>
+			<set name="core">true</set>
+			<set name="release">20211130</set>
+		</setters>
+	</element>
+</elements>
