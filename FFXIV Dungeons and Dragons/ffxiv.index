@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>FFXIV</name>
+		<description>The content from the Final Fantatsy XIV DnD Compendium.</description>
+		<author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">SilentSoren on GMBinder</author>
+		<update version="0.1.0">
+			<file name="ffxiv.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+		</update>
+	</info>
+	<files>
+		<file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/sources.xml" />
+
+        <!-- Classes -->
+		<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/class-acn.xml" />
+		<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/class-drk.xml" />
+		<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/class-sam.xml" />
+        <file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/subclass-monk-rhalgr.xml" />
+
+        <!-- Races -->
+        <file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/race-au-ra.xml" />
+        <file name="race-elezen.xml" url="https://github.com/MeriadarGoblin/elements-ffxiv/blob/main/FFXIV%20Dungeons%20and%20Dragons/race-elezen.xml" />
+
+        <!-- Other -->
+        <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/spells.xml" />
+	</files>
+</index>
