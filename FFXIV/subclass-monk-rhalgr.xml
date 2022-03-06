@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Monk Archetype - Way of Rhalgr</name>
+        <description>The Monk subclass from the critically acclaimed MMORPG, with a free trial up to level 60 with the critically acclaimed Heavensward.</description>
+        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+        <update version="0.1.0">
+            <file name="subclass-monk-rhalgr.xml" url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+        </update>
+    </info>
+
+    <element name="Way of Rhalgr" type="Archetype" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_SUBCLASS_MONK_RHALGR">
+        <supports>Monastic Tradition</supports>
+        <description>
+            <p>Monks who follow this path are also known as students of the Fist of Rhalgr style. This style of martial arts was developed in the mountainous country of Ala Mhigo. These monks pursue rigorous training and travel to open their chakras, gates within the body through which Ki flows. By channeling Ki through their chakras they are able to concentrate the energy in select locations of the body to deliver devastating blows.</p>
+            <p class="indent">These monks spend their time traveling the world sparring with worthy opponents and seeking out places where great battles have occurred in hopes that these experiences will help in further opening their chakras.</p>
+            <div element="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_GREASED_LIGHTNING" />
+            <div element="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_EMBODIED_ELEMENT" />
+            <div element="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_FORBIDDEN_CHAKRA" />
+            <div element="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_PERFECT_BALANCE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_GREASED_LIGHTNING" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_EMBODIED_ELEMENT" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_FORBIDDEN_CHAKRA" level="11" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_PERFECT_BALANCE" level="17" />   
+        </rules>
+    </element>
+    <element name="Greased Lightning" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_GREASED_LIGHTNING">
+        <description>
+            <p>Beginning at 3rd level, you are able to launch attacks at an incredible rate. If you use flurry of blows and successfully attack your target with both of the unarmed attacks, you may make an attack roll for one more unarmed attack with double the proficiency bonus.</p>
+        </description>
+        <sheet>
+            <description>If you use flurry of blows and successfully attack your target with both of the unarmed attacks, you may make an attack roll for one more unarmed attack with double the proficiency bonus.</description>
+        </sheet>
+    </element>
+    <element name="Embodied Element" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_EMBODIED_ELEMENT">
+        <description>
+            <p>Beginning at the 6th level, after completing a short or long rest you may select an element which to meditate on and gain the following benefits.</p>
+            <p class="indent"><strong>Fists of Fire.</strong> You may change the damage type of your unarmed strikes to Fire. Your unarmed strikes deal additional damage equal to your Wisdom ability modifier as bonus damage. As an action, you may expend a number of Ki points up to the number of creatures in a 15ft. cone in front of you. You make an unarmed strike against a number of creatures equal to the Ki points used.</p>
+            <p class="indent"><strong>Body of Earth.</strong> Damage from bludgeoning, piercing and slashing damage from non-magical means is reduced by your Wisdom modifier. As a reaction you may expend 1 Ki point to transfer half the damage a creature within 5ft. of you to yourself. Your resistance applies to this damage.</p>
+            <p class="indent"><strong>Legs of Wind.</strong> You may change the damage type of your unarmed strikes to Thunder. Your movement speed is increased by 10ft. As an action, you may spend 2 Ki points to cast the Jump, Longstrider or spend 4 ki points to cast the Levitate spell on yourself.</p>
+        </description>
+        <sheet usage="Short/Long Rest">
+            <description>
+                <p>After completing a short or long rest you may select an element which to meditate on and gain the following benefits.</p>
+                <ul>
+                    <li><strong>Fists of Fire.</strong> You may change the damage type of your unarmed strikes to Fire. Your unarmed strikes deal additional damage equal to your Wisdom ability modifier as bonus damage. As an action, you may expend a number of Ki points up to the number of creatures in a 15ft. cone in front of you. You make an unarmed strike against a number of creatures equal to the Ki points used.</li>
+                    <li><strong>Body of Earth.</strong> Damage from bludgeoning, piercing and slashing damage from non-magical means is reduced by your Wisdom modifier. As a reaction you may expend 1 Ki point to transfer half the damage a creature within 5ft. of you to yourself. Your resistance applies to this damage.</li>
+                    <li><strong>Legs of Wind.</strong> You may change the damage type of your unarmed strikes to Thunder. Your movement speed is increased by 10ft. As an action, you may spend 2 Ki points to cast the Jump, Longstrider or spend 4 ki points to cast the Levitate spell on yourself.</li>
+                </ul>
+            </description>
+        </sheet>
+    </element>
+    <element name="Forbidden Chakra" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_FORBIDDEN_CHAKRA">
+        <description>
+            <p>Beginning at the 11th level, as an action, you are able to release dangerous amounts of Ki through your chakras. This release of Ki takes different forms depending on your current Embodied Element. While Fists of Fire is active you may use Howling Fist, while Body of Earth is active you may use Elixir Field, and while Legs of Wind is active you may use Tornado Kick. You spend 2 Ki points and may spend up to 3 additional Ki points to use Forbidden Chakra. For each extra Ki point spend, add an extra damage die to the effect.</p>
+            <p class="indent"><strong>Howling Fist.</strong> You release an incredible amount of Ki through your fist, causing a stream of Ki to burst from the ground before you. All creatures in a 40ft. line make a Dexterity saving throw against your Ki save DC, taking 3d8 force damage on a failure and half as much on a success.</p>
+            <p class="indent"><strong>Elixir Field.</strong> You unleash a forceful shower of aether from your body. All creatures in a 10ft. sphere around you make a Constitution saving throw against your Ki save DC, taking 3d6 force damage on a failure and half as much on a success.</p>
+            <p class="indent"><strong>Tornado King.</strong> You leap into the air and unleash a rain of powerful kicks on a single target creature. Make an unarmed strike against the target dealing 3d10 bludgeoning damage. If you hit, you may use your Flurry of Blows feature and both attacks have advantage.</p>
+        </description>
+        <sheet action="Action">
+            <description>
+                <p>This release of Ki takes different forms depending on your current Embodied Element. While Fists of Fire is active you may use Howling Fist, while Body of Earth is active you may use Elixir Field, and while Legs of Wind is active you may use Tornado Kick. You spend 2 Ki points and may spend up to 3 additional Ki points to use Forbidden Chakra. For each extra Ki point spend, add an extra damage die to the effect.</p>
+                <ul>
+                    <li><strong>Howling Fist.</strong> All creatures in a 40ft. line make a Dexterity saving throw against your Ki save DC, taking 3d8 force damage on a failure and half as much on a success.</li>
+                    <li><strong>Elixir Field.</strong> All creatures in a 10ft. sphere around you make a Constitution saving throw against your Ki save DC, taking 3d6 force damage on a failure and half as much on a success.</li>
+                    <li><strong>Tornado King.</strong> Make an unarmed strike against the target dealing 3d10 bludgeoning damage. If you hit, you may use your Flurry of Blows feature and both attacks have advantage.</li>
+                </ul>
+            </description>
+        </sheet>
+    </element>
+    <element name="Perfect Balance" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_PERFECT_BALANCE">
+        <description>
+            <p>Beginning at the 17th level, as a bonus action you enter a state of perfect balance for 1 minute. When you make an attack roll, after the die result is shown but not before the attack has been confirmed, you may expend a number of Ki points up to your Wisdom modifier, adding that number to your attack and damage roll. You may switch your selected element from your Embodied Elements feature as a bonus action. You must then finish a long rest to use Perfect Balance again.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you enter a state of perfect balance for 1 minute. When you make an attack roll, after the die result is shown but not before the attack has been confirmed, you may expend a number of Ki points up to your Wisdom modifier, adding that number to your attack and damage roll. You may switch your selected element from your Embodied Elements feature as a bonus action. You must then finish a long rest to use Perfect Balance again.</description>
+        </sheet>
+    </element>
+</elements>
