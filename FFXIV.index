@@ -5,7 +5,7 @@
 		<description>The content from the Final Fantatsy XIV DnD Compendium.</description>
 		<author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">SilentSoren on GMBinder</author>
 		<update version="0.1.0">
-			<file name="ffxiv.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+			<file name="FFXIV.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
 		</update>
 	</info>
 	<files>
