@@ -5,7 +5,7 @@
         <description>The Samurai from the critically acclaimed MMORPG, with a free trial up to level 60 with the critically acclaimed Heavensward.</description>
         <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
         <update version="0.1.1">
-            <file name="class-sam.xml" url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+            <file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
         </update>
     </info>
     

@@ -4,7 +4,7 @@
 		<name>Elezen</name>
 		<description>Elf people</description>
 		<update version="0.3.1">
-			<file name="race-elezen.xml" url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+			<file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
 		</update>
 	</info>
     <element name="Elezen" type="Race" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_RACE_ELEZEN">

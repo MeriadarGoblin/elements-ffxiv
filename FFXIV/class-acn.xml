@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.1    .0">
+        <update version="0.1.1">
             <file name="class-acn.xml" url ="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/class-acn.xml" />
         </update>
     </info>

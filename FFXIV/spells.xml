@@ -3,7 +3,7 @@
   <info>
     <name>Spells</name>
     <update version="0.1.1">
-      <file name="spells.xml" url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+      <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />
     </update>
   </info>
 
