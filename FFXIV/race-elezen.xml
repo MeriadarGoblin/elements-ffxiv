@@ -3,6 +3,7 @@
     <info>
 		<name>Elezen</name>
 		<description>Elf people</description>
+        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
 		<update version="0.3.1">
 			<file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
 		</update>

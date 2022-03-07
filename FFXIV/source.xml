@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/source.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/source.xml" />
 		</update>
 	</info>
 	<element name="FFXIV Dungeons and Dragons" type="Source" source="FFXIV" id="ID_GMBINDER_SOURCE_FFXIV_DND">

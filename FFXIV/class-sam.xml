@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Samurai</name>
-        <description>The Samurai from the critically acclaimed MMORPG, with a free trial up to level 60 with the critically acclaimed Heavensward.</description>
-        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+        <description>The Samurai from the critically acclaimed MMORPG, with a (soon to be?) free trial up to level 60 with the critically acclaimed Heavensward.</description>
+        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
         <update version="0.1.1">
             <file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
         </update>

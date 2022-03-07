@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
+        <name>Arcanist</name>
+        <description>The Arcanist from the critically acclaimed MMORPG, with a (soon to be?) free trial up to level 60 with the critically acclaimed Heavensward.</description>
+        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
         <update version="0.1.1">
             <file name="class-acn.xml" url ="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-acn.xml" />
         </update>

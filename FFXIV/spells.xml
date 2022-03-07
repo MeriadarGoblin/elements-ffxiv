@@ -2,6 +2,7 @@
 <elements>
   <info>
     <name>Spells</name>
+    <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
     <update version="0.1.1">
       <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />
     </update>

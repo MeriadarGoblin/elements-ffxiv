@@ -3,7 +3,7 @@
     <info>
         <name>Monk Archetype - Way of Rhalgr</name>
         <description>The Monk subclass from the critically acclaimed MMORPG, with a free trial up to level 60 with the critically acclaimed Heavensward.</description>
-        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
         <update version="0.1.0">
             <file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-monk-rhalgr.xml" />
         </update>
