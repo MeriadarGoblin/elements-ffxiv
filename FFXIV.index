@@ -11,17 +11,17 @@
 	<files>
 		<file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/sources.xml" />
 
-        <!-- Classes -->
+        	<!-- Classes -->
 		<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/class-acn.xml" />
 		<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/class-drk.xml" />
 		<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/class-sam.xml" />
-        <file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/subclass-monk-rhalgr.xml" />
+        	<file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/subclass-monk-rhalgr.xml" />
 
-        <!-- Races -->
-        <file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/race-au-ra.xml" />
-        <file name="race-elezen.xml" url="https://github.com/MeriadarGoblin/elements-ffxiv/blob/main/FFXIV%20Dungeons%20and%20Dragons/race-elezen.xml" />
+        	<!-- Races -->
+        	<file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/race-au-ra.xml" />
+        	<file name="race-elezen.xml" url="https://github.com/MeriadarGoblin/elements-ffxiv/blob/main/FFXIV%20Dungeons%20and%20Dragons/race-elezen.xml" />
 
-        <!-- Other -->
-        <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/spells.xml" />
+        	<!-- Other -->
+        	<file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV%20Dungeons%20and%20Dragons/spells.xml" />
 	</files>
 </index>
