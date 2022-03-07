@@ -13,6 +13,7 @@
 
         <!-- Classes -->
 		<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-acn.xml" />
+		<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drg.xml" />
 		<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drk.xml" />
 		<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
         <file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-monk-rhalgr.xml" />
