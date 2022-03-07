@@ -158,7 +158,7 @@
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNWAVERING_LOYALTY" />
         </rules>
     </element>
-    <element name="Polite Society" type="Racial Trait" source="FFIXV Dungeons and Dragons" id="ID_RACIAL_TRAIT_POLITE_SOCIETY">
+    <element name="Polite Society" type="Racial Trait" source="FFXIV Dungeons and Dragons" id="ID_RACIAL_TRAIT_POLITE_SOCIETY">
         <description>
             <p>You gain proficiency in the Persuasion skill.</p>
         </description>
@@ -167,7 +167,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
         </rules>
     </element>
-    <element name="Unwavering Loyalty" type="Racial Trait" source="FFIXV Dungeons and Dragons" id="ID_RACIAL_TRAIT_UNWAVERING_LOYALTY">
+    <element name="Unwavering Loyalty" type="Racial Trait" source="FFXIV Dungeons and Dragons" id="ID_RACIAL_TRAIT_UNWAVERING_LOYALTY">
         <description>
             <p>You have advantage on saves against being charmed.</p>
         </description>
