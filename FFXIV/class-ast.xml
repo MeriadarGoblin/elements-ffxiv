@@ -165,8 +165,8 @@
 			<stat name="ast:spellcasting:prepare" value="wisdom:modifier" />
 			<stat name="ast:spellcasting:prepare" value="level:ast" />
 
-			<select type="Spell" name="Cantrip (AST)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="AST" />
-			<select type="Spell" name="Cantrip (AST)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="AST" />
+			<select type="Spell" name="Cantrip (AST)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Astrologian" />
+			<select type="Spell" name="Cantrip (AST)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Astrologian" />
 			<select type="Spell" name="Cantrip (Astrologian)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Astrologian" />
 		</rules>
     </element>
