@@ -4,7 +4,7 @@
 		<name>FFXIV</name>
 		<description>The content from the Final Fantatsy XIV DnD Compendium.</description>
 		<author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">SilentSoren</author>
-		<update version="0.1.0">
+		<update version="0.1.3">
 			<file name="FFXIV.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV.index" />
 		</update>
 	</info>
@@ -13,6 +13,7 @@
 
         <!-- Classes -->
 		<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-acn.xml" />
+		<file name="class-ast.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-ast.xml" />
 		<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drg.xml" />
 		<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drk.xml" />
 		<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
