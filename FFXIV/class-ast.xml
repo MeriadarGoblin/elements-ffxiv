@@ -1,0 +1,1050 @@
+<elements>
+    <info>
+        <name>Astrologian</name>
+		<update version="0.1.1">
+			<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-ast.xml" />
+		</update>
+    </info>
+
+    <element name="Astrologian" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_AST">
+        <description>
+    <p>A slender Elezen woman draped in fine robes sits in a dark room across from a man who feels he has lost his way. Smiling she releases her Planisphere and a flurry of arcana cards into the air. From the squall of cards she draws and divines the man’s fate, instilling in the lost soul a sense of peace and hope for the future.</p>
+    <p class="indent">A Roegadyn man stands behind his allies on the battlefield. He raises his Star Globe to the sky and begins to channel energy into his trust tool. Using the power of the stars above, soothing energy radiates outwards, enveloping his allies, bringing them succor in the heat of battle.</p>
+    <p class="indent">A well versed Auri Astrologian stands before a congregation of people. She has come to spread the word of her rare new art, offering understanding of the future through the power of the stars. It has become her sacred duty to bring the stars into view for the common people.</p>
+    <p class="indent">Whether they stand behind their allies granting them the blessing of the stars and moons of the universe, or standing alongside them on the front line, Astrologians manipulate the fates of both friends and foe to find success.</p>
+    <h4>Wielders of Fate</h4>
+    <p>The first task of all Astrologians is to gain a mastery over using the deck of sixty. To them, fortunetelling is a tool which allows them to interpret the stars themselves. Their deck is based on the constellations that they study. The Astrologians are gifted a divining deck when they begin their study from their master. They act as a conduit for the magic energy gathered by their star globes, passing the empowering magic from the stars to their allies.</p>
+    <h4>An Elegant Tool</h4>
+    <p>The Star Globe is a tool used by Astrologians which allows them to locate and draw in power from the stars. The globes are formed by large rings of precious metal and lenses. The rings are marked using a large spread of precise markings and which allows the user to find and map the stars in order to draw power without a view of the sky.</p>
+    <h4>CREATING AN astrologian</h4>
+    <p>Astrologians hail from a faraway island where knowledge is viewed as the greatest virtue. Astrologians are usually scholars by trade, and specialized in the study of astromancy. Often they find themselves born into the scholar’s life or into highborn families. Sometimes low born apprentices find themselves working beneath a master of astromancy and learn how to tap into the magic of the stars. Astrologians are blessed with the ability to read the future. Through the use of the deck of sixty and the stars they are capable of tapping into the future, though the farther they look, the less clear things become. Some Astrologians travel the land to share this gift of foresight with everyone, while others seek out opportunities to spread their young order of magic around the realm. Others track down allies and adventure, as the stars had mandated that the Astrologian set out on a quest for a task which they cannot see the end of.</p>
+    <h5 class="caption">QUICK BUILD</h5>
+    <p>You can make an Astrologian quickly by following these suggestions. First make Wisdom your highest ability score, following with Constitution. Second take the sage background. Third, take the Dancing Lights, Sacred Flame, Guidance and Truestrike cantrips and the first level spells Cure Wounds and Divine Favor.</p>
+    <h2>CLASS FEATURES</h2>
+    <p>As an astrologian, you gain the following class features.</p>
+    <h5 class="caption">HIT POINTS</h5>
+    <ul class="unstyled">
+        <li><strong>Hit Dice:</strong> 1d8 per astrologian level</li>
+        <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+        <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per astrologian level after 1st</li>
+    </ul>
+    <h5 class="caption">PROFICIENCIES</h5>
+    <ul class="unstyled mb">
+        <li><strong>Armor:</strong> None</li>
+        <li><strong>Weapons:</strong> Daggers, Darts, Slings, Quarter Staffs, Light Crossbows</li>
+        <li><strong>Tools:</strong> Divination Deck</li>
+    </ul>
+    <ul class="unstyled">
+        <li><strong>Saving Throws:</strong> Wisdom, Charisma</li>
+        <li><strong>Skills:</strong> Choose two from Arcana, Deception, Insight, Persuasion, History, Religion</li>
+    </ul>
+    <h5 class="caption">EQUIPMENT</h5>
+    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+    <ul>
+        <li>a dagger</li>
+        <li>a Star Globe</li>
+        <li>a Divination Deck</li>
+        <li>(a) a explorer's pack or (b) a scholar's pack</li>
+    </ul>
+    <div class="sidebar">
+        <h4>Divination Deck</h4>
+        <p>The Divination Deck is a tool used to perform fortune telling. You understand how to tell fortunes via tarot decks with this proficiency.</p>
+    </div>
+        <h5 class="caption">THE Astrologian</h5>
+        <table class="class-features">
+            <thead>
+                <tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Available Draws</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+            </thead>
+            <tr><td> 1st</td><td class="left">Spellcasting, Draw</td><td>3</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 2nd</td><td class="left">Sect Study Focus</td><td>3</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 3rd</td><td class="left">─</td><td>3</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 5th</td><td class="left">Shuffle</td><td>4</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 6th</td><td class="left">Sect Study Feature</td><td>4</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 7th</td><td class="left">─</td><td>4</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 9th</td><td class="left">─</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>10th</td><td class="left">Sect Study Feature</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>11th</td><td class="left">Spread</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>12th</td><td class="left">Ability Score Improvement</td><td>5</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>13th</td><td class="left">─</td><td>5</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+            <tr><td>14th</td><td class="left">Sect Study Feature</td><td>5</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+            <tr><td>15th</td><td class="left">─</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+            <tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+            <tr><td>17th</td><td class="left">Double Draw</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+            <tr><td>18th</td><td class="left">Time Dialation</td><td>5</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+            <tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+            <tr><td>20th</td><td class="left">The Deck of Sixty</td><td>col1</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+        </table>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SPELLCASTING" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_DRAW" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SECT_STUDY_FOCUS" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SHUFFLE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SPREAD" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_DOUBLE_DRAW" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_TIME_DIALATION" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_THE_DECK_OF_SIXTY" />
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+            <set name="short">The Astrologian uses the power from the Deck of Sixty and the stars to aid their allies in combat.</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+            <select type="Proficiency" name="Skill Proficiency (Astrologian)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SPELLCASTING" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_DRAW" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SECT_STUDY_FOCUS" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SHUFFLE" level="5" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SPREAD" level="11" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_DOUBLE_DRAW" level="17" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_TIME_DIALATION" level="18" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_THE_DECK_OF_SIXTY" level="20" />
+        </rules>
+    </element>
+    <element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SPELLCASTING">
+        <description>
+            <p>As a student of astrology, you can cast Astrologian spells. See chapter 10 of the PHB for the general rules of spellcasting and the end of this document for the Astrologian spell list.</p>
+            <h4>Cantrips</h4>
+            <p>At 1st level, you know three cantrips of your choice from the Astrologian spell list. You learn additional Astrologian cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Astrologian table.</p>
+            <h4>Preparing and Casting Spells</h4>
+            <p>The Astrologian table shows how many spell slots you have to cast your Astrologian spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+            <p class="indent">You prepare the list of Astrologian spells that are available for you to cast, choosing from the Astrologian spell list. When you do so, choose a number of Astrologian spells equal to your Wisdom modifier + your Astrologian level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+            <p class="indent">For example, if you are a 3rd-level Astrologian, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+            <p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of Astrologian spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+            <h4>Spellcasting Ability</h4>
+            <p>Wisdom is your spellcasting ability for your Astrologian spells. The power of your spells comes from your understanding of astrological powers. You use your Wisdom whenever a Astrologian spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a Astrologian spell you cast and when making an attack roll with one.</p>
+            <center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+            <h4>Ritual Casting</h4>
+            <p>You can cast a Astrologian spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+            <h4>Spellcasting Focus</h4>
+            <p>You can use a star globe, planisphere or other similar tools as an arcane focus (found in chapter 5 of the player's handbook) for your astrologian spells.</p>
+        </description>
+        <sheet>
+			<description>You can cast astrologian spells as rituals. You can prepare {{ast:spellcasting:prepare}} spells from the astrologian spell list. You can use a star globe, planisphere or other similar tools as an arcane focus.</description>
+		</sheet>
+		<spellcasting name="Astrologian" ability="Wisdom" prepare="true">
+			<list known="true">Astrologian</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+
+			<stat name="ast:spellcasting:slots:1" value="2" level="1" />
+			<stat name="ast:spellcasting:slots:1" value="1" level="2" />
+			<stat name="ast:spellcasting:slots:1" value="1" level="3" />
+			<stat name="ast:spellcasting:slots:2" value="2" level="3" />
+			<stat name="ast:spellcasting:slots:2" value="1" level="4" />
+			<stat name="ast:spellcasting:slots:3" value="2" level="5" />
+			<stat name="ast:spellcasting:slots:3" value="1" level="6" />
+			<stat name="ast:spellcasting:slots:4" value="1" level="7" />
+			<stat name="ast:spellcasting:slots:4" value="1" level="8" />
+			<stat name="ast:spellcasting:slots:4" value="1" level="9" />
+			<stat name="ast:spellcasting:slots:5" value="1" level="9" />
+			<stat name="ast:spellcasting:slots:5" value="1" level="10" />
+			<stat name="ast:spellcasting:slots:5" value="1" level="18" />
+			<stat name="ast:spellcasting:slots:6" value="1" level="11" />
+			<stat name="ast:spellcasting:slots:6" value="1" level="19" />
+			<stat name="ast:spellcasting:slots:7" value="1" level="13" />
+			<stat name="ast:spellcasting:slots:7" value="1" level="20" />
+			<stat name="ast:spellcasting:slots:8" value="1" level="15" />
+			<stat name="ast:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="ast:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="ast:spellcasting:prepare" value="level:ast" />
+
+			<select type="Spell" name="Cantrip (AST)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="AST" />
+			<select type="Spell" name="Cantrip (AST)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="AST" />
+			<select type="Spell" name="Cantrip (Astrologian)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Astrologian" />
+		</rules>
+    </element>
+    <element name="Draw" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_DRAW">
+        <description>
+            <p>Beginning at the 1st level, as an action you are able to draw a card from your deck of sixty and empower an ally according to the drawn card.</p>
+            <p class="indent">Roll 1d6, the number shown corresponds to the drawn card. Once drawn, you may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck.</p>
+            <p class="indent">The effect of the boon lasts for a number of rounds equal to your Wisdom ability modifier with a minimum of 1 round. You must use temporary resources within this time otherwise they are lost. A creature may only have one Draw effect affecting them at a time. A new effect replaces the old effect.</p>
+            <p class="indent">The Available Draws column of the astrologian table shows the number of times you can draw cards for your astrologian level. You regain all of your expended uses of draw when you finish a long rest.</p>
+            <table>
+                <thead>
+                    <tr><td>Card Drawn</td><td>Die Result</td><td>Card Effect</td></tr>
+                </thead>
+                <tr><td>The Balance</td><td>1</td><td>Bonus 1d6 damage on all damage rolls. This bonus damage applies once per action, attack damage roll, bonus action and reaction. This increases to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 17th level.</td></tr>
+                <tr><td>The Bole</td><td>2</td><td>All damage you take is reduced by 1d6. This increases to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 17th level.</td></tr>
+                <tr><td>The Arrow</td><td>3</td><td>You gain one extra attack when you take the attack action.</td></tr>
+                <tr><td>The Spear</td><td>4</td><td>Your attack rolls crit on a 19 or 20 die result.</td></tr>
+                <tr><td>The Ewer</td><td>5</td><td>Temporarily provides one level 1 or 2 spell slot. May be used for level 3 spell slots beginning at the 11th level and level 4 spell slots at the 17th level.</td></tr>
+                <tr><td>The Spire</td><td>6</td><td>Temporarily provides 1, non-spell slot resource* to an ally. This increases to 2 resources at the 5th level, 3 resources at the 11th level and 4 resources at the 17th level.</td></tr>
+            </table>
+            <div class="sidebar">
+                <p>*The resources included in this effect includes class resources like the Monk’s Ki Points and the Fighter’s maneuver dice. This does not include abilities which do not use a resource such as a Cleric's Channel Divinity or a Fighter's Action Surge. There must be an expended resource. Ask your DM their consideration of what counts as a resource.</p>
+            </div>
+        </description>
+        <sheet action="Action" usage="{{draw:count}}/Long Rest">
+            <description>As an action you are able to draw a card from your deck of sixty and empower an ally according to the drawn card that is seen in your spell list. Roll 1d6, once drawn, you may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. The effect of the boon lasts for a number of rounds equal to your Wisdom ability modifier with a minimum of 1 round. You must use temporary resources within this time otherwise they are lost. A creature may only have one Draw effect affecting them at a time. A new effect replaces the old effect. You regain all of your expended uses of draw when you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="draw:count" value="1" bonus="base" />
+            <stat name="draw:count" value="level:ast" bonus="bonus" />
+            <grant type="Spell" id="ID_FFXIV_CARD_SPELL_BALANCE" />
+            <grant type="Spell" id="ID_FFXIV_CARD_SPELL_BOLE" />
+            <grant type="Spell" id="ID_FFXIV_CARD_SPELL_ARROW" />
+            <grant type="Spell" id="ID_FFXIV_CARD_SPELL_SPEAR" />
+            <grant type="Spell" id="ID_FFXIV_CARD_SPELL_EWER" />
+            <grant type="Spell" id="ID_FFXIV_CARD_SPELL_SPIRE" />
+        </rules>
+    </element>
+      <element name="Sect Study Focus" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SECT_STUDY_FOCUS">
+          <description>
+              <p>At 2nd level, you choose a sect to study as an Astrologian: Diurnal Sect, Nocturnal Sect or Fortuneteller, all detailed at the end of the class description. Your archetype choice grants you features at the 2nd, 6th, 10th and 14th level.</p>
+          </description>
+          <sheet display="false" />
+          <rules>
+              <select type="Archetype" name="Sect Study Focus" supports="Sect Focus" />
+          </rules>
+      </element>
+      <element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_ABILITY_SCORE_IMPROVEMENT">
+          <description>
+              <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+          </description>
+          <sheet display="false" />
+          <rules>
+            <select type="Class Feature" name="Improvement Option (Astrologian 4)" supports="Improvement Option,Astrologian,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Astrologian 8)" supports="Improvement Option,Astrologian,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Astrologian 12)" supports="Improvement Option,Astrologian,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Astrologian 16)" supports="Improvement Option,Astrologian,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Astrologian 19)" supports="Improvement Option,Astrologian,19" level="19" />
+          </rules>
+      </element>
+      <element name="Shuffle" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SHUFFLE">
+          <description>
+              <p>Beginning at the 5th level, when you use the Draw feature, as a bonus action you may reroll the result of the d6 before applying its effect. You may only use the new result.</p>
+          </description>
+          <sheet action="Bonus Action">
+              <description>When you use the Draw feature, as a bonus action you may reroll the result of the d6 before applying its effect. You may only use the new result.</description>
+          </sheet>
+      </element>
+      <element name="Spread" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SPREAD">
+          <description>
+              <p>Beginning at the 11th level, when you use the Draw feature, as a bonus action you may set a drawn card aside for later use, adding it to your spread. You may have a number of cards in your spread equal to your Wisdom modifier.</p>
+              <p class="indent">On your turn, as a bonus action you may play any card from your spread. The cards in your spread lose their power when you complete a long rest.</p>
+          </description>
+          <sheet action="Bonus Action" usage="Long Rest">
+              <description>When you use the Draw feature, as a bonus action you may set a drawn card aside for later use, adding it to your spread. You may have a number of cards in your spread equal to your Wisdom modifier. As a bonus action you may play any card from your spread. The cards in your spread lose their power when you complete a long rest.</description>
+          </sheet>
+      </element>
+      <element name="Double Draw" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_DOUBLE_DRAW">
+          <description>
+              <p>Beginning at the 17th level, when you use the Draw action, you may draw and use two cards. Each card consumes an available draw. As a bonus action you may place one or both cards into your spread.</p>
+          </description>
+          <sheet>
+              <description>When you use the Draw action, you may draw and use two cards. Each card consumes an available draw. As a bonus action you may place one or both cards into your spread.</description>
+          </sheet>
+      </element>
+      <element name="Time Dialation" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_TIME_DIALATION">
+          <description>
+              <p>Beginning at the 18th level, as an action, you may expend an available Draw to reapply a Draw effect on a creature within Draw range.</p>
+          </description>
+          <sheet action="Action">
+              <description>As an action, you may expend an available Draw to reapply a Draw effect on a creature within Draw range.</description>
+          </sheet>
+      </element>
+      <element name="The Deck of Sixty" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_THE_DECK_OF_SIXTY">
+          <description>
+              <p>Beginning at the 20th level, when you roll initiative you recover a number of available draws equal to your Wisdom modifier.</p>
+          </description>
+          <sheet>
+              <description>Beginning at the 20th level, when you roll initiative you recover a number of available draws equal to your Wisdom modifier.</description>
+          </sheet>
+      </element>
+
+      <!-- Archetypes -->
+      <element name="Diurnal Sect" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_DIURNAL">
+          <supports>Sect Focus</supports>
+          <description>
+              <p>Your study of astrology has led you to studying under the Diurnal sect. Students of this sect focus on developing their understanding of the stars and their fortune telling in reference to the sun. Reflective of the life the sun provides those of the land, students of the Diurnal Sect focus on improving their ability to heal and support their allies.</p>
+              <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_FORTUNATE_HEALING" />
+              <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_EYES_OF_AZEMA" />
+              <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_DIURNAL_BENEFIC" />
+              <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_LIGHTSPEED" />
+              <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_SUNS_FORTUNE" />
+          </description>
+          <sheet display="false" />
+          <rules>
+              <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_FORTUNATE_HEALING" level="2" />
+              <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_EYES_OF_AZEMA" level="2" />
+              <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_DIURNAL_BENEFIC" level="6" />
+              <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_LIGHTSPEED" level="10" />
+              <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_SUNS_FORTUNE" level="14" />
+          </rules>
+      </element>
+      <element name="Fortunate Healing" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_FORTUNATE_HEALING">
+          <description>
+              <p>Beginning at the 2nd level, whenever you use a spell of 1st level or higher to restore hit points to a creature, you may expend an available draw to further empower the heal. The creature regains additional hit points equal to 1d6 + your Wisdom modifier.</p>
+          </description>
+          <sheet>
+              <description>Whenever you use a spell of 1st level or higher to restore hit points to a creature, you may expend an available draw to further empower the heal. The creature regains additional hit points equal to 1d6 + your Wisdom modifier.</description>
+          </sheet>
+      </element>
+      <element name="Eyes of Azema" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_EYES_OF_AZEMA">
+          <description>
+              <p>Also beginning at the 2nd level, you may expend an available draw to assist you in revealing dangers of the area. As an action you may do a quick reading to scan for traps in the area, giving you advantage on perception checks for 1 minute.</p>
+          </description>
+          <sheet action="Action">
+              <description>You may expend an available draw to assist you in revealing dangers of the area. As an action you may do a quick reading to scan for traps in the area, giving you advantage on perception checks for 1 minute.</description>
+          </sheet>
+      </element>
+      <element name="Diurnal Benefic" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_DIURNAL_BENEFIC">
+          <description>
+              <p>Beginning at the 6th level you are able to empower your healing spells with the power of the sun. When you cast a spell of the 1st-level or higher that restores the hit points of an ally, you may leave a regenerative effect on all affected allies. After the spell is cast, the affected creatures recover 1d6 hit points at the start of their turn for a number of rounds equal to your Wisdom ability modifier. You must then finish a short or long rest to use Diurnal Benefic again.</p>
+          </description>
+          <sheet usage="Short/Long Rest">
+              <description>When you cast a spell of the 1st-level or higher that restores the hit points of an ally, you may leave a regenerative effect on all affected allies. After the spell is cast, the affected creatures recover 1d6 hit points at the start of their turn for a number of rounds equal to your Wisdom ability modifier. You must then finish a short or long rest to use Diurnal Benefic again.</description>
+          </sheet>
+      </element>
+      <element name="Lightspeed" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_LIGHTSPEED">
+          <description>
+              <p>Beginning at the 10th level, you may cast a 1st, 2nd or 3rd-level spell you have prepared as a bonus action by spending a number of available draws equal to the level of the spell you wish to cast.</p>
+          </description>
+          <sheet>
+              <description>You may cast a 1st, 2nd or 3rd-level spell you have prepared as a bonus action by spending a number of available draws equal to the level of the spell you wish to cast.</description>
+          </sheet>
+      </element>
+      <element name="Sun's Fortune" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_SUNS_FORTUNE">
+          <description>
+              <p>Beginning at the 14th level, when you use the Fortunate Healing feature, the additional healing becomes 6 + your Wisdom Modifier. Additionally, you may roll 1d6 and apply the appropriate effect as if you had used the Draw action.</p>
+          </description>
+          <sheet>
+              <description>When you use the Fortunate Healing feature, the additional healing becomes 6 + your Wisdom Modifier. Additionally, you may roll 1d6 and apply the appropriate effect as if you had used the Draw action.</description>
+          </sheet>
+      </element>
+     
+      <element name="Nocturnal Sect" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_NOCTURNAL">
+        <supports>Sect Focus</supports>
+        <description>
+            <p>Students of the Noctournal Sect have chosen to unravel the mysteries of the night sky and how the moon influences the world and fate. As seekers of knowledge, the Noctournal Sect tries to unravel the unknown, akin to chasing the dark side of the moon. In their efforts, students of this sect have taken to focusing on preventative measures and offensive magics.</p>
+            <div element="" />
+            <div element="" />
+            <div element="" />
+            <div element="" />
+            <div element="" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_MAGE_OF_MENPHINA" level="2" />
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_NOCTOURNAL_BENEFIC" level="6" />
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_MALEFIC_ATTUNEMENT" level="10" />
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_LUNAR_RAGE" level="14" />
+        </rules>
+      </element>
+      <element name="Mage of Menphina" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_MAGE_OF_MENPHINA">
+          <description>
+              <p>Beginning at the 2nd level, you have trained your body alongside your mind, gaining prowess in the martial arts to survive on the battle field. You have proficiency with one handed simple and martial weapons, light and medium armor. You gain 1 extra hit point when you level up.</p>
+              <p class="indent">As a bonus action you may spend one draw to help you predict how your enemy will react to your presence. You do not provoke attacks of opportunity until your next turn.</p>
+          </description>
+          <sheet action="Bonus Action">
+              <description>As a bonus action you may spend one draw to help you predict how your enemy will react to your presence. You do not provoke attacks of opportunity until your next turn.</description>
+          </sheet>
+          <rules>
+              <stat name="hp" value="level:ast" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+              <!-- One handed Simple and Martial Weapons -->
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+              <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+          </rules>
+      </element>
+      <element name="Noctournal Benefic" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_NOCTOURNAL_BENEFIC">
+          <description>
+              <p>Beginning at the 6th level you can empower your spells with the magic of the moon. When you cast a spell of the 1st-level or higher that restores the hit points of an ally, you may leave a shielding effect on all affected creatures. After the spell is cast, your all affected creatures gain temporary hit points equal to #d4 where # is equal to your Wisdom ability modifier. You must then finish a short or long rest to use Noctournal Benefic again.</p>
+          </description>
+          <sheet action="Bonus Action" usage="Short/Long Rest">
+              <description>When you cast a spell of the 1st-level or higher that restores the hit points of an ally, you may leave a shielding effect on all affected creatures. After the spell is cast, your all affected creatures gain {{wisdom:modifier}}d4 temporary hit points. You must then finish a short or long rest to use Noctournal Benefic again.</description>
+          </sheet>
+      </element>
+      <element name="Malefic Attunement" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_MALEFIC_ATTUNEMENT">
+          <description>
+              <p>Beginning at the 10th level, when you make a melee weapon attack, you may cast a spell as a bonus action. You do not have disadvantage on ranged attack rolls if a hostile creature is within 5ft. of you.</p>
+          </description>
+          <sheet>
+              <description>When you make a melee weapon attack, you may cast a spell as a bonus action. You do not have disadvantage on ranged attack rolls if a hostile creature is within 5ft. of you.</description>
+          </sheet>
+      </element>
+      <element name="Lunar Rage" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_LUNAR_RAGE">
+          <description>
+              <p>Beginning at the 14th level, you touch a willing creature or yourself and bless them with the power of the Noctournal Sect. Weapon attacks made by the selected creature deal an additional 2d6 force damage for 1 minute. At the start of each of the affected creature's turns, they roll 1d6 + your Wisdom modifier and gain that many temporary hit points. You must then finish a long rest to use grant Lunar Rage again.</p>
+          </description>
+          <sheet usage="Long Rest">
+              <description>You touch a willing creature or yourself and bless them with the power of the Noctournal Sect. Weapon attacks made by the selected creature deal an additional 2d6 force damage for 1 minute. At the start of each of the affected creature's turns, they roll 1d6 + {{wisdom:modifier}} and gain that many temporary hit points. You must then finish a long rest to use grant Lunar Rage again.</description>
+          </sheet>
+      </element>
+
+      <element name="Fortuneteller" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FORTUNETELLER">
+        <supports>Sect Focus</supports>
+        <description>
+            <p>Some Astrologians turn away from the study of the cosmos and instead turn their attention to fate and the Deck of Sixty. Such Astrologians are known as Fortunetellers and develop innovative ways to make use of the tarot, even bending fate to their will.</p>
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_MINOR_ARCANA" />
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_SKILLFUL_READINGS" />
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_STACKED_DECK" />
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_SLEEVE_DRAW" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_MINOR_ARCANA" level="2" />
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_SKILLFUL_READINGS" level="6" />
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_STACKED_DECK" level="10" />
+            <grant type="Archetype Feature" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_SLEEVE_DRAW" level="14" />
+        </rules>
+    </element>
+    <element name="Minor Arcana" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_MINOR_ARCANA">
+        <description>
+            <p>Beginning at the 2nd level, you have learned to take advantage of the minor arcana of your tarot deck. When you use the Draw feature, on a die result 1, 3 or 5 you may use the card to make a ranged Spell attack that deals 1d6 + your Wisdom modifier force damage to a creature within 30ft. of you that you can see. On a die result 2, 4 or 6 you may use the card to heal 1d6 + your Wisdom modifier hit points to a creature within 30ft. of you that you can see. The potency of this effect increases to 2d6 at 6th level, 3d6 at 10th level and 4d6 at the 14th level.</p>
+        </description>
+        <sheet>
+            <description>You have learned to take advantage of the minor arcana of your tarot deck. When you use the Draw feature, on a die result 1, 3 or 5 you may use the card to make a ranged Spell attack that deals {{arcana:die}}d6 + {{wisdom:modifier}} force damage to a creature within 30ft. of you that you can see. On a die result 2, 4 or 6 you may use the card to heal {{arcana:die}}d6 + {{wisdom:modifier}} hit points to a creature within 30ft. of you that you can see. </description>
+        </sheet>
+        <rules>
+            <stat name="arcana:die" value="1" bonus="die" />
+            <stat name="arcana:die" value="2" bonus="die" level="6" />
+            <stat name="arcana:die" value="3" bonus="die" level="10" />
+            <stat name="arcana:die" value="4" bonus="die" level="14" />
+        </rules>
+    </element>
+    <element name="Skillful Readings" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_SKILLFUL_READINGS">
+        <description>
+            <p>Beginning at the 6th level, you are able to use your arcana cards to more effectively tell the future. When casting a Divination spell, you may spend a number of available draws equal to the spell's level in place of expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description>When casting a Divination spell, you may spend a number of available draws equal to the spell's level in place of expending a spell slot.</description>
+        </sheet>
+    </element>
+    <element name="Stacked Deck" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_STACKED_DECK">
+        <description>
+            <p>Beginning at the 10th level, you have learned how to bend the results of your fortune telling. When you use the Draw ability, you may roll 2d6 and select which die is the true result of the card.</p>
+        </description>
+        <sheet>
+            <description>When you use the Draw ability, you may roll 2d6 and select which die is the true result of the card.</description>
+        </sheet>
+    </element>
+    <element name="Sleeve Draw" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_AST_ARCHETYPE_FEATURE_SLEEVE_DRAW">
+        <description>
+            <p>Beginning at the 14th level, as an action you may make use of each of your card drawing effects. Roll 6d6 and select 3 results. Two are added to your Spread and one may be used for the Draw or Minor Arcana effect. This expends three uses of the Draw action. You must then finish a short or long rest to use Sleeve Draw again.</p>
+        </description>
+        <sheet action="Action" usage="Short/Long Rest">
+            <description>As an action you may make use of each of your card drawing effects. Roll 6d6 and select 3 results. Two are added to your Spread and one may be used for the Draw or Minor Arcana effect. This expends three uses of the Draw action. You must then finish a short or long rest to use Sleeve Draw again.</description>
+        </sheet>
+    </element>
+
+      <!-- Cards -->
+    <element name="1. The Balance" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_BALANCE">
+        <description>
+          <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. Bonus 1d6 damage on all damage rolls. This bonus damage applies once per action, attack damage roll, bonus action and reaction. This increases to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 17th level.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Draw Card</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">30 feet</set>
+          <set name="hasVerbalComponent">true</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+      <element name="2. The Bole" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_BOLE">
+        <description>
+          <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. All damage you take is reduced by 1d6. This increases to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 17th level.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Draw Card</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">30 feet</set>
+          <set name="hasVerbalComponent">true</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+      <element name="3. The Arrow" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_ARROW">
+        <description>
+          <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. All damage you take is reduced by 1d6. This increases to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 17th level.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Draw Card</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">30 feet</set>
+          <set name="hasVerbalComponent">true</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+      <element name="4. The Spear" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_SPEAR">
+        <description>
+          <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. Your attack rolls crit on a 19 or 20 die result.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Draw Card</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">30 feet</set>
+          <set name="hasVerbalComponent">true</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+      <element name="5. The Ewer" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_EWER">
+        <description>
+          <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. Temporarily provides one level 1 or 2 spell slot. May be used for level 3 spell slots beginning at the 11th level and level 4 spell slots at the 17th level.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Draw Card</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">30 feet</set>
+          <set name="hasVerbalComponent">true</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+      <element name="6. The Spire" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_SPIRE">
+        <description>
+          <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. Temporarily provides 1, non-spell slot resource to an ally. This increases to 2 resources at the 5th level, 3 resources at the 11th level and 4 resources at the 17th level.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Draw Card</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">30 feet</set>
+          <set name="hasVerbalComponent">true</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+
+    <!-- Spell List -->
+    <append id="ID_PHB_SPELL_BLADE_WARD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DANCING_LIGHTS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FRIENDS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUIDANCE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LIGHT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MAGIC_STONE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MESSAGE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RESISTANCE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SACRED_FLAME">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPARE_THE_DYING">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_STRIKE">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 1ST LEVEL -->
+    <append id="ID_PHB_SPELL_BANE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLESS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CEREMONY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_COLOR_SPRAY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CURE_WOUNDS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FAERIE_FIRE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FALSE_LIFE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_GIFT_OF_ALACRITY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUIDING_BOLT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEALING_WORD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEROISM">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEX">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_IDENTIFY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ILLUSORY_SCRIPT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGE_ARMOR">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_MISSILE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_MAGNIFY_GRAVITY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SANCTUARY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHIELD_OF_FAITH">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SLEEP">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_UNSEEN_SERVANT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WITCH_BOLT">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 2nd Level -->
+    <append id="ID_PHB_SPELL_AID">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AUGURY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLUR">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DARKNESS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DARKVISION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ENLARGE_REDUCE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_FORTUNES_FAVOR">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIND_TRAPS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GENTLE_REPOSE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_HEALING_SPIRIT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INVISIBILITY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_KNOCK">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LESSER_RESTORATION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_OBJECT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MIND_SPIKE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MOONBEAM">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SILENCE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SKYWRITE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_TASHAS_MIND_WHIP">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_WRISTPOCKET">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 3rd level -->
+    <append id="ID_PHB_SPELL_BEACON_OF_HOPE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLINK">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CATNAP">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CLAIRVOYANCE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DAYLIGHT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_MAGIC">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ELEMENTAL_WEAPON">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HASTE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_LIFE_TRANSFERENCE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_HEALING_WORD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REMOVE_CURSE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REVIVIFY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_PULSE_WAVE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SENDING">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SLOW">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TONGUES">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 4th level -->
+    <append id="ID_PHB_SPELL_ARCANE_EYE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BANISHMENT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLIGHT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONFUSION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DEATH_WARD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIMENSION_DOOR">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIVINATION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_GRAVITY_SINKHOLE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ICE_STORM">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_CREATURE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PHANTASMAL_KILLER">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SICKENING_RADIANCE">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 5th level -->
+    <append id="ID_PHB_SPELL_COMMUNE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONE_OF_COLD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DAWN">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DREAM">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_FAR_STEP">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GEAS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEGEND_LORE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SCRYING">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TELEPORTATION_CIRCLE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_TEMPORAL_SHUNT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WALL_OF_LIGHT">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 6th level -->
+    <append id="ID_PHB_SPELL_EYEBITE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIND_THE_PATH">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_GRAVITY_FISSURE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEAL">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_SUGGESTION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MENTAL_PRISON">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PROGRAMMED_ILLUSION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SCATTER">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SUNBEAM">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_SEEING">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 7th level -->
+    <append id="ID_PHB_SPELL_CONJURE_CELESTIAL">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CROWN_OF_STARS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MIRAGE_ARCANE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANE_SHIFT">
+        <supports>Astrologian</supports>
+    </append>
+    <!-- Regeneration spell doesnt exist??? 
+    <append id="ID_SSSSSSSSSSSSSSSSSSSSSSSS">
+        <supports>Astrologian</supports>
+    </append>
+-->
+    <append id="ID_PHB_SPELL_RESURRECTION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REVERSE_GRAVITY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_TETHER_ESSENCE">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 8th level -->
+    <append id="ID_PHB_SPELL_ANTIMAGIC_FIELD">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_DARK_STAR">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DEMIPLANE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GLIBNESS">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_ILLUSORY_DRAGON">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_REALITY_BREAK">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TELEPATHY">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SUNBURST">
+        <supports>Astrologian</supports>
+    </append>
+
+    <!-- 9th level -->
+    <append id="ID_PHB_SPELL_ASTRAL_PROJECTION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FORESIGHT">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_HEAL">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_RAVENOUS_VOID">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TIME_STOP">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_TIME_RAVAGE">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+        <supports>Astrologian</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WISH">
+        <supports>Astrologian</supports>
+    </append>
+</elements>
