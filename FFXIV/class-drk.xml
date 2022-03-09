@@ -1,202 +1,199 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
-    <info>
-        <name>Dark Knight</name>
-        <description>The Dark Knight from the critically acclaimed MMORPG, with a (soon to be?) free trial up to level 60 with the critically acclaimed Heavensward.</description>
-        <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
-        <update version="0.1.1">
-            <file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drk.xml" />
-        </update>
-    </info>
-    
-    <element name="Dark Knight" type="Class" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_DRK">
-        <description>
-    <p>An Auri man dives into the front line of his foes. Recklessly, he swings his blade with great might, cleaving through foe after foe. The enemy scatters, claiming they battled a demon that day.</p>
-    <p class="indent">A downtrodden woman stands behind an ebony clad Hyur. Despite seeming to be on his last legs his exhaustion leads him to pull greater strength to protect the weak against those who had been pursuing.</p>
-    <p class="indent">A lalafellin woman stands before a strange demon, clad in dark heavy armour and cloth, she weaves shadow magics before to unleash dark magics to put an end to the demon and silently protect the nearby village from its wrath. It is a dark knight's freedom from the bounds of the law which make these dark avengers so effective. Unconcerned with what is lawful, a dark knight is concerned with what is ethical in their view. Those who spread tyranny and injustice best prepare for a visit from a dark knight who aims to set things right and break the chains of oppressors.</p>
-    <h4>Protecting the Mark</h4>
-    <p>A Dark Knight is a knight who has taken up arms to serve the downtrodden. They serve no lords or institutions, believing no one is exempt from justice, no matter what their position in society. They protect the commonfolk from not only banditry and wild beasts, but from corrupt men who seek to oppress them. In return, Dark Knights are often fed and housed by those they protect, or rely upon bounty hunting and raiding looters to support themselves.</p>
-    <h4>Infernal Darkness</h4>
-    <p>When an adventurer chooses the path of a Dark Knight they understand that they are renouncing their rights to be a regular member of society. They belong to no society, acting as paragons of justice who see no allegiance. To assist them in their quest, Dark Knights are able to sacrifice their own life force to power a well of darkness within themselves. They cause themselves great pain and exhaustion in order to allow dark power to course through their body which they harness in a variety of ways.</p>
-    <h4>CREATING A dark knight</h4>
-    <p>Dark Knights are natural adventurers, living outside the law to see their goals to fruition. They may live within a remote village protecting the inhabitants from bandits, while the land's knights turn a blind eye to their plight, or they may travel the world seeking out institutionalized injustice and smiting it with violence. Dark Knights act on behalf of the common folk, and do so not expecting praise nor admiration. They are aware that they will not be celebrated in the history books like Paladins would be. Instead they expect to be demonized by history and happily accept this fact. One seeking to become a Dark Knight must be introduced to it through some means, be it an ancient tome with their rituals recorded or a mentor to impart their knowledge.</p>
-    <h5 class="caption">QUICK BUILD</h5>
-    <p>You can make a Dark Knight quickly by following these suggestions. First make Strength your highest ability score, following with Charisma. Second, take the Folk Hero background.</p>
-    <h2>CLASS FEATURES</h2>
-    <p>As a dark knight, you gain the following class features.</p>
-    <h5 class="caption">HIT POINTS</h5>
-    <ul class="unstyled">
-        <li><strong>Hit Dice:</strong> 1d10 per dark knight level</li>
-        <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
-        <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per dark knight level after 1st</li>
-    </ul>
-    <h5 class="caption">PROFICIENCIES</h5>
-    <ul class="unstyled mb">
-        <li><strong>Armor:</strong> All armor, Shields</li>
-        <li><strong>Weapons:</strong> Simple and Martial Weapons</li>
-        <li><strong>Tools:</strong> None</li>
-    </ul>
-    <ul class="unstyled">
-        <li><strong>Saving Throws:</strong> Constitution, Charisma</li>
-        <li><strong>Skills:</strong> Choose two from Athletics, Arcana, History, Insight, Intimidation, Perception, and Survival.</li>
-    </ul>
-    <h5 class="caption">EQUIPMENT</h5>
-    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
-    <ul>
-        <li>(a)chain mail or (b) hide</li>
-        <li>(a)a martial weapon and a shield or (b) two martial weapons</li>
-        <li>(a)a shortbow and 20 arrows or (b)two daggers</li>
-        <li>(a)an explorer pack or (b)a dungeoneer pack</li>
-    </ul>
-        <h5 class="caption">THE DARK KNIGHT</h5>
-        <table class="class-features">
-            <thead>
-                <tr><td class="col-5">Level</td><td class="col-60">Features</td><td class="col-10">Well of Darkness Points</td><td class="col-10">Darkside Bonus Damage</td></tr>
-            </thead>
-            <tr><td> 1st</td><td class="left">Well of Darkness, Darkside</td><td>1</td><td>1d6</td></tr>
-            <tr><td> 2nd</td><td class="left">Fighting Style, Burning Blood</td><td>2</td><td>1d6</td></tr>
-            <tr><td> 3rd</td><td class="left">Dark Knight Archetype</td><td>3</td><td>1d6</td></tr>
-            <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>1d6</td></tr>
-            <tr><td> 5th</td><td class="left">Extra Attack</td><td>5</td><td>1d8</td></tr>
-            <tr><td> 6th</td><td class="left">Archetype Feature</td><td>6</td><td>1d8</td></tr>
-            <tr><td> 7th</td><td class="left">The Blackest Night</td><td>7</td><td>1d8</td></tr>
-            <tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>8</td><td>1d8</td></tr>
-            <tr><td> 9th</td><td class="left">Fight or Flight</td><td>9</td><td>1d8</td></tr>
-            <tr><td> 10th</td><td class="left">Curse of the Abyss</td><td>10</td><td>1d8</td></tr>
-            <tr><td> 11th</td><td class="left">Archetype Feature</td><td>11</td><td>1d10</td></tr>
-            <tr><td> 12th</td><td class="left">Ability Score Improvement</td><td>12</td><td>1d10</td></tr>
-            <tr><td> 13th</td><td class="left">Abyssal Communion</td><td>13</td><td>1d10</td></tr>
-            <tr><td> 14th</td><td class="left">Quietus</td><td>14</td><td>1d10</td></tr>
-            <tr><td> 15th</td><td class="left">Dark Mind</td><td>15</td><td>1d10</td></tr>
-            <tr><td> 16th</td><td class="left">Ability Score Improvement</td><td>16</td><td>1d10</td></tr>
-            <tr><td> 17th</td><td class="left">Archetype Feature</td><td>17</td><td>1d12</td></tr>
-            <tr><td> 18th</td><td class="left">Stalwart Soul</td><td>18</td><td>1d12</td></tr>
-            <tr><td> 19th</td><td class="left">Ability Score Improvement</td><td>19</td><td>1d12</td></tr>
-            <tr><td> 20th</td><td class="left">Living Dead</td><td>20</td><td>1d12</td></tr>
-        </table>>
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_WELL_OF_DARKNESS" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARKSIDE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHTING_STYLE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_BURNING_BLOOD" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ARCHETYPE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABILITY_SCORE_IMPROVEMENT" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_EXTRA_ATTACK" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_THE_BLACKEST_NIGHT" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHT_OR_FLIGHT" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_CURSE_OF_THE_ABYSS" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABYSSAL_COMMUNION" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_QUIETUS" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARK_MIND" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_STALWART_SOUL" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_LIVING_DEAD" />
-        </description>
-        <setters>
-            <set name="hd">d10</set>
-        </setters>
-        <sheet display="false" />
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+	<info>
+		<name>Dark Knight</name>
+		<update version="0.1.1">
+			<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drk.xml" />
+		</update>
+	</info>
+	<element name="Dark Knight" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_DRK">
+		<description>
+			<html>&lt;p&gt;An Auri man dives into the front line of his foes. Recklessly, he swings his blade with great might, cleaving through foe after foe. The enemy scatters, claiming they battled a demon that day.&lt;/p&gt;
+&lt;p class="indent"&gt;A downtrodden woman stands behind an ebony clad Hyur. Despite seeming to be on his last legs his exhaustion leads him to pull greater strength to protect the weak against those who had been pursuing.&lt;/p&gt;
+&lt;p class="indent"&gt;A lalafellin woman stands before a strange demon, clad in dark heavy armour and cloth, she weaves shadow magics before to unleash dark magics to put an end to the demon and silently protect the nearby village from its wrath. It is a dark knight's freedom from the bounds of the law which make these dark avengers so effective. Unconcerned with what is lawful, a dark knight is concerned with what is ethical in their view. Those who spread tyranny and injustice best prepare for a visit from a dark knight who aims to set things right and break the chains of oppressors.&lt;/p&gt;
+&lt;h4&gt;Protecting the Mark&lt;/h4&gt;
+&lt;p&gt;A Dark Knight is a knight who has taken up arms to serve the downtrodden. They serve no lords or institutions, believing no one is exempt from justice, no matter what their position in society. They protect the commonfolk from not only banditry and wild beasts, but from corrupt men who seek to oppress them. In return, Dark Knights are often fed and housed by those they protect, or rely upon bounty hunting and raiding looters to support themselves.&lt;/p&gt;
+&lt;h4&gt;Infernal Darkness&lt;/h4&gt;
+&lt;p&gt;When an adventurer chooses the path of a Dark Knight they understand that they are renouncing their rights to be a regular member of society. They belong to no society, acting as paragons of justice who see no allegiance. To assist them in their quest, Dark Knights are able to sacrifice their own life force to power a well of darkness within themselves. They cause themselves great pain and exhaustion in order to allow dark power to course through their body which they harness in a variety of ways.&lt;/p&gt;
+&lt;h4&gt;CREATING A dark knight&lt;/h4&gt;
+&lt;p&gt;Dark Knights are natural adventurers, living outside the law to see their goals to fruition. They may live within a remote village protecting the inhabitants from bandits, while the land's knights turn a blind eye to their plight, or they may travel the world seeking out institutionalized injustice and smiting it with violence. Dark Knights act on behalf of the common folk, and do so not expecting praise nor admiration. They are aware that they will not be celebrated in the history books like Paladins would be. Instead they expect to be demonized by history and happily accept this fact. One seeking to become a Dark Knight must be introduced to it through some means, be it an ancient tome with their rituals recorded or a mentor to impart their knowledge.&lt;/p&gt;
+&lt;h5 class="caption"&gt;QUICK BUILD&lt;/h5&gt;
+&lt;p&gt;You can make a Dark Knight quickly by following these suggestions. First make Strength your highest ability score, following with Charisma. Second, take the Folk Hero background.&lt;/p&gt;
+&lt;h2&gt;CLASS FEATURES&lt;/h2&gt;
+&lt;p&gt;As a dark knight, you gain the following class features.&lt;/p&gt;
+&lt;h5 class="caption"&gt;HIT POINTS&lt;/h5&gt;
+&lt;ul class="unstyled"&gt;
+&lt;li&gt;&lt;strong&gt;Hit Dice:&lt;/strong&gt; 1d10 per dark knight level&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hit Points at 1st Level:&lt;/strong&gt; 10 + your Constitution modifier&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hit Points at Higher Levels:&lt;/strong&gt; 1d10 (or 6) + your Constitution modifier per dark knight level after 1st&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 class="caption"&gt;PROFICIENCIES&lt;/h5&gt;
+&lt;ul class="unstyled mb"&gt;
+&lt;li&gt;&lt;strong&gt;Armor:&lt;/strong&gt; All armor, Shields&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weapons:&lt;/strong&gt; Simple and Martial Weapons&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="unstyled"&gt;
+&lt;li&gt;&lt;strong&gt;Saving Throws:&lt;/strong&gt; Constitution, Charisma&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skills:&lt;/strong&gt; Choose two from Athletics, Arcana, History, Insight, Intimidation, Perception, and Survival.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 class="caption"&gt;EQUIPMENT&lt;/h5&gt;
+&lt;p&gt;You start with the following equipment, in addition to the equipment granted by your background:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(a)chain mail or (b) hide&lt;/li&gt;
+&lt;li&gt;(a)a martial weapon and a shield or (b) two martial weapons&lt;/li&gt;
+&lt;li&gt;(a)a shortbow and 20 arrows or (b)two daggers&lt;/li&gt;
+&lt;li&gt;(a)an explorer pack or (b)a dungeoneer pack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 class="caption"&gt;THE DARK KNIGHT&lt;/h5&gt;
+&lt;table class="class-features"&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td class="col-5"&gt;Level&lt;/td&gt;&lt;td class="col-60"&gt;Features&lt;/td&gt;&lt;td class="col-10"&gt;Well of Darkness Points&lt;/td&gt;&lt;td class="col-10"&gt;Darkside Bonus Damage&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt; 1st&lt;/td&gt;&lt;td class="left"&gt;Well of Darkness, Darkside&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1d6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 2nd&lt;/td&gt;&lt;td class="left"&gt;Fighting Style, Burning Blood&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1d6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 3rd&lt;/td&gt;&lt;td class="left"&gt;Dark Knight Archetype&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1d6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 4th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;1d6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 5th&lt;/td&gt;&lt;td class="left"&gt;Extra Attack&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;1d8&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 6th&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;1d8&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 7th&lt;/td&gt;&lt;td class="left"&gt;The Blackest Night&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;1d8&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 8th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;1d8&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 9th&lt;/td&gt;&lt;td class="left"&gt;Fight or Flight&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;1d8&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 10th&lt;/td&gt;&lt;td class="left"&gt;Curse of the Abyss&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;1d8&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 11th&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;1d10&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 12th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;1d10&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 13th&lt;/td&gt;&lt;td class="left"&gt;Abyssal Communion&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;1d10&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 14th&lt;/td&gt;&lt;td class="left"&gt;Quietus&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;1d10&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 15th&lt;/td&gt;&lt;td class="left"&gt;Dark Mind&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;1d10&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 16th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;1d10&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 17th&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;1d12&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 18th&lt;/td&gt;&lt;td class="left"&gt;Stalwart Soul&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;1d12&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 19th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;1d12&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 20th&lt;/td&gt;&lt;td class="left"&gt;Living Dead&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;1d12&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&amp;gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_WELL_OF_DARKNESS" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARKSIDE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHTING_STYLE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_BURNING_BLOOD" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ARCHETYPE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABILITY_SCORE_IMPROVEMENT" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_EXTRA_ATTACK" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_THE_BLACKEST_NIGHT" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHT_OR_FLIGHT" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_CURSE_OF_THE_ABYSS" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABYSSAL_COMMUNION" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_QUIETUS" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARK_MIND" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_STALWART_SOUL" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_LIVING_DEAD" /&gt;</html>
+		</description>
+		<setters>
+			<set name="hd">d10</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
-            <select type="Proficiency" name="Skill Proficiency, Dark Knight" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_WELL_OF_DARKNESS" level="1" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARKSIDE" level="1" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHTING_STYLE" level="2" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_BURNING_BLOOD" level="2" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ARCHETYPE" level="3" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABILITY_SCORE_IMPROVEMENT" level="4" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_EXTRA_ATTACK" level="5" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_THE_BLACKEST_NIGHT" level="7" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHT_OR_FLIGHT" level="9" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_CURSE_OF_THE_ABYSS" level="10" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABYSSAL_COMMUNION" level="13" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_QUIETUS" level="14" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARK_MIND" level="15" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_STALWART_SOUL" level="18" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_LIVING_DEAD" level="20" />
-        </rules>
-        
-    </element>
-    <element name="Well of Darkness" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_WELL_OF_DARKNESS">
-        <description>
-            <p>Beginning at the 1st level, you are able to draw on the darkness in your heart and use it as power. You have a number of Well of Darkness points shown for your Dark Knight level in the Well of Darkness Points column of your Dark Knight table. You regain all of your expended uses of your Well of Darkness when you finish a long rest.</p>
-            <p class="indent">Certain features make use of your Well of Darkness and require your target to make a saving throw, the saving throw is calculated as follows.</p>
-            <center>
-                <p><strong>Dark Knight Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
-            </center>
-            <p>When using spells that require you to make a ranged spell attack, you spell attack modifier is calculated as follows.</p>
-            <center>
-                <p><strong>Dark Knight Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
-            </center>
-        </description>
-        <sheet >
-            <description>You have {{well of darkness:points}} Well of Darkness points and your DC is {{well of darkness:dc}}.</description>
-        </sheet>
-        <rules>
-            <stat name="well of darkness:points" value="level:dark knight" />
-            <stat name="well of darkness:dc" value="8" />
-            <stat name="well of darkness:dc" value="proficiency" />
-            <stat name="well of darkness:dc" value="charisma:modifier" />
-        </rules>
-    </element>
-    <element name="Darkside" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARKSIDE">
-        <description>
-            <p>Also beginning at 1st level, as a bonus action you may spend one Well of Darkness point to fill your weapon with power for a number of rounds equal to your Charisma Modifier. When you make a melee weapon attack while under the effect of Darkside, you deal additional necrotic damage as indicated on the Class Table.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>As a bonus action deal an additional 1d{{darkside:die}} for a number of rounds equal to {{charisma:modifier}}.</description>
-        </sheet>
-        <rules>
-            <stat name="darkside:die" value="6" bonus="die" />
-            <stat name="darkside:die" value="8" bonus="die" level="5" />
-            <stat name="darkside:die" value="10" bonus="die" level="11" />
-            <stat name="darkside:die" value="12" bonus="die" level="17" />
-        </rules>
-    </element>
-    <element name="Fighting Style" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHTING_STYLE">
-        <description>
-            <p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
-			<h5 class="caption">DEFENSE</h5>
-			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
-			<h5 class="caption">DUELING</h5>
-			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
-			<h5 class="caption">GREAT WEAPON FIGHTING</h5>
-			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
-			<h5 class="caption">PROTECTION</h5>
-			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
-            <h5 class="caption">TWO-WEAPON FIGHTING</h5>
-            <p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second Attack.</p>
-        </description>
-        <rules> 
-            <select type="Class Feature" name="Fighting Style" supports="Fighting Style,Fighter" />
-        </rules>
-    </element>
-    <element name="Burning Blood" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_BURNING_BLOOD">
-        <description>
-            <p>Also beginning at the 2nd level, as a bonus action you may expend one of your hit die and roll it. You recover Well of Darkness points equal to the result. You cannot exceed your maximum number of Well of Darkness points.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>Expend one of your hit dice and roll it, recover Well of Darkness points equal to the result. </description>
-        </sheet>
-    </element>
-    <element name="Dark Knight Archetype" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ARCHETYPE">
-        <description>
-            <p>At 3rd level, you choose which path of the dark knight to follow. The Blackblood focuses on martial ability, relying on powerful swordplay over magical arts. The Abyss Knight lets the dark powers within themselves flow freely, letting them become more powerful the more dire their situation is, and the Dark Magus uses that inner darkness to cast powerful magical spells alongside their stellar sword skill.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <select type="Archetype" name="Dark Knight Archetype" supports="Dark Knight Archetype" />
-        </rules>
-    </element>
-    <element name="Ability Score Improvement" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABILITY_SCORE_IMPROVEMENT">
-        <compendium display="false" />
-        <description>
-            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+			<select type="Proficiency" name="Skill Proficiency, Dark Knight" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_WELL_OF_DARKNESS" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARKSIDE" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHTING_STYLE" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_BURNING_BLOOD" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ARCHETYPE" level="3" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_THE_BLACKEST_NIGHT" level="7" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHT_OR_FLIGHT" level="9" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_CURSE_OF_THE_ABYSS" level="10" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABYSSAL_COMMUNION" level="13" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_QUIETUS" level="14" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARK_MIND" level="15" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_STALWART_SOUL" level="18" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_LIVING_DEAD" level="20" />
+		</rules>
+	</element>
+	<element name="Well of Darkness" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_WELL_OF_DARKNESS">
+		<description>
+			<html>&lt;p&gt;Beginning at the 1st level, you are able to draw on the darkness in your heart and use it as power. You have a number of Well of Darkness points shown for your Dark Knight level in the Well of Darkness Points column of your Dark Knight table. You regain all of your expended uses of your Well of Darkness when you finish a long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;Certain features make use of your Well of Darkness and require your target to make a saving throw, the saving throw is calculated as follows.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;strong&gt;Dark Knight Spell save DC&lt;/strong&gt; = 8 + your proficiency bonus + your Charisma modifier&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;When using spells that require you to make a ranged spell attack, you spell attack modifier is calculated as follows.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;strong&gt;Dark Knight Spell attack modifier&lt;/strong&gt; = your proficiency bonus + your Charisma modifier&lt;/p&gt;
+&lt;/center&gt;</html>
+		</description>
+		<sheet>
+			<description>You have {{well of darkness:points}} Well of Darkness points and your DC is {{well of darkness:dc}}.</description>
+		</sheet>
+		<rules>
+			<stat name="well of darkness:points" value="level:dark knight" />
+			<stat name="well of darkness:dc" value="8" />
+			<stat name="well of darkness:dc" value="proficiency" />
+			<stat name="well of darkness:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Darkside" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARKSIDE">
+		<description>
+			<html>&lt;p&gt;Also beginning at 1st level, as a bonus action you may spend one Well of Darkness point to fill your weapon with power for a number of rounds equal to your Charisma Modifier. When you make a melee weapon attack while under the effect of Darkside, you deal additional necrotic damage as indicated on the Class Table.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>As a bonus action deal an additional 1d{{darkside:die}} for a number of rounds equal to {{charisma:modifier}}.</description>
+		</sheet>
+		<rules>
+			<stat name="darkside:die" value="6" bonus="die" />
+			<stat name="darkside:die" value="8" bonus="die" level="5" />
+			<stat name="darkside:die" value="10" bonus="die" level="11" />
+			<stat name="darkside:die" value="12" bonus="die" level="17" />
+		</rules>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHTING_STYLE">
+		<description>
+			<html>&lt;p&gt;At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.&lt;/p&gt;
+&lt;h5 class="caption"&gt;DEFENSE&lt;/h5&gt;
+&lt;p&gt;While you are wearing armor, you gain a +1 bonus to AC.&lt;/p&gt;
+&lt;h5 class="caption"&gt;DUELING&lt;/h5&gt;
+&lt;p&gt;When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.&lt;/p&gt;
+&lt;h5 class="caption"&gt;GREAT WEAPON FIGHTING&lt;/h5&gt;
+&lt;p&gt;When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.&lt;/p&gt;
+&lt;h5 class="caption"&gt;PROTECTION&lt;/h5&gt;
+&lt;p&gt;When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.&lt;/p&gt;
+&lt;h5 class="caption"&gt;TWO-WEAPON FIGHTING&lt;/h5&gt;
+&lt;p&gt;When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second Attack.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Fighter" />
+		</rules>
+	</element>
+	<element name="Burning Blood" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_BURNING_BLOOD">
+		<description>
+			<html>&lt;p&gt;Also beginning at the 2nd level, as a bonus action you may expend one of your hit die and roll it. You recover Well of Darkness points equal to the result. You cannot exceed your maximum number of Well of Darkness points.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Expend one of your hit dice and roll it, recover Well of Darkness points equal to the result. </description>
+		</sheet>
+	</element>
+	<element name="Dark Knight Archetype" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ARCHETYPE">
+		<description>
+			<html>&lt;p&gt;At 3rd level, you choose which path of the dark knight to follow. The Blackblood focuses on martial ability, relying on powerful swordplay over magical arts. The Abyss Knight lets the dark powers within themselves flow freely, letting them become more powerful the more dire their situation is, and the Dark Magus uses that inner darkness to cast powerful magical spells alongside their stellar sword skill.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Dark Knight Archetype" supports="Dark Knight Archetype" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<html>&lt;p&gt;When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.&lt;/p&gt;</html>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -205,550 +202,538 @@
 			<select type="Class Feature" name="Improvement Option (Dark Knight 12)" supports="Improvement Option,Dark Knight,12" level="12" />
 			<select type="Class Feature" name="Improvement Option (Dark Knight 16)" supports="Improvement Option,Dark Knight,16" level="16" />
 			<select type="Class Feature" name="Improvement Option (Dark Knight 19)" supports="Improvement Option,Dark Knight,19" level="19" />
-        </rules>
-    </element>
-    <element name="Extra Attack" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_EXTRA_ATTACK">
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_EXTRA_ATTACK">
 		<description>
-			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+			<html>&lt;p&gt;Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/p&gt;</html>
 		</description>
 		<sheet>
 			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
 		</sheet>
 		<rules>
-			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="2" bonus="extra attack" level="5" />
 		</rules>
-    </element>
-    <element name="The Blackest Knight" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_THE_BLACKEST_NIGHT">
-        <description>
-            <p>Beginning at the 7th level, as a bonus action you may expend one Hit Die to create a barrier which protects you or a creature within 30ft. of you. Roll the expended hit die, the target gains temporary hit points equal to the die result + your Charisma modifier.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>As a bonus action, expend one hit dice + your charisma modifier to create a temporary hit point barrier on you or a creature within 30ft. of you. </description>
-        </sheet>
-    </element>
-    <element name="Fight or Flight" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHT_OR_FLIGHT">
-        <description>
-            <p>Beginning at the 9th level, you are able to spend 2 Well of Darkness points to cast the Cause Fear or Compelled Duel spells.</p>
-            <div class="reference">
-                <div element="ID_XGTE_SPELL_CAUSE_FEAR" />
-                <div element="ID_PHB_SPELL_COMPELLED_DUEL" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spent 2 Well of Darkness points to cast the Cause Fear for Compelled Duel spells.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" />
-            <grant type="Spell" id="ID_PHB_SPELL_COMPELLED_DUEL"/>
-        </rules>
-    </element>
-    <element name="Curse of the Abyss" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_CURSE_OF_THE_ABYSS">
-        <description>
-            <p>Beginning at the 10th level, on your turn you may use a bonus action to curse a creature. The curse lasts for 1 minute. The curse ends when the creature dies, you die or are incapacitated. Until the curse ends, you gain the following benefits:</p>
-            <ul>
-                <li>You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.</li>
-                <li>Any attack roll you make against the cursed target is a critical hit on a 19 or 20 on the d20.</li>
-                <li>If the cursed target dies, you regain hit points equal to your Dark Knight level + your charisma modifier(minimum of 1 hit point) and 1 Well of Darkness point.</li>
-            <p class="indent">You must then finish a long rest to use the Curse of the Abyss again.</p>
-            </ul>
-        </description>
-        <sheet action="Bonus Action">
-            <description>
-                <p>Set a curse on a target creature that lasts for 1 minute. Curse ends when the creature dies, you die, or incapacitated. You gain the following benefits.</p>
-                <u>
-                    <li>You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.</li>
-                    <li>Any attack roll you make against the cursed target is a critifcal hit on a 19 or 20 on the d20.</li>
-                    <li>If the target dies, regain {{level:dark knight}}+{{charisma:modifier}}.</li>
-                </u>
-                <p>You must then finish a long rest to use this feature again.</p>
-            </description>
-        </sheet>
-    </element>
-    <element name="Abyssal Communion" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABYSSAL_COMMUNION">
-        <description>
-            <p>Beginning at the 13th level, you may spend 6 Well of Darkness points to cast Rary's Telepathic Bond.</p>
-        </description>
-        <sheet>
-            <description>You may spend 6 Well of Darkness points to cast Rary's Telepathic Bond.</description>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" />
-            </div>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" />
-        </rules>
-    </element>
-    <element name="Quieteus" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_QUIETUS">
-        <description>
-            <p>Beginning at the 14th level, you strike with a swirl of dark energy. As an action, you may spend 2 Well of Darkness points to make a melee weapon attack to all creatures within 10ft. of you. You may expend one hit die and roll it to deal additional necrotic damage equal to the result to all creatures attacked.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action, you may spend 2 Well of Darkness points to make a melee weapon attack to all creatures within 10ft. of you. You may expend one hit die and roll it to deal additional necrotic damage equal to the result to all creatures attacked.</description>
-        </sheet>
-    </element>
-    <element name="Dark Mind" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARK_MIND">
-        <description>
-            <p>Beginning at the 15th level, you gain proficiency in the Wisdom saving throw.</p>
-        </description>
-        <sheet display="false">
-            <description>You gain proficiency in Wisdom saving throws.</description>
-        </sheet>
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
-        </rules>
-    </element>
-    <element name="Stalwart Soul" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_STALWART_SOUL">
-        <description>
-            <p>Beginning at the 18th level, your body becomes fueled by your inner darkness. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.</p>
-        </description>
-        <sheet>
-            <description>Once at half hit points, at the start of each of your turns, regain hit points equal to 5 + {{constitution:modifier}}. Don't gain this benefit at 0 hit points.</description>
-        </sheet>
-    </element>
-    <element name="Living Dead" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_LIVING_DEAD">
-        <description>
-            <p>Beginning at the 20th level, when you are reduced to 0 Hit Points but not killed outright, instead of becoming incapacitated, you may expend one hit die and recover hit points equal to the result + your Constitution modifier.</p>
-        </description>
-        <sheet>
-            <description>When you are reduced to 0 Hit Points but not killed outright, instead of becoming incapacitated, you may expend one hit die and recover hit points equal to the result + your Constitution modifier.</description>
-        </sheet>
-    </element>
-    <element name="Blackblood" type="Archetype" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRK_BLACKBLOOD">
-        <supports> Dark Knight Archetype</supports>
-        <description>
-            <p>Blackbloods are Dark Knights who seek great power and presence on the battlefield. They spend their time perfecting their martial abilities, and then infusing their peerless skill with power drawn from the darkness which resides in their hearts.</p>
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PLUNGE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PIERCING_INTIMIDATION" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SOUL_EATER" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_RAVAGING_DARKNESS" />
-        </description>
-        <sheet display="false">
-            <description></description>
-        </sheet>
-        <rules>
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PLUNGE" level="3" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PIERCING_INTIMIDATION" level="6" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SOUL_EATER" level="11" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_RAVAGING_DARKNESS" level="17" />
-        </rules>
-    </element>
-    <element name="Plunge" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PLUNGE">
-        <description>
-            <p>Beginning at 3rd level, as an action you may move to a space beside a creature within a 15ft. radius. You then make a melee weapon attack against that creature, dealing an addition 2d6 damage of the weapon die's type. This damage increases to 3d6 at 6th level, 4d6 at 11th level and 5d6 at 17th level. You can use this feature a number of times equal to half your Strength modifier, rounded down (a minimum of once). You regain any expended uses when you finish a long rest.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action, move to a space beside a creature within 15ft and make a melee weapon attack against that creature, dealing an additional {{plunge:count}}d{{plunge:die}} of that weapon type. </description>
-        </sheet>
-        <rules>
-            <stat name="plunge:count" value="2" level="3" />
-            <stat name="plunge:count" value="1" level="6" />
-            <stat name="plunge:count" value="1" level="11" />
-            <stat name="plunge:count" value="1" level="17" />
-            <stat name="plunge:die" value="6" bonus="die" />
-        </rules>
-    </element>
-    <element name="Piercing Intimidation" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PIERCING_INTIMIDATION">
-        <description>
-            <p>Beginning at 6th level, when making an Intimidation skill check, you may spend 1 Well of Darkness point to gain assistance from your inner darkness. Roll your Darkside damage die and add the result to the result of your check.</p>
-        </description>
-        <sheet>
-            <description>When making an Intimidation skill check, you may spend 1 Well of Darkness, roll your Darkside damage die and add the result of your check.</description>
-        </sheet>
-    </element>
-    <element name="Soul Eater" type="Archetype Feature" source="source" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SOUL_EATER">
-        <description>
-            <p>Beginning at 11th level, once per turn when you make a melee weapon attack, you may choose to recover hit points equal to half the damage dealt by your Darkside feature's bonus damage, rounded down.</p>
-        </description>
-        <sheet display="false" />
-    </element>
-    <element name="Ravaging Darkness" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_RAVAGING_DARKNESS">
-        <description>
-            <p>Beginning at the 17th level, you add your Charisma modifier to the bonus damage of your Darkside feature.</p>
-        </description>
-        <sheet>
-            <description>Add your Charisma modifier to the bonus damage of your Darkside feature.</description>
-        </sheet>
-    </element>
-    <element name="Abyss Knight" type="Archetype" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRK_ABYSS_KNIGHT">
-        <supports> Dark Knight Archetype</supports>
-        <description>
-            <p>Fell Knights are warriors who sneer in the face of suffering, using techniques which injure themselves in order to deliver devastating damage to their opponents.</p>
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_BURST" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_ADVERSITY" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SUPERNATURAL_SENSE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_STAR" />
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_BURST" level="3" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_ADVERSITY" level="6" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SUPERNATURAL_SENSE" level="11" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_STAR" level="17" />
-        </rules>
-    </element>
-    <element name="Dark Burst" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_BURST">
-        <description>
-            <p>Beginning at 3rd level, you are able to weaponize your ownlife energy to unleash a burst of dark energy against your foes. While under the effect of Darkside, as an action, you may spend 2d4 hit points to cast the Burning Hands spell. When cast in this way, the spell deals necrotic damage instead of fire, and does not ignite flammable objects. Use the Well of Darkness DC when casting the spell.</p>
-            <p class="indent">You are able to cast the spell at higher levels by increasing the damage you take by 1d4 for each increase in casting level. You may only increase the spell level up to a number of levels equal to your Charisma modifier.</p>
-        </description>
-        <sheet action="Action">
-            <description>While under the effects of Darkside, as an action you may spend 2d4 hit points to cast necrotic Burning Hands. You may spend an additional 1d4 hit points per increase in spell level.  </description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
-        </rules>
-    </element>
-    <element name="Adversity" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_ADVERSITY">
-        <description>
-            <p>Beginning at 6th level, you become fueled by the suffering you endure in battle. For every 20 hit points you are missing, you gain a +1 bonus to attack and damage rolls up to a maximum equal to your Charisma modifier.</p>
-            <p class="indent">Additionally you gain resistance to necrotic damage.</p>
-        </description>
-        <sheet>
-            <description>For every 20 hit points you are missing, you gain a +1 bonus to atack and damage rolls up to a maximum of your Charisma modifier({{charisma:modifier}}).</description>
-        </sheet>
-        <rules>
-            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
-        </rules>
-    </element>
-    <element name="Supernatural Sense" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SUPERNATURAL_SENSE">
-        <description>
-            <p>Beginning at 11th level, you may cast the Detect Good and Evil spell at will. You may also cast Detect Thoughts at will on a willing creature or spend 2 Well of Darkness points to cast it on an unwilling creature.</p>
-        </description>
-        <sheet>
-            <description>You may cast Detect Good and Evil spell at will. You may also cast Detect Thoughts on a willing or spend 2 Well of Darkness points to cast it on an unwilling creature.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_DETECT_GOOD_AND_EVIL" />
-            <grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
-        </rules>
-    </element>
-    <element name="Dark Star" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_STAR">
-        <description>
-            <p>Beginning at 17th level, damage from all sources is reduced by your current Adversity bonus. When you cast Burning Hands using the Dark Burst feature, you deal bonus damage equal to your Charisma Modifier + your Adversity bonus. Additionally, you may change the range from a 15ft. cone to a 30ft. line. You reference the Adversity bonus after spending your hit points to use Dark Burst feature.</p>
-        </description>
-        <sheet>
-            <description>Reduce damage from all sources from your current Adversity bonus. When you cast Burning hands using the Dark Burst feature, you deal bonus damage equal to {{charisma:modifier}} + your Adversity bonus. You may also change the range from a 15ft cone to a 30ft line. Reference Adversity after using your Dark Burst feature.</description>
-        </sheet>
-    </element>
-    <element name="Dark Magus" type="Archetype" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRK_DARK_MAGUS">
-        <supports>Dark Knight Archetype</supports>
-        <description>
-            <p>As a Dark Magus, you have decided to focus on manipulating your Well of Darkness. Doing so allows you to convert your own life force into powerful Dark Arts.</p>
-            <p class="indent">You know two Dark Arts at 3rd level, detailed in the Dark Arts section below. You learn one additional Dark Art of your choice at the 6th, 11th and 17th level. Additionally you know the Toll the Dead cantrip. Also, your maximum number of Well of Darkness points is increased by a number equal to your Charisma modifier.</p>
-            <p class="indent"><strong>Casting Dark Arts.</strong> Using the dark magical energy from within, you are able to cast spell. See chapter 10, for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.</p>
-            <p class="indent">Once you reach the 6th level in this class, you can spend additional Well of Darkness point to increase the level of a Dark Art that you cast, provided that the spell has an enhanced effect at a higher level. The spell’s level increases by 1 for each additional Well of Darkness hit die you spend. The default casting level of these spells is at the lowest possible level.</p>
-            <p class="indent">The maximum number of Well of Darkness point you can spend in this way (including the base cost and the additional points you spend to increase the level) is determined by your Dark Knight level, as shown in the Spells and Well of Darkness Points table.</p>
-            <h5>Spells and Well of Darkness points</h5>
-            <table>
-				<thead>
-					<tr><td>Dark Knight Levels</td><td>Maximum Ki Points for a Spell</td></tr>
-				</thead>
-				<tr><td>6th—8th</td><td><em>4</em></td></tr>
-				<tr><td>9th—12th</td><td><em>5</em></td></tr>
-				<tr><td>13th—16th</td><td><em>6</em></td></tr>
-				<tr><td>17th—20th</td><td><em>7</em></td></tr>
-			</table>
-        </description>
-        <sheet display="false">
-            <description>You learned how to manipulate your Well of Darkness to cast spells.</description>
-        </sheet>
-        <rules>
-            <select type="Archetype Feature" name="Dark Arts (Level 3)" supports="Dark Arts" level="3" />
-            <select type="Archetype Feature" name="Dark Arts (Level 3)" supports="Dark Arts" level="3" />
-            <select type="Archetype Feature" name="Dark Arts (Level 6)" supports="Dark Arts" level="6" />
-            <select type="Archetype Feature" name="Dark Arts (Level 11)" supports="Dark Arts" level="11" />
-            <select type="Archetype Feature" name="Dark Arts (Level 17)" supports="Dark Arts" level="17" />
-            <grant type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
-            <stat name="well of darkness:points" value="charisma:modifier" />
-        </rules>
-    </element>
-    <!-- Dark Arts -->
-    <element name="Abyssal Drain" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_ABYSSAL_DRAIN">
-        <supports>Dark Arts</supports>
-        <requirements>[level:17]</requirements>
-        <description>
-            <p><em>Prerequisite: 17th level</em></p>
-            <p>You can spend 6 Well of Darkness points to cast Contagion.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_CONTAGION" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 6 Well of Darkness points to cast Contagion.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_CONTAGION" />
-        </rules>
-    </element>
-    <element name="Creeping Darkness" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_CREEPING_DARKNESS">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 2 Well of Darkness points to cast Darkness.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_DARKNESS" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spell 2 Well of Darkness points to cast Darkness.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_DARKNESS" />
-        </rules>
-    </element>
-    <element name="Damning Curse" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_DAMNING_CURSE">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 1 Well of Darkness points to cast Bane.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_BANE" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spell 1 Well of Darkness points to cast Bane.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_BANE" />
-        </rules>
-    </element>
-    <element name="Dark Dance" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_DARK_DANCE">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 2 Well of Darkness points to cast Mirror Image.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_MIRROR_IMAGE" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spell 2 Well of Darkness points to cast Mirror Image.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" />
-        </rules>
-    </element>
-    <element name="Dark Passenger" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_DARK_PASSENGER">
-        <supports>Dark Arts</supports>
-        <requirements>[level:11]</requirements>
-        <description>
-            <p><em>Prerequisite: 11th level</em></p>
-            <p>You can spend 3 Well of Darkness points to cast Lightning Bolt. The spell deals necrotic damage.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_LIGHTNING_BOLT" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 3 Well of Darkness points to cast Lightning Bolt. The spell deals necrotic damage.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" />
-        </rules>
-    </element>
-    <element name="Delirium" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_DELIRIUM">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 2 Well of Darkness points to cast Suggestion.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_SUGGESTION" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 2 Well of Darkness points to cast Suggestion.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" />
-        </rules>
-    </element>
-    <element name="Edge of Shadow" type="Archetype Feature" source="FFXIV Dungeons and Dragon" id="ID_GMBINDER_FFXIV_DARK_ARTS_EDGE_OF_SHADOW">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 2 Well of Darkness points to cast Shatter.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_SHATTER" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 2 Well of Darkness points to cast Shatter.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_SHATTER" />
-        </rules>
-    </element>
-    <element name="Flood of Darkness" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_FLOOD_OF_DARKNESS">
-        <supports>Dark Arts</supports>
-        <requirements>[level:17]</requirements>
-        <description>
-            <p><em>Prerequisite: 17th level</em></p>
-            <p>You can spend 6 Well of Darkness points to cast Negative Energy Flood.</p>
-            <div class="reference">
-                <div element="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 6 Well of Darkness points to cast Negative Energy Flood.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD" />
-        </rules>
-    </element>
-    <element name="Helter Skelter" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_HELTER_SKELTER">
-        <supports>Dark Arts</supports>
-        <requirements>[level:11]</requirements>
-        <description>
-            <p><em>Prerequisite: 11th level</em></p>
-            <p>You can spend 4 Well of Darkness points to cast Hypnotic Pattern.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_HYPNOTIC_PATTERN" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 4 Well of Darkness points to cast Hypnotic Pattern.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" />
-        </rules>
-    </element>
-    <element name="Power Slash" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_POWER_SLASH">
-        <supports>Dark Arts</supports>
-        <requirements>[level:6]</requirements>
-        <description>
-            <p><em>Prerequisite: 6th level</em></p>
-            <p>You can spend 3 Well of Darkness points to cast Elemental Weapon.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_ELEMENTAL_WEAPON" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 3 Well of Darkness points to cast Elemental Weapon.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" />
-        </rules>
-    </element>
-    <element name="Reprisal" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_REPRISAL">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 2 Well of Darkness points to cast Hellish Rebuke.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_HELLISH_REBUKE" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 2 Well of Darkness points to cast Hellish Rebuke.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
-        </rules>
-    </element>
-    <element name="Salted Earth" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_SALTED_EARTH">
-        <supports>Dark Arts</supports>
-        <requirements>[level:6]</requirements>
-        <description>
-            <p><em>Prerequisite: 6th level</em></p>
-            <p>You can spend 3 Well of Darkness points to cast Hunger of Hadar.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_HUNGER_OF_HADAR" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 3 Well of Darkness points to cast Hunger of Hadar.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_HUNGER_OF_HADAR" />
-        </rules>
-    </element>
-    <element name="Scourge" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_SCOURGE">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 1 Well of Darkness to cast Hex.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_HEX" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 1 Well of Darkness to cast Hex. </description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_HEX" />
-        </rules>
-    </element>
-    <element name="Shadow Skin" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_SHADOW_SKIN">
-        <supports>Dark Arts</supports>
-        <requirements>[level:11]</requirements>
-        <description>
-            <p><em>Prerequisite: 11th level</em></p>
-            <p>You can spend 4 Well of Darkness points to cast Shadow of Moil.</p>
-            <div class="reference">
-                <div element="ID_XGTE_SPELL_SHADOW_OF_MOIL" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 4 Well of Darkness points to cast Shadow of Moil.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_XGTE_SPELL_SHADOW_OF_MOIL" />
-        </rules>
-    </element>
-    <element name="Shadow Wall" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_SHADOW_WALL">
-        <supports>Dark Arts</supports>
-        <requirements>[level:17]</requirements>
-        <description>
-            <p><em>Prerequisite: 17th level</em></p>
-            <p>You can spend 6 Well of Darkness points to cast Wall of Force.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_WALL_OF_FORCE"/>
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 6 Well of Darkness points to cast Wall of Force.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" />
-        </rules>
-    </element>
-    <element name="Syphon Touch" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_SYPHON_TOUCH">
-        <supports>Dark Arts</supports>
-        <requirements>[level:6]</requirements>
-        <description>
-            <p><em>Prerequisite: 6th level</em></p>
-            <p>You can spend 3 Well of Darkness points to cast Vampiric Touch.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_VAMPIRIC_TOUCH"/>
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 3 Well of Darkness points to cast Vampiric Touch.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" />
-        </rules>
-    </element>
-    <element name="Unleash" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_UNLEASH">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 1 Well of Darkness point to cast Arms of Hadar.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_ARMS_OF_HADAR"/>
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 1 Well of Darkness point to cast Arms of Hadar.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
-        </rules>
-    </element>
-    <element name="Unmend" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_DARK_ARTS_UNMEND">
-        <supports>Dark Arts</supports>
-        <description>
-            <p>You can spend 1 Well of Darkness point to cast Magic Missile.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_MAGIC_MISSILE"/>
-            </div>
-        </description>
-        <sheet>
-            <description>You can spend 1 Well of Darkness point to cast Magic Missile.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE" />
-        </rules>
-    </element>
+	</element>
+	<element name="The Blackest Knight" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_THE_BLACKEST_NIGHT">
+		<description>
+			<html>&lt;p&gt;Beginning at the 7th level, as a bonus action you may expend one Hit Die to create a barrier which protects you or a creature within 30ft. of you. Roll the expended hit die, the target gains temporary hit points equal to the die result + your Charisma modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>As a bonus action, expend one hit dice + your charisma modifier to create a temporary hit point barrier on you or a creature within 30ft. of you. </description>
+		</sheet>
+	</element>
+	<element name="Fight or Flight" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_FIGHT_OR_FLIGHT">
+		<description>
+			<html>&lt;p&gt;Beginning at the 9th level, you are able to spend 2 Well of Darkness points to cast the Cause Fear or Compelled Duel spells.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_XGTE_SPELL_CAUSE_FEAR" /&gt;
+&lt;div element="ID_PHB_SPELL_COMPELLED_DUEL" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spent 2 Well of Darkness points to cast the Cause Fear for Compelled Duel spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMPELLED_DUEL" />
+		</rules>
+	</element>
+	<element name="Curse of the Abyss" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_CURSE_OF_THE_ABYSS">
+		<description>
+			<html>&lt;p&gt;Beginning at the 10th level, on your turn you may use a bonus action to curse a creature. The curse lasts for 1 minute. The curse ends when the creature dies, you die or are incapacitated. Until the curse ends, you gain the following benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.&lt;/li&gt;
+&lt;li&gt;Any attack roll you make against the cursed target is a critical hit on a 19 or 20 on the d20.&lt;/li&gt;
+&lt;li&gt;If the cursed target dies, you regain hit points equal to your Dark Knight level + your charisma modifier(minimum of 1 hit point) and 1 Well of Darkness point.&lt;/li&gt;
+&lt;p class="indent"&gt;You must then finish a long rest to use the Curse of the Abyss again.&lt;/p&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description />
+		</sheet>
+	</element>
+	<element name="Abyssal Communion" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_ABYSSAL_COMMUNION">
+		<description>
+			<html>&lt;p&gt;Beginning at the 13th level, you may spend 6 Well of Darkness points to cast Rary's Telepathic Bond.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You may spend 6 Well of Darkness points to cast Rary's Telepathic Bond.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" />
+		</rules>
+	</element>
+	<element name="Quieteus" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_QUIETUS">
+		<description>
+			<html>&lt;p&gt;Beginning at the 14th level, you strike with a swirl of dark energy. As an action, you may spend 2 Well of Darkness points to make a melee weapon attack to all creatures within 10ft. of you. You may expend one hit die and roll it to deal additional necrotic damage equal to the result to all creatures attacked.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action, you may spend 2 Well of Darkness points to make a melee weapon attack to all creatures within 10ft. of you. You may expend one hit die and roll it to deal additional necrotic damage equal to the result to all creatures attacked.</description>
+		</sheet>
+	</element>
+	<element name="Dark Mind" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_DARK_MIND">
+		<description>
+			<html>&lt;p&gt;Beginning at the 15th level, you gain proficiency in the Wisdom saving throw.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency in Wisdom saving throws.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+		</rules>
+	</element>
+	<element name="Stalwart Soul" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_STALWART_SOUL">
+		<description>
+			<html>&lt;p&gt;Beginning at the 18th level, your body becomes fueled by your inner darkness. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Once at half hit points, at the start of each of your turns, regain hit points equal to 5 + {{constitution:modifier}}. Don't gain this benefit at 0 hit points.</description>
+		</sheet>
+	</element>
+	<element name="Living Dead" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_LIVING_DEAD">
+		<description>
+			<html>&lt;p&gt;Beginning at the 20th level, when you are reduced to 0 Hit Points but not killed outright, instead of becoming incapacitated, you may expend one hit die and recover hit points equal to the result + your Constitution modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you are reduced to 0 Hit Points but not killed outright, instead of becoming incapacitated, you may expend one hit die and recover hit points equal to the result + your Constitution modifier.</description>
+		</sheet>
+	</element>
+	<element name="Blackblood" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRK_BLACKBLOOD">
+		<supports> Dark Knight Archetype</supports>
+		<description>
+			<html>&lt;p&gt;Blackbloods are Dark Knights who seek great power and presence on the battlefield. They spend their time perfecting their martial abilities, and then infusing their peerless skill with power drawn from the darkness which resides in their hearts.&lt;/p&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PLUNGE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PIERCING_INTIMIDATION" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SOUL_EATER" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_RAVAGING_DARKNESS" /&gt;</html>
+		</description>
+		<sheet display="false">
+			<description />
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PLUNGE" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PIERCING_INTIMIDATION" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SOUL_EATER" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_RAVAGING_DARKNESS" level="17" />
+		</rules>
+	</element>
+	<element name="Plunge" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PLUNGE">
+		<description>
+			<html>&lt;p&gt;Beginning at 3rd level, as an action you may move to a space beside a creature within a 15ft. radius. You then make a melee weapon attack against that creature, dealing an addition 2d6 damage of the weapon die's type. This damage increases to 3d6 at 6th level, 4d6 at 11th level and 5d6 at 17th level. You can use this feature a number of times equal to half your Strength modifier, rounded down (a minimum of once). You regain any expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action, move to a space beside a creature within 15ft and make a melee weapon attack against that creature, dealing an additional {{plunge:count}}d{{plunge:die}} of that weapon type. </description>
+		</sheet>
+		<rules>
+			<stat name="plunge:count" value="2" level="3" />
+			<stat name="plunge:count" value="1" level="6" />
+			<stat name="plunge:count" value="1" level="11" />
+			<stat name="plunge:count" value="1" level="17" />
+			<stat name="plunge:die" value="6" bonus="die" />
+		</rules>
+	</element>
+	<element name="Piercing Intimidation" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_PIERCING_INTIMIDATION">
+		<description>
+			<html>&lt;p&gt;Beginning at 6th level, when making an Intimidation skill check, you may spend 1 Well of Darkness point to gain assistance from your inner darkness. Roll your Darkside damage die and add the result to the result of your check.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When making an Intimidation skill check, you may spend 1 Well of Darkness, roll your Darkside damage die and add the result of your check.</description>
+		</sheet>
+	</element>
+	<element name="Soul Eater" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SOUL_EATER">
+		<description>
+			<html>&lt;p&gt;Beginning at 11th level, once per turn when you make a melee weapon attack, you may choose to recover hit points equal to half the damage dealt by your Darkside feature's bonus damage, rounded down.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Ravaging Darkness" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_RAVAGING_DARKNESS">
+		<description>
+			<html>&lt;p&gt;Beginning at the 17th level, you add your Charisma modifier to the bonus damage of your Darkside feature.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Add your Charisma modifier to the bonus damage of your Darkside feature.</description>
+		</sheet>
+	</element>
+	<element name="Abyss Knight" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRK_ABYSS_KNIGHT">
+		<supports> Dark Knight Archetype</supports>
+		<description>
+			<html>&lt;p&gt;Fell Knights are warriors who sneer in the face of suffering, using techniques which injure themselves in order to deliver devastating damage to their opponents.&lt;/p&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_BURST" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_ADVERSITY" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SUPERNATURAL_SENSE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_STAR" /&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_BURST" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_ADVERSITY" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SUPERNATURAL_SENSE" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_STAR" level="17" />
+		</rules>
+	</element>
+	<element name="Dark Burst" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_BURST">
+		<description>
+			<html>&lt;p&gt;Beginning at 3rd level, you are able to weaponize your ownlife energy to unleash a burst of dark energy against your foes. While under the effect of Darkside, as an action, you may spend 2d4 hit points to cast the Burning Hands spell. When cast in this way, the spell deals necrotic damage instead of fire, and does not ignite flammable objects. Use the Well of Darkness DC when casting the spell.&lt;/p&gt;
+&lt;p class="indent"&gt;You are able to cast the spell at higher levels by increasing the damage you take by 1d4 for each increase in casting level. You may only increase the spell level up to a number of levels equal to your Charisma modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>While under the effects of Darkside, as an action you may spend 2d4 hit points to cast necrotic Burning Hands. You may spend an additional 1d4 hit points per increase in spell level.  </description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
+		</rules>
+	</element>
+	<element name="Adversity" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_ADVERSITY">
+		<description>
+			<html>&lt;p&gt;Beginning at 6th level, you become fueled by the suffering you endure in battle. For every 20 hit points you are missing, you gain a +1 bonus to attack and damage rolls up to a maximum equal to your Charisma modifier.&lt;/p&gt;
+&lt;p class="indent"&gt;Additionally you gain resistance to necrotic damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>For every 20 hit points you are missing, you gain a +1 bonus to atack and damage rolls up to a maximum of your Charisma modifier({{charisma:modifier}}).</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Supernatural Sense" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_SUPERNATURAL_SENSE">
+		<description>
+			<html>&lt;p&gt;Beginning at 11th level, you may cast the Detect Good and Evil spell at will. You may also cast Detect Thoughts at will on a willing creature or spend 2 Well of Darkness points to cast it on an unwilling creature.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You may cast Detect Good and Evil spell at will. You may also cast Detect Thoughts on a willing or spend 2 Well of Darkness points to cast it on an unwilling creature.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_GOOD_AND_EVIL" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
+		</rules>
+	</element>
+	<element name="Dark Star" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRK_DARK_STAR">
+		<description>
+			<html>&lt;p&gt;Beginning at 17th level, damage from all sources is reduced by your current Adversity bonus. When you cast Burning Hands using the Dark Burst feature, you deal bonus damage equal to your Charisma Modifier + your Adversity bonus. Additionally, you may change the range from a 15ft. cone to a 30ft. line. You reference the Adversity bonus after spending your hit points to use Dark Burst feature.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Reduce damage from all sources from your current Adversity bonus. When you cast Burning hands using the Dark Burst feature, you deal bonus damage equal to {{charisma:modifier}} + your Adversity bonus. You may also change the range from a 15ft cone to a 30ft line. Reference Adversity after using your Dark Burst feature.</description>
+		</sheet>
+	</element>
+	<element name="Dark Magus" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRK_DARK_MAGUS">
+		<supports>Dark Knight Archetype</supports>
+		<description>
+			<html>&lt;p&gt;As a Dark Magus, you have decided to focus on manipulating your Well of Darkness. Doing so allows you to convert your own life force into powerful Dark Arts.&lt;/p&gt;
+&lt;p class="indent"&gt;You know two Dark Arts at 3rd level, detailed in the Dark Arts section below. You learn one additional Dark Art of your choice at the 6th, 11th and 17th level. Additionally you know the Toll the Dead cantrip. Also, your maximum number of Well of Darkness points is increased by a number equal to your Charisma modifier.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;Casting Dark Arts.&lt;/strong&gt; Using the dark magical energy from within, you are able to cast spell. See chapter 10, for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.&lt;/p&gt;
+&lt;p class="indent"&gt;Once you reach the 6th level in this class, you can spend additional Well of Darkness point to increase the level of a Dark Art that you cast, provided that the spell has an enhanced effect at a higher level. The spell’s level increases by 1 for each additional Well of Darkness hit die you spend. The default casting level of these spells is at the lowest possible level.&lt;/p&gt;
+&lt;p class="indent"&gt;The maximum number of Well of Darkness point you can spend in this way (including the base cost and the additional points you spend to increase the level) is determined by your Dark Knight level, as shown in the Spells and Well of Darkness Points table.&lt;/p&gt;
+&lt;h5&gt;Spells and Well of Darkness points&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td&gt;Dark Knight Levels&lt;/td&gt;&lt;td&gt;Maximum Ki Points for a Spell&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt;6th—8th&lt;/td&gt;&lt;td&gt;&lt;em&gt;4&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9th—12th&lt;/td&gt;&lt;td&gt;&lt;em&gt;5&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13th—16th&lt;/td&gt;&lt;td&gt;&lt;em&gt;6&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17th—20th&lt;/td&gt;&lt;td&gt;&lt;em&gt;7&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You learned how to manipulate your Well of Darkness to cast spells.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Dark Arts (Level 3)" supports="Dark Arts" level="3" />
+			<select type="Archetype Feature" name="Dark Arts (Level 3)" supports="Dark Arts" level="3" />
+			<select type="Archetype Feature" name="Dark Arts (Level 6)" supports="Dark Arts" level="6" />
+			<select type="Archetype Feature" name="Dark Arts (Level 11)" supports="Dark Arts" level="11" />
+			<select type="Archetype Feature" name="Dark Arts (Level 17)" supports="Dark Arts" level="17" />
+			<grant type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+			<stat name="well of darkness:points" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Abyssal Drain" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_ABYSSAL_DRAIN">
+		<supports>Dark Arts</supports>
+		<requirements>[level:17]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 17th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 6 Well of Darkness points to cast Contagion.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_CONTAGION" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 6 Well of Darkness points to cast Contagion.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CONTAGION" />
+		</rules>
+	</element>
+	<element name="Creeping Darkness" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_CREEPING_DARKNESS">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 2 Well of Darkness points to cast Darkness.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_DARKNESS" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spell 2 Well of Darkness points to cast Darkness.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" />
+		</rules>
+	</element>
+	<element name="Damning Curse" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_DAMNING_CURSE">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 1 Well of Darkness points to cast Bane.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_BANE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spell 1 Well of Darkness points to cast Bane.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BANE" />
+		</rules>
+	</element>
+	<element name="Dark Dance" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_DARK_DANCE">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 2 Well of Darkness points to cast Mirror Image.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_MIRROR_IMAGE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spell 2 Well of Darkness points to cast Mirror Image.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" />
+		</rules>
+	</element>
+	<element name="Dark Passenger" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_DARK_PASSENGER">
+		<supports>Dark Arts</supports>
+		<requirements>[level:11]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 11th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 3 Well of Darkness points to cast Lightning Bolt. The spell deals necrotic damage.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_LIGHTNING_BOLT" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 3 Well of Darkness points to cast Lightning Bolt. The spell deals necrotic damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" />
+		</rules>
+	</element>
+	<element name="Delirium" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_DELIRIUM">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 2 Well of Darkness points to cast Suggestion.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_SUGGESTION" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 2 Well of Darkness points to cast Suggestion.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" />
+		</rules>
+	</element>
+	<element name="Edge of Shadow" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_EDGE_OF_SHADOW">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 2 Well of Darkness points to cast Shatter.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_SHATTER" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 2 Well of Darkness points to cast Shatter.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SHATTER" />
+		</rules>
+	</element>
+	<element name="Flood of Darkness" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_FLOOD_OF_DARKNESS">
+		<supports>Dark Arts</supports>
+		<requirements>[level:17]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 17th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 6 Well of Darkness points to cast Negative Energy Flood.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 6 Well of Darkness points to cast Negative Energy Flood.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD" />
+		</rules>
+	</element>
+	<element name="Helter Skelter" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_HELTER_SKELTER">
+		<supports>Dark Arts</supports>
+		<requirements>[level:11]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 11th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 4 Well of Darkness points to cast Hypnotic Pattern.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_HYPNOTIC_PATTERN" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 4 Well of Darkness points to cast Hypnotic Pattern.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" />
+		</rules>
+	</element>
+	<element name="Power Slash" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_POWER_SLASH">
+		<supports>Dark Arts</supports>
+		<requirements>[level:6]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 6th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 3 Well of Darkness points to cast Elemental Weapon.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_ELEMENTAL_WEAPON" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 3 Well of Darkness points to cast Elemental Weapon.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" />
+		</rules>
+	</element>
+	<element name="Reprisal" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_REPRISAL">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 2 Well of Darkness points to cast Hellish Rebuke.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_HELLISH_REBUKE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 2 Well of Darkness points to cast Hellish Rebuke.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
+		</rules>
+	</element>
+	<element name="Salted Earth" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_SALTED_EARTH">
+		<supports>Dark Arts</supports>
+		<requirements>[level:6]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 6th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 3 Well of Darkness points to cast Hunger of Hadar.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_HUNGER_OF_HADAR" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 3 Well of Darkness points to cast Hunger of Hadar.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HUNGER_OF_HADAR" />
+		</rules>
+	</element>
+	<element name="Scourge" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_SCOURGE">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 1 Well of Darkness to cast Hex.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_HEX" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 1 Well of Darkness to cast Hex. </description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HEX" />
+		</rules>
+	</element>
+	<element name="Shadow Skin" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_SHADOW_SKIN">
+		<supports>Dark Arts</supports>
+		<requirements>[level:11]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 11th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 4 Well of Darkness points to cast Shadow of Moil.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_XGTE_SPELL_SHADOW_OF_MOIL" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 4 Well of Darkness points to cast Shadow of Moil.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_SHADOW_OF_MOIL" />
+		</rules>
+	</element>
+	<element name="Shadow Wall" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_SHADOW_WALL">
+		<supports>Dark Arts</supports>
+		<requirements>[level:17]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 17th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 6 Well of Darkness points to cast Wall of Force.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_WALL_OF_FORCE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 6 Well of Darkness points to cast Wall of Force.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" />
+		</rules>
+	</element>
+	<element name="Syphon Touch" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_SYPHON_TOUCH">
+		<supports>Dark Arts</supports>
+		<requirements>[level:6]</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;Prerequisite: 6th level&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can spend 3 Well of Darkness points to cast Vampiric Touch.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_VAMPIRIC_TOUCH" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 3 Well of Darkness points to cast Vampiric Touch.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" />
+		</rules>
+	</element>
+	<element name="Unleash" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_UNLEASH">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 1 Well of Darkness point to cast Arms of Hadar.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_ARMS_OF_HADAR" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 1 Well of Darkness point to cast Arms of Hadar.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
+		</rules>
+	</element>
+	<element name="Unmend" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_DARK_ARTS_UNMEND">
+		<supports>Dark Arts</supports>
+		<description>
+			<html>&lt;p&gt;You can spend 1 Well of Darkness point to cast Magic Missile.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_PHB_SPELL_MAGIC_MISSILE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet>
+			<description>You can spend 1 Well of Darkness point to cast Magic Missile.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE" />
+		</rules>
+	</element>
 </elements>

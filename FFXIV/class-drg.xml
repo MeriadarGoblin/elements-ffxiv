@@ -1,201 +1,197 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
-    <info>
-        <update version="0.1.1">
-            <file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drg.xml" />
-        </update>
-    </info>
-    <element name="Dragoon" type="Class" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_DRG">
-        <description>
-    <p>An Elezen man stands before a fierce dragon, it roars out and begins to take off in order to gain the advantage. With a massive leap the man lands atop the dragon and forces it back to the ground, creating an opening for his allies.</p>
-    <p class="indent">A Hyur cloaked in scale mail whirl's their spear around a cluster of enemies keeping them at bay. When the time is right they unleash a plume of fiery breath from beneath their helm, singing their targets.</p>
-    <p class="indent">A Viera woman runs and leaps high into the sky, magical wings forming on her body. With grace, she travels the currents of the wind, happily flying about as she exercises her new found freedom.</p>
-    <p class="indent">These fearless warriors stand against dragons, demons, fiends and any other threats who would raise a hand against their homelands. Dragoons use their command of both the sky and ground to strike down their foes with deadly strikes.</p>
-    <h4>Dragonbane</h4>
-    <p>The Dragoon was a soldier born out of need in a distant land. Their homeland has been locked in a war against dragon kind for hundreds of years, leading to their soldiers to specialize in battling back against dragons. Their most notable ability is the Dragoon Jump, which is powered by a magical gem each Dragoon receives upon completing their basic training.</p>
-    <h4>Masters of the Sky</h4>
-    <p>The Dragoons have been blessed with the ability to soar high into the air like those they have taken up arms to destroy. These warriors are able to crash down from the sky using their weapons and body weight to drive any skyborn into the ground, or cause great damage to those already on land. Wings will not grant you safety from a Dragoon.</p>
-    <p class="indent"></p>
-    <h4>CREATING A Dragoon</h4>
-    <p>When creating a Dragoon, consider what brought them down the path of a specialized knight. They may have shown a certain aptitude which allowed them to become a dragoon with ease, or perhaps were born into the role due to the history of their homeland. A dragoon may have decided upon this path due to the stories of famed dragoons of legends, hoping to become as powerful and respected as the knights they had heard about while they were growing up.</p>
-    <p class="indent">Consider why a Dragoon would choose to head out on an adventure. Are they seeking a specific dragon, hoping to slay an enemy of their nation? Could your dragoon have unfinished business with a dragon from their past? Sometimes a dragoon may set out for the sake of journeying around the land.</p>
-    <h5 class="caption">QUICK BUILD</h5>
-    <p>You can make a Dragoon quickly by following these suggestions. First, make Strength your highest ability score, following with Dexterity. Second take the Soldier background.</p>
-    <h2>CLASS FEATURES</h2>
-    <p>As an dragoon, you gain the following class features.</p>
-    <h5 class="caption">HIT POINTS</h5>
-    <ul class="unstyled">
-        <li><strong>Hit Dice:</strong> 1d10 per dragoon level</li>
-        <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
-        <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per dragoon level after 1st</li>
-    </ul>
-    <h5 class="caption">PROFICIENCIES</h5>
-    <ul class="unstyled mb">
-        <li><strong>Armor:</strong> Light and Medium armour, shields.</li>
-        <li><strong>Weapons:</strong> Simple weapons and Martial weapons</li>
-        <li><strong>Tools:</strong> None.</li>
-    </ul>
-    <ul class="unstyled">
-        <li><strong>Saving Throws:</strong> Strength, Dexterity</li>
-        <li><strong>Skills:</strong> Choose two from Animal Handling, Athletics, Acrobatics, History, Nature, Perception, Religion, Survival.</li>
-    </ul>
-    <h5 class="caption">EQUIPMENT</h5>
-    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
-    <ul>
-        <li>(a) scale mail or (b) leather armor</li>
-        <li>(a) amartial weapon or (b) two spears</li>
-        <li>(a) a short bow and 20 arrows or (b) two hand axes</li>
-        <li>(a) an explorer's pack or (b) a dungeoneer's pack</li>
-        <li>a blessed Dragoon's Stone</li>
-    </ul>
-        <!-- class table here -->
-        <h5 class="caption">THE Dragoon</h5>
-        <table class="class-features">
-            <thead>
-                <tr><td class="col-5">Level</td><td class="col-10">Trances</td><td class="col-60 left">Features</td></tr>
-            </thead>
-            <tr><td> 1st</td><td>col1</td><td class="left">Dragon Trance, Jump</td></tr>
-            <tr><td> 2nd</td><td>col1</td><td class="left">Fighting Style, Lancet</td></tr>
-            <tr><td> 3rd</td><td>col1</td><td class="left">Dragoon Archetype</td></tr>
-            <tr><td> 4th</td><td>col1</td><td class="left">Ability Score Improvement</td></tr>
-            <tr><td> 5th</td><td>col1</td><td class="left">Heavy Thurst, True Thrust</td></tr>
-            <tr><td> 6th</td><td>col1</td><td class="left">Stall</td></tr>
-            <tr><td> 7th</td><td>col1</td><td class="left">Archetype Feature</td></tr>
-            <tr><td> 8th</td><td>col1</td><td class="left">Ability Score Improvement</td></tr>
-            <tr><td> 9th</td><td>col1</td><td class="left">High Jump</td></tr>
-            <tr><td>10th</td><td>col1</td><td class="left">Crash Landing</td></tr>
-            <tr><td>11th</td><td>col1</td><td class="left">Archetype Feature</td></tr>
-            <tr><td>12th</td><td>col1</td><td class="left">Ability Score Improvement</td></tr>
-            <tr><td>13th</td><td>col1</td><td class="left">Chaos Thrust</td></tr>
-            <tr><td>14th</td><td>col1</td><td class="left">Invigorate</td></tr>
-            <tr><td>15th</td><td>col1</td><td class="left">Archetype Feature</td></tr>
-            <tr><td>16th</td><td>col1</td><td class="left">Ability Score Improvement</td></tr>
-            <tr><td>17th</td><td>col1</td><td class="left">Dragonfire Dive</td></tr>
-            <tr><td>18th</td><td>col1</td><td class="left">Battle Litany</td></tr>
-            <tr><td>19th</td><td>col1</td><td class="left">Ability Score Improvement</td></tr>
-            <tr><td>20th</td><td>col1</td><td class="left">One with the Sky</td></tr>
-        </table>
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_TRANCE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_FIGHTING_STYLE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_LANCET" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_ARCHETYPE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ABILITY_SCORE_IMPROVEMENT" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HEAVY_THRUST" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_TRUE_THRUST" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_STALL" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HIGH_JUMP" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CRASH_LANDING" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CHAOS_THRUST" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_INVIGORATE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGONFIRE_DIVE" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_BATTLE_LITANY" />
-            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ONE_WITH_THE_SKY" />
-        </description>
-        <setters>
-            <set name="hd">d10</set>
-            <set name="short"> A fearless warrior who stand against dragons, and demons, fiends that use their command of both the sky and ground to strike down their foes with deadly strikes.</set>
-        </setters>
-        <sheet display="false" />
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
-            <select type="Proficiency" name="Skill Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_ATHELETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_TRANCE" level="1" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP" level="1" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_FIGHTING_STYLE" level="2" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_LANCET" level="2" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_ARCHETYPE" level="3" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ABILITY_SCORE_IMPROVEMENT" level="4" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HEAVY_THRUST" level="5" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_TRUE_THRUST" level="5" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_STALL" level="6" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HIGH_JUMP" level="9" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CRASH_LANDING" level="10" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CHAOS_THRUST" level="13" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_INVIGORATE" level="14" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGONFIRE_DIVE" level="17" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_BATTLE_LITANY" level="18" />
-            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ONE_WITH_THE_SKY" level="20" />
-        </rules>
-    </element>
-    <element name="Dragon Trance" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_TRANCE">
-        <description>
-            <p>Beginning at the 1st level, you are able to fall into a special trance as a bonus action. Your soul is filled with power from your Dragoon forebears. While under the effects of this trance, your jump height becomes a minimum of 30ft. and your jump distance becomes a minimum of 15ft.</p>
-            <p class="indent">Your trance lasts for 1 minute. It ends early if you are knocked unconscious or you may end your trance as a bonus action. Some Dragoon abilities may cause your trance to end early. Once you have entered a trance a number of times shown for your dragoon level in the trances column for your dragoon table you must finish a long rest before you can enter a trance again.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>As a bonus action, you fall into a special dragoon trance, that makes your jump height a minimum of 30ft., and jump distance becomes 15ft. Your trance lasts for 1 minute. It ends early if you are knocked unconscious or you may end your trance as a bonus action. Some Dragoon abilities may cause your trance to end early. You may use your trance {{dragon trance}} times before you must finish a long rest before you can enter a trance again.</description>
-        </sheet>
-        <rules>
-            <stat name="dragon trance" value="1" bonus="base" />
-            <stat name="dragon trance" value="level" bonus="bonus" />
-        </rules>
-    </element>
-    <element name="Jump" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP">
-        <description>
-            <p>Also beginning at the 1st level, as an action you are able to perform a jump attack. Through the power of your Dragoon Trance you leap up to 30ft. into the air and land on a creature within 15ft. of your starting position. The creature makes a Dexterity saving throw against your Dive DC as calculated below, taking your weapon damage and bonus damage equal to 1d6 on a failure, and half as much on a success. This bonus damage is increased to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 18th level.</p>
-            <center>
-				<p><strong>Dive save DC</strong> = 8 + your proficiency bonus + your Strength modifier</p>
-			</center>
-            <p>You may not use Jump on a creature who is higher than 30ft. nor does not have at least 5ft. of space above their head. After finishing your Jump, select an empty space adjacent to the target creature to land on. If the creature's size is Huge or larger, you may choose to attempt to land on the creature instead by making a Dexterity saving throw of a difficulty decided by the DM. You do not take fall damage as a result of using the Jump feature. Movement using the Jump feature does not provoke attacks of opportunity.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action, you are able to perform a jump attack under the effects of your Dragon Trance; you leap up to {{jump ft}}ft. into the air and land on a creature within {{jump pos}}ft. of your starting position. The creature makes a Dexterity saving throw against your Dive DC ({{dive:dc}}), taking your weapon damage and bonus damage equal to {{dive damage}}d6 on a failure, and half as much on a success. You may not use Jump on a creature who is higher than 30ft. nor does not have at least 5ft. of space above their head. After finishing your Jump, select an empty space adjacent to the target creature to land on. If the creature's size is Huge or larger, you may choose to attempt to land on the creature instead by making a Dexterity saving throw of a difficulty decided by the DM. You do not take fall damage as a result of using the Jump feature. Movement using the Jump feature does not provoke attacks of opportunity.</description>
-        </sheet>
-        <rules>
-            <stat name="dive damage" value="1" bonus="die" />
-            <stat name="dive damage" value="2" bonus="die"  level="5" />
-            <stat name="dive damage" value="3" bonus="die"  level="11" />
-            <stat name="dive damage" value="4" bonus="die"  level="18" />
-            <stat name="dive:dc" value="8" />
+	<element name="Dragoon" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_DRG">
+		<description>
+			<html>&lt;p&gt;An Elezen man stands before a fierce dragon, it roars out and begins to take off in order to gain the advantage. With a massive leap the man lands atop the dragon and forces it back to the ground, creating an opening for his allies.&lt;/p&gt;
+&lt;p class="indent"&gt;A Hyur cloaked in scale mail whirl's their spear around a cluster of enemies keeping them at bay. When the time is right they unleash a plume of fiery breath from beneath their helm, singing their targets.&lt;/p&gt;
+&lt;p class="indent"&gt;A Viera woman runs and leaps high into the sky, magical wings forming on her body. With grace, she travels the currents of the wind, happily flying about as she exercises her new found freedom.&lt;/p&gt;
+&lt;p class="indent"&gt;These fearless warriors stand against dragons, demons, fiends and any other threats who would raise a hand against their homelands. Dragoons use their command of both the sky and ground to strike down their foes with deadly strikes.&lt;/p&gt;
+&lt;h4&gt;Dragonbane&lt;/h4&gt;
+&lt;p&gt;The Dragoon was a soldier born out of need in a distant land. Their homeland has been locked in a war against dragon kind for hundreds of years, leading to their soldiers to specialize in battling back against dragons. Their most notable ability is the Dragoon Jump, which is powered by a magical gem each Dragoon receives upon completing their basic training.&lt;/p&gt;
+&lt;h4&gt;Masters of the Sky&lt;/h4&gt;
+&lt;p&gt;The Dragoons have been blessed with the ability to soar high into the air like those they have taken up arms to destroy. These warriors are able to crash down from the sky using their weapons and body weight to drive any skyborn into the ground, or cause great damage to those already on land. Wings will not grant you safety from a Dragoon.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;/p&gt;
+&lt;h4&gt;CREATING A Dragoon&lt;/h4&gt;
+&lt;p&gt;When creating a Dragoon, consider what brought them down the path of a specialized knight. They may have shown a certain aptitude which allowed them to become a dragoon with ease, or perhaps were born into the role due to the history of their homeland. A dragoon may have decided upon this path due to the stories of famed dragoons of legends, hoping to become as powerful and respected as the knights they had heard about while they were growing up.&lt;/p&gt;
+&lt;p class="indent"&gt;Consider why a Dragoon would choose to head out on an adventure. Are they seeking a specific dragon, hoping to slay an enemy of their nation? Could your dragoon have unfinished business with a dragon from their past? Sometimes a dragoon may set out for the sake of journeying around the land.&lt;/p&gt;
+&lt;h5 class="caption"&gt;QUICK BUILD&lt;/h5&gt;
+&lt;p&gt;You can make a Dragoon quickly by following these suggestions. First, make Strength your highest ability score, following with Dexterity. Second take the Soldier background.&lt;/p&gt;
+&lt;h2&gt;CLASS FEATURES&lt;/h2&gt;
+&lt;p&gt;As an dragoon, you gain the following class features.&lt;/p&gt;
+&lt;h5 class="caption"&gt;HIT POINTS&lt;/h5&gt;
+&lt;ul class="unstyled"&gt;
+&lt;li&gt;&lt;strong&gt;Hit Dice:&lt;/strong&gt; 1d10 per dragoon level&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hit Points at 1st Level:&lt;/strong&gt; 10 + your Constitution modifier&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hit Points at Higher Levels:&lt;/strong&gt; 1d10 (or 6) + your Constitution modifier per dragoon level after 1st&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 class="caption"&gt;PROFICIENCIES&lt;/h5&gt;
+&lt;ul class="unstyled mb"&gt;
+&lt;li&gt;&lt;strong&gt;Armor:&lt;/strong&gt; Light and Medium armour, shields.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weapons:&lt;/strong&gt; Simple weapons and Martial weapons&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; None.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="unstyled"&gt;
+&lt;li&gt;&lt;strong&gt;Saving Throws:&lt;/strong&gt; Strength, Dexterity&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skills:&lt;/strong&gt; Choose two from Animal Handling, Athletics, Acrobatics, History, Nature, Perception, Religion, Survival.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 class="caption"&gt;EQUIPMENT&lt;/h5&gt;
+&lt;p&gt;You start with the following equipment, in addition to the equipment granted by your background:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(a) scale mail or (b) leather armor&lt;/li&gt;
+&lt;li&gt;(a) amartial weapon or (b) two spears&lt;/li&gt;
+&lt;li&gt;(a) a short bow and 20 arrows or (b) two hand axes&lt;/li&gt;
+&lt;li&gt;(a) an explorer's pack or (b) a dungeoneer's pack&lt;/li&gt;
+&lt;li&gt;a blessed Dragoon's Stone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- class table here --&gt;
+&lt;h5 class="caption"&gt;THE Dragoon&lt;/h5&gt;
+&lt;table class="class-features"&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td class="col-5"&gt;Level&lt;/td&gt;&lt;td class="col-10"&gt;Trances&lt;/td&gt;&lt;td class="col-60 left"&gt;Features&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt; 1st&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Dragon Trance, Jump&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 2nd&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Fighting Style, Lancet&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 3rd&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Dragoon Archetype&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 4th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 5th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Heavy Thurst, True Thrust&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 6th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Stall&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 7th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 8th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 9th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;High Jump&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Crash Landing&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Chaos Thrust&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Invigorate&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Dragonfire Dive&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Battle Litany&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;One with the Sky&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_TRANCE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_FIGHTING_STYLE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_LANCET" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_ARCHETYPE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ABILITY_SCORE_IMPROVEMENT" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HEAVY_THRUST" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_TRUE_THRUST" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_STALL" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HIGH_JUMP" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CRASH_LANDING" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CHAOS_THRUST" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_INVIGORATE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGONFIRE_DIVE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_BATTLE_LITANY" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ONE_WITH_THE_SKY" /&gt;</html>
+		</description>
+		<setters>
+			<set name="hd">d10</set>
+			<set name="short"> A fearless warrior who stand against dragons, and demons, fiends that use their command of both the sky and ground to strike down their foes with deadly strikes.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+			<select type="Proficiency" name="Skill Proficiency" number="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_TRANCE" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_FIGHTING_STYLE" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_LANCET" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_ARCHETYPE" level="3" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HEAVY_THRUST" level="5" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_TRUE_THRUST" level="5" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_STALL" level="6" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HIGH_JUMP" level="9" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CRASH_LANDING" level="10" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CHAOS_THRUST" level="13" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_INVIGORATE" level="14" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGONFIRE_DIVE" level="17" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_BATTLE_LITANY" level="18" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ONE_WITH_THE_SKY" level="20" />
+		</rules>
+	</element>
+	<element name="Dragon Trance" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_TRANCE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 1st level, you are able to fall into a special trance as a bonus action. Your soul is filled with power from your Dragoon forebears. While under the effects of this trance, your jump height becomes a minimum of 30ft. and your jump distance becomes a minimum of 15ft.&lt;/p&gt;
+&lt;p class="indent"&gt;Your trance lasts for 1 minute. It ends early if you are knocked unconscious or you may end your trance as a bonus action. Some Dragoon abilities may cause your trance to end early. Once you have entered a trance a number of times shown for your dragoon level in the trances column for your dragoon table you must finish a long rest before you can enter a trance again.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>As a bonus action, you fall into a special dragoon trance, that makes your jump height a minimum of 30ft., and jump distance becomes 15ft. Your trance lasts for 1 minute. It ends early if you are knocked unconscious or you may end your trance as a bonus action. Some Dragoon abilities may cause your trance to end early. You may use your trance {{dragon trance}} times before you must finish a long rest before you can enter a trance again.</description>
+		</sheet>
+		<rules>
+			<stat name="dragon trance" value="1" bonus="base" />
+			<stat name="dragon trance" value="level" bonus="bonus" />
+		</rules>
+	</element>
+	<element name="Jump" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP">
+		<description>
+			<html>&lt;p&gt;Also beginning at the 1st level, as an action you are able to perform a jump attack. Through the power of your Dragoon Trance you leap up to 30ft. into the air and land on a creature within 15ft. of your starting position. The creature makes a Dexterity saving throw against your Dive DC as calculated below, taking your weapon damage and bonus damage equal to 1d6 on a failure, and half as much on a success. This bonus damage is increased to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 18th level.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;strong&gt;Dive save DC&lt;/strong&gt; = 8 + your proficiency bonus + your Strength modifier&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;You may not use Jump on a creature who is higher than 30ft. nor does not have at least 5ft. of space above their head. After finishing your Jump, select an empty space adjacent to the target creature to land on. If the creature's size is Huge or larger, you may choose to attempt to land on the creature instead by making a Dexterity saving throw of a difficulty decided by the DM. You do not take fall damage as a result of using the Jump feature. Movement using the Jump feature does not provoke attacks of opportunity.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action, you are able to perform a jump attack under the effects of your Dragon Trance; you leap up to {{jump ft}}ft. into the air and land on a creature within {{jump pos}}ft. of your starting position. The creature makes a Dexterity saving throw against your Dive DC ({{dive:dc}}), taking your weapon damage and bonus damage equal to {{dive damage}}d6 on a failure, and half as much on a success. You may not use Jump on a creature who is higher than 30ft. nor does not have at least 5ft. of space above their head. After finishing your Jump, select an empty space adjacent to the target creature to land on. If the creature's size is Huge or larger, you may choose to attempt to land on the creature instead by making a Dexterity saving throw of a difficulty decided by the DM. You do not take fall damage as a result of using the Jump feature. Movement using the Jump feature does not provoke attacks of opportunity.</description>
+		</sheet>
+		<rules>
+			<stat name="dive damage" value="1" bonus="die" />
+			<stat name="dive damage" value="2" bonus="die" level="5" />
+			<stat name="dive damage" value="3" bonus="die" level="11" />
+			<stat name="dive damage" value="4" bonus="die" level="18" />
+			<stat name="dive:dc" value="8" />
 			<stat name="dive:dc" value="proficiency" />
 			<stat name="dive:dc" value="strength:modifier" />
-            <stat name="jump ft" value="30" bonus="base" />
-            <stat name="jump pos" value="15" bonus="base" />
-        </rules>
-    </element>
-    <element name="Fighting Style" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_FIGHTING_STYLE">
-        <description>
-            <p>Beginning at the 2nd level, you adopt a particular style of fighting as your specialty, Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
-            <h5>Defense</h5>
-            <p>While you are wearing armor, you gain a +1 bonus to AC.</p>
-            <h5>Dueling</h5>
-            <p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
-            <h5>Great Weapon Fighting</h5>
-            <p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the twohanded or versatile property for you to gain this benefit.</p>
-            <h5>Two-Weapon Fighting</h5>
-            <p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
-        </description>
-        <rules>
-            <select type="Class Feature" name="Fighting Style" supports="Fighting Style, Dragoon" />
-        </rules>
-    </element>
-    <element name="Lancet" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_LANCET">
-        <description>
-            <p>Also beginning at 2nd level, while under the effects of Dragoon's Trance, as an action you may make a melee weapon attack that drains your target's vitality. You recover hit points equal to half the damage of your weapon attack rounded up. You can use this feature a number of times equal to your Strength modifier (a minimum of once). You regain any expended uses when you finish a short rest.</p>
-        </description>
-        <sheet action="Action">
-            <description>While under the effects of Dragoon's Trance, as an action you may make a melee weapon attack that drains your target's vitality. You recover hit points equal to half the damage of your weapon attack rounded up. You can use this feature a number of {{strength:modifier}} times (a minimum of once). You regain any expended uses when you finish a short rest.</description>
-        </sheet>
-    </element>
-    <element name="Dragoon Archetype" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_ARCHETYPE">
-        <description>
-            <p>At 3rd level, you select the focus of your training as a dragoon. Some Dragoon's stick to their roots and fight as Dragon Slayers, while some attempt to harness the power of Dragons and combine it with their unique martial abilities becoming Dragon Hearts. Some Dragoon's decide to break away from their dragon hunting roots and attempt to master the skies as Valkyries.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <select type="Archetype" name="Dragoon Archetype" supports="Dragoon Archetype" />
-        </rules>
-    </element>
-    <element name="Ability Score Improvement" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ABILITY_SCORE_IMPROVEMENT">
-        <description>
-			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+			<stat name="jump ft" value="30" bonus="base" />
+			<stat name="jump pos" value="15" bonus="base" />
+		</rules>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_FIGHTING_STYLE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 2nd level, you adopt a particular style of fighting as your specialty, Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.&lt;/p&gt;
+&lt;h5&gt;Defense&lt;/h5&gt;
+&lt;p&gt;While you are wearing armor, you gain a +1 bonus to AC.&lt;/p&gt;
+&lt;h5&gt;Dueling&lt;/h5&gt;
+&lt;p&gt;When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.&lt;/p&gt;
+&lt;h5&gt;Great Weapon Fighting&lt;/h5&gt;
+&lt;p&gt;When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the twohanded or versatile property for you to gain this benefit.&lt;/p&gt;
+&lt;h5&gt;Two-Weapon Fighting&lt;/h5&gt;
+&lt;p&gt;When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Dragoon" />
+		</rules>
+	</element>
+	<element name="Lancet" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_LANCET">
+		<description>
+			<html>&lt;p&gt;Also beginning at 2nd level, while under the effects of Dragoon's Trance, as an action you may make a melee weapon attack that drains your target's vitality. You recover hit points equal to half the damage of your weapon attack rounded up. You can use this feature a number of times equal to your Strength modifier (a minimum of once). You regain any expended uses when you finish a short rest.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>While under the effects of Dragoon's Trance, as an action you may make a melee weapon attack that drains your target's vitality. You recover hit points equal to half the damage of your weapon attack rounded up. You can use this feature a number of {{strength:modifier}} times (a minimum of once). You regain any expended uses when you finish a short rest.</description>
+		</sheet>
+	</element>
+	<element name="Dragoon Archetype" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_ARCHETYPE">
+		<description>
+			<html>&lt;p&gt;At 3rd level, you select the focus of your training as a dragoon. Some Dragoon's stick to their roots and fight as Dragon Slayers, while some attempt to harness the power of Dragons and combine it with their unique martial abilities becoming Dragon Hearts. Some Dragoon's decide to break away from their dragon hunting roots and attempt to master the skies as Valkyries.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Dragoon Archetype" supports="Dragoon Archetype" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ABILITY_SCORE_IMPROVEMENT">
+		<description>
+			<html>&lt;p&gt;When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.&lt;/p&gt;</html>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -208,273 +204,252 @@
 			<select type="Class Feature" name="Improvement Option (Dragoon 19)" supports="Improvement Option,Dragoon,19" level="19" />
 		</rules>
 	</element>
-    <element name="Heavy Thrust" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HEAVY_THRUST">
-        <description>
-            <p>Beginning at the 5th level, as an action you may make a melee weapon attack which deals its weapon and bonus damage twice. You may reroll the weapon damage of either or both hits but must use the new result. On a critical hit, both damage rolls benefit from the critical hit.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action you may make a melee weapon attack which deals its weapon and bonus damage twice. You may reroll the weapon damage of either or both hits but must use the new result. On a critical hit, both damage rolls benefit from the critical hit.</description>
-        </sheet>
-    </element>
-    <element name="True Thrust" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_TRUE_THRUST">
-        <description>
-            <p>Also beginning at the 5th level, as an action you may make a melee weapon attack with double the proficiency bonus on the attack roll.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action you may make a melee weapon attack with double the proficiency bonus on the attack roll.</description>
-        </sheet>
-    </element>
-    <element name="Stall" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_STALL">
-        <description>
-            <p>Beginning at the 6th level, while under the effects of Dragoon Trance, as a bonus action when you reach the peak of any jump, you may pause in place for a moment. At the end of your next turn you continue your fall, allowing you to perform an action while suspended in the air.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>While under the effects of Dragoon Trance, as a bonus action when you reach the peak of any jump, you may pause in place for a moment. At the end of your next turn you continue your fall, allowing you to perform an action while suspended in the air.</description>
-        </sheet>
-    </element>
-    <element name="High Jump" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HIGH_JUMP">
-        <description>
-            <p>Beginning at the 9th level, while under the effects of Dragoon Trance, as an action you leap up to 80ft. into the air. At the start of your next turn, you land on a creature within 30ft. of your starting position. The creature makes a Dexterity saving throw against your Dive DC, taking twice your weapon damage and bonus damage equal to 4d6.</p>
-            <p class="indent">This bonus damage is increased to 6d6 at the 11th level and 8d6 at the 18th level.</p>
-            <p class="indent">You may not use Jump on a creature who is higher than 80ft. nor has at least 5ft. of space above their head. After finishing your Jump, select an empty space adjacent to the target creature to land on. If the creature's size is Huge or larger, you may choose to attempt to land on the creature instead by making a Dexterity saving throw of a difficulty decided by the DM. You do not take fall damage as a result of the High Jump ability. Movement using the High Jump feature does not provoke attacks of opportunity.</p>
-        </description>
-        <sheet>
-            <description>Your Jump has been improved!</description>
-        </sheet>
-        <rules>
-            <stat name="dive damage" value="4" bonus="die" />
-            <stat name="dive damage" value="6" bonus="die" level="11" />
-            <stat name="dive damage" value="8" bonus="die" level="18" />
-            <stat name="jump ft" value="50" bonus="bonus" />
-            <stat name="jump pos" value="15" bonus="bonus" />
-        </rules>
-    </element>
-    <element name="Crash Landing" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CRASH_LANDING">
-        <description>
-            <p>Beginning at the 10th level, when you complete a successful Spineshatter dive or High Jump, if the target creature has a flying speed, it is reduced to 0ft. for a number of rounds equal to your Strength modifier.</p>
-        </description>
-        <sheet>
-            <description>Beginning at the 10th level, when you complete a successful Spineshatter dive or High Jump, if the target creature has a flying speed, it is reduced to 0ft. for a number of rounds equal to your Strength modifier.</description>
-        </sheet>
-    </element>
-    <element name="Chaos Thrust" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CHAOS_THRUST">
-        <description>
-            <p>Beginning at the 13th level, as an action you make a melee weapon attack. If your attack is successful, the creature must make a Constitution saving throw against your Dive DC, beginning to bleed on a failure, taking 1d8 piercing damage at the start of their turn. As an action, the creature may reattempt to pass the saving throw to stop the bleeding. A creature will bleed for a number of rounds equal to your Strength modifier.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action you make a melee weapon attack. If your attack is successful, the creature must make a Constitution saving throw against your Dive DC, beginning to bleed on a failure, taking 1d8 piercing damage at the start of their turn. As an action, the creature may reattempt to pass the saving throw to stop the bleeding. A creature will bleed for a number of rounds equal to your Strength modifier.</description>
-        </sheet>
-    </element>
-    <element name="Invigorate" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_INVIGORATE">
-        <description>
-            <p>Beginning at the 14th level, when you fail a saving throw you may choose to reroll the saving throw. You must use the new number. You can use this feature twice. You regain any expended uses when you finish a long rest.</p>
-        </description>
-        <sheet usage="2/Long Rest">
-            <description>Beginning at the 14th level, when you fail a saving throw you may choose to reroll the saving throw. You must use the new number. You can use this feature twice. You regain any expended uses when you finish a long rest.</description>
-        </sheet>
-    </element>
-    <element name="Dragonfire Dive" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGONFIRE_DIVE">
-        <description>
-            <p>Beginning at the 17th level, when you use your Jump or High Jump action, you can empower the attack with fiery fury. The bonus damage on the dive is increased to 8d8 fire damage. All creatures within 20ft. of the target creature take this bonus damage and must make a Dexterity saving throw against the Dive DC, taking the full bonus damage on a failure and half as much on a success. Your Dragoon Trance ends after performing a Dragonfire Dive.</p>
-        </description>
-        <sheet>
-            <description>When you use your Jump or High Jump action, you can empower the attack with fiery fury. The bonus damage on the dive is increased to 8d8 fire damage. All creatures within 20ft. of the target creature take this bonus damage and must make a Dexterity saving throw against the Dive DC, taking the full bonus damage on a failure and half as much on a success. Your Dragoon Trance ends after performing a Dragonfire Dive.</description>
-        </sheet>
-    </element>
-    <element name="Battle Litany" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_BATTLE_LITANY">
-        <description>
-            <p>Beginning at the 18th level, while you are under the effects of Dragoon's Trance, as a bonus action you can inspire the ferocity of yourself and your allies. Your melee weapon attacks and those of your allies who are within 10ft. of you land critical hits on die results 19 or 20 for a number of rounds equal to half your Strength modifier. This does not overwrite or add to already present critical hit range increases. This effect may be activated once each time you enter a new Dragoon's Trance.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>While you are under the effects of Dragoon's Trance, as a bonus action you can inspire the ferocity of yourself and your allies. Your melee weapon attacks and those of your allies who are within 10ft. of you land critical hits on die results 19 or 20 for a number of rounds equal to half your Strength modifier. This does not overwrite or add to already present critical hit range increases. This effect may be activated once each time you enter a new Dragoon's Trance.</description>
-        </sheet>
-    </element>
-    <element name="One with the Sky" type="Class Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ONE_WITH_THE_SKY">
-        <description>
-            <p>Beginning at the 20th level, when you roll initiative, you gain two uses of Dragoon's Trance.</p>
-        </description>
-        <sheet>
-            <description>When you roll initiative, you gain two uses of Dragoon's Trance.</description>
-        </sheet>
-    </element>
-
-    <!-- Archetypes -->
-    <element name="Dragon Slayer" type="Archetype" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRG_DRAGON_SLAYER">
-        <supports>Dragoon Archetype</supports>
-        <description>
-            <p>Dragoons find their roots in war against dragons, but over time it became a discipline with a less singular focus. That is the case for some anyways, but the Dragon Slayer has fully dedicated themselves to plunging into battle with some of the most feared beasts that exist. Experts in piercing tough hide and laying great beasts low, Dragon Slayers are able to ply their violent craft against all kinds of foes.</p>
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_SPINESHATTER_DIVE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_LORE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRACHENLANCE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGONS_BANE" />
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_SPINESHATTER_DIVE" level="3" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_LORE" level="7" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRACHENLANCE" level="11" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGONS_BANE" level="15" />
-        </rules>
-    </element>
-    <element name="Spineshatter Dive" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_SPINESHATTER_DIVE">
-        <description>
-            <p>Beginning at the 3rd level, when you use your Jump feature, you can empower the attack to disable the target creature. When you do so, if the creature fails its Dexterity saving throw, it becomes stunned until the end of your next turn and you double the bonus damage of the Jump. When you use this feature, your Dragoon Trance ends after completing your Jump.</p>
-        </description>
-        <sheet>
-            <description>When you use your Jump feature, you can empower the attack to disable the target creature. When you do so, if the creature fails its Dexterity saving throw, it becomes stunned until the end of your next turn and you double the bonus damage of the Jump. When you use this feature, your Dragoon Trance ends after completing your Jump.</description>
-        </sheet>
-    </element>
-    <element name="Dragon Lore" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_LORE">
-        <description>
-            <p>Beginning at the 7th level, you have gained a wealth of knowledge about dragons. You have proficiency in History, Nature and Perception checks when the check involves dragons, and you add the Draconic language to your known languages.</p>
-        </description>
-        <sheet>
-            <description>You have proficiency in History, Nature and Perception checks when the check involves dragons, and you add the Draconic language to your known languages.</description>
-        </sheet>
-        <rules>
-            <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
-        </rules>
-    </element>
-    <element name="Drachenlance" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRACHENLANCE">
-        <description>
-            <p>Beginning at the 11th level, as an action you make a special lance attack which focuses on piercing tough defenses. Your attack roll is contested by 10 + the target's Dexterity modifier.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action you make a special lance attack which focuses on piercing tough defenses. Your attack roll is contested by 10 + the target's Dexterity modifier.</description>
-        </sheet>
-    </element>
-    <element name="Dragon's Bane" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGONS_BANE">
-        <description>
-            <p>Beginning at the 15th level, your expertise at battling dragons has provided you with greater techniques to battle them. When you are subjected to an effect that requires you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage is you fail. Additionally your attacks against dragons deals 3d6 extra damage as you are able to pin point their most vulnerable areas. Against non-dragon creatures your blows still carry extra precision, dealing an additional 1d6 damage.</p>
-        </description>
-        <sheet>
-            <description>When you are subjected to an effect that requires you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage is you fail. Additionally your attacks against dragons deals 3d6 extra damage as you are able to pin point their most vulnerable areas. Against non-dragon creatures your blows still carry extra precision, dealing an additional 1d6 damage.</description>
-        </sheet>
-    </element>
-
-    <element name="Dragon Heart" type="Archetype" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRG_DRAGON_HEART">
-        <supports>Dragoon Archetype</supports>
-        <description>
-            <p>Dragon Hearts are dragoons who've leaned into the draconic origins of their foes and learned how to manipulate the magics latent in their bodies to become more like dragons. These fierce warriors use the breath of a dragon to attack large swaths of foes, while using their training as a Dragoon in combination to emulate a dragon in battle.</p>
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BREATH_OFTHE_DRAGON" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_SENSE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BLOOD_OFTHE_DRAGON" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_LIFE_OFTHE_DRAGON" />
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BREATH_OFTHE_DRAGON" level="3" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_SENSE" level="7" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BLOOD_OFTHE_DRAGON" level="11" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_LIFE_OFTHE_DRAGON" level="15" />
-        </rules>
-    </element>
-    <element name="Breath of the Dragon" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BREATH_OFTHE_DRAGON">
-        <description>
-            <p>Beginning at the 3rd level, as a bonus action, you may expand a use of your Dragoon's Trance in order to cast the Dragon's Breath spell on yourself at the 2nd level. At 9th level you cast this spell at the 3rd level, and at the 17th level you cast this spell at the 4th level. Strength is your spell casting ability for this spell.</p>
-            <div class="reference">
-                <div element="ID_XGTE_SPELL_DRAGONS_BREATH" />
-            </div>
-        </description>
-        <sheet action="Bonus Action">
-            <description>As a bonus action, you may expand a use of your Dragoon's Trance in order to cast the Dragon's Breath spell on yourself at the 2nd level. At 9th level you cast this spell at the 3rd level, and at the 17th level you cast this spell at the 4th level. Strength is your spell casting ability for this spell.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_XGTE_SPELL_DRAGONS_BREATH" />
-        </rules>
-    </element>
-    <element name="Dragon Sense" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_SENSE">
-        <description>
-            <p>Beginning at the 7th level, you've gained the senses which are akin to a dragon. You've gained 30ft. of blindsight and 60ft. of darksight. Additionally during battle as a bonus action you may make a perception check.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>You gain 30ft. of blindsight and 60ft. of darkvision. During battle as a bonus action you may make a perception check.</description>
-        </sheet>
-        <rules>
-            <grant type="Vision" id="ID_VISION_DARKVISION" />
-        </rules>
-    </element>
-    <element name="Blood of the Dragon" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BLOOD_OFTHE_DRAGON">
-        <description>
-            <p>Beginning at the 11th level, you fight with the ferocity of a dragon now. When you use your Dragoon's Trance ability, you gain 10 temporary hit points and the spell casting and concentration restriction of Dragoon's Trance is lifted from the Dragon's Breath spell. The temporary hit points fade when your trance ends.</p>
-        </description>
-        <sheet>
-            <description>When you use your Dragoon's Trance ability, you gain 10 temporary hit points and the spell casting and concentration restriction of Dragoon's Trance is lifted from the Dragon's Breath spell. The temporary hit points fade when your trance ends.</description>
-        </sheet>
-    </element>
-    <element name="Life of the Dragon" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_LIFE_OFTHE_DRAGON">
-        <description>
-            <p>Beginning at the 15th level, while you are under the effect of both Dragoon's Trance and Breath of the Dragon, you are able to combine these powers to fight like a legendary dragon. You may use the effect of the Dragon Breath spell as a bonus action on your turn.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>While you are under the effect of both Dragoon's Trance and Breath of the Dragon, you are able to combine these powers to fight like a legendary dragon. You may use the effect of the Dragon Breath spell as a bonus action on your turn.</description>
-        </sheet>
-    </element>
-    
-    <element name="Valkyrie" type="Archetype" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRG_VALKYRIE">
-        <supports>Dragoon Archetype</supports>
-        <description>
-            <p>Valkyries have chosen to distance themselves from the Dragoon's roots and instead seek to be masters of the skies themselves. Using swift movements and the power of flight, Valkyires are able to move quickly in and out of battle with power and a certain grace.</p>
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_CRESCENT_MOON_STRIKE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_FLIGHT_OFTHE_DRAGON" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_VALKYRIE_STRIKE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_STARDIVER" />
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_CRESCENT_MOON_STRIKE" level="3" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_FLIGHT_OFTHE_DRAGON" level="7" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_VALKYRIE_STRIKE" level="11" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_STARDIVER" level="15" />
-        </rules>
-    </element>
-    <element name="Crescent Moon Strike" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_CRESCENT_MOON_STRIKE">
-        <description>
-            <p>Beginning at the 3rd level, when you make the Attack action, if there is a creature directly beside your target, you may roll a second attack roll against that creature as a bonus action. You do not receive an ability modifier bonus on the damage roll for this attack.</p>
-        </description>
-        <sheet action="Action">
-            <description>When you make the Attack action, if there is a creature directly beside your target, you may roll a second attack roll against that creature as a bonus action. You do not receive an ability modifier bonus on the damage roll for this attack.</description>
-        </sheet>
-    </element>
-    <element name="Flight of the Dragon" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_FLIGHT_OFTHE_DRAGON">
-        <description>
-            <p>Beginning at the 7th level, you are able to expend two uses of Dragoon's Trance to gain 60ft. of flying speed for the duration of the Trance. When you do so, an ethereal pair of dragon's wings sprout from your back. You may use your Jump and High Jump features while in flight, using your place in the air as your starting position.</p>
-        </description>
-        <sheet>
-            <description>You are able to expend two uses of Dragoon's Trance to gain 60ft. of flying speed for the duration of the Trance. When you do so, an ethereal pair of dragon's wings sprout from your back. You may use your Jump and High Jump features while in flight, using your place in the air as your starting position.</description>
-        </sheet>
-    </element>
-    <element name="Valkyrie Strike" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_VALKYRIE_STRIKE">
-        <description>
-            <p>Beginning at the 11th level, you don't provoke opportunity attacks when you fly out of enemies reach.</p>
-        </description>
-        <sheet>
-            <description>You don't provoke opportunity attacks when you fly out of enemies reach.</description>
-        </sheet>
-    </element>
-    <element name="Stardiver" type="Archetype Feature" source="FFXIV Dungeons and Dragons" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_STARDIVER">
-        <description>
-            <p>Beginning at the 15th level, while under the effects of Flight of the Dragon, as an action you use your High Jump feature, but may complete the attack in the same turn you start your dive. If you do so, you expend one use of Dragoon Trance.</p>
-        </description>
-        <sheet action="Action">
-            <description>As an action, you use your (High) Jump feature, but may complete the attack in the same turn you start your dive. If you do so, you expend one use of Dragoon Trance.</description>
-        </sheet>
-    </element>
-    
-
-    <!-- Append for Fighting Styles -->
-    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
-        <supports>Dragoon</supports>
-    </append>
-    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
-        <supports>Dragoon</supports>
-    </append>
-    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
-        <supports>Dragoon</supports>
-    </append>
-    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
-        <supports>Dragoon</supports>
-    </append>
-    
-    
+	<element name="Heavy Thrust" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HEAVY_THRUST">
+		<description>
+			<html>&lt;p&gt;Beginning at the 5th level, as an action you may make a melee weapon attack which deals its weapon and bonus damage twice. You may reroll the weapon damage of either or both hits but must use the new result. On a critical hit, both damage rolls benefit from the critical hit.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action you may make a melee weapon attack which deals its weapon and bonus damage twice. You may reroll the weapon damage of either or both hits but must use the new result. On a critical hit, both damage rolls benefit from the critical hit.</description>
+		</sheet>
+	</element>
+	<element name="True Thrust" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_TRUE_THRUST">
+		<description>
+			<html>&lt;p&gt;Also beginning at the 5th level, as an action you may make a melee weapon attack with double the proficiency bonus on the attack roll.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action you may make a melee weapon attack with double the proficiency bonus on the attack roll.</description>
+		</sheet>
+	</element>
+	<element name="Stall" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_STALL">
+		<description>
+			<html>&lt;p&gt;Beginning at the 6th level, while under the effects of Dragoon Trance, as a bonus action when you reach the peak of any jump, you may pause in place for a moment. At the end of your next turn you continue your fall, allowing you to perform an action while suspended in the air.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While under the effects of Dragoon Trance, as a bonus action when you reach the peak of any jump, you may pause in place for a moment. At the end of your next turn you continue your fall, allowing you to perform an action while suspended in the air.</description>
+		</sheet>
+	</element>
+	<element name="High Jump" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_HIGH_JUMP">
+		<description>
+			<html>&lt;p&gt;Beginning at the 9th level, while under the effects of Dragoon Trance, as an action you leap up to 80ft. into the air. At the start of your next turn, you land on a creature within 30ft. of your starting position. The creature makes a Dexterity saving throw against your Dive DC, taking twice your weapon damage and bonus damage equal to 4d6.&lt;/p&gt;
+&lt;p class="indent"&gt;This bonus damage is increased to 6d6 at the 11th level and 8d6 at the 18th level.&lt;/p&gt;
+&lt;p class="indent"&gt;You may not use Jump on a creature who is higher than 80ft. nor has at least 5ft. of space above their head. After finishing your Jump, select an empty space adjacent to the target creature to land on. If the creature's size is Huge or larger, you may choose to attempt to land on the creature instead by making a Dexterity saving throw of a difficulty decided by the DM. You do not take fall damage as a result of the High Jump ability. Movement using the High Jump feature does not provoke attacks of opportunity.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your Jump has been improved!</description>
+		</sheet>
+		<rules>
+			<stat name="dive damage" value="4" bonus="die" />
+			<stat name="dive damage" value="6" bonus="die" level="11" />
+			<stat name="dive damage" value="8" bonus="die" level="18" />
+			<stat name="jump ft" value="50" bonus="bonus" />
+			<stat name="jump pos" value="15" bonus="bonus" />
+		</rules>
+	</element>
+	<element name="Crash Landing" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CRASH_LANDING">
+		<description>
+			<html>&lt;p&gt;Beginning at the 10th level, when you complete a successful Spineshatter dive or High Jump, if the target creature has a flying speed, it is reduced to 0ft. for a number of rounds equal to your Strength modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Beginning at the 10th level, when you complete a successful Spineshatter dive or High Jump, if the target creature has a flying speed, it is reduced to 0ft. for a number of rounds equal to your Strength modifier.</description>
+		</sheet>
+	</element>
+	<element name="Chaos Thrust" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_CHAOS_THRUST">
+		<description>
+			<html>&lt;p&gt;Beginning at the 13th level, as an action you make a melee weapon attack. If your attack is successful, the creature must make a Constitution saving throw against your Dive DC, beginning to bleed on a failure, taking 1d8 piercing damage at the start of their turn. As an action, the creature may reattempt to pass the saving throw to stop the bleeding. A creature will bleed for a number of rounds equal to your Strength modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action you make a melee weapon attack. If your attack is successful, the creature must make a Constitution saving throw against your Dive DC, beginning to bleed on a failure, taking 1d8 piercing damage at the start of their turn. As an action, the creature may reattempt to pass the saving throw to stop the bleeding. A creature will bleed for a number of rounds equal to your Strength modifier.</description>
+		</sheet>
+	</element>
+	<element name="Invigorate" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_INVIGORATE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 14th level, when you fail a saving throw you may choose to reroll the saving throw. You must use the new number. You can use this feature twice. You regain any expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="2/Long Rest">
+			<description>Beginning at the 14th level, when you fail a saving throw you may choose to reroll the saving throw. You must use the new number. You can use this feature twice. You regain any expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Dragonfire Dive" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGONFIRE_DIVE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 17th level, when you use your Jump or High Jump action, you can empower the attack with fiery fury. The bonus damage on the dive is increased to 8d8 fire damage. All creatures within 20ft. of the target creature take this bonus damage and must make a Dexterity saving throw against the Dive DC, taking the full bonus damage on a failure and half as much on a success. Your Dragoon Trance ends after performing a Dragonfire Dive.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you use your Jump or High Jump action, you can empower the attack with fiery fury. The bonus damage on the dive is increased to 8d8 fire damage. All creatures within 20ft. of the target creature take this bonus damage and must make a Dexterity saving throw against the Dive DC, taking the full bonus damage on a failure and half as much on a success. Your Dragoon Trance ends after performing a Dragonfire Dive.</description>
+		</sheet>
+	</element>
+	<element name="Battle Litany" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_BATTLE_LITANY">
+		<description>
+			<html>&lt;p&gt;Beginning at the 18th level, while you are under the effects of Dragoon's Trance, as a bonus action you can inspire the ferocity of yourself and your allies. Your melee weapon attacks and those of your allies who are within 10ft. of you land critical hits on die results 19 or 20 for a number of rounds equal to half your Strength modifier. This does not overwrite or add to already present critical hit range increases. This effect may be activated once each time you enter a new Dragoon's Trance.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While you are under the effects of Dragoon's Trance, as a bonus action you can inspire the ferocity of yourself and your allies. Your melee weapon attacks and those of your allies who are within 10ft. of you land critical hits on die results 19 or 20 for a number of rounds equal to half your Strength modifier. This does not overwrite or add to already present critical hit range increases. This effect may be activated once each time you enter a new Dragoon's Trance.</description>
+		</sheet>
+	</element>
+	<element name="One with the Sky" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ONE_WITH_THE_SKY">
+		<description>
+			<html>&lt;p&gt;Beginning at the 20th level, when you roll initiative, you gain two uses of Dragoon's Trance.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you roll initiative, you gain two uses of Dragoon's Trance.</description>
+		</sheet>
+	</element>
+	<element name="Dragon Slayer" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRG_DRAGON_SLAYER">
+		<supports>Dragoon Archetype</supports>
+		<description>
+			<html>&lt;p&gt;Dragoons find their roots in war against dragons, but over time it became a discipline with a less singular focus. That is the case for some anyways, but the Dragon Slayer has fully dedicated themselves to plunging into battle with some of the most feared beasts that exist. Experts in piercing tough hide and laying great beasts low, Dragon Slayers are able to ply their violent craft against all kinds of foes.&lt;/p&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_SPINESHATTER_DIVE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_LORE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRACHENLANCE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGONS_BANE" /&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_SPINESHATTER_DIVE" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_LORE" level="7" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRACHENLANCE" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGONS_BANE" level="15" />
+		</rules>
+	</element>
+	<element name="Spineshatter Dive" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_SPINESHATTER_DIVE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 3rd level, when you use your Jump feature, you can empower the attack to disable the target creature. When you do so, if the creature fails its Dexterity saving throw, it becomes stunned until the end of your next turn and you double the bonus damage of the Jump. When you use this feature, your Dragoon Trance ends after completing your Jump.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you use your Jump feature, you can empower the attack to disable the target creature. When you do so, if the creature fails its Dexterity saving throw, it becomes stunned until the end of your next turn and you double the bonus damage of the Jump. When you use this feature, your Dragoon Trance ends after completing your Jump.</description>
+		</sheet>
+	</element>
+	<element name="Dragon Lore" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_LORE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 7th level, you have gained a wealth of knowledge about dragons. You have proficiency in History, Nature and Perception checks when the check involves dragons, and you add the Draconic language to your known languages.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have proficiency in History, Nature and Perception checks when the check involves dragons, and you add the Draconic language to your known languages.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+		</rules>
+	</element>
+	<element name="Drachenlance" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRACHENLANCE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 11th level, as an action you make a special lance attack which focuses on piercing tough defenses. Your attack roll is contested by 10 + the target's Dexterity modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action you make a special lance attack which focuses on piercing tough defenses. Your attack roll is contested by 10 + the target's Dexterity modifier.</description>
+		</sheet>
+	</element>
+	<element name="Dragon's Bane" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGONS_BANE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 15th level, your expertise at battling dragons has provided you with greater techniques to battle them. When you are subjected to an effect that requires you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage is you fail. Additionally your attacks against dragons deals 3d6 extra damage as you are able to pin point their most vulnerable areas. Against non-dragon creatures your blows still carry extra precision, dealing an additional 1d6 damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you are subjected to an effect that requires you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage is you fail. Additionally your attacks against dragons deals 3d6 extra damage as you are able to pin point their most vulnerable areas. Against non-dragon creatures your blows still carry extra precision, dealing an additional 1d6 damage.</description>
+		</sheet>
+	</element>
+	<element name="Dragon Heart" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRG_DRAGON_HEART">
+		<supports>Dragoon Archetype</supports>
+		<description>
+			<html>&lt;p&gt;Dragon Hearts are dragoons who've leaned into the draconic origins of their foes and learned how to manipulate the magics latent in their bodies to become more like dragons. These fierce warriors use the breath of a dragon to attack large swaths of foes, while using their training as a Dragoon in combination to emulate a dragon in battle.&lt;/p&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BREATH_OFTHE_DRAGON" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_SENSE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BLOOD_OFTHE_DRAGON" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_LIFE_OFTHE_DRAGON" /&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BREATH_OFTHE_DRAGON" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_SENSE" level="7" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BLOOD_OFTHE_DRAGON" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_LIFE_OFTHE_DRAGON" level="15" />
+		</rules>
+	</element>
+	<element name="Breath of the Dragon" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BREATH_OFTHE_DRAGON">
+		<description>
+			<html>&lt;p&gt;Beginning at the 3rd level, as a bonus action, you may expand a use of your Dragoon's Trance in order to cast the Dragon's Breath spell on yourself at the 2nd level. At 9th level you cast this spell at the 3rd level, and at the 17th level you cast this spell at the 4th level. Strength is your spell casting ability for this spell.&lt;/p&gt;
+&lt;div class="reference"&gt;
+&lt;div element="ID_XGTE_SPELL_DRAGONS_BREATH" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>As a bonus action, you may expand a use of your Dragoon's Trance in order to cast the Dragon's Breath spell on yourself at the 2nd level. At 9th level you cast this spell at the 3rd level, and at the 17th level you cast this spell at the 4th level. Strength is your spell casting ability for this spell.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_DRAGONS_BREATH" />
+		</rules>
+	</element>
+	<element name="Dragon Sense" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_DRAGON_SENSE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 7th level, you've gained the senses which are akin to a dragon. You've gained 30ft. of blindsight and 60ft. of darksight. Additionally during battle as a bonus action you may make a perception check.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You gain 30ft. of blindsight and 60ft. of darkvision. During battle as a bonus action you may make a perception check.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	<element name="Blood of the Dragon" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_BLOOD_OFTHE_DRAGON">
+		<description>
+			<html>&lt;p&gt;Beginning at the 11th level, you fight with the ferocity of a dragon now. When you use your Dragoon's Trance ability, you gain 10 temporary hit points and the spell casting and concentration restriction of Dragoon's Trance is lifted from the Dragon's Breath spell. The temporary hit points fade when your trance ends.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you use your Dragoon's Trance ability, you gain 10 temporary hit points and the spell casting and concentration restriction of Dragoon's Trance is lifted from the Dragon's Breath spell. The temporary hit points fade when your trance ends.</description>
+		</sheet>
+	</element>
+	<element name="Life of the Dragon" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_LIFE_OFTHE_DRAGON">
+		<description>
+			<html>&lt;p&gt;Beginning at the 15th level, while you are under the effect of both Dragoon's Trance and Breath of the Dragon, you are able to combine these powers to fight like a legendary dragon. You may use the effect of the Dragon Breath spell as a bonus action on your turn.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While you are under the effect of both Dragoon's Trance and Breath of the Dragon, you are able to combine these powers to fight like a legendary dragon. You may use the effect of the Dragon Breath spell as a bonus action on your turn.</description>
+		</sheet>
+	</element>
+	<element name="Valkyrie" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_DRG_VALKYRIE">
+		<supports>Dragoon Archetype</supports>
+		<description>
+			<html>&lt;p&gt;Valkyries have chosen to distance themselves from the Dragoon's roots and instead seek to be masters of the skies themselves. Using swift movements and the power of flight, Valkyires are able to move quickly in and out of battle with power and a certain grace.&lt;/p&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_CRESCENT_MOON_STRIKE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_FLIGHT_OFTHE_DRAGON" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_VALKYRIE_STRIKE" /&gt;
+&lt;div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_STARDIVER" /&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_CRESCENT_MOON_STRIKE" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_FLIGHT_OFTHE_DRAGON" level="7" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_VALKYRIE_STRIKE" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_STARDIVER" level="15" />
+		</rules>
+	</element>
+	<element name="Crescent Moon Strike" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_CRESCENT_MOON_STRIKE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 3rd level, when you make the Attack action, if there is a creature directly beside your target, you may roll a second attack roll against that creature as a bonus action. You do not receive an ability modifier bonus on the damage roll for this attack.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>When you make the Attack action, if there is a creature directly beside your target, you may roll a second attack roll against that creature as a bonus action. You do not receive an ability modifier bonus on the damage roll for this attack.</description>
+		</sheet>
+	</element>
+	<element name="Flight of the Dragon" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_FLIGHT_OFTHE_DRAGON">
+		<description>
+			<html>&lt;p&gt;Beginning at the 7th level, you are able to expend two uses of Dragoon's Trance to gain 60ft. of flying speed for the duration of the Trance. When you do so, an ethereal pair of dragon's wings sprout from your back. You may use your Jump and High Jump features while in flight, using your place in the air as your starting position.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You are able to expend two uses of Dragoon's Trance to gain 60ft. of flying speed for the duration of the Trance. When you do so, an ethereal pair of dragon's wings sprout from your back. You may use your Jump and High Jump features while in flight, using your place in the air as your starting position.</description>
+		</sheet>
+	</element>
+	<element name="Valkyrie Strike" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_VALKYRIE_STRIKE">
+		<description>
+			<html>&lt;p&gt;Beginning at the 11th level, you don't provoke opportunity attacks when you fly out of enemies reach.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You don't provoke opportunity attacks when you fly out of enemies reach.</description>
+		</sheet>
+	</element>
+	<element name="Stardiver" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DRG_STARDIVER">
+		<description>
+			<html>&lt;p&gt;Beginning at the 15th level, while under the effects of Flight of the Dragon, as an action you use your High Jump feature, but may complete the attack in the same turn you start your dive. If you do so, you expend one use of Dragoon Trance.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>As an action, you use your (High) Jump feature, but may complete the attack in the same turn you start your dive. If you do so, you expend one use of Dragoon Trance.</description>
+		</sheet>
+	</element>
 </elements>

@@ -1,408 +1,406 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <info>
-    <name>Spells</name>
-    <update version="0.1.5">
-      <file name="spells.xml" url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
-    </update>
-  </info>
-
-  <element name="Assize" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_ASSIZE">
-    <supports>White Mage</supports>
-    <description>
-      <p>An eruption of energy from your body soothes allies and wounds enemies. All allies within 60ft. recover 3d8 hit points and all enemies within 60ft. must make a wisdom saving throw. They take 4d4 radiant damage, and half as much on a successful save. You may reverse which die affect healing and which die deal radiant damage, but must make this distinction before rolling.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, increase the number of die for each effect for each slot level above 5th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">5</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">60 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-
-  <element name="Asylum" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_ASYLUM">
-    <supports>White Mage</supports>
-    <description>
-      <p>You create a protective field which provides healing to friendly creatures. You create a globe of holy energy with a radius of 10ft. within range. All allies within the affected area recover 1d8 hit points at the start of their turn. Additionally, allied creatures within the affected creatures gain resistance to nonmagical slashing, piercing, and bludgeoning damage and necrotic damage.</p>
-      <p class="indent">When you cast this spell using a spell slot of 6th level or higher, increase the heal by 1d8 for each slot level above 5th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">5</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">concentration, 1 minute</set>
-      <set name="range">60 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Banish" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_BANISH">
-    <supports>White Mage</supports>
-    <description>
-      <p>Light energy converges on a creature you can see within range. The creature makes a dexterity saving throw. This energy erupts with great force, searing the target creature with 3d6 radiant damage on a failed save and half as much on a successful save.</p>
-      <p class="indent">When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d6 for each slot level above 2nd.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneuous</set>
-      <set name="range">120 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Celestial Opposition" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_CELESTIAL_OPPOSITION">
-    <supports>Astrologian</supports>
-    <description>
-      <p>You release a massive amount of astral energy in a 30ft. radius globe centered on you. The inside of the globe is dimly lit, and filled with softly glowing lights which map the starry sky. On this release, all enemies coming in contact with the sphere are star struck and must make a wisdom saving throw. Enemies take 6d8 force damage and are stunned for 1d4 rounds on a failed saved, and half the damage is taken and they resist becoming stunned on a success.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">8</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">concentration, 1 minute</set>
-      <set name="range">Self</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Collective Unconscious" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_COLLECTIVE_UNCONSCIOUS">
-    <supports>Astrologian</supports>
-    <description>
-      <p>You create a magical barrier around yourself. The barrier is 10ft. in radius and spherical. All allies within 10ft. of you are healed immediately for 3d8. As long as they remain in the barrier, their AC receives a +1 bonus and each time they start their turn within the barrier they are healed for 1d6 hit points.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the heal increases by 1d6 for each slot level above 5th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">5</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">concentration, 1 minute</set>
-      <set name="range">Self</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Dark" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_DARK">
-    <supports>Reaper</supports>
-    <description>
-      <p>You form an orb of necrotic energy in the palm of your hand and fire it at a target within range, making a ranged spell attack. If the attack hits, the creature takes 3d8 necrotic damage.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">90 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Darkra" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_DARKRA">
-    <supports>Reaper</supports>
-    <description>
-      <p>You fill your limb with necrotic energy and swing it out in an arcing motion, causing a wave of energy to burst out towards in a con. All creatures in a 30ft. cone originating on you make a Dexterity saving throw against your spell save DC. On a failure they take 3d8 necrotic damage and half as much on a success.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">2</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Darkga" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_DARKGA">
-    <supports>Reaper</supports>
-    <description>
-      <p>You concentrate necrotic energy in the earth beneath a target creature in range you can see. All creatures within a 20ft. radius of the creature must make a Dexterity saving throw against your spell save DC, taking 8d6 necrotic damage on a failure and half as much on a success.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">3</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">120 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Doton" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_DOTON">
-    <supports>Ninja</supports>
-    <description>
-      <p class="indent">You draw out the energies of Ten to create a circle of corrupted earth on the ground centered at a point of your choosing within range. The circle has a radius of 10ft. and is considered to be difficult terrain for all creatures except for you. Creatures take 4d4 necrotic damage for every 5ft. they travel within Doton. When Doton appears, all creatures within the ring make a Dexterity saving throw, taking 4d4 necrotic damage and half as much on a successful save. You are unaffected by this damage.</p>
-      <p class="indent">At Higher Levels When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d4 for each slot level above 4th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">4</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">1 minute</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Drain" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_DOTON">
-    <supports>Reaper</supports>
-    <description>
-      <p class="indent">Forcefully draw the life force from a creature within range. The target creature makes a Charisma saving throw against your spell save DC, taking 1d8 necrotic damage on a failure and half as much on a success. You recover hit points equal to half the damage dealt.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Necromancy</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Flare" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_FLARE">
-    <supports>Reaper</supports>
-    <description>
-      <p class="indent">You select a target within range, and create a point of energy on their body. Fiery energy explodes from their location in a 40ft. globe, incinerating all creatures within the globe. All affected creatures make a Dexterity saving throw, taking 20d6 fire damage and 20d6 force damage on a failed saving throw and half as much on a success.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">9</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">120 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Gravity" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_GRAVITY">
-    <supports>Astrologian</supports>
-    <description>
-      <p class="indent">You conjure the energies of the stars through your arcane focus to temporarily create a small, dense celestial body at a point in space within range. A spherical gravitational field appears around the body with 20ft. radius and produces a pulsing sound. Each creature within the field must make a Dexterity saving throw. A target takes 10d6 force damage on a failed save, and half as much on a successful one.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">5</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">150 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Holy" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_HOLY">
-    <supports>Red Mage, White Mage</supports>
-    <description>
-      <p class="indent">You let loose an orb of radiant energy which floats above you for a moment before exploding with great force. All creatures within range must make a Constitution saving throw. Creatures take 6d8 radiant damage and are stunned for one round on a failed save, and take half as much and resist the stun effect on a successful save.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">5</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">self (10ft. radius, caster immune)</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Jolt" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_JOLT">
-    <supports>Red Mage</supports>
-    <description>
-      <p class="indent">A shard of crystallized aether streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 force damage.</p>
-      <p class="indent">The spell creates more than one shard when you reach higher levels: two shards at 5th level, three shards at 11th level, and four shards at 17th level. You can direct the shards at the same target or at different ones. Make a separate attack roll for each shard.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">0</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">60 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Lustrate" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_LUSTRATE">
-    <supports>Scholar</supports>
-    <description>
-      <p>You may cast this spell as an action or as a reaction. This spell cannot be used in tandem with Adloqiuem (Nymian Scholar feature). A target you can see within range is invigorated by a burst of soothing magic. They recover hit points equal to 5d8.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d8 for each slot level above 4th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">4</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action or reaction</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Regen" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_REGEN">
-    <supports>White Mage</supports>
-    <description>
-      <p class="indent">The target's body is enchanted with a blessing which repairs damage to their body over time. For the duration, the creature regains 1d6 hit points at the start of its turn.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d6 for each slot level above 4th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">4</set>
-      <set name="school">Enchantment</set>
-      <set name="time">1 action</set>
-      <set name="duration">1 minute</set>
-      <set name="range">60 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Sacred Soil" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_SACRED_SOIL">
-    <supports>Scholar</supports>
-    <description>
-      <p>You create a 10ft. radius dome of protective magic to shield your allies from harm centered on a location within range. When an ally within the dome takes damage, the damage is reduced by 1d6.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage reduction increases by 1d6 for each slot level above 4th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">4</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Concentration, up to 1 minute</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Suiton" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_SUITON">
-    <supports>Ninja</supports>
-    <description>
-      <p class="indent">You draw out the energies of Jin to cause a powerful geyser of water to explode from the ground beneath around you in a 10 ft. radius circle. Each creatures inside the geyser must make a dexterity saving throw. A creature takes 4d6 bludgeoning damage and 4d6 cold damage, and half as much on a successful save. Additionally, you and any items you are wearing or carrying become invisible for 1 minute. The invisibility ends when you attack or cast a spell.</p>
-      <p class="indent">At Higher Levels When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 bludgeoning damage for each slot level above 4th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">4</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">Self (10-feet radius, caster immune)</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Tetragammaton" type="Spell" source="FFXIV Dungeons and Dragons" id="ID_FFXIV_SPELL_TETRAGAMMATON">
-    <supports>Sage</supports>
-    <description>
-      <p class="indent">A creature within range you can see is healed for 3d8 hit points instantaneously.</p>
-      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d8 for each slot level above 4th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">4</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action or reaction</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">60 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
+	<info>
+		<name>Spells</name>
+		<update version="0.1.5">
+			<file name="spells.xml" url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+		</update>
+	</info>
+	<element name="Assize" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_ASSIZE">
+		<supports>White Mage</supports>
+		<description>
+			<html>&lt;p&gt;An eruption of energy from your body soothes allies and wounds enemies. All allies within 60ft. recover 3d8 hit points and all enemies within 60ft. must make a wisdom saving throw. They take 4d4 radiant damage, and half as much on a successful save. You may reverse which die affect healing and which die deal radiant damage, but must make this distinction before rolling.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, increase the number of die for each effect for each slot level above 5th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Asylum" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_ASYLUM">
+		<supports>White Mage</supports>
+		<description>
+			<html>&lt;p&gt;You create a protective field which provides healing to friendly creatures. You create a globe of holy energy with a radius of 10ft. within range. All allies within the affected area recover 1d8 hit points at the start of their turn. Additionally, allied creatures within the affected creatures gain resistance to nonmagical slashing, piercing, and bludgeoning damage and necrotic damage.&lt;/p&gt;
+&lt;p class="indent"&gt;When you cast this spell using a spell slot of 6th level or higher, increase the heal by 1d8 for each slot level above 5th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">concentration, 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Banish" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_BANISH">
+		<supports>White Mage</supports>
+		<description>
+			<html>&lt;p&gt;Light energy converges on a creature you can see within range. The creature makes a dexterity saving throw. This energy erupts with great force, searing the target creature with 3d6 radiant damage on a failed save and half as much on a successful save.&lt;/p&gt;
+&lt;p class="indent"&gt;When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d6 for each slot level above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneuous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Celestial Opposition" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_CELESTIAL_OPPOSITION">
+		<supports>Astrologian</supports>
+		<description>
+			<html>&lt;p&gt;You release a massive amount of astral energy in a 30ft. radius globe centered on you. The inside of the globe is dimly lit, and filled with softly glowing lights which map the starry sky. On this release, all enemies coming in contact with the sphere are star struck and must make a wisdom saving throw. Enemies take 6d8 force damage and are stunned for 1d4 rounds on a failed saved, and half the damage is taken and they resist becoming stunned on a success.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">8</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">concentration, 1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Collective Unconscious" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_COLLECTIVE_UNCONSCIOUS">
+		<supports>Astrologian</supports>
+		<description>
+			<html>&lt;p&gt;You create a magical barrier around yourself. The barrier is 10ft. in radius and spherical. All allies within 10ft. of you are healed immediately for 3d8. As long as they remain in the barrier, their AC receives a +1 bonus and each time they start their turn within the barrier they are healed for 1d6 hit points.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the heal increases by 1d6 for each slot level above 5th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">concentration, 1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Dark" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_DARK">
+		<supports>Reaper</supports>
+		<description>
+			<html>&lt;p&gt;You form an orb of necrotic energy in the palm of your hand and fire it at a target within range, making a ranged spell attack. If the attack hits, the creature takes 3d8 necrotic damage.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Darkra" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_DARKRA">
+		<supports>Reaper</supports>
+		<description>
+			<html>&lt;p&gt;You fill your limb with necrotic energy and swing it out in an arcing motion, causing a wave of energy to burst out towards in a con. All creatures in a 30ft. cone originating on you make a Dexterity saving throw against your spell save DC. On a failure they take 3d8 necrotic damage and half as much on a success.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 1st.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Darkga" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_DARKGA">
+		<supports>Reaper</supports>
+		<description>
+			<html>&lt;p&gt;You concentrate necrotic energy in the earth beneath a target creature in range you can see. All creatures within a 20ft. radius of the creature must make a Dexterity saving throw against your spell save DC, taking 8d6 necrotic damage on a failure and half as much on a success.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Doton" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_DOTON">
+		<supports>Ninja</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;You draw out the energies of Ten to create a circle of corrupted earth on the ground centered at a point of your choosing within range. The circle has a radius of 10ft. and is considered to be difficult terrain for all creatures except for you. Creatures take 4d4 necrotic damage for every 5ft. they travel within Doton. When Doton appears, all creatures within the ring make a Dexterity saving throw, taking 4d4 necrotic damage and half as much on a successful save. You are unaffected by this damage.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d4 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Drain" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_DOTON">
+		<supports>Reaper</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;Forcefully draw the life force from a creature within range. The target creature makes a Charisma saving throw against your spell save DC, taking 1d8 necrotic damage on a failure and half as much on a success. You recover hit points equal to half the damage dealt.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Flare" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_FLARE">
+		<supports>Reaper</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;You select a target within range, and create a point of energy on their body. Fiery energy explodes from their location in a 40ft. globe, incinerating all creatures within the globe. All affected creatures make a Dexterity saving throw, taking 20d6 fire damage and 20d6 force damage on a failed saving throw and half as much on a success.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">9</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Gravity" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_GRAVITY">
+		<supports>Astrologian</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;You conjure the energies of the stars through your arcane focus to temporarily create a small, dense celestial body at a point in space within range. A spherical gravitational field appears around the body with 20ft. radius and produces a pulsing sound. Each creature within the field must make a Dexterity saving throw. A target takes 10d6 force damage on a failed save, and half as much on a successful one.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">150 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Holy" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_HOLY">
+		<supports>Red Mage, White Mage</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;You let loose an orb of radiant energy which floats above you for a moment before exploding with great force. All creatures within range must make a Constitution saving throw. Creatures take 6d8 radiant damage and are stunned for one round on a failed save, and take half as much and resist the stun effect on a successful save.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">self (10ft. radius, caster immune)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Jolt" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_JOLT">
+		<supports>Red Mage</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;A shard of crystallized aether streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 force damage.&lt;/p&gt;
+&lt;p class="indent"&gt;The spell creates more than one shard when you reach higher levels: two shards at 5th level, three shards at 11th level, and four shards at 17th level. You can direct the shards at the same target or at different ones. Make a separate attack roll for each shard.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Lustrate" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_LUSTRATE">
+		<supports>Scholar</supports>
+		<description>
+			<html>&lt;p&gt;You may cast this spell as an action or as a reaction. This spell cannot be used in tandem with Adloqiuem (Nymian Scholar feature). A target you can see within range is invigorated by a burst of soothing magic. They recover hit points equal to 5d8.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d8 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action or reaction</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Regen" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_REGEN">
+		<supports>White Mage</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;The target's body is enchanted with a blessing which repairs damage to their body over time. For the duration, the creature regains 1d6 hit points at the start of its turn.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d6 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Sacred Soil" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_SACRED_SOIL">
+		<supports>Scholar</supports>
+		<description>
+			<html>&lt;p&gt;You create a 10ft. radius dome of protective magic to shield your allies from harm centered on a location within range. When an ally within the dome takes damage, the damage is reduced by 1d6.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage reduction increases by 1d6 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Suiton" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_SUITON">
+		<supports>Ninja</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;You draw out the energies of Jin to cause a powerful geyser of water to explode from the ground beneath around you in a 10 ft. radius circle. Each creatures inside the geyser must make a dexterity saving throw. A creature takes 4d6 bludgeoning damage and 4d6 cold damage, and half as much on a successful save. Additionally, you and any items you are wearing or carrying become invisible for 1 minute. The invisibility ends when you attack or cast a spell.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 bludgeoning damage for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self (10-feet radius, caster immune)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Tetragammaton" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_TETRAGAMMATON">
+		<supports>Sage</supports>
+		<description>
+			<html>&lt;p class="indent"&gt;A creature within range you can see is healed for 3d8 hit points instantaneously.&lt;/p&gt;
+&lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d8 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action or reaction</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 </elements>
