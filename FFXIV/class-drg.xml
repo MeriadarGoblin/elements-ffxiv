@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
+	<info>
+		<name>Dragoon</name>
+		<update version="0.1.1">
+			<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drg.xml" />
+		</update>
+	</info>
 	<element name="Dragoon" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_DRG">
 		<description>
 			<html>&lt;p&gt;An Elezen man stands before a fierce dragon, it roars out and begins to take off in order to gain the advantage. With a massive leap the man lands atop the dragon and forces it back to the ground, creating an opening for his allies.&lt;/p&gt;
