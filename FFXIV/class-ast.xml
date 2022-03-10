@@ -334,11 +334,10 @@
         <supports>Sect Focus</supports>
         <description>
             <p>Students of the Noctournal Sect have chosen to unravel the mysteries of the night sky and how the moon influences the world and fate. As seekers of knowledge, the Noctournal Sect tries to unravel the unknown, akin to chasing the dark side of the moon. In their efforts, students of this sect have taken to focusing on preventative measures and offensive magics.</p>
-            <div element="" />
-            <div element="" />
-            <div element="" />
-            <div element="" />
-            <div element="" />
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_MAGE_OF_MENPHINA" />
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_NOCTOURNAL_BENEFIC" />
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_MALEFIC_ATTUNEMENT" />
+            <div element="ID_FFXIV_AST_ARCHETYPE_FEATURE_LUNAR_RAGE" />
         </description>
         <sheet display="false" />
         <rules>
