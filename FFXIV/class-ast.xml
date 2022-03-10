@@ -2,7 +2,7 @@
     <info>
         <name>Astrologian</name>
 		<update version="0.1.1">
-			<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-ast.xml" />
+			<file name="class-ast.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-ast.xml" />
 		</update>
     </info>
 
