@@ -163,7 +163,7 @@
 			<stat name="ast:spellcasting:slots:9" value="1" level="17" />
 
 			<stat name="ast:spellcasting:prepare" value="wisdom:modifier" />
-			<stat name="ast:spellcasting:prepare" value="level:ast" />
+			<stat name="ast:spellcasting:prepare" value="level:astrologian" />
 
 			<select type="Spell" name="Cantrip (Astrologian)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Astrologian" />
 			<select type="Spell" name="Cantrip (Astrologian)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Astrologian" />
@@ -196,7 +196,7 @@
         </sheet>
         <rules>
             <stat name="draw:count" value="1" bonus="base" />
-            <stat name="draw:count" value="level:ast" bonus="bonus" />
+            <stat name="draw:count" value="level:astrologian" bonus="bonus" />
             <grant type="Spell" id="ID_FFXIV_CARD_SPELL_BALANCE" />
             <grant type="Spell" id="ID_FFXIV_CARD_SPELL_BOLE" />
             <grant type="Spell" id="ID_FFXIV_CARD_SPELL_ARROW" />
@@ -356,7 +356,7 @@
               <description>As a bonus action you may spend one draw to help you predict how your enemy will react to your presence. You do not provoke attacks of opportunity until your next turn.</description>
           </sheet>
           <rules>
-              <stat name="hp" value="level:ast" />
+              <stat name="hp" value="level:astrologian" />
               <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
               <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
               <!-- One handed Simple and Martial Weapons -->
