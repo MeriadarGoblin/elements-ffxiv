@@ -1,0 +1,64 @@
+<elements>
+	<info>
+		<name>College of the Skysinger</name>
+		<update version="0.1.0">
+			<file name="subclass-skysinger-bard.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-skysinger-bard.xml" />
+		</update>
+	</info>
+
+    <element name="College of the Skysinger" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SKYSINGER_BRD">
+        <supports>Bard College</supports>
+        <description>
+            <p>Members of the College of the Skysinger are adventurers who travel the world acting not only as entertainers but as agents of remembrance and soothesayers for souls who've not yet moved on.</p>
+            <p class="indent">Members of the college are tasked with the mission of traveling the world to record history through poetry and verse, ensuring the harsh truths of history are not swept away. At the same time these bards must help lost souls who've suffered the tragedies of the past find peace.</p>
+            <p class="indent">The college of the Skysinger was the dream of a famed archer who inadvertently caused the deaths of his comrades. To cope with his grief he turned to the poetic arts and traveled the world trying to atone for his sins by delivering restless spirits to a peaceful slumber.</p>
+            <div element="ID_FFXIV_BRD_BONUS_PROFICIENCIES" />
+            <div element="ID_FFXIV_BRD_TROUBADOUR_PAEN" />
+            <div element="ID_FFXIV_BRD_SCARS_OF_HISTORY" />
+            <div element="ID_FFXIV_BRD_WANDERERS_BALLAD" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_FFXIV_BRD_BONUS_PROFICIENCIES" level="3" />
+            <grant type="Archetype Feature" id="ID_FFXIV_BRD_TROUBADOUR_PAEN" level="3" />
+            <grant type="Archetype Feature" id="ID_FFXIV_BRD_SCARS_OF_HISTORY" level="6" />
+            <grant type="Archetype Feature" id="ID_FFXIV_BRD_WANDERERS_BALLAD" level="14" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiencies" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BRD_BONUS_PROFICIENCIES">
+        <description>
+            <p>Beginning at the 3rd level, you gain proficiency with long bows, the history skill and one other skill of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" name="Bonus Proficiency" supports="Skill" />
+            <grant type="Proficiency" id="ID_WOTC_PHB_WEAPON_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+        </rules>
+    </element>
+    <element name="Troubadour's Paen" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BRD_TROUBADOUR_PAEN">
+        <description>
+            <p>Beginning at the 3rd level, you learn to protect your allies with your songs. A creature that has a Bardic Inspiration die from you can roll that die to gain temporary hit points equal to the result when an attack or spell targets the creature. While those temporary hit points are protecting the creature, they gain advantage against Intelligence, Wisdom and Charisma based saving throws.</p>
+        </description>
+        <sheet>
+            <description>A creature that has a Bardic Inspiration die from you can roll that die to gain temporary hit points equal to the result when an attack or spell targets the creature. While those temporary hit points are protecting the creature, they gain advantage against Intelligence, Wisdom and Charisma based saving throws.</description>
+        </sheet>
+    </element>
+    <element name="Scars of History" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BRD_SCARS_OF_HISTORY">
+        <description>
+            <p>Beginning at the 6th level, you gain advantage on checks regarding the history of battles and tragedies.</p>
+            <p class="indent">You are able to to channel your intuitive knowledge of tragedy into song. When you cast a spell, you may expend a Bardic Inspiration die to cause a creature to strike with hesitation. Select a creature within 60ft. of you that can hear you. That creature must make a Charisma saving throw against your spell save DC. On a failed save, the creature's mind is wrought with sorrow causing it to hold back. Until your next turn, when the creature makes a damage roll their damage is reduced by an amount equal to the Bardic Inspiration die + your Charisma ability modifier. The creature becomes immune to this effect for one hour afterwards. If successful, they are unaffected by your performance and become immune to the effect for one hour.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell, you may expend a Bardic Inspiration die to cause a creature to strike with hesitation. Select a creature within 60ft. of you that can hear you. That creature must make a Charisma saving throw against your spell save DC. On a failed save, the creature's mind is wrought with sorrow causing it to hold back. Until your next turn, when the creature makes a damage roll their damage is reduced by an amount equal to the Bardic Inspiration die + your Charisma ability modifier. The creature becomes immune to this effect for one hour afterwards. If successful, they are unaffected by your performance and become immune to the effect for one hour.</description>
+        </sheet>
+    </element>
+    <element name="Wanderer's Ballad" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BRD_WANDERERS_BALLAD">
+        <description>
+            <p>Beginning at the 14th level, when you cast a spell you may expend one Bardic Inspiration die to further inspire your allies. Select an allied creature within 60ft. of you that can hear you. Their critical hit range increases by 1 for a number of rounds equal to your Charisma ability modifier. If the creature is under another effect which increases their crit range prior to the effects of Wanderer's Ballad, simply add the next lowest number to your crit range. For example, a fighter with a crit range of 19 or 20 affected by this ability has a crit range of 18, 19 or 20.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell you may expend one Bardic Inspiration die to further inspire your allies. Select an allied creature within 60ft. of you that can hear you. Their critical hit range increases by 1 for a number of rounds equal to your Charisma ability modifier. If the creature is under another effect which increases their crit range prior to the effects of Wanderer's Ballad, simply add the next lowest number to your crit range. For example, a fighter with a crit range of 19 or 20 affected by this ability has a crit range of 18, 19 or 20.</description>
+        </sheet>
+    </element>
+</elements>
