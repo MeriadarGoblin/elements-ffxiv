@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Black Mage</name>
+		<update version="0.2.0">
+			<file name="class-blm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blm.xml" />
+		</update>
+	</info>
+    
+    <element name="Black Mage" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_BLM">
+        <description>
+    <p>A Lalafell stands before a horde of kobolds, blood thirsty they dash towards him. With a few skillful waves of his staff, a large fire ball erupts from the gem inlaid at the end of the staff, causing a massive fiery explosion, leaving nothing but ash.</p>
+    <p class="indent">A woman wearing dark robes grins as she waves her wand before a guard refusing her entry. With a few choice words and a spell, the guard happily steps aside, unlocking the passage bowing to her as she passes.</p>
+    <p class="indent">An Elezen laughs at the umbral hue of his magics as he unleashes a fireball empowered by dark magics upon his foes, his demonic servant chuckling at his side watching the dust settle. </p>
+    <p class="indent">A black mage is a powerful ally who wields forbidden magic. This raw energy manifests itself into devastating spells and effects. Their power is only rivaled by their thirst to increase that power. </p>
+    <h4>A Dark Past</h4>
+    <p>In days long past, there existed an powerful clan of mages and their arcane art known as black magic—a potent magic of pure destructive force born forth by a sorceress of unparalleled power. Those who learned to wield this instrument of ruin came to be called black mages, out of both fear and respect for their gift. Yet great power served to corrupt the judgment of mortal man, and so he unknowingly set out upon the path of ruin.</p>
+    <p class="indent">Adventurers who take the black will become agents of devastation, capable of annihilating those who oppose them through little more than the force of their will.</p>
+    <h4>Ties to the Void</h4>
+    <p>In order for a mage to don the black, they must extensively research what they call the void. This is another plane of existence from which Black Mages draw knowledge from in order to unlock power within themselves. Most black mages are able to explore the knowledge gained from the void through tomes and texts now, but some who thirst for new power may attempt to tap into the void directly. Black Mages continue to grow within their craft through continuing their study of the dark arts.</p>
+    <h4>CREATING A Black Mage</h4>
+    <p>Black Mages are earnest in their desires and reasons for taking the black. More often than not it is in the pursuit of power or out of sheer curiousity. You must know why you are pursuing this power, or why you are curious about the dark arts. You must also decide where you began to dip your toes into the world of black magic. Did you join a cult of mages who studied the art? Perhaps a proper school which provides the proper materials to explore black mage. Maybe you were taken under the wing of a mentor who has mastered the art.</p>
+    <h5 class="caption">QUICK BUILD</h5>
+    <p>You can make a black mage quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. Second, choose the sage background. Third, choose the mage hand, light, and ray of frost cantrips, along with the following 1st-level spells for your spellbook: burning hands, charm person, feather fall, mage armor. magic missile, and sleep.</p>
+    <h2>CLASS FEATURES</h2>
+    <p>As a black mage, you gain the following class features.</p>
+    <h5 class="caption">HIT POINTS</h5>
+    <ul class="unstyled">
+        <li><strong>Hit Dice:</strong> 1d6 per black mage level</li>
+        <li><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</li>
+        <li><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per black mage level after 1st</li>
+    </ul>
+    <h5 class="caption">PROFICIENCIES</h5>
+    <ul class="unstyled mb">
+        <li><strong>Armor:</strong> None</li>
+        <li><strong>Weapons:</strong> Daggers, Darts, Slings, Quarter Staffs, Maces, Light Crossbows</li>
+        <li><strong>Tools:</strong> None</li>
+    </ul>
+    <ul class="unstyled">
+        <li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
+        <li><strong>Skills:</strong> Choose two from Arcana, Deception, History, Insight, Intimidation, Persuasion, Religion.</li>
+    </ul>
+    <h5 class="caption">EQUIPMENT</h5>
+    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+    <ul>
+        <li>a dagger</li>
+        <li>a spell casting focus (a cane, staff, wand, or similar object)</li>
+        <li>(a)an explorer's pack or (b)a scholar's pack</li>
+        <li>a spellbook</li>
+    </ul>
+            <h5 class="caption">THE Black Mage</h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Mana Points</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+                </thead>
+                <tr><td> 1st</td><td class="left">Spellcasting, Manafont</td><td>3</td><td>1</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 2nd</td><td class="left">Magical Discipline</td><td>3</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 3rd</td><td class="left">-</td><td>3</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 5th</td><td class="left">-</td><td>4</td><td>5</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 6th</td><td class="left">Magical Discipline Feature</td><td>4</td><td>6</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 7th</td><td class="left">-</td><td>4</td><td>7</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>8</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 9th</td><td class="left">-</td><td>4</td><td>9</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>10th</td><td class="left">Magical Discipline Feature</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>11th</td><td class="left">-</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>12th</td><td class="left">Ability Score Improvement</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>13th</td><td class="left">-</td><td>5</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>14th</td><td class="left">Magical Discipline Feature</td><td>5</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>15th</td><td class="left">-</td><td>5</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>17th</td><td class="left">-</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>18th</td><td class="left">Surecaster</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>20th</td><td class="left">Resonating Aether</td><td>5</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+            </table>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_SPELLCASTING" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MANAFONT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MAGICAL_DISCIPLINE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_SURECASTER" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_RESONATING_AETHER" />
+        </description>
+        <setters>
+            <set name="hd">d6</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+            <select type="Proficiency" name="Skill Proficiency (Black Mage)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_SPELLCASTING" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MANAFONT" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MAGICAL_DISCIPLINE" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_SURECASTER" level="18" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_RESONATING_AETHER" level="20" />
+        </rules>
+    </element>
+    <element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_SPELLCASTING">
+		<description>
+			<p>As a student of Arcane Magic, you have a Spellbook containing Spells that show the first glimmerings of your true power.</p>
+			<h5>CANTRIPS</h5>
+			<p>At 1st Level, you know three Cantrips of your choice from the Black Mage spell list. You learn additional Black Mage Cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Black Mage table.</p>
+			<h5>SPELLBOOK</h5>
+			<p>At 1st level, you have a spellbook containing six 1st-level Black Mage spells of your choice.</p>
+			<h5>PREPARING AND CASTING SPELLS</h5>
+			<p>The Black Mage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. You prepare the list of black mage spells that are available for you to cast.</p>
+			<p class="indent">To do so, choose a number of black mage spells from your spellbook equal to your Intelligence modifier + your black mage level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you're a 3rd-level black mage, you have four 1st-level and two 2nd-level spell slots. With an lntelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot.</p>
+			<p class="indent">Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of black mage spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Intelligence is your Spellcasting Ability for your Black Mage Spells, since you learn your Spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your Spellcasting Ability.</p>
+            <p class="indent">In addition, you use your Intelligence modifier when setting the saving throw DC for a Black Mage spell you cast and when making an Attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+			<h5>RITUAL CASTING</h5>
+			<p>You can cast a Black Mage spell as a ritual if that spell has the ritual tag and you have the spell in your Spellbook. You don't need to have the spell prepared.</p>
+			<h5>SPELLCASTING FOCUS</h5>
+			<p>You can use a rod, cane, wand or other similar equipment as a Spellcasting focus for your Black Mage Spells.</p>
+			<h5>LEARNING SPELLS OF 1ST LEVEL AND HIGHER</h5>
+			<p>Each time you gain a Black Mage level, you can add two Black Mage Spells of your choice to your Spellbook for free. Each of these Spells must be of a level for which you have Spell Slots, as shown on the Black Mage table. On your Adventures, you might find other Spells that you can add to your Spellbook (see “Your Spellbook”).</p>
+		</description>
+		<sheet display="false">
+			<description>You can prepare {{black mage:spellcasting:prepare}} spells from the your spellbook. You use an arcane focus to cast spells. and can also cast wizard spells as a ritual.</description>
+		</sheet>
+		<spellcasting name="Black Mage" ability="Intelligence" prepare="true">
+			<list>Black Mage</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+
+			<stat name="black mage:spellcasting:slots:1" value="2" level="1" />
+			<stat name="black mage:spellcasting:slots:1" value="1" level="2" />
+			<stat name="black mage:spellcasting:slots:1" value="1" level="3" />
+
+			<stat name="black mage:spellcasting:slots:2" value="2" level="3" />
+			<stat name="black mage:spellcasting:slots:2" value="1" level="4" />
+			<stat name="black mage:spellcasting:slots:3" value="2" level="5" />
+			<stat name="black mage:spellcasting:slots:3" value="1" level="6" />
+			<stat name="black mage:spellcasting:slots:4" value="1" level="7" />
+			<stat name="black mage:spellcasting:slots:4" value="1" level="8" />
+			<stat name="black mage:spellcasting:slots:4" value="1" level="9" />
+			<stat name="black mage:spellcasting:slots:5" value="1" level="9" />
+			<stat name="black mage:spellcasting:slots:5" value="1" level="10" />
+			<stat name="black mage:spellcasting:slots:5" value="1" level="18" />
+			<stat name="black mage:spellcasting:slots:6" value="1" level="11" />
+			<stat name="black mage:spellcasting:slots:6" value="1" level="19" />
+			<stat name="black mage:spellcasting:slots:7" value="1" level="13" />
+			<stat name="black mage:spellcasting:slots:7" value="1" level="20" />
+			<stat name="black mage:spellcasting:slots:8" value="1" level="15" />
+			<stat name="black mage:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="black mage:spellcasting:prepare" value="intelligence:modifier" />
+			<stat name="black mage:spellcasting:prepare" value="level:black mage" />
+
+			<select type="Spell" name="Cantrip (black mage)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="black mage" />
+			<select type="Spell" name="Cantrip (black mage)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="black mage" />
+			<select type="Spell" name="Cantrip (black mage)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="black mage" />
+
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), 1" level="1" number="6" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="black mage" />
+			<select type="Spell" name="Spellbook (black mage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="black mage" />
+		</rules>
+	</element>
+    <element name="Manafont" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MANAFONT">
+        <description>
+            <p>At 1st level, you have unlocked the secrets of storing magical energy in your body and utilizing it to assist your spell casting.</p>
+            <h5>Mana Points</h5>
+            <p>You have one Mana point, and you gain more as you reach higher levels, as shown in the Mana Points column of the Black Mage table. You can never have more mana points than shown on the table for your level. You regain all spent mana points when you finish a long rest.</p>
+            <h5>Leylines</h5>
+            <p>When you cast a spell, the residual mana from your spell temporarily creates a leyline, which can be manipulated with your manafont.</p>
+            <p class="indent">If you cast a spell last turn and have not moved or taken any other actions during your turn, you may spend a number of mana points equal to that spell's level to cast an evocation spell equal to or lower than that level without expending a spell slot. Your turn immediately ends after casting the spell. You can cast spells in this way no higher in level than 5th.</p>
+        </description>
+        <sheet usage="{{mana points}} Mana Points/Long Rest">
+            <description>If you cast a spell last turn and have not moved or taken any other actions during your turn, you may spend a number of mana points equal to that spell's level to cast an evocation spell equal to or lower than that level without expending a spell slot. Your turn immediately ends after casting the spell. You can cast spells in this way no higher in level than 5th. You can never have more mana points than your level. You regain all spent mana points when you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="mana points" value="level" />
+        </rules>
+    </element>
+    <element name="Magical Discipline" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MAGICAL_DISCIPLINE">
+        <description>
+            <p>At 2nd level, you choose the discipline you belong to as a Black Mage. Mhachi, Enchanter, or Void Mage, all detailed at the end of the class description. Your archetype choice grants you features at the 2nd, 6th, 10th and 14th level.</p>
+        </description>
+        <sheet description="false" />
+        <rules>
+            <select type="Archetype" name="Magical Discipline" supports="Magical Discipline" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Black Mage 4)" supports="Improvement Option,Black Mage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Black Mage 8)" supports="Improvement Option,Black Mage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Black Mage 12)" supports="Improvement Option,Black Mage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Black Mage 16)" supports="Improvement Option,Black Mage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Black Mage 19)" supports="Improvement Option,Black Mage,19" level="19" />
+		</rules>
+	</element>
+    <element name="Surecaster" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_SURECASTER">
+        <description>
+            <p>Beginning at the 18th level, as a bonus action, you may expend 5 mana points to achieve an impregnable state of mind. You pass all concentration checks automatically for the next 10 minutes.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action, you may expend 5 mana points to achieve an impregnable state of mind. You pass all concentration checks automatically for the next 10 minutes.</description>
+        </sheet>
+    </element>
+    <element name="Resonating Aether" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_RESONATING_AETHER">
+        <description>
+            <p>Beginning at the 20th level, you regain half your missing mana points when you roll initiative.</p>
+        </description>
+        <sheet>
+            <description>You regain half your missing mana points when you roll initiative.</description>
+        </sheet>
+    </element>
+
+
+    <element name="Mchachi" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_ARCHETYPE_MCHACHI">
+        <supports>Magical Discipline</supports>
+        <description>
+            <p>The Machi are mages who specialize in the destructive arts. The Mhachi are the ones who created the art of Black Magic. Through deep introspection, they've learned to use their manafont to increase their destructive power.</p>
+            <div element="ID_GMBINDER_FFXIV_BLM_MCHACHI_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSTABLE_AETHER" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGOT" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_AETHERIAL_MANIPULATION" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEVESTATING_FORCE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_MCHACHI_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSTABLE_AETHER" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGOT" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_AETHERIAL_MANIPULATION" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEVESTATING_FORCE" level="14" />
+        </rules>
+    </element>
+    <element name="Expanded Spell List" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_BLM_MCHACHI_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST">
+        <description>
+            <p>Your specialization as a Mhachi lets you choose from an expanded list of spells when you learn a blackmage spell. The following spells are added to the blackmage spell list for you.</p>
+            <h5 class="caption">EXPANDED SPELL LIST</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Chromatic Orb, Witch Bolt</em></td></tr>
+				<tr><td>2nd</td><td><em>Aganazzar's Scorcher, Snilloc's Snowball Swarm</em></td></tr>
+				<tr><td>3rd</td><td><em>Call Lightning, Sleet Storm</em></td></tr>
+				<tr><td>4th</td><td><em>Ice Storm, Storm Sphere</em></td></tr>
+				<tr><td>5th</td><td><em>Cone of Cold, Immolation</em></td></tr>
+			</table>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Black Mage" extend="true">
+			<extend>ID_PHB_SPELL_CHROMATIC_ORB</extend>
+			<extend>ID_PHB_SPELL_WITCH_BOLT</extend>
+			<extend>ID_XGTE_SPELL_AGANAZZARS_SCORCHER</extend>
+			<extend>ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM</extend>
+			<extend>ID_PHB_SPELL_CALL_LIGHTNING</extend>
+			<extend>ID_PHB_SPELL_SLEET_STORM</extend>
+			<extend>ID_PHB_SPELL_ICE_STORM</extend>
+			<extend>ID_XGTE_SPELL_STORM_SPHERE</extend>
+			<extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
+			<extend>ID_XGTE_SPELL_IMMOLATION</extend>
+		</spellcasting>
+    </element>
+    <element name="Unstable Aether" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSTABLE_AETHER">
+        <description>
+            <p>Beginning at the 2nd level, when you cast a spell, you may spend one mana point to reroll any damage die which resulted in a 1 or 2. You must use the resulting rolls.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell, you may spend one mana point to reroll any damage die which resulted in a 1 or 2. You must use the resulting rolls.</description>
+        </sheet>
+    </element>
+    <element name="Polygot" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGOT">
+        <description>
+            <p>Beginning at the 6th level, your magical studies have warped your mind and understanding of the world. You can read all writing.</p>
+        </description>
+        <sheet>
+            <description>You can read all writing.</description>
+        </sheet>
+    </element>
+    <element name="Aetherial Manipulation" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_AETHERIAL_MANIPULATION">
+        <description>
+            <p>Beginning at the 10th level, you are able to more effectively manipulate your Leylines. Your movement is no longer restricted when making use of your Leylines feature. Casting a spell with the effect of Leylines still immediately ends your turn.</p>
+            <p class="indent">Additionally, if you expended a spell slot during your last turn, as a bonus action, you may spend one mana point to magically teleport back to the location you were standing in when you cast the spell if the space is unoccupied.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>Your movement is no longer restricted when making use of your Leylines feature. Casting a spell with the effect of Leylines still immediately ends your turn. Additionally, if you expended a spell slot during your last turn, as a bonus action, you may spend one mana point to magically teleport back to the location you were standing in when you cast the spell if the space is unoccupied.</description>
+        </sheet>
+    </element>
+    <element name="Devestating Force" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEVESTATING_FORCE">
+        <description>
+            <p>Beginning at the 14th level, when you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Enchanter" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_ARCHETYPE_ENCHANTER">
+        <supports>Magical Discipline</supports>
+        <description>
+            <p>While many Black Mages focus their studies on the destructive arts, the Enchanter has shifted their study to empower their allies and weaken their allies through the use of powerful magics.</p>
+            <div element="ID_GMBINDER_FFXIV_BLM_ENCHANTER_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POINT_OF_INFLUENCE" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_SILVERED_TONGUE" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSHAKEN_WILL" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEEP_WILL" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ENCHANTER_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POINT_OF_INFLUENCE" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_SILVERED_TONGUE" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSHAKEN_WILL" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEEP_WILL" level="14" />
+        </rules>
+    </element>
+    <element name="Expanded Spell List" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_BLM_ENCHANTER_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST">
+        <description>
+            <p>Your specialization as an Enchanter lets you choose from an expanded list of spells when you learn a blackmage spell. The following spells are added to the blackmage spell list for you.</p>
+            <h5 class="caption">EXPANDED SPELL LIST</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Bless, Cause Fear</em></td></tr>
+				<tr><td>2nd</td><td><em>Enlarge/Reduce, Magic Weapon</em></td></tr>
+				<tr><td>3rd</td><td><em>Slow, Haste</em></td></tr>
+				<tr><td>4th</td><td><em>Blight, Charm Monster</em></td></tr>
+				<tr><td>5th</td><td><em>Dominate Person, Hold Monster</em></td></tr>
+			</table>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Black Mage" extend="true">
+			<extend>ID_PHB_SPELL_BLESS</extend>
+			<extend>ID_XGTE_SPELL_CAUSE_FEAR</extend>
+			<extend>ID_PHB_SPELL_ENLARGE_REDUCE</extend>
+			<extend>ID_PHB_SPELL_MAGIC_WEAPON</extend>
+			<extend>ID_PHB_SPELL_SLOW</extend>
+			<extend>ID_PHB_SPELL_HASTE</extend>
+			<extend>ID_PHB_SPELL_BLIGHT</extend>
+			<extend>ID_XGTE_SPELL_CHARM_MONSTER</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
+			<extend>ID_PHB_SPELL_HOLD_MONSTER</extend>
+		</spellcasting>
+    </element>
+    <element name="Point of Influence" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POINT_OF_INFLUENCE">
+        <description>
+            <p>Beginning at the 2nd level, you are able to use your Leylines feature for both enchantment and evocation spells.</p>
+        </description>
+        <sheet>
+            <description>You are now able to use your Leylines feature for both enchantment and evocation spells.</description>
+        </sheet>
+    </element>
+    <element name="Silvered Tongue" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_SILVERED_TONGUE">
+        <description>
+            <p>Beginning at the 6th level, your focus on enchantment magic has improved your speech. You gain proficiency in one of the following skills: deception, intimidation, persuasion. If you are already proficient in that skill, you gain expertise with it. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill. Additionally, you may use Intelligence as your ability score for the selected skill.</p>
+        </description>
+        <sheet>
+            <description>Your proficiency bonus is doubled for any ability check you make that uses {{silver tongue}}.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Silvered Tongue (Black Mage)" supports="Silvered" />
+        </rules>
+    </element>
+    <element name="Deception" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_SILVER_TONGUE_DECEPTION">
+        <supports>Silvered</supports>
+        <description>
+            <p>You gain proficiency in one of the following skills: deception, intimidation, persuasion. If you are already proficient in that skill, you gain expertise with it. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</p>
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+            <stat inline="true" name="silver tongue" value="deception" />
+            <stat name="deception:proficiency" value="intelligence:modifier" bonus="ability" requirements="ID_PROFICIENCY_SKILL_DECEPTION" />
+        </rules>
+    </element>
+    <element name="Intimidation" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_SILVER_TONGUE_INTIMIDATION">
+        <supports>Silvered</supports>
+        <description>
+            <p>You gain proficiency in one of the following skills: deception, intimidation, persuasion. If you are already proficient in that skill, you gain expertise with it. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</p>
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+            <stat inline="true" name="silver tongue" value="intimidation" />
+            <stat name="intimidation:proficiency" value="intelligence:modifier" bonus="ability" requirements="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+        </rules>
+    </element>
+    <element name="Persuasion" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_SILVER_TONGUE_PERSUASION">
+        <supports>Silvered</supports>
+        <description>
+            <p>You gain proficiency in one of the following skills: deception, intimidation, persuasion. If you are already proficient in that skill, you gain expertise with it. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</p>
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <stat inline="true" name="silver tongue" value="persuasion" />
+            <stat name="persuasion:proficiency" value="intelligence:modifier" bonus="ability" requirements="ID_PROFICIENCY_SKILL_PERSUASION" />
+        </rules>
+    </element>
+    <element name="Unshaken Will" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSHAKEN_WILL">
+        <description>
+            <p>Beginning at the 10th level, when you must make a wisdom saving throw, you may spend 1 mana point to gain advantage on the saving throw.</p>
+        </description>
+        <sheet>
+            <description>When you must make a wisdom saving throw, you may spend 1 mana point to gain advantage on the saving throw.</description>
+        </sheet>
+    </element>
+    <element name="Deep Influence" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEEP_WILL">
+        <description>
+            <p>Beginning at the 14th level, when you cast an enchantment spell, you may spend 1 mana point to cause the target to have disadvantage on their saving throw.</p>
+        </description>
+        <sheet>
+            <description>When you cast an enchantment spell, you may spend 1 mana point to cause the target to have disadvantage on their saving throw.</description>
+        </sheet>
+    </element>
+
+    <element name="Void Mage" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_ARCHETYPE_VOID_MAGE">
+        <supports>Magical Discipline</supports>
+        <description>
+            <p>A Void mage is a Black Mage who has focused their research on harnessing the power of The Void and the dark creatures who live within it. This has granted the Black Mage proficiency over dark magic which they wield with authority.</p>
+            <div element="ID_GMBINDER_FFXIV_BLM_VOID_MAGE_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_VOID_CASTING" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_VOID_SENSE" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_EBONY_OFFENSE" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_BLOODY_VEIL" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_VOID_MAGE_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_VOID_CASTING" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_VOID_SENSE" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_EBONY_OFFENSE" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_BLOODY_VEIL" level="14" />
+        </rules>
+    </element>
+    <element name="Expanded Spell List" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_VOID_MAGE_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST">
+        <description>
+            <p>Your specialization as a Void Mage lets you choose from an expanded list of spells when you learn a blackmage spell. The following spells are added to the blackmage spell list for you.</p>
+            <h5 class="caption">EXPANDED SPELL LIST</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Armor of Agathys, Arms of Hadar</em></td></tr>
+				<tr><td>2nd</td><td><em>Ray of Enfeeblement, Shadow Blade</em></td></tr>
+				<tr><td>3rd</td><td><em>Hunger of Hadar, Summon Lesser Demon</em></td></tr>
+				<tr><td>4th</td><td><em>Banishment, Summon Greater Demon</em></td></tr>
+				<tr><td>5th</td><td><em>Contact Other Plane (Ritual), Negative Energy Flood</em></td></tr>
+			</table>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Black Mage" extend="true">
+			<extend>ID_PHB_SPELL_ARMOR_OF_AGATHYS</extend>
+			<extend>ID_PHB_SPELL_ARMS_OF_HADAR</extend>
+			<extend>ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT</extend>
+			<extend>ID_XGTE_SPELL_SHADOW_BLADE</extend>
+			<extend>ID_PHB_SPELL_HUNGER_OF_HADAR</extend>
+			<extend>ID_XGTE_SPELL_SUMMON_LESSER_DEMONS</extend>
+			<extend>ID_PHB_SPELL_BANISHMENT</extend>
+			<extend>ID_XGTE_SPELL_SUMMON_GREATER_DEMON</extend>
+			<extend>ID_PHB_SPELL_CONTACT_OTHER_PLANE</extend>
+			<extend>ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD</extend>
+		</spellcasting>
+    </element>
+    <element name="Void Casting" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_VOID_CASTING">
+        <description>
+            <p>Beginning at 2nd level, when you cast a spell, you may spend one mana point to change the damage type of the spell to necrotic. When you change the damage type of your spell in this way it does additional damage equal to your Intelligence ability modifier. This bonus applies to your spell once.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell, you may spend one mana point to change the damage type of the spell to necrotic. When you change the damage type of your spell in this way it does additional damage equal to your Intelligence ability modifier. This bonus applies to your spell once.</description>
+        </sheet>
+    </element>
+    <element name="Void Sense" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_VOID_SENSE">
+        <description>
+            <p>Beginning at 6th level, you have learned to borrow power from the void to improve your senses and causing your eyes to glow with dim red light. You may spend 1 mana point to gain darkvision out to 60ft. for one hour. If you already have darkvision, the range is increased by 60ft. Additionally, you gain advantage on perception checks that use your eyes while under this effect.</p>
+        </description>
+        <sheet>
+            <description>You may spend 1 mana point to gain darkvision out to 60ft. for one hour. If you already have darkvision, the range is increased by 60ft. Additionally, you gain advantage on perception checks that use your eyes while under this effect.</description>
+        </sheet>
+    </element>
+    <element name="Ebony Offense" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_EBONY_OFFENSE">
+        <description>
+            <p>At 11th level, necrotic damage you deal is unaffected by resistances. As a bonus action, you may spend a mana point to overcome necrotic damage immunity for your next spell.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>Necrotic damage you deal is unaffected by resistances. As a bonus action, you may spend a mana point to overcome necrotic damage immunity for your next spell.</description>
+        </sheet>
+    </element>
+    <element name="Bloody Veil" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_BLOODY_VEIL">
+        <description>
+            <p>Beginning at the 14th level, when you kill a creature with a spell of first level or higher with necrotic damage, you gain temporary hit points equal to the spell's level multiplied by your Intelligence ability modifier.</p>
+        </description>
+        <sheet>
+            <description>When you kill a creature with a spell of first level or higher with necrotic damage, you gain temporary hit points equal to the spell's level multiplied by your Intelligence ability modifier.</description>
+        </sheet>
+    </element>
+
+    <!-- Cantrips -->
+    <append id="ID_PHB_SPELL_BLADE_WARD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CHILL_TOUCH">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIRE_BOLT">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_FROSTBITE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_INFESTATION">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_SCAG_SPELL_LIGHTNING_LURE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGE_HAND">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MAGIC_STONE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PRODUCE_FLAME">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RAY_OF_FROST">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_SAPPING_STING">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHOCKING_GRASP">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_THAUMATURGY">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TOLL_THE_DEAD">
+        <supports>Black Mage</supports>
+    </append>
+
+    <!-- Level 1 -->
+    <append id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BURNING_HANDS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CHAOS_BOLT">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISGUISE_SELF">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FALSE_LIFE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FEATHER_FALL">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIND_FAMILIAR">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_IDROTF_SPELL_FROST_FINGERS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEX">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_ICE_KNIFE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ILLUSORY_SCRIPT">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INFLICT_WOUNDS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LONGSTRIDER">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGE_ARMOR">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_MISSILE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHIELD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SLEEP">
+        <supports>Black Mage</supports>
+    </append>
+
+    <!-- Level 2 -->
+    <append id="ID_PHB_SPELL_ALTER_SELF">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ARCANE_LOCK">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLUR">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CLOUD_OF_DAGGERS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DARKNESS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DARKVISION">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DRAGONS_BREATH">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLAMING_SPHERE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEAT_METAL">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HOLD_PERSON">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_KNOCK">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MISTY_STEP">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_PYROTECHNICS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SCORCHING_RAY">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SILENCE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WEB">
+        <supports>Black Mage</supports>
+    </append>
+    <!-- Level 3 -->
+    <append id="ID_PHB_SPELL_ANIMATE_DEAD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BESTOW_CURSE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLINK">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_COUNTERSPELL">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_MAGIC">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ELEMENTAL_WEAPON">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FEIGN_DEATH">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIREBALL">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLY">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LIGHTNING_BOLT">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STINKING_CLOUD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_UNDEAD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TONGUES">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_THUNDER_STEP">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_VAMPIRIC_TOUCH">
+        <supports>Black Mage</supports>
+    </append>
+    <!-- Level 4 -->
+    <append id="ID_PHB_SPELL_ARCANE_EYE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIMENSION_DOOR">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIRE_SHIELD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_POLYMORPH">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_FIRE">
+        <supports>Black Mage</supports>
+    </append>
+    <!-- Level 5 -->
+    <append id="ID_PHB_SPELL_ANIMATE_OBJECTS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ANTILIFE_SHELL">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BIGBYS_HAND">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTAGION">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DANSE_MACABRE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DESTRUCTIVE_WAVE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DREAM">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_FAR_STEP">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLAME_STRIKE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GEAS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MISLEAD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TELEKINESIS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TELEPORTATION_CIRCLE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_FORCE">
+        <supports>Black Mage</supports>
+    </append>
+    <!-- Level 6 -->
+    <append id="ID_PHB_SPELL_ARCANE_GATE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CHAIN_LIGHTNING">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CIRCLE_OF_DEATH">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CREATE_UNDEAD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISINTEGRATE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_EYEBITE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HARM">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_INVESTITURE_OF_FLAME">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_INVESTITURE_OF_ICE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_SUGGESTION">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_OTILUKES_FREEZING_SPHERE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SOUL_CAGE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_FIEND">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_ICE">
+        <supports>Black Mage</supports>
+    </append>
+    <!-- Level 7 -->
+    <append id="ID_PHB_SPELL_DELAYED_BLAST_FIREBALL">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ETHEREALNESS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FINGER_OF_DEATH">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIRE_STORM">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FORCECAGE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MORDENKAINENS_MAGNIFICENT_MANSION">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANE_SHIFT">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_POWER_WORD_PAIN">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REGENERATE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SIMULACRUM">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TELEPORT">
+        <supports>Black Mage</supports>
+    </append>
+    <!-- Level 8 -->
+    <append id="ID_XGTE_SPELL_ABI_DALZIMS_HORRID_WILTING">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ANTIMAGIC_FIELD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DEMIPLANE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DOMINATE_MONSTER">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INCENDIARY_CLOUD">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MADDENING_DARKNESS">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_REALITY_BREAK">
+        <supports>Black Mage</supports>
+    </append>
+    <!-- Level 9 -->
+    <append id="ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GATE">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_METEOR_SWARM">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_RAVENOUS_VOID">
+        <supports>Black Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TIME_STOP">
+        <supports>Black Mage</supports>
+    </append>
+
+</elements>
