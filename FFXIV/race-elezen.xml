@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Elezen</name>
-		<update version="0.3.1">
+		<update version="1.0.0">
 			<file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
 		</update>
 	</info>
@@ -29,6 +29,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="intelligence" value="2" bonus="base" />
+			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Racial Trait" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_SUPER_HEARING" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<select type="Language" name="Language" supports="Standard||Exotic" />
