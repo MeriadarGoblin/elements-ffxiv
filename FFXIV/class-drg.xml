@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dragoon</name>
-		<update version="1.1.0">
+		<update version="1.1.1">
 			<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drg.xml" />
 		</update>
 	</info>
@@ -178,6 +178,20 @@
 			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Dragoon" />
 		</rules>
 	</element>
+	<!-- Fighting Style Appends -->
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+        <supports>Dragoon</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+        <supports>Dragoon</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+        <supports>Dragoon</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+        <supports>Dragoon</supports>
+    </append>
+
 	<element name="Lancet" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_LANCET">
 		<description>
 			<html>&lt;p&gt;Also beginning at 2nd level, while under the effects of Dragoon's Trance, as an action you may make a melee weapon attack that drains your target's vitality. You recover hit points equal to half the damage of your weapon attack rounded up. You can use this feature a number of times equal to your Strength modifier (a minimum of once). You regain any expended uses when you finish a short rest.&lt;/p&gt;</html>
