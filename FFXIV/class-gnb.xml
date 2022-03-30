@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Gunbreaker</name>
-		<update version="1.4.52">
+		<update version="1.4.55">
 			<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		</update>
 	</info>
@@ -433,17 +433,17 @@
             <p>Practitioners of the Lionhart Style have learned to elementally tune their Munitions, allowing them to pierce enemy's guard with elemental energies and dealing out heavy damage.</p>
             <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH" />
             <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE" />
-            <div element="" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE" />
             <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITYY" />
-            <div element="" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH" level="3" />
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE" level="6" />
-            <grant type="Archetype Feature" id="" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE" level="10" />
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITYY" level="14" />
-            <grant type="Archetype Feature" id="" level="20" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN" level="20" />
         </rules>
     </element>
     <element name="Elemental Slash" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH">
@@ -469,7 +469,7 @@
             <description>As a bonus action you may expend one Munitions charge to move as though you are under the effects of the Jump or Longstrider spell until your next turn. The first melee weapon attack while under this effect deals an additional d6 of damage matching your weapon type.</description>
         </sheet>
     </element>
-    <element name="Fated Circle" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE">
+    <element name="Fated Circle" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE">
         <description>
             <p>Beginning at the 10th level, when you make a successful melee weapon attack with a gunblade, instead of using your Burst Strike feature, you may expend three Munitions charges to wave of elemental energy originating from you. All creatures in a 10ft. radius must make a Dexterity saving throw against your Gunbreaker Save DC. On a failure Creatures take 3d12 damage of your choice from the following: Fire, Cold, Lightning or Thunder, and half as much on a success. This damage increases to 4d12 at the 15th level and 5d12 at the 20th level. You can only use Fated Circle once per round.</p>
             <p class="indent">You can also use your action to use Fated Circle without making a successful melee weapon attack.</p>
