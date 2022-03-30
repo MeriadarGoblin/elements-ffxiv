@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Gunbreaker</name>
-		<update version="1.4.51">
+		<update version="1.4.52">
 			<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		</update>
 	</info>
@@ -434,19 +434,19 @@
             <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH" />
             <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE" />
             <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITY" />
-            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITYY" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKENN" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH" level="3" />
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE" level="6" />
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE" level="10" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITY" level="14" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN" level="20" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITYY" level="14" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKENN" level="20" />
         </rules>
     </element>
-    <element name="Elemental Slash" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH">
+    <element name="Elemental Slash" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH">
         <description>
             <p>Beginning at the 3rd level, when you use your Burst Strike feature, instead of the regular effect, you can deal an additional 1d12 damage to the creature of your choice from the following: Fire, Cold, Lightning or Thunder.</p>
             <p class="indent">This damage increases to 2d12 at the 6th level, 3d12 at the 12th level and 4d12 at the 18th level.</p>
@@ -461,7 +461,7 @@
             <stat name="elemental:dice" value="4" bonus="dice" level="18" />
         </rules>
     </element>
-    <element name="Rough Divide" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE">
+    <element name="Rough Divide" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE">
         <description>
             <p>Beginning at the 6th level, as a bonus action you may expend one Munitions charge to move as though you are under the effects of the Jump or Longstrider spell until your next turn. The first melee weapon attack while under this effect deals an additional d6 of damage matching your weapon type.</p>
         </description>
@@ -469,7 +469,7 @@
             <description>As a bonus action you may expend one Munitions charge to move as though you are under the effects of the Jump or Longstrider spell until your next turn. The first melee weapon attack while under this effect deals an additional d6 of damage matching your weapon type.</description>
         </sheet>
     </element>
-    <elemental name="Fated Circle" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE">
+    <elemental name="Fated Circle" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE">
         <description>
             <p>Beginning at the 10th level, when you make a successful melee weapon attack with a gunblade, instead of using your Burst Strike feature, you may expend three Munitions charges to wave of elemental energy originating from you. All creatures in a 10ft. radius must make a Dexterity saving throw against your Gunbreaker Save DC. On a failure Creatures take 3d12 damage of your choice from the following: Fire, Cold, Lightning or Thunder, and half as much on a success. This damage increases to 4d12 at the 15th level and 5d12 at the 20th level. You can only use Fated Circle once per round.</p>
             <p class="indent">You can also use your action to use Fated Circle without making a successful melee weapon attack.</p>
@@ -483,7 +483,7 @@
             <stat name="fated:dice" value="5" bonus="die" level="20" />
         </rules>
     </elemental>
-    <element name="Elemental Intensity" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITY">
+    <element name="Elemental Intensity" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITYY">
         <description>
             <p>Beginning at the 14th level, you deal bonus damage on your Elemental Slash and Fated Circle abilities equal to your Intelligence ability modifier. Additionally, you may choose Force, Necrotic or Radiant damage when using those abilities.</p>
         </description>
@@ -491,7 +491,7 @@
             <description>You now deal bonus damage on your Elemental Slash and Fated Circle abilities equal to your Intelligence ability modifier. Additionally, you may choose Force, Necrotic or Radiant damage when using those abilities.</description>
         </sheet>
     </element>
-    <elemental name="Renzokuken" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN">
+    <elemental name="Renzokuken" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKENN">
         <description>
             <p>Beginning at the 20th level, when you make a successful melee weapon attack with a gunblade, you may expend one Munitions charge to make another melee weapon attack.</p>
         </description>
@@ -520,7 +520,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BULLET_HELL" level="20" />
         </rules>
     </element>
-    <element name="Gritty Gunner" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GRITTY_GUNNER">
+    <element name="Gritty Gunner" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GRITTY_GUNNER">
         <description>
             <p>Beginning at the 3rd level, when you use Gunner Shot with a hostile creature within 5ft. of you, you do not suffer disadvantage on the attack and you add your Strength ability modifier to your Gunner Shot damage rolls.</p>
             <p class="indent">Additionally, you gain proficiency in all firearms.</p>
@@ -532,7 +532,7 @@
             <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
         </rules>
     </element>
-    <element name="Gamber's Guts" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GAMBLERS_GUTS">
+    <element name="Gamber's Guts" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GAMBLERS_GUTS">
         <description>
             <p>Beginning at the 6th level, you have gained proficiency in the Insight skill and a set of gaming tools of your choice. When making a skill check or attack roll with die result 9 or lower, you may expend one Munitions charge to reroll the die. You must use the new number.</p>
         </description>
@@ -543,7 +543,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
         </rules>
     </element>
-    <element name="Armour Piercing Round" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_AP_ROUND">
+    <element name="Armour Piercing Round" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_AP_ROUND">
         <description>
             <p>Beginning at the 10th level, when you use the Gunner Shot Attack action, you may spend an additional Munitions charge to calculate your attack roll as though your enemy's AC is 10 + their Dexterity modifier. If the creature has natural armour the base of 10 is increased to the appropriate number.</p>
         </description>
@@ -551,7 +551,7 @@
             <description>When you use the Gunner Shot Attack action, you may spend an additional Munitions charge to calculate your attack roll as though your enemy's AC is 10 + their Dexterity modifier. If the creature has natural armour the base of 10 is increased to the appropriate number.</description>
         </sheet>
     </element>
-    <element name="Bombardment" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BOMBARDMENT">
+    <element name="Bombardment" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BOMBARDMENT">
         <description>
             <p>Beginning at the 14th level, you may use the following abilities when you use your Gunner Shot attack action as though you are attacking in melee range: Burst Strike, Blasting Zone and Sonic Breaker.</p>
         </description>
@@ -559,7 +559,7 @@
             <description>You may use the following abilities when you use your Gunner Shot attack action as though you are attacking in melee range: Burst Strike, Blasting Zone and Sonic Breaker.</description>
         </sheet>
     </element>
-    <element name="Bullet Hell" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BULLET_HELL">
+    <element name="Bullet Hell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BULLET_HELL">
         <description>
             <p>Beginning at the 20th level, when you use your Gunner Shot Attack action, you may expend loaded Munition charges to make additional Gunner Shot attacks. You expend one charge per extra attack made. You cannot use the Bombardment feature on the additional attacks.</p>
         </description>
