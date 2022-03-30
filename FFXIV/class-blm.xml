@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Black Mage</name>
-		<update version="1.2.1">
+		<update version="1.2.2">
 			<file name="class-blm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blm.xml" />
 		</update>
 	</info>
@@ -209,7 +209,7 @@
         <description>
             <p>At 2nd level, you choose the discipline you belong to as a Black Mage. Mhachi, Enchanter, or Void Mage, all detailed at the end of the class description. Your archetype choice grants you features at the 2nd, 6th, 10th and 14th level.</p>
         </description>
-        <sheet description="false" />
+        <sheet display="false" />
         <rules>
             <select type="Archetype" name="Magical Discipline" supports="Magical Discipline" />
         </rules>
