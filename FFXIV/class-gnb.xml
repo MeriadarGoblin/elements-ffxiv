@@ -348,7 +348,7 @@
         </sheet>
     </element>
 
-    <element name="Breaker Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_BREAKER_STYLE">
+    <element name="Breaker Style" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_BREAKER_STYLE">
         <supports>Gunbreaker Archetype</supports>
         <description>
             <p>The Breaker Style has been innovated by fighters who do not fear being on the front line taking hits from foes. They make it their job to disable their foes and create openings for their allies while standing defiantly against their foes.</p>
@@ -428,7 +428,7 @@
         </sheet>
     </element>
 <!--
-    <element name="Lionhart Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_LIONHART_STYLE">
+    <element name="Lionhart Style" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_LIONHART_STYLE">
         <supports>Gunbreaker Archetype</supports>
         <description>
             <p>Practitioners of the Lionhart Style have learned to elementally tune their Munitions, allowing them to pierce enemy's guard with elemental energies and dealing out heavy damage.</p>
@@ -449,7 +449,7 @@
     </element>
 
 
-    <element name="Revolver Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_REVOLVER_STYLE">
+    <element name="Revolver Style" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_REVOLVER_STYLE">
         <supports>Gunbreaker Archetype</supports>
         <description>
             <p>The Revolver Style involves becoming a skilled marksman alongside being a powerful sword fighter. Mastery of ranged combat with this new form of weaponry will be a challenge for those using the Revolver style but their ability to fight at both close and long range will be highly valuable.</p>
