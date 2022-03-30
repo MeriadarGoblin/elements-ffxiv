@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Gunbreaker</name>
-		<update version="1.1.0">
+		<update version="1.1.1">
 			<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		</update>
 	</info>
@@ -203,10 +203,10 @@
     <element name="Gunner" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CLASS_FEATURE_FIGHTINGSTYLE_GUNNER">
         <supports>Fighting Style, Gunbreaker</supports>
 		<description>
-			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<p>You gain a +2 bonus to attack rolls you make with your Gunner Shot Attack action.</p>
 		</description>
 		<sheet>
-			<description>You gain a +2 bonus to attack rolls you make with ranged weapons.</description>
+			<description>You gain a +2 bonus to attack rolls you make with your Gunner Shot Attack action.</description>
 		</sheet>
     </element>
     <!-- Fighting Style Appends -->
