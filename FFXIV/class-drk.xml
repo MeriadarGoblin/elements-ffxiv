@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dark Knight</name>
-		<update version="0.1.1">
+		<update version="1.0.1">
 			<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drk.xml" />
 		</update>
 	</info>
@@ -170,9 +170,27 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Fighter" />
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Dark Knight" />
 		</rules>
 	</element>
+
+	<!-- Fighting Styles Appends -->
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+        <supports>Dark Knight</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+        <supports>Dark Knight</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+        <supports>Dark Knight</supports>
+    </append>
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
+        <supports>Dark Knight</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+        <supports>Dark Knight</supports>
+    </append>
+
 	<element name="Burning Blood" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRK_BURNING_BLOOD">
 		<description>
 			<html>&lt;p&gt;Also beginning at the 2nd level, as a bonus action you may expend one of your hit die and roll it. You recover Well of Darkness points equal to the result. You cannot exceed your maximum number of Well of Darkness points.&lt;/p&gt;</html>
