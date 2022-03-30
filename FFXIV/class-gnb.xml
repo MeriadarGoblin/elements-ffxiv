@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Gunbreaker</name>
-		<update version="1.4.5">
+		<update version="1.4.51">
 			<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		</update>
 	</info>
@@ -373,16 +373,14 @@
             <p class="indent">This damage increases to 2d6 at the 6th level, 3d6 at the 12th level and 4d6 at the 18th level. Beginning at 9th level, if the creature is medium or smaller, they are stunned until your next turn instead of knocked prone.</p>
         </description>
         <sheet>
-            <description>When you use your Burst Strike feature, instead of the regular effect, you can attempt to force the enemy to the ground. The creature makes a Constitution saving throw against your Gunbreaker Save DC. On a failure they take {{slash bang}}d6 thunder damage and are knocked prone. On a success they are not knocked prone. {{slash bang:nine}}</description>
+            <description>When you use your Burst Strike feature, instead of the regular effect, you can attempt to force the enemy to the ground. The creature makes a Constitution saving throw against your Gunbreaker Save DC. On a failure they take {{slash bang}}d6 thunder damage and are knocked prone. On a success they are not knocked prone.</description>
+            <description level="9">When you use your Burst Strike feature, instead of the regular effect, you can attempt to force the enemy to the ground. The creature makes a Constitution saving throw against your Gunbreaker Save DC. On a failure they take {{slash bang}}d6 thunder damage and are knocked prone. On a success they are not knocked prone. If the creature is medium or smaller, they are stunned until your next turn instead of knocked prone.</description>
         </sheet>
         <rules>
             <stat name="slash bang" value="1" bonus="die" />
             <stat name="slash bang" value="2" bonus="die" level="6" />
             <stat name="slash bang" value="3" bonus="die" level="12" />
             <stat name="slash bang" value="4" bonus="die" level="18" />
-			<stat name="sonic" value="5" bonus="die" level="20" />
-            <stat inline="false" name="slash bang:nine" value="" />
-            <stat inline="true" name="slash bang:nine" value="Beginning at 9th level, if the creature is medium or smaller, they are stunned until your next turn instead of knocked prone." level="9" />
         </rules>
     </element>
     <element name="Tether Bracer" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_TETHER_BRACER">
