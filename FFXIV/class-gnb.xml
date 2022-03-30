@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Gunbreaker</name>
-		<update version="1.2.1">
+		<update version="1.2.2">
 			<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		</update>
 	</info>
@@ -348,7 +348,7 @@
         </sheet>
     </element>
 
-    <element name="Breaker Style" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_BREAKER_STYLE">
+    <element name="Breaker Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_BREAKER_STYLE">
         <supports>Gunbreaker Archetype</supports>
         <description>
             <p>The Breaker Style has been innovated by fighters who do not fear being on the front line taking hits from foes. They make it their job to disable their foes and create openings for their allies while standing defiantly against their foes.</p>
@@ -367,7 +367,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_SUPERBOLIDE" level="20" />
         </rules>
     </element>
-    <element name="Slash Bang" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_SLASH_BANG">
+    <element name="Slash Bang" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_SLASH_BANG">
         <description>
             <p>Beginning at the 3rd level, you have learned to use your Gunblade's Munitions to disrupt the enemy's body. When you use your Burst Strike feature, instead of the regular effect, you can attempt to force the enemy to the ground. The creature makes a Constitution saving throw against your Gunbreaker Save DC. On a failure they take 1d6 thunder damage and are knocked prone. On a success they are not knocked prone.</p>
             <p class="indent">This damage increases to 2d6 at the 6th level, 3d6 at the 12th level and 4d6 at the 18th level. Beginning at 9th level, if the creature is medium or smaller, they are stunned until your next turn instead of knocked prone.</p>
@@ -384,7 +384,7 @@
             <stat inline="true" name="slash bang:nine" value="Beginning at 9th level, if the creature is medium or smaller, they are stunned until your next turn instead of knocked prone." level="9" />
         </rules>
     </element>
-    <element name="Tether Bracer" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_TETHER_BRACER">
+    <element name="Tether Bracer" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_TETHER_BRACER">
         <description>
             <p>At 6th level, you have developed a grappling hook mounted on a bracer to assist you in both exploration and battle. Your grappling hook has a range of 60ft. When the grappling hook is anchored to a surface, you gain advantage on climb checks. If you are moving in the direction of the anchor point by foot, your speed is increased by 10ft.</p>
             <p class="indent">In battle, as a bonus action you may make a ranged weapon attack using your Gunbreaker Ranged Attack modifier. On a hit, you deal 1d6 piercing damage and the creature must make a Strength saving throw against your Gunbreaker Save DC, becoming grappled on a failed save. The creature may reattempt this save as an action on their turn.</p>
@@ -397,7 +397,7 @@
             </description>
         </sheet>
     </element>
-    <element name="Maimed Reflexes" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_MAIMED_REFLEXES">
+    <element name="Maimed Reflexes" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_MAIMED_REFLEXES">
         <description>
             <p>Beginning at the 10th level, When you use your Burst Strike feature, instead of the regular effect, you can temporarily dull the target's reflexes. The creature makes a Constitution saving throw against your Gunbreaker Spell Save DC. On a failure they take 3d6 thunder damage and cannot make attacks of opportunity until your next turn.</p>
             <p class="indent">This damage increases to 4d6 at the 15th level and 5d6 at the 20th level.</p>
@@ -411,7 +411,7 @@
             <stat name="maimed:dice" value="5" bonus="dice" level="20" />
         </rules>
     </element>
-    <element name="Nebula Burst" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_NEBULA_BURST">
+    <element name="Nebula Burst" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_NEBULA_BURST">
         <description>
             <p>Beginning at the 14th level, when you take damage, as a reaction you may expend one use of Munitions to reduce the damage taken by 1d6 + your Constitution ability modifier and all creatures within 5ft. take thunder damage equal to 1d6 + your Constitution ability modifier.</p>
         </description>
@@ -419,7 +419,7 @@
             <description>When you take damage, as a reaction you may expend one use of Munitions to reduce the damage taken by 1d6 + your Constitution ability modifier and all creatures within 5ft. take thunder damage equal to 1d6 + your Constitution ability modifier.</description>
         </sheet>
     </element>
-    <element name="Superbolide" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_SUPERBOLIDE">
+    <element name="Superbolide" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_SUPERBOLIDE">
         <description>
             <p>Beginning at the 20th level, when you reach 0 hit points and would not be killed outright, you may instead drop to 1 hit point instead. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
         </description>
@@ -428,44 +428,44 @@
         </sheet>
     </element>
 <!--
-    <element name="Lionhart Style" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_LIONHART_STYLE">
+    <element name="Lionhart Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_LIONHART_STYLE">
         <supports>Gunbreaker Archetype</supports>
         <description>
-            <p>The Breaker Style has been innovated by fighters who do not fear being on the front line taking hits from foes. They make it their job to disable their foes and create openings for their allies while standing defiantly against their foes.</p>
-            <div element="" />
-            <div element="" />
-            <div element="" />
-            <div element="" />
-            <div element="" />
+            <p>Practitioners of the Lionhart Style have learned to elementally tune their Munitions, allowing them to pierce enemy's guard with elemental energies and dealing out heavy damage.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITY" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN" />
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_SLASH" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ROUGH_DIVIDE" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_FATED_CIRCLE" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_ELEMENTAL_INTENSITY" level="14" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN" level="20" />
         </rules>
     </element>
 
 
-    <element name="Revolver Style" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_REVOLVER_STYLE">
+    <element name="Revolver Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_GNB_REVOLVER_STYLE">
         <supports>Gunbreaker Archetype</supports>
         <description>
-            <p>The Breaker Style has been innovated by fighters who do not fear being on the front line taking hits from foes. They make it their job to disable their foes and create openings for their allies while standing defiantly against their foes.</p>
-            <div element="" />
-            <div element="" />
-            <div element="" />
-            <div element="" />
-            <div element="" />
+            <p>The Revolver Style involves becoming a skilled marksman alongside being a powerful sword fighter. Mastery of ranged combat with this new form of weaponry will be a challenge for those using the Revolver style but their ability to fight at both close and long range will be highly valuable.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GRITTY_GUNNER" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GAMBLERS_GUTS" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_AP_ROUND" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BOMBARDMENT" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BULLET_HELL" />
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
-            <grant type="Archetype Feature" id="adsadad" level="asdaa" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GRITTY_GUNNER" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_GAMBLERS_GUTS" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_AP_ROUND" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BOMBARDMENT" level="14" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_BULLET_HELL" level="20" />
         </rules>
     </element>
 -->
