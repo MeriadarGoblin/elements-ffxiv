@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dragoon</name>
-		<update version="1.1.1">
+		<update version="1.1.11">
 			<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drg.xml" />
 		</update>
 	</info>
@@ -211,12 +211,11 @@
 	</element>
 	<element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_ABILITY_SCORE_IMPROVEMENT">
 		<description>
-			<html>&lt;p&gt;When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.&lt;/p&gt;</html>
+			<html>&lt;p&gt;When you reach 4th level, and again at 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.&lt;/p&gt;</html>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Class Feature" name="Improvement Option (Dragoon 4)" supports="Improvement Option,Dragoon,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Dragoon 6)" supports="Improvement Option,Dragoon,6" level="6" />
 			<select type="Class Feature" name="Improvement Option (Dragoon 8)" supports="Improvement Option,Dragoon,8" level="8" />
 			<select type="Class Feature" name="Improvement Option (Dragoon 12)" supports="Improvement Option,Dragoon,12" level="12" />
 			<select type="Class Feature" name="Improvement Option (Dragoon 14)" supports="Improvement Option,Dragoon,14" level="14" />
