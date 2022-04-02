@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Miqo'te</name>
+		<update version="1.0.0">
+			<file name="race-miqote.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-miqote.xml" />
+		</update>
+	</info>
+    <element name="Miqo'te" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_MIQOTE">
+        <description>
+            <p><em>"The Nunh that I once fought also believed that his strrrength would save him. He was wrong, and I am now Nunh. Many years ago I joined the Company of Heroes to hone my skills instead of challenging my predecessor before I was ready. Even when I was young I understood that victorrrry goes to the patient, the cunning, the pragmatic."</em></p>
+            <p class="indent">-U'odh Nunh, leader of the Drake Tribe</p>
+            <p class="indent">The Miqo'te are an aloof people who value their independence from the world. Centuries ago the Miqo'te migrated, Seekers spreading across the world in low numbers while Keepers finding dense forests as a new home. Traditionally they avoid the other races, but over time more and more Miqo'te have integrated into society with pockets of die hard traditional Miqo'te tribes surviving out in the world.</p>
+            <h4>Lithe Hunters</h4>
+            <p>The Miqo'te are a feline race with large catlike ears, fanged teeth and long tails. They have a highly tuned sense of smell and powerful legs, which have allowed them to become natural hunters. The Seekers of the Sun's ears are wider with thicker fur, while the Keepers of the Moon's ears are longer and stylized, with shorter fur. Futhermore, the eyes of the Seekers has developed such that the pupils are slit light, to help guard their eyes from the exposure of the sun, while the Keepers' pupils have become large and rounded. Many more women are born into the tribes and clans of the Miqo'te people.</p>
+            <h4>Of Suns and Moons</h4>
+            <p>The Seekers or the Sun and Keepers of the Moon are two distinct ethnicities falling under the Miqo'te. Their cultures differ greatly down to the social structures of their groups. The Seekers live in male dominant societies centered around an alpha male known as the Nuhn, and worship the god Azeyma. In contrast the Keepers live in a matriarchal society and worship the goddess Menphina.</p>
+            <h4>Arid Sands and Dense Woods</h4>
+            <p>The hot, arid deserts of Southern Thanalan are home to one of the most famed tribes of the Seekers of the Sun. Seekers can be found anywhere across the world, barring cold regions with a harsh winter climate. Those who integrate into larger cities tend to discard their tribal ties and take up the social norms of the city in which they live. Keepers of the Moon have taken to the dense forests away from the heat of the sun.</p>
+            <h4>Adventure Calls</h4>
+            <p>The Miqo'te tend to differ on their approach to life depending on their ethnicity. The Seekers of the Sun are bold individuals who are quick to jump into action, but also become bored easily. This natural need for excitement may call a Miqo'te to action, leading them out into the world to explore. Those from traditional tribes may leave their tribe seeking to start their own clan of Seekers, becoming the alpha of their group.</p>
+            <p class="indent">Keepers are guarded and brooding, which may stall them from setting out on a journey, but when the need arises to protect family, friends or their home, a Keeper will stop at nothing to protect that which they cherish.</p>
+            <h4>Miqo'te Names</h4>
+            <p>Seekers of the sun use a simple naming convention. Male names are one or two syllables and preceded by a letter which is associated with the tribe. The extra aitches (H) we see in names such as represent a slight hissing/spitting sound that is made when the name is pronounced by the cat-like Miqo’te. Many of the other races in Eorzea cannot accurately reproduce this sound, so the aitches (H) end up going silent when read. They do not take a family name, but instead are given the name Tia at birth. A Tia may change their surname to Nunh by challenging the tribes breeding male and defeating him in battle. If successful the two trade titles. Female seekers' first names are given in the same way with three or more syllables, but the surname is the first name of the breeding male who sired her.</p>
+            <p class="indent">The tribal prefix often gets dropped in casual conversation and with close friends and family.</p>
+            <p class="indent">The female Keepers use one to two syllable first names without a tribal prefix due to their small communities. Additionally in their culture the mother's surname is passed on to the children. The males born into the Keepers' communities take both of their mother's names, adding a suffix to the end of their first name to indicate their birth order counting the males. It is rare that more than 3 suffixes are needed.</p>
+            <p class="indent"><strong>Male Seeker Names.</strong> I'wheto, S'ciwah, Q'tuja, P'fhemeh, I'chelu, B'cuhguh, S'tohm, S'ghut, M'bod, I'phur.</p>
+            <p class="indent"><strong>Female Seeker Names.</strong> C'nhamfaule, C'qhaalkamo, D'mhagsoo, G'ganni, H'yhaafoqu, J'gidhiju, K'jotnhu, L'keknhegu, M'yhaiabdu, N'zhamroli.</p>
+            <p class="indent"><strong>Male Keeper Names.</strong> Axah'a, Gohkoh'to, Luhga'li, Mahgeh'sae, Mucih'ra, Nohpu'ir, Sahxa'wo, Suleh'ya, Vehse'zi, Wizo'tan.</p>
+            <p class="indent"><strong>Female Keeper Names.</strong> Nuhmu, Ota, Pehbi, Vehba, Yaba, Miko, Fafoh, Cehxi, Xarih, Ecih.</p>
+            <p class="indent"><strong>Keeper Surnames.</strong> Dagnheive, Dopsha, Gauvro, Jadnhapo, Jhendaka, Khutnauyu, Phemfa, Mhento, Rheibfuqe, Ruyhaia.</p>
+            <h4>Miqo'te Traits</h4>
+            <p>Your Miqo'te character has a variety of natural abilities related to their natural physical traits.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Miqo'te tend to live secluded, healthy lives reaching physical maturity around the age of 16, and living to be around 80 years old.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Miqo'te who live within a traditional tribal setting lean towards a lawful alignment, adhering to the laws of their people. Those who are born or live in more diverse settings tend to lean in no particular direction.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Miqo'te are a proud people with powerful leg muscles. Their slender builds distract from how powerful their bodies really are. On average males tend to range in height from 5 feet to 5 and a half feet tall, while females range from 4 feet 9 inches to 5 feet 3 inches Your size is medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> Your eyes have adapted to help you see in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey.</p>
+            <p class="indent"><strong><em>Predation.</em></strong> You gain proficiency in the Perception skill.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and one language of your choice. When speaking Common, your pronunciation of "r" sounds are sometimes extended with a purr. </p>
+            <p class="indent"><strong><em>Subrace.</em></strong> The Miqo'te are made up of two distinct clans. Select one of the two subraces of Miqo'te.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_MIQO_PREDATION" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Languages (Miqo'te)" supports="Standard||Exotic" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_MIQO_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Predation" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_MIQO_PREDATION">
+        <description>
+            <p>You gain proficiency in the Perception skill.</p>
+        </description>
+        <sheet display="false" >
+            <description>You gain proficiency in the Perception skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+    <element name="Miqo'te Sub Race" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_MIQO_SUBRACE">
+        <description>
+            <p>The Miqo'te are made up of two distinct clans. Select one of the two subraces of Miqo'te.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Miqo'te Subrace" supports="Cat Clan" />
+        </rules>
+    </element>
+
+    <element name="Seekers of the Sun" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_SEEEKERS_OF_THE_SUN">
+        <supports>Cat Clan</supports>
+        <description>
+            <p>As a Seeker of the sun, you come from a race of renowned hunters. The Seekers live in a patriarchal society which worships the sun and Azeyma. This past has given you the tools to become a deadly hunter, capable of wounding their marks with great efficiency.</p>
+            <p class="indent"><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 1.</p>
+            <p class="indent"><em><strong>Natural Athleticism.</strong></em> You gain proficiency in the Athletics skill.</p>
+            <p class="indent"><em><strong>Graceful Speed.</strong></em> Your walking speed is 35ft.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_NATURAL_ATHLETICISM" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_GRACEFUL_SPEED" />
+        </rules>
+    </element>
+    <element name="Natural Athleticism" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_NATURAL_ATHLETICISM">
+        <description>
+            <p>You gain proficiency in the Athletics skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+        </rules>
+    </element>
+    <element name="Graceful Speed" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GRACEFUL_SPEED">
+        <description>
+            <p>Your walking speed is 35ft.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="innate speed" value="5" bonus="bonus" />
+        </rules>
+    </element>
+
+    <element name="Keepers of the Moon" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_KEEPERS_OF_THE_MOON">
+        <supports>Cat Clan</supports>
+        <description>
+            <p>As a Keeper of the Moon, you come from a highly spiritual matriarchy. Your people worship and moon and the goddess Menphina. Many Keepers make use of war paint as they believe it helps to channel the power of the moon into their bodies. Keepers are renown for their tenacity in battle when defending their homelands, often pushing beyond their limits when pressed.</p>
+            <p class="indent"><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 1.</p>
+            <p class="indent"><em><strong>Superior Darkvision.</strong></em> Your darkvision has a radius of 120ft.</p>
+            <p class="indent"><em><strong>Tenacity.</strong></em> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_SUPERIOR_DARKVISION" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_TENACITY" />
+        </rules>
+    </element>
+    <element name="Superior Darkvision" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_SUPERIOR_DARKVISION">
+        <description>
+            <p>Your darkvision has a radius of 120ft.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+        </rules>
+    </element>
+    <element name="Tenacity" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_TENACITY">
+        <description>
+            <p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</description>
+        </sheet>
+    </element>
+</elements>
