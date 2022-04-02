@@ -4,7 +4,7 @@
 		<name>FFXIV</name>
 		<description>The content from the Final Fantatsy XIV DnD Compendium.</description>
 		<author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">SilentSoren</author>
-		<update version="0.1.6">
+		<update version="0.1.7">
 			<file name="FFXIV.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV.index" />
 		</update>
 	</info>
@@ -25,6 +25,8 @@
         <!-- Races -->
         <file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-au-ra.xml" />
         <file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
+		<file name="race-miqote.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-miqote.xml" />
+		<file name="race-roegadyn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-roegadyn.xml" />
 
         <!-- Other -->
         <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />

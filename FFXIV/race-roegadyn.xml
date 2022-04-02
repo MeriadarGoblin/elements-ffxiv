@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Roegadyn</name>
+		<update version="1.0.0">
+			<file name="race-roegadyn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-roegadyn.xml" />
+		</update>
+	</info>
+    <element name="Roegadyn" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_ROEGADYN">
+        <description>
+            <p><em>They sought to secure a place to breed and multiply, that their kind might survive. Self-preservation, as you say. But we have as much right to live and thrive as they. If our own survival is threatened, are we to lay down our arms and welcome oblivion? Nay.</em></p>
+            <p class="indent">-Admiral Merlwyb Bloefhiswyn</p>
+            <p>The Roegadyn are a physically powerful race of people with a thirst for life which few can rival. They live loudly with boisterous voices, larger than life goals and an unflinching approach to danger. Roegadyns are fearless explorers who long ago were the greatest pirates to sail the seas. Adventure is in their blood.</p>
+            <h4>Size Matters</h4>
+            <p>Roegadyn are enormous humanoids with a hulking muscular build. Men and women alike grow to tower over the other races. Partly due to their size, Roegadyn as a whole love competitions of strength and courage, challenging one another to push themselves and their bravery.</p>
+            <p>Their faces have fierce features and large flat noses. Due to their large size, Roegadyn tend to wear durable, flexible clothing which allows them to move easily.</p>
+            <h4>Maritime Reavers, Volcanic Hermits</h4>
+            <h4>HEADING</h4>
+            <p>The Sea Wolves live up to their names through a storied history on the ocean. Most Sea Wolf communities can be found on the coast, as most make their living from the sea.</p>
+            <p class="indent">Be it sailing, naval service or mercenary work, the Sea Wolves continue to feel most at home when adventuring on board a ship. The Hellsguard in comparison live in land around the volcanic mountains of Abalathia. Here they guard the material plane from undead spirits trying to return home.</p>
+            <h4>The Great Seas and Abalathia</h4>
+            <p>The Roegadyn as an entire race hail from the Northern seas , their name translating to people of the rain. These sea fairing people can be found living in coastal citites the world over living as sailors, mercenaries and pirates.</p>
+            <p>The Hellsguard live around the volcanoes of the Abalathia mountains, believing their home to be a sacred place related to the afterlife. Those Hellsguard who choose to leave their mountain homes can be found in large cities near these mountains, making a living as sellswords or chasing deeper knowledge of magic.</p>
+            <h4>In Their Nature</h4>
+            <p>The Roegadyn people are a boisterous race, seeking out challenges to test their power and bravery.</p>
+            <p class="indent">They rarely need much convincing to head into the heat of battle for a cause they believe in, though coin may help speed them along. Sea Wolves have a long history of pirating, looting and battle on ships of all sorts, giving them a deep seeded thirst for adventure.</p>
+            <p class="indent">Hellsguard grow up in solitude away from society, having no city to call their own. They may decide to head off in search of a more engaging existence by heading down their mountain and seeing what else the world has to offer.</p>
+            <h4>Roegadyn Names</h4>
+            <p>Sea Wolves and Hellsguard follow very different rules when it comes to naming conventions. Sea Wolves all derive their names by combining two words from their ancient Roegadyn Language.</p>
+            <p class="indent">Hellsguard on the other hand avoid their ancient language and use the common tongue. Their names are formed using two words as well, often drawing inspiration from nature. Women of the Hellsguard tend to use plant imagery in their names as well, but are not restricted to do so. Nearly all Hellsguard abandon their family names, refusing to be defined by their ancestors in the past.</p>
+            <p class="indent"><strong>Male Sea Wolf Names.</strong> Klynnahct, Flazfolg, Roehahtyn, Broenstymm, Haergeiss, Nedyrsatz, Unsynfarr.</p>
+            <p class="indent"><strong>Female Sea Wolf Names.</strong> Rhotbryda, Hezzwyb, Rhenbryda, Grynegeim, Ketenbryda, Skaenswys, Swozthota, Wyznthota, Rhotbryda, Trahggeim.</p>
+            <p class="indent"><strong>Male Hellsguard Names.</strong> Aware Sun, Major Wind, Blue Yew, Grateful Forest, Surprised Cavern, Bright Island, Flawed Lake, Fearless Oak, Dirt Snow, Stark Crow.</p>
+            <p class="indent"><strong>Female Hellsguard Names.</strong> Soft Pea, Obedient Apple, Honored Eclipse, Orange Autumn, Silly Feather, Carefree Locust, Secret Lavender, Careful Vapor, Optimistic Blossom, Innocent Daffodil.</p>
+            <h4>Roegadyn Traits</h4>
+            <p>Your Roegadyn character has a variety of natural abilities which all members of their race have.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Though physically larger than the other races, the Roegadyn do not live any longer; reaching full maturity around the age of 20 and living into their eighties.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Roegadyn have no heavy leaning towards good or evil. The Sea Wolves value the chaotic nature of adventuring and lean towards this alignment, while the Hellsguard look to laws of their ancestors to guard the sacred volcanoes they've lived near for ages.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Roegadyns are a massive people who grow much taller than their fellow races. Males grow as tall as 7 and a half feet tall, while women can grow to be 7 foot 3 inches talls. Despite your powerful builds and great height, your size is medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
+            <p class="indent"><strong><em>Brave.</em></strong> You have advantage on saving throws against being frightened.</p>
+            <p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when you are determining your carrying capacity and also the weight you are able to push, drag or lift.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and Roegadyn.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> The Roegadyn have settled into two distinct lifestyles. Select a subrace based on where you come from.</p>
+            <div class="sidebar">
+                <h5>On Your Merit</h5>
+                <p>Both the Sea Wolves and the Hellsguard do not carry preconceived notions about other races, but rather judge each person they meet by their own standards. Sea Wolves may value people who show courage, while Hellsguard appreciate those who think before acting.</p>
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_FFXIV_LANGUAGE_ROEGADYN" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_BRAVE" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_POWERFUL_BUILD" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_SUB_RACE" />
+        </rules>
+    </element>
+    <element name="Brave" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_BRAVE">
+        <description>
+            <p>You have advantage on saving throws against being frightened.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being frightened.</description>
+        </sheet>
+    </element>
+    <element name="Powerful Build" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+    <element name="Roegadyn Sub Race" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_SUB_RACE">
+        <description>
+            <p>The Roegadyn have settled into two distinct lifestyles. Select a subrace based on where you come from.</p>
+        </description>
+        <sheet display="false">
+            <description>The Roegadyn have settled into two distinct lifestyles. Select a subrace based on where you come from.</description>
+        </sheet>
+        <rules>
+            <select type="Sub Race" name="Roegadyn Sub Race" supports="Roegadyn Sub Race" />
+        </rules>
+    </element>
+    <element name="Seawolf" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUB_RACE_SEAWOLF">
+        <supports>Roegadyn Sub Race</supports>
+        <description>
+            <p>Fearless sailors of the sea. The Sea Wolves have a storied history of being a great sailors. No coastal cities were safe in the past when the Sea Wolves came to town. A history of sailing and pirating has left the Sea Wolves with inherent abilities.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Strength score increases by 1.</p>
+            <p class="indent"><strong>Sailor's Swimming.</strong> You have advantage when making Athletics (swimming) checks.</p>
+            <p class="indent"><strong>Toughness.</strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_SAILORS_SWIMMING" />
+            <stat name="hp" value="level" />
+        </rules>
+    </element>
+    <element name="Sailor's Swimming" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_SAILORS_SWIMMING">
+        <description>
+            <p>You have advantage when making Athletics (swimming) checks.</p>
+        </description>
+        <sheet>
+            <description>You have advantage when making Athletics (swimming) checks.</description>
+        </sheet>
+    </element>
+    <element name="Hellsguard" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUB_RACE_HELLSGUARD">
+        <supports>Roegadyn Sub Race</supports>
+        <description>
+            <p>The elusive Hellsguard live around then volcanoes located within Abalathia's Spine. They have lived in solitude for hundreds of years guarding the volcano from spirits seeking passage from the world of the dead into their own world, over time granting magical abilities.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Charisma score increases by 1.</p>
+            <p class="indent"><strong>Magical Knowledge.</strong> You gain proficiency with the Arcana skill.</p>
+            <p class="indent"><strong>Volcanic Children.</strong> You know the Firebolt cantrip. At 3rd level you learn the Burning Hands spell and may cast it at the 2nd level once before requiring a long rest. When you reach 5th level, you can cast the Heat Metal spell once with this trait and regain the ability to do so when you finish a Long Rest. Charisma is your spell casting ability for these spells.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_BURNING_HANDS" />
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_VOLCANIC_TRAIT" />
+        </rules>
+    </element> 
+    <element name="Volcanic Children" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_VOLCANIC_TRAIT">
+        <description>
+            <p>You know the Firebolt cantrip. At 3rd level you learn the Burning Hands spell and may cast it at the 2nd level once before requiring a long rest. When you reach 5th level, you can cast the Heat Metal spell once with this trait and regain the ability to do so when you finish a Long Rest. Charisma is your spell casting ability for these spells.</p>
+        </description>
+        <sheet>
+            <description>You know the Firebolt cantrip.</description>
+            <description level="3">You know the Firebolt cantrip. You can cast the burning hands spell as a 2nd-level spell (1/long rest). (Charisma) </description>
+            <description level="5">You know the Firebolt cantrip. You can cast the burning hands spell as a 2nd-level spell and the heat metal (1/long rest). (Charisma)</description>
+        </sheet>
+    </element>
+
+</elements>

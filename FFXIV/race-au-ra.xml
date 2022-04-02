@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Au Ra</name>
-		<update version="0.1.0">
+		<update version="1.0.0">
 			<file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-au-ra.xml" />
 		</update>
 	</info>
@@ -51,12 +51,12 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIL_CRANIAL_HORNS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCALED_BODIES" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_GMBINDER_FFXIV_LANGUAGE_AURI" />
+			<grant type="Language" id="ID_FFXIV_LANGUAGE_AURI" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Racial Trait" id="ID_GMBINDER_FFXIV_RACIAL_TRAIT_AU_RA_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Auri" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_LANGUAGE_AURI">
+	<element name="Auri" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_AURI">
 		<description>
 			<html>&lt;p&gt;Typically spoken by Au Ra.&lt;/p&gt;</html>
 		</description>
@@ -104,7 +104,7 @@
 			<select type="Sub Race" name="Au Ra Subrace" supports="Au Ra" />
 		</rules>
 	</element>
-	<element name="Xaela" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_SUBRACE_XAELA">
+	<element name="Xaela" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_XAELA">
 		<supports>Au Ra</supports>
 		<description>
 			<html>&lt;p&gt;As a Xaela, you've been hardened by your life on the road as a part of a nomadic tribe. A life of hunting and warring has led you to martial prowess and improved strength. You are more outgoing than your Raen counterparts and are much more willing to engage in battle to resolve a conflict. Xaela tribes are small but numerous, battling for territory against one another on the Azim Steppe. Despite a willingness to fight, Xaela do not seek war, it is merely a tool to settle differences.&lt;/p&gt;
@@ -136,7 +136,7 @@
 			<description>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</description>
 		</sheet>
 	</element>
-	<element name="Raen" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_SUBRACE_RAEN">
+	<element name="Raen" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_RAEN">
 		<supports>Au Ra</supports>
 		<description>
 			<html>&lt;p&gt;The Raen live in harmony with the other civilized races of the East. They've assimilated fully into Doman culture, becoming valued for their unwavering determination to loyalty to their allies. They are largely looked upon favourably by the other races for their peaceful demeanor and respectable approach to life.&lt;/p&gt;
