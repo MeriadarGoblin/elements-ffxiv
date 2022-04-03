@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Lalafell</name>
+		<update version="1.1.0">
+			<file name="race-lalafell.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-lalafell.xml" />
+		</update>
+	</info>
+
+    <element name="Lalafell" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_LALAFELL">
+        <description>
+            <p><em>But I will see them suffer no longer. The victory feast shall provide the stage on which I declare the dissoultion of the sultanate. 'Tis mine intent that the ruling class of our golden city should take its place beside the common man in a fair and equitable republic. No more shall this nation bow to the whims of a privileged few.</em></p>
+            <p class="indent">-Nanamo Ul Namo, Sultana of Ul'Dah</p>
+            <p>The Lalafell are generally a cheery race of people. Long ago the Lalafells lived as masters of agriculture and spread across the land along trade routes, selling their produce becoming one of the most widespread races there is. In time the Dunesfolk went as far as establishing their own desert city-state known as Ul'Dah. These tiny folk are highly ambitious and are not afraid to take hold of opportunity when it appears before them.</p>
+            <h4>Tiny Yet Mighty</h4>
+            <p>Lalafell anatomy sees these kindly people rarely growing to be 3 feet tall. Their short bodies are rotund, with short feeble looking legs. But appearances can be deceiving as Lalafells bodies are highly efficient, allowing them to travel long distances on their short legs.</p>
+            <p class="indent">The Plainsfolk have larger, pointed ears which greatly improved their hearing, while the Dunesfolk developed a film which covers their eyes, protecting them from the sun and sand of the desert. Additionally, out of tradition, Dunesfolk sometimes place gemstones associated with their zodiac sign on their foreheads.</p>
+            <h4>Products of the Land</h4>
+            <p>The Lalafellin homelands produced two types of people, from which they take their names. The Plainsfolk started off as agriculturalists living their lives on their farms, eventually trading their goods across the land, leading for lalafells to spread across the world. The Dunesfolk began and remain as desert dwelling folk, their bodies adapting to the harsh conditions.</p>
+            <h4>Rolling Planes and Towering Dunes</h4>
+            <p>The Lalafell can trace their ancestry back to two key area. The Plainsfolk began as farmers on fertile lands across the southern seas, farming the fertile lands of their namesake. The Dunesfolk were not so lucky to have farmable land and instead turned to animal husbandry.</p>
+            <p>Traditionally Dunesfolk built their homes on the backs of beasts of burden, traveling with their herds. Eventually the Dunesfolk founded a great city of wealth, where many Dunesfolk live today.</p>
+            <h4>Family and Fortune</h4>
+            <p>Lalafells care deeply for their small families and would do anything for them. They may set out on an adventure to support their families or in their defense. Not all Lalafells have such pure goals though as many contain a great deal of ambition in their tiny bodies. Merchants travel all over the land, researchers seeking knowledge in secret places, sellswords bravely take on jobs to prove themselves. Lalafells may be small, but they take on the world in a big way.</p>
+            <h4>Lalafell Names</h4>
+            <p>Both the Plainsfolk and the Dunesfolk name themselves using set rhyming schemes, ruled by rhythm and repetition. Syllables are combining in various combinations to form playful sounding names. This means that Lalafells generally do not have surnames unless they come from royalty, which adds their family name in the middle. Each gender and subrace of Lalafell have their own rule set detailed below. Each letter indicates a syllable or pair of syllables.</p>
+            <table>
+                <thead>
+                    <tr><td>Gender and Subrace</td><td>Rhyming Scheme</td></tr>
+                </thead>
+                <tr><td>Male Plainsfolk</td><td>AB - CB</td></tr>
+                <tr><td>Female Plainsfolk</td><td>ABB - AB</td></tr>
+                <tr><td>Male Dunesfolk</td><td>AAB - CCB</td></tr>
+                <tr><td>Female Dunesfolk</td><td>AAB - AB</td></tr>
+            </table>
+            <p class="indent"><strong>Male Plainsfolk Names.</strong> Budadi Yidadi, Egul Sagul, Erelo Forelo, Elehul Pedulehul, Gusis Shisis.</p>
+            <p class="indent"><strong>Female Plainsfolk Names.</strong> Icucu Icu, Badada Bada, Usoso Uso, Kikuku Kiku.</p>
+            <p class="indent"><strong>Male Dunesfolk Names.</strong> Wowokima Chichikima, Sheshehici Rorohici, Hihihebo Ruruhebo, Tutushuhu Kukushuhu, Gogoreba Susureba.</p>
+            <p class="indent"><strong>Female Dunesfolk Names.</strong> Ejaja Eja, Babayi Bayi, Rerega Rega, Chochosha Chosha, Bobochu Bochu, Lelepu Lepu.</p>
+            <h4>Lalafell Traits</h4>
+            <p>Your Lalafell character has a variety of natural abilities derived from their ancestry.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> These smallfolk are able to live just as long as the other races. Lalafells reach physical maturity around the age of 18, and live until their mid eighties.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Generally speaking, Lalafells lean towards a good natured alignment, though some shrewd business men may push far away from this approach to life. Neither the Plainsfolk or Dunesfolk have a inclination to law or chaos, with individuals falling into all categories.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Lalafells are a diminutive people who see no difference in height due to gender. Their heights on average range from 2 feet and 8 inches to just over 3 feet. Your size is small.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25ft.</p>
+            <p class="indent"><strong><em>Cunning.</em></strong> You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+            <p class="indent"><strong><em>Lalafellin Nimbleness.</em></strong> You can move through the space of any creature that is of a size larger than yours.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and one other language.</p>
+            <div class="sidebar">
+                <h5>Good Relations All Around</h5>
+                <p>Thanks to their charming demeanors and financial ties across the world, Lalafells are one of the few races who can say it is on good terms with nearly everyone. Most Lalafells are kindly and outgoing, allowing them to seem like the younger sibling of all the races.</p>
+            </div>
+            <p class="indent"><strong><em>Subrace.</em></strong> The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="2" />
+            <grant type="Size" id="ID_SIZE_SMALL" />
+            <stat name="innate speed" value="25" bonus="base" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_CUNNING" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LALAFELLIN_NIMBLENESS" />
+            <grant type="Languages" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Lalafell)" supports="Standard||Exotic"  />
+            <grant type="Racial Trait" id="ID_FFXIV_LALAFELL_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Cunning" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_CUNNING">
+        <description>
+            <p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</description>
+        </sheet>
+    </element>
+    <element name="Lalafelling Nimblesness" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_LALAFELLIN_NIMBLENESS">
+        <description>
+            <p>You can move through the space of any creature that is of a size larger than yours.</p>
+        </description>
+        <sheet>
+            <description>You can move through the space of any creature that is of a size larger than yours.</description>
+        </sheet>
+    </element>
+    <element name="Lalafell Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LALAFELL_SUBRACE">
+        <description>
+            <p>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</p>
+        </description>
+        <sheet>
+            <description>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</description>
+        </sheet>
+        <rules>
+            <grant type="Sub Race" name="Lalafell Subrace" supports="Lalafell Subrace" />
+        </rules>
+    </element>
+
+    <element name="Plainsfolk" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_LALAFELL_PLAINSFOLK">
+        <supports>Lalafell Subrace</supports>
+        <description>
+            <p>As a Plainsfolk, you have spent some time working in agriculture, or have had information passed down to you from your family. Your highly sensitive ears and knowledge of farming has led to the development that sets you apart from your fellow Lalafell, the Dunesfolk.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong>Naturally Stealthy.</strong> You can attempt to hide even when when you are obscured only by a creature that is at least one size larger than you.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_NATURALLY_STEALTHY" />
+        </rules>
+    </element>
+    <element name="Naturally Stealthy" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_NATURALLY_STEALTHY">
+        <description>
+            <p>You can attempt to hide even when when you are obscured only by a creature that is at least one size larger than you.</p>
+        </description>
+        <sheet>
+            <description>You can attempt to hide even when when you are obscured only by a creature that is at least one size larger than you.</description>
+        </sheet>
+    </element>
+    
+    <element name="Dunesfolk" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_LALAFELL_DUNESFOLK">
+        <supports>Lalafell Subrace</supports>
+        <description>
+            <p>As a Dunesfolk, you've adapted to the harsh desert environments and thrived. The land from which you hail is known for its riches and merchantry as much as its known for his corruption.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Intelligence score increases by 1.</p>
+            <p class="indent"><strong>Dustshield.</strong> Your eyes have developed a film to protect them from desert conditions. You have advantage on saving throws against being blinded.</p>
+            <p class="indent"><strong>Land of Merchants.</strong> You gain proficiency in the Deception skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_DUSTSHIELD" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LAND_OF_MERCHANTS" />
+        </rules>
+    </element>
+    <element name="Dustshield" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_DUSTSHIELD">
+        <description>
+            <p>Your eyes have developed a film to protect them from desert conditions. You have advantage on saving throws against being blinded.</p>
+        </description>
+        <sheet>
+            <description>Your eyes have developed a film to protect them from desert conditions. You have advantage on saving throws against being blinded.</description>
+        </sheet>
+    </element>
+    <element name="Land of Merchants" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_LAND_OF_MERCHANTS">
+        <description>
+            <p>You gain proficiency in the Deception skill.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in the Deception skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+        </rules>
+    </element>
+
+    <element name="Dwarf" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_LALAFELL_DWARF">
+        <supports>Lalafell Subrace</supports>
+        <description>
+            <p>In the land of Norvrandt, the Lalafells came to be known as Dwarves. These diminutive folk took to mining and crafts work, developing a distinct set of cultural customs, from giving proper boisterous welcomes by calling out "Lali Ho!" to never revealing their true faces outside of the village, hiding them beneath helmets and large fake beards, they became eccentric by any world's standards.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Constitution score increases by 1.</p>
+            <p class="indent"><strong>Dwarven Resilience.</strong> You have advantage on Saving Throws against poison, and you have resistance against poison damage.</p>
+            <p class="indent"><strong>Stonecunning.</strong> Whenever you make an Intelligence (History) check related to the Origin of stonework, you are considered proficient in the History skill and add double your Proficiency Bonus to the check, instead of your normal Proficiency Bonus.</p>
+            <p class="indent"><strong>Tool Proficiency.</strong> You gain proficiency with the artisan’s tools of your choice from the following: smith’s tools, brewer’s supplies, or mason’s tools.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_DWARVEN_RESILIENCE" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_STONECUNNING" />
+        </rules>
+    </element>
+    <element name="Dwarven Resilience" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_DWARVEN_RESILIENCE">
+		<description>
+			<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against poison, and you have resistance against poison damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+    <element name="Tool Proficiency" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY">
+		<description>
+			<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Proficiency" name="Dwarven Tool Proficiency" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS" />
+		</rules>
+	</element>
+    <element name="Stonecunning" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_STONECUNNING">
+		<description>
+			<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+		</description>
+		<sheet>
+			<description>A +{{stonecunning:check}} on History checks related to origin of stonework.</description>
+		</sheet>
+		<rules>
+			<stat name="stonecunning:check" value="intelligence:modifier" />
+			<stat name="stonecunning:check" value="history:misc" />
+			<stat name="stonecunning:check" value="proficiency" />
+			<stat name="stonecunning:check" value="proficiency" />
+		</rules>
+	</element>
+
+</elements>

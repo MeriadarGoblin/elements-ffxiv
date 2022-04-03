@@ -4,7 +4,7 @@
 		<name>FFXIV</name>
 		<description>The content from the Final Fantatsy XIV DnD Compendium.</description>
 		<author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">SilentSoren</author>
-		<update version="0.1.8">
+		<update version="0.2.3">
 			<file name="FFXIV.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV.index" />
 		</update>
 	</info>
@@ -25,8 +25,13 @@
         <!-- Races -->
         <file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-au-ra.xml" />
         <file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
+		<file name="race-garlean.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-garlean.xml" />
+		<file name="race-hrothgar.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hrothgar.xml" />
+		<file name="race-hyur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hyur.xml" />
+		<file name="race-lalafell.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-lalafell.xml" />
 		<file name="race-miqote.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-miqote.xml" />
 		<file name="race-roegadyn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-roegadyn.xml" />
+		<file name="race-viera.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-viera.xml" />
 
         <!-- Other -->
         <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />

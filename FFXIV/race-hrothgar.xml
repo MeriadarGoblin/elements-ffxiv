@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Hrothgar</name>
+		<update version="1.0.1">
+			<file name="race-hrothgar.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hrothgar.xml" />
+		</update>
+	</info>
+
+    <element name="Hrothgar" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_HROTHGAR">
+        <description>
+            <p><em>During the Third Astral Era, Queen Gunnhildr united the fragmented tribes of Hrothgar to rise up and drove off the Allagans, eventually going on to found the nation of Bozja.</em></p>
+            <p class="indent">-Misija</p>
+            <p>Hrothgar had a difficult start in the world initially, lacking knowledge of the common tongue of the land, they often found themselves at odds with their more well spoken races of the world. In time these fiercely misunderstood people managed to learn the language of the land and peace was brokered between them and the other races. Afterwards, a friendly neighbourly relationship formed between their home nation of Bozja and the rest of the world.</p>
+            <h4>Claws, Fur and Fury</h4>
+            <p>The Hrothgar are a powerful people who boast broad frames, feline reflexes and fierce appearances which are marked by their sharp claws and pointed fangs. Their race suffers from having a large disproportion between the males and females of their kind, which males make up a staggering number of their kin. This has also led to the Hrothgar to adopt a matriarchy in their homeland which rallied many, but drove many away as well, leading to them becoming known as The Lost.</p>
+            <h4>A Question of Servitude</h4>
+            <p>The Hrothgar split into two distinct groups of people over their ways of life coming into conflict. The Helions, who are easily identified by the warm colours of their fur, were found mainly in the southern parts of their homeland and their lives revolved around their Queen. General most Helions are devout servants to their Queen.</p>
+            <p class="indent">In comparison The Lost boasted a more free spirited, nomadic life style, wanting to live their lives unbound by the whims of a Queen. As they live as nomads they often practice various professions from seasonal work, to mercenary, to merchant. Often they avoid professions which will force them to put roots down. Their fur is often coloured in cool hues, which is said to reflect their independence and the choice to leave the warm embrace of their Queen.</p>
+            <h4>War Torn Homeland</h4>
+            <p>The Hrothgar hail from a tropical region in Southern Ilsabard known as Bozja. Born of an intense struggle against the allagan empire centuries ago, Bozja is lead by Queen Gunnhildr, a title bestowed upon the woman with the greatest aptitude for a rare power of future sight, who goes on to select her successor. Due to a severe accident that leveled the capital city, Bozja has become a war torn land controlled by the Garlean Empire, dutifully fought for by a resistance of patriots trying to save their homeland.</p>
+            <h4>Its My Life</h4>
+            <p>The Hrothgar have seen their kind split based on lifestyle choices between servitude and freedom. This ideological decision drives these people forward, the Helions setting off on adventure in the name of their Queen to protect her or their homeland, while for The Lost adventure is a key part of their existence, needing to constantly travel to survive.</p>
+            <h4>Hrothgar Names</h4>
+            <p>Hrothgar names generally are shared between the Helions and the Lost, the difference in their naming stemming from traditional family names. The Helion clans are always three syllable names which begin with A, while the Lost always end their name in "-asch."</p>
+            <p class="indent"><strong>Male Hrothgar Names.</strong> Borimir, Deyan, Grugur, Mikac, Ludevit, Novak, Semir, Sudimir, Svante, Taman.</p>
+            <p class="indent"><strong>Female Hrothgar Names.</strong> Anja, Gunnhildr, Hana, Jana, Katarina, Maja, Milena, Petra, Teodora.</p>
+            <p class="indent"><strong>Helion Family Names.</strong> Amilan, Aredna, Arodica, Asvana, Astana.</p>
+            <p class="indent"><strong>The Lost Family Names.</strong> Irryasch, Mildasch, Ovasch, Petyasch, Piryasch, Zelasch.</p>
+            <h4>Hrothgar Traits</h4>
+            <p>Your Hrothgar character has a variety of natural abilities.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Hrothgar tend to live about as long as most of their neighbouring races. They reach physical maturity around age 18 and live into their nineties.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Helions lean towards lawful alignments, be it their upbringing to obey their Queen's wishes and uphold her rule in her lands. The Lost have embraced life on the road and lean towards a more chaotic alignment. As always there are oddities within every group with Helions who shirk their servitude or members of The Lost putting down roots.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Hrothgar are known to have tall, powerful frames marked by muscle and fur. At their tallest the Hrothgar stand at 7ft. tall while their low average heights sit around 6ft. 4inches tall. Generally they way over 260 lbs. Your size is medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
+            <p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when you are determining your carrying capacity and also the weight you are able to push, drag or lift.</p>
+            <p class="indent"><strong><em>Claws.</em></strong> Your sharp claws are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+            <p class="indent"><strong><em>Keen Smell.</em></strong> You have advantage on Perception checks that rely on smell.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and one extra language of your choice.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> The Hrothgar come from two different clans. Select one of the two subraces of Hrothgar.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_POWERFUL_BUILD" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_CLAWS" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_KEEN_SMELL" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_SUB_RACE" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Hrothgar)" supports="Standard||Exotic"  />
+        </rules>
+    </element>
+    <element name="Powerful Build" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_POWERFUL_BUILD">
+        <description>
+            <p>You count as one size larger when you are determining your carrying capacity and also the weight you are able to push, drag or lift.</p>
+        </description>
+        <sheet>
+            <description>You count as one size larger when you are determining your carrying capacity and also the weight you are able to push, drag or lift.</description>
+        </sheet>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+        </rules>
+    </element>
+    <element name="Claws" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_CLAWS">
+        <description>
+            <p>Your sharp claws are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+        </description>
+        <sheet>
+            <description>You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + {{strength:modifier}}.</description>
+        </sheet>
+    </element>
+    <element name="Keen Small" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_KEEN_SMELL">
+        <description>
+            <p>You have advantage on Perception checks that rely on smell.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Perception checks that rely on smell.</description>
+        </sheet>
+    </element>
+    <element name="Hrothgar Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_SUB_RACE">
+        <description>
+            <p>The Hrothgar come from two different clans. Select one of the two subraces of Hrothgar.</p>
+        </description>
+        <sheet>
+            <description>The Hrothgar come from two different clans. Select one of the two subraces of Hrothgar.</description>
+        </sheet>
+        <rules>
+            <select type="Sub Race" name="Hrothgar Clan" supports="Hrothgar Clan" />
+        </rules>
+    </element>
+
+    <element name="Helion" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_HROTHGAR_HELION">
+        <supports>Hrothgar Clan</supports>
+        <description>
+            <p>The Helions come from a matriarchal society whose males greatly outnumber the females. These loyal and dutiful people will risk life and limb for their queen and bring that ferocious dedication to defend their friends. Helions often have a warm colour to their fur, reflective of the warm embrace from their queen.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong>Lionhearted.</strong> You have advantage on saving throws against being frightened.</p>
+            <p class="indent"><strong>Aggressive.</strong> As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LIONHEARTED" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_AGGRESSIVE" />
+        </rules>
+    </element>
+    <element name="Lionhearted" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_LIONHEARTED">
+        <description>
+            <p>You have advantage on saving throws against being frightened.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being frightened.</description>
+        </sheet>
+    </element>
+    <element name="Aggressive" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_AGGRESSIVE">
+        <description>
+            <p>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
+        </description>
+        <sheet>
+            <description>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
+        </sheet>
+    </element>
+
+    <element name="The Lost" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_HROTHGAR_LOST">
+        <description>
+            <p>Scattered and worldly, The Lost hail from a bloodline of Hrothgar to left the matriarchy which their kind hails from and sought to strike out in the world. Often times they take on the roles of traders and mercenaries, preferring nomadic jobs and lifestyles which prevent them from setting down roots. Their cool coloured fur is said to show the loss of the warmth they had received from their Queen so long ago.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Constitution score increases by 1.</p>
+            <p class="indent"><strong>Contractor's Life.</strong> You gain proficiency in the Persuasion skill.</p>
+            <p class="indent"><strong>Unbending.</strong> You have advantage on saving throws against being charmed.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_CONTRACTORS_LIFE" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_UNBENDING" />
+        </rules>
+    </element>
+    <element name="Contractor's Life" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_CONTRACTORS_LIFE">
+        <description>
+            <p>You gain proficiency in the Persuasion skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+        </rules>
+    </element>
+    <element name="Unbending" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_UNBENDING">
+        <description>
+            <p>You have advantage on saving throws against being charmed.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being charmed.</description>
+        </sheet>
+    </element>
+</elements>

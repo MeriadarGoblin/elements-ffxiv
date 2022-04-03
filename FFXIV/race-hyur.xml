@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Hyur</name>
+		<update version="1.0.1">
+			<file name="race-hyur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hyur.xml" />
+		</update>
+	</info>
+
+    <element name="Hyur" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_ ">
+        <description>
+            <p><em>Thal's Balls...I'd forgotten what it was like to feel so alive! Not since leaving the Bloodsands have I had the privilege. Not since the Bull of Ala Mhigo hung up his swords. Back then, the outcome might have been different. But I do not begrudge you your victory. I know how far you have come, how much you have endured. Our fight only confirmed it. We shall have to do this again one day, when time allows.</em></p>
+            <p class="indent">-Raubahn Aldynn, The Bull of Ala Mhigo</p>
+            <p>Around 1000 years ago, the Hyur spread across the land in a great migration from the north. They made their homes wherever they could set their footing. Some took to the mountains, while others found a foot hold in any city which would accept them. Today the Hyur are one of the most populous races in the world.</p>
+            <h4>Of Average Build</h4>
+            <p>The Hyur are a race of average sized humanoids whom one may view as an average group of people, lacking distinguishing features such as pointed ears, immense size or horns. Over time Hyur have diverged into two distinct groups, the Midlanders and Highlanders. Midlanders are widespread across the land and come in all shapes and colours, becoming prevalent in all cities. Highlanders in comparison are taller than their Midlander counterparts, boasting a more powerful, muscular build.</p>
+            <h4>A Matter of Location</h4>
+            <p>The differences between the Midlanders and Highlanders was born from their homes long ago. The Highlanders are named for living at a high elevation, mountains in particular.</p>
+            <p class="indent">These tough living conditions lead to a heartier, more physically powerful people. The Midlanders lived at sea level and across the world, which minimized changes due to life in extreme conditions.</p>
+            <h4>People of the World</h4>
+            <p>Hyur as a whole make up a large percentage of the population in the world. Over a thousand years ago the Hyur immigrated in massive waves from their homelands and made their homes wherever their feet hit the ground. Highlanders are a special case within the Hyur, famed for their mountainous city of Ala Mhigo. In recent years, the Ala Mighans were forced from their homes to immigrate across the world, mixing into the cities across the world themselves.</p>
+            <h4>Glory and Prosperity</h4>
+            <p>The Hyur are a hardworking and ambitious people, no matter what walk of life they come from. It is for this reason that for every Hyur in the world, there could be a different reason to seek adventure. Some may head out on the road for the value of the journey itself, while others may do so in search of riches. Some Hyur may be adventuring on another's behalf, perhaps their family sitting at home, or to defend their people from an imminent threat. In a world with so many possibilities, it does not take much convincing to bring a Hyur to action.</p>
+            <h4>Hyur Names</h4>
+            <p>The names of the Hyur are in the common tongue of the land. Midlander may take names which are appropriate for the culture in which they live while Highlanders take names which have a harshness in their pronunciation. As a surname, Midlanders will often take a descriptive name for their physical traits or profession. Highlanders prefer to earn their surnames in battle, using feats of martial prowess or names with violent imagery.</p>
+            <p class="indent"><strong>Male Midlander Names.</strong> Odard, Redwald, Kenward, Herebert, Acwuld, Edward, Roderic, Eadwine.</p>
+            <p class="indent"><strong>Female Midlander Names.</strong> Rowena, Hilda, Agatha, Hrodwyn, Goldyna, Hounild, Edusa, Beyhild, Mathilda, Tonild, Somerhild, Rimilde.</p>
+            <p class="indent"><strong>Male Highlander Names.</strong> Sigmundr, Arnar, Armond, Varin, Bard, Hordr, Ogmundr, Hallgrim, Thordr, Raubahn.</p>
+            <p class="indent"><strong>Female Highlander Names.</strong> Marte, Cathrine, Yngvildr, Helene, Kolgrima, Katie, Myrun, Kaolin, Kaia, Kamilla.</p>
+            <p class="indent"><strong>Midlander Surnames.</strong> Taylor, Faulkner, Browne, Parker, Forrest, River, Miller, Draper, Fletcher, Hill, Thatcher.</p>
+            <p class="indent"><strong>Highlander Surnames.</strong> Fury, Burne, Savage, Stronge. Strongaxe, Blood, Furor, Shatterfist, Strongblade, Ironwill.</p>
+            <div class="sidebar">
+                <h4>Breadth of Bonds</h4>
+                <p>Hyur are prevalent throughout the world, and because of this most will welcome a Hyur into their lives without prejudice. Overall the Hyur are met with courtesy wherever they wander.</p>
+            </div>
+            <h4>Hyur Traits</h4>
+            <p>Your Hyur character has a variety of natural abilities tied to their heritage of being a diverse peoples.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> An ability score of your choice increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Hyur tend to live for approximately 75 years, reaching sexual maturity around age 16 and full maturity around 20 years old.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Overall the Hyur are a highly variable race, so it stands to reason that the Hyur tend to not lean towards neither good nor evil. The same could be stated about their impressions of law and chaos. They comfortably fall in line with the culture in which they are raised, but are generally good-hearted.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Hyur tend to range in height from 5 feet to 6 and a half feet tall depending on their heritage. Midlanders struggle to pass 6 feet while highlanders easily pass it. Your size is medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
+            <p class="indent"><strong><em>Spread of Culture.</em></strong> You gain proficiency with a set of artisan's tools, gaming set or musical instrument of your choice.</p>
+            <p class="indent"><strong><em>Versatility.</em></strong> You gain proficiency in two skills of your choice.</p>
+            <p class="indent"><strong><em>Languages.</em></strong>  You can speak, read and write Common and two other languages of your choice.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> The Hyur have changed over time based on where they lived over the past millennium. Select one of the two subraces of Hyur.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="innate speed" value="30" bonus="base"/>
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+            <select type="Racial Trait" name="Ability Score Increase (Hyur)" supports="Hyur Increase" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_SPREAD_OF_CULTURE" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_VERSATILITY" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HYUR_SUBRACE" />
+            <select type="Language" name="Language (Hyur)" supports="Standard||Exotic" number="2" />
+        </rules>
+    </element>
+    <element name="Spread of Culture" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_SPREAD_OF_CULTURE">
+        <description>
+            <p>You gain proficiency with a set of artisan's tools, gaming set or musical instrument of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Spread of Culture (Tools)" supports="Artisan Tools, Gaming Set, Musical Instrument" />
+        </rules>
+    </element>
+    <element name="Versatility" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_VERSATILITY">
+        <description>
+            <p>You gain proficiency in two skills of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Versatility (Hyur)" support="Skill" number="2" /> 
+        </rules>
+    </element>
+    <element name="Hyur Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_HYUR_SUBRACE">
+        <description>
+            <p>The Hyur have changed over time based on where they lived over the past millennium. Select one of the two subraces of Hyur.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Hyur Subrace" supports="Hyur Subrace" />
+        </rules>
+    </element>
+
+    <element name="Midlander" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_SUBRACE_MIDLANDER">
+        <supports>Hyur Subrace</supports>
+        <description>
+            <p>As a Midlander, you are a child of possibility. The midlanders can live pretty well anywhere in the world and not seem out of place. Due to their ability to find comfortable lives anywhere, they have becoming highly adaptable and well educated.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Intelligence score increases by 2.</p>
+            <p class="indent"><strong>Variable Education.</strong> You are proficient in an additional set of artisan's tools of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="2" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_VARIABLE_EDUCATION" />
+        </rules>
+    </element>
+    <element name="Variable Education" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_VARIABLE_EDUCATION">
+        <description>
+            <p>You are proficient in an additional set of artisan's tools of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Variable Education" supports="Artisan Tools" />
+        </rules>
+    </element>
+
+    <element name="Highlander" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_SUBRACE_HIGHLANDER">
+        <supports>Hyur Subrace</supports>
+        <description>
+            <p>The warlike Highlanders see battle as the reason for life. They are no strangers to violence living in the mountains, over time making great conquests against various groups of people. Life in these tough conditions has hardened the Highlanders as a people, leading to naturally powerful builds.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Strength score increases by 2.</p>
+            <p class="indent"><strong>Naturally Honed Body.</strong> You gain proficiency in the Athletics skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_NATURALLY_HONED_BODY" />
+        </rules>
+    </element>
+    <element name="Naturally Honed Body" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_NATURALLY_HONED_BODY">
+        <description>
+            <p>You gain proficiency in the Athletics skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+        </rules>
+    </element>
+
+    <element name="Variant: Padjal" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_SUBRACE_PADJAL">
+        <supports>Hyur Subrace</supports>
+        <description>
+            <p>The Padjal are a rare occurrence born to Hyurian families who live in The Black Shroud. These children grow white hued animal horns as they get older and were chosen by the elementals at birth. This places them in a position of holy reverence in Gridania. These people stop aging around their teens and have a natural latent power for conjury.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Wisdom score increases by 2.</p>
+            <p class="indent"><strong>Nature's Blessing.</strong> You gain proficiency in the Nature skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="2" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_NATURES_BLESSING" />
+        </rules>
+    </element>
+    <element name="Nature's Blessing" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_NATURES_BLESSING">
+        <description>
+            <p>You gain proficiency in the Nature skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+        </rules>
+    </element>
+
+    <!-- Ability Score Increase -->
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_INCREASE_STRENGTH">
+        <compendium display="false" />
+        <supports>Hyur Increase</supports>
+        <description>
+          <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="strength" value="1" alt="Hyur Increase" />
+        </rules>
+      </element>
+      <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_INCREASE_DEXTERITY">
+        <compendium display="false" />
+        <supports>Hyur Increase</supports>
+        <description>
+          <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="dexterity" value="1" alt="Hyur Increase" />
+        </rules>
+      </element>
+      <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_INCREASE_CONSTITUTION">
+        <compendium display="false" />
+        <supports>Hyur Increase</supports>
+        <description>
+          <p>Your Constitution score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="constitution" value="1" alt="Hyur Increase" />
+        </rules>
+      </element>
+      <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_INCREASE_INTELLIGENCE">
+        <compendium display="false" />
+        <supports>Hyur Increase</supports>
+        <description>
+          <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="intelligence" value="1" alt="Hyur Increase" />
+        </rules>
+      </element>
+      <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_INCREASE_WISDOM">
+        <compendium display="false" />
+        <supports>Hyur Increase</supports>
+        <description>
+          <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="wisdom" value="1" alt="Hyur Increase" />
+        </rules>
+      </element>
+      <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_HYUR_INCREASE_CHARISMA">
+        <compendium display="false" />
+        <supports>Hyur Increase</supports>
+        <description>
+          <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="charisma" value="1" alt="Hyur Increase" />
+        </rules>
+      </element>
+
+</elements>

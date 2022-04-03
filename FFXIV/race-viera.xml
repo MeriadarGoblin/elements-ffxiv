@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Viera</name>
+		<update version="1.0.0">
+			<file name="race-viera.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-viera.xml" />
+		</update>
+	</info>
+
+    <element name="Viera" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_VIERA">
+        <description>
+            <p><em>The Viera may begin as part of the Wood, but it is not the only end that we may choose.</em></p>
+            <p class="indent">-Fran the Sky Pirate</p>
+            <p>The Viera are a beautiful and mysterious folk, shrouded in mystery as many spend most of their lives in the Woodlands they call home. Their tall, slender bodies adorned with rabbit-like traits creates an air of grace amongst them. Long, high angled feet require high-heeled shoes and dextrous clawed fingers help to draw a striking image of the Viera.</p>
+            <h4>Seperate Paths</h4>
+            <p>The Viera are a race of both males and females, but outside of necessary meetings to keep their race continuing onwards and taking the male children who have reached adulthood, they lead separate lives. The males of the Viera live secretive, lonely lives in which they shun everyone, even their own kin to fully pursue their sacred role as a Wood-warder. The Wood-warders patrol the Golmore Jungle and ensure no outsiders reach their former homes. That isn't to say the women are defenseless though, as the female Viera are as capable as the men, but turn their attention to defend their young and homes.</p>
+            <h4>People of the Wood</h4>
+            <p>The word Viera itself means "people of the wood" and true to their name, in different forests of Dalmasca. Both the Rava and the Veena boast tall, lithe frames and graceful traits of rabbits. The Rava make their home in the Golmore Jungle and grew to have umber skin and dark hair, allowing them to more easily blend in with the forest. In stark contract the Veena have very light skin and fair hair help them blend in with the Skatay Range they call home.</p>
+            <h4>The Green Word</h4>
+            <p>The Viera's set of laws are considered to be the laws of the forest in which they live. The Viera take jobs under this set of laws and restrict themselves from having contact with the world outside of their forest. Among many other restrictions the Viera subject themselves to, some find their ways off putting. If a Viera chooses to leave the forest they are considered an outsider from that day forward. These strict laws often drive Viera with a fire in their heart away to seek adventure.</p>
+            <h4>Viera Names</h4>
+            <p class="indent"><strong>Male Viera Names.</strong> Atan, Morn, Tjln, Frjn.</p>
+            <p class="indent"><strong>Female Viera Names.</strong> Fran, Jote, Mjrn, Kryn, Ktjn.</p>
+            <h4>Viera Traits</h4>
+            <p>Your Viera character has a variety of natural abilities.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Viera reach physical maturity at the same pace as all the other races, but once reaching adulthood live roughly three times as long as the other races, approximately 240 years.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> The Trueblooded Viera tend toward a Lawful nature, as they have a strict code of staying within the woods and living their lives, while adventurers who leave home tend towards a more Chaotic alignment as they're a people who live outside of tradition.</p>
+            <p class="indent"><strong><em>Size.</em></strong> The Rava are tall and lithe people who reach an average height just over 6ft. tall, while the Veena are shorter, with an average height around 5ft. 8 inches tall. Your size is medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35ft.</p>
+            <p class="indent"><strong><em>Lapine Hop.</em></strong> Your maximum high jump and long jump distances are 10ft. higher than how it would be normally calculated.</p>
+            <p class="indent"><strong><em>Lucky.</em></strong> When you roll a 1 on an attack roll, ability check, or saving throw, you can re-roll the die and must use the new roll.</p>
+            <p class="indent"><strong><em>Mask of the Wild.</em></strong> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+            <p class="indent"><strong><em>Speak with Small Beasts.</em></strong> Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and Viera.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> The Viera's bloodline has split into two distinct groups, the dark skinned Veena and the fair skinned Rava.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="innate speed" value="35" bonus="base"/>
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+            <grant type="Langauge" id="ID_FFXIV_LANGUAGE_VIERA" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LAPINE_HOP" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LUCKY" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS" />
+            <grant type="Racial Trait" id="ID_FFXIV_VIERA_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Viera" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_VIERA">
+        <description>
+            <p>Typically spoken by Viera.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="exotic">false</set>
+			<set name="Viera" />
+			<set name="Viera" />
+        </setters>
+    </element>
+    <element name="Lapine Hop" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_LAPINE_HOP">
+        <description>
+            <p>Your maximum high jump and long jump distances are 10ft. higher than how it would be normally calculated.</p>
+        </description>
+        <sheet>
+            <description>Your maximum high jump and long jump distances are 10ft. higher than how it would be normally calculated.</description>
+        </sheet>
+    </element>
+    <element name="Lucky" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_LUCKY">
+        <description>
+            <p>When you roll a 1 on an attack roll, ability check, or saving throw, you can re-roll the die and must use the new roll.</p>
+        </description>
+        <sheet>
+            <description>When you roll a 1 on an attack roll, ability check, or saving throw, you can re-roll the die and must use the new roll.</description>
+        </sheet>
+    </element>
+    <element name="Mask of the Wild" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_MASK_OF_THE_WILD">
+        <description>
+            <p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+        </description>
+        <sheet>
+            <description>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</description>
+        </sheet>
+    </element>
+    <element name="Speak with Small Beasts" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS">
+        <description>
+            <p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
+        </description>
+        <sheet>
+            <description>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</description>
+        </sheet>
+    </element>
+    <element name="Viera Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_VIERA_SUBRACE">
+        <description>
+            <p>The Viera's bloodline has split into two distinct groups, the dark skinned Veena and the fair skinned Rava.</p>
+        </description>
+        <sheet display="false">
+            <description>The Viera's bloodline has split into two distinct groups, the dark skinned Veena and the fair skinned Rava.</description>
+        </sheet>
+        <rules>
+            <select type="Sub Race" name="Viera Subrace" supports="Viera Subrace" />
+        </rules>
+    </element>
+
+    <element name="Rava" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_VIERA_RAVA">
+        <supports>Viera Subrace</supports>
+        <description>
+            <p>Making their home in the Gelmore Jungle, the Rava are a tall, powerful race with an intimating presence about them. Their powerful bodies and unrelenting tactics in the forest make the Rava powerful friends and more dangerous foes.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong>Powerful Presence.</strong> You gain proficiency in the Intimidate skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_POWERFUL_PRESENCE" />
+        </rules>
+    </element>
+    <element name="Powerful Presence" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_POWERFUL_PRESENCE">
+        <description>
+            <p>You gain proficiency in the Intimidate skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+        </rules>
+    </element>
+    
+    <element name="Veena" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_VIERA_VEENA">
+        <supports>Viera Subrace</supports>
+        <description>
+            <p>Hailing from the forests which grow about the Skatay Range, the Veena defend their home with just as much vigor as the Rava, but have a much easier time if they leave their homes due to their more average size and softer appearance. Due to the rise of war near their homeland, many Veena left the Skatay Range, joining many pockets of civilization.</p>
+            <p class="indent"><strong>Ability Score Increase.</strong> Your Intelligence score increases by 1.</p>
+            <p class="indent"><strong>Approachable.</strong> You gain proficiency in the Persuasion skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_APPROACHABLE" />
+        </rules>
+    </element>
+    <element name="Approachable" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_APPROACHABLE">
+        <description>
+            <p>You gain proficiency in the Persuasion skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+        </rules>
+    </element>
+
+</elements>
