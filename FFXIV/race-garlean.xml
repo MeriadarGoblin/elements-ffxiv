@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Garlean</name>
+		<update version="1.0.0">
+			<file name="race-garlean.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-garlean.xml" />
+		</update>
+	</info>
+
+    <element name="name" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_author_source_RACE_name">
+        <description>
+            <p><em>Only a man of power can rightly steer the course of civilization. And in this land of creeping mendacity, that one truth will prove its salvation.</em></p>
+            <p class="indent">-Gaius van Baelsar, Legatus of the XIV Legion</p>
+            <p class="indent">The Garleans, who share the name of their Empire, are a people who had suffered greatly before finding the means to fight back, in doing so becoming conquerers in their own right. Garleans value advancement and ability, while looking down on those who are happy to sit in stagnation, and its this dogged dedication which has allowed them great success in the world.</p>
+            <h4>Physical Description</h4>
+            <p>The Garleans are a hearty people whose life under the imperial rule has provided them with strong bodies and minds. Their most striking feature though is the pearl like third eye which sits in the center of their forehead. This special third eye provides Garleans with improved spatial recognition. These two great assets were met only with a damning disadvantage, an extreme difficulty when manipulating magic. Though there are Garleans capable of overcoming even this obstacle who go on to master aetherial manipulation as well.</p>
+            <h4>Displaced Conquerors</h4>
+            <p>The Garleans are a race of people who found themselves at a disadvantage in the world. Once living in the southern, warm reaches of Ilsabard, the Garleans found themselves forced north over time. Eventually they were forced to cross treacherous peaks which divided the north and south, leading to them settle in lands with long, bitter winters and short growing periods. Their misfortune would eventually lead to a great boon in the form of ceruleum, a fuel which they were able to take advantage of start a golden era of technology for themselves.</p>
+            <h4>Advent of Magitek</h4>
+            <p>As nearly all Garleans are unable to manipulate aether in their bodies, they found themselves defeated time and time again by those with an aptitude for magic. That was until the discovery of ceruleum, which after experimentation and engineering led the to the birth of magitek. This came in the creation of many machines and devices which could mimic magical effects and swung the pendulum in the Garleans favour. Within 50 years of the discovery they'd managed to form a vast empire which spanned three quarters of the great continents of Aldenard.</p>
+            <h4>Why They Adventure</h4>
+            <p>Garleans may adventure for a variety of reasons, but two stand out amongst all the possibilities. The first would be for the benefit of their empire, to act as an ambitious patriot who seeks to better Garlemand's position in the world through hard work. The other may be to seek freedom from the chains of their society, coming from a rigid hierarchy where moving upwards is only possible by military activity leaves a bad taste in many people's mouths, so in the name of freedom and peace some Garleans may break away from their homeland and chase their dreams.</p>
+            <h4>Garlean Names</h4>
+            <p>Garleans names often declare one's title within the Empire as their middle name. Otherwise their traditional names find their roots in Latin, having both a first and last name.</p>
+            <p class="indent"><strong>Male Garlean Names.</strong> Aulus, Cid, Faust, Gaius, Ignatius, Kaius, Maxima, Nael, Nero, Noah, Quentin, Regula, Solus, Vitus, Zenos.</p>
+            <p class="indent"><strong>Female Garlnea Names.</strong> Adora, Alma, Belva, Cella, Elysia, Gloria, Julia, Livia, Lucia, Minerva, Octavia, Rheya, Silvia, Vesta.</p>
+            <p class="indent"><strong>Garlean Middle Titles.</strong> van (Legatus), quo (Centurio), pyr (Assistant to Centurio), oen (veteran soldier), lux (head field engineer/medic), kir (veteran field engrineer/medic), jen (field engineer/medic), dus (civil servant), cen (artisan), bas (merchant), aan (person from annexed lands).</p>
+            <p class="indent"><strong>Garlean Surnames.</strong> Arvina, Asina, Baelsar, Brutus, Darnus, Gabranth, Galvus, Garlond, Hydrus, Junius, Lexentale, Messalla, Priscus, Scaeva.</p>
+            <h4>Garlean Traits</h4>
+            <p>Your Garlean character has a variety of natural abilities.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2 and your Intelligence score increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Garleans live as long as the other races of Eorzea, reaching maturity around 18 years old and living on average to the age of 80.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Garleans tend toward a lawful alignment as their roots trace back to a highly ordered Empire where title and rank were held in high regard.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Garlean males on average tend to stand anywhere from 6 to 7 feet tall while their female counterparts tend to reach anywhere from 5 and a half to 6 feet tall. Your size is medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
+            <p class="indent"><strong><em>Imperial Education.</em></strong> You gain proficiency in one skill of your choice and one set of artisan's tools of your choice.</p>
+            <div class="sidebar">
+                <h4>Optional Racial Trait</h4>
+                <p><strong>Magically Inert.</strong> You have great difficulty casting magic on your own power and require the aid of technology to do so.</p>
+                <p class="indent">In the world of Final Fantasy XIV, the Garleans have a great deal of difficulty manipulating aether, which caused them a great deal of strife in the past. It is not impossible for a Garlean to gain the ability to do so, and half garleans have no trouble at all thanks to their mixed blood.</p>
+                <p class="indent">When playing a casting class as a Garlean should have their casting focus flavoured to account for this. For example a Garlean Wizard could have a staff which recharges magic energy over time and uses that charged staff to cast spells. Their spell slots recovering when the staff recharges at the end of a long rest.</p>
+            </div>
+            <p class="indent"><strong><em>Spatial Insight.</em></strong> You gain proficiency in the Investigation skill.</p>
+            <p class="indent"><strong><em>Third Eye.</em></strong> You gain proficiency in the Perception skill. Additionally, ranged weapon attacks you make have an increased normal range of 10ft.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common, Garlean and one extra language of your choice.</p>
+            <div class="sidebar">
+                <h4>Conquerors</h4>
+                <p>The Garleans and the Garlean Empire have incurred the disdain of many races across the land. Those who within the Empire are often patriotic within the homeland, while hateful in the annexed regions. As such most races who are not Garleans have a hatred for them until they prove their intentions are good.</p>
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Optional Racial Trait" supports="Optional Racial Trait" optional="true" />
+            <stat name="strength" value="2" />
+            <stat name="intelligence" value="1" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_IMPERIAL_EDUCATION" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_SPATIAL_INSIGHT" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_THIRD_EYE" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_FFXIV_LANGUAGE_GARLEAN" />
+            <select type="Language" name="Language (Everyman)" supports="Standard||Exotic"  />
+        </rules>
+    </element>
+    <element name="Magically Inert" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_MAGICALLY_INERT">
+        <supports>Optional Racial Trait</supports>
+        <description>
+            <p>You have great difficulty casting magic on your own power and require the aid of technology to do so.</p>
+            <p class="indent">In the world of Final Fantasy XIV, the Garleans have a great deal of difficulty manipulating aether, which caused them a great deal of strife in the past. It is not impossible for a Garlean to gain the ability to do so, and half garleans have no trouble at all thanks to their mixed blood.</p>
+            <p class="indent">When playing a casting class as a Garlean should have their casting focus flavoured to account for this. For example a Garlean Wizard could have a staff which recharges magic energy over time and uses that charged staff to cast spells. Their spell slots recovering when the staff recharges at the end of a long rest.</p>
+        </description>
+        <sheet>
+            <description>You have great difficulty casting magic on your own power and require the aid of technology to do so.</description>
+        </sheet>
+    </element>
+    <element name="Garlean" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_GARLEAN">
+        <description>
+            <p>Typically spoken by Garleans.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="exotic">false</set>
+			<set name="Garlean" />
+			<set name="Garlean" />
+        </setters>
+    </element>
+    <element name="Imperial Education" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_IMPERIAL_EDUCATION">
+        <description>
+            <p>You gain proficiency in one skill of your choice and one set of artisan's tools of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Imperial Education" supports="Skill" />
+            <select type="Proficiency" name="Imperial Education" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS|ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" />
+        </rules>
+    </element>
+    <element name="Spatial Insight" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_SPATIAL_INSIGHT">
+        <description>
+            <p>You gain proficiency in the Investigation skill.</p>
+        </description>
+        <sheet display="false">
+            <description>You gain proficiency in the Investigation skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+    <element name="Third Eye" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_THIRD_EYE">
+        <description>
+            <p>You gain proficiency in the Perception skill. Additionally, ranged weapon attacks you make have an increased normal range of 10ft.</p>
+        </description>
+        <sheet>
+            <description>Your ranged weapon attacks you make have an increased normal range of 10ft.</description>
+        </sheet>
+    </element>
+
+</elements>
