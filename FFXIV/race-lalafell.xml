@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lalafell</name>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="race-lalafell.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-lalafell.xml" />
 		</update>
 	</info>
@@ -89,7 +89,7 @@
             <description>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</description>
         </sheet>
         <rules>
-            <grant type="Sub Race" name="Lalafell Subrace" supports="Lala Subrace" />
+            <select type="Sub Race" name="Lalafell Subrace" supports="Lala Subrace" />
         </rules>
     </element>
 
