@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lalafell</name>
-		<update version="1.1.0">
+		<update version="1.1.1">
 			<file name="race-lalafell.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-lalafell.xml" />
 		</update>
 	</info>
@@ -62,7 +62,7 @@
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LALAFELLIN_NIMBLENESS" />
             <grant type="Languages" id="ID_LANGUAGE_COMMON" />
             <select type="Language" name="Language (Lalafell)" supports="Standard||Exotic"  />
-            <grant type="Racial Trait" id="ID_FFXIV_LALAFELL_SUBRACE" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FFXIV_LALAFELL_SUBRACE" />
         </rules>
     </element>
     <element name="Cunning" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_CUNNING">
@@ -81,7 +81,7 @@
             <description>You can move through the space of any creature that is of a size larger than yours.</description>
         </sheet>
     </element>
-    <element name="Lalafell Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LALAFELL_SUBRACE">
+    <element name="Lalafell Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_FFXIV_LALAFELL_SUBRACE">
         <description>
             <p>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</p>
         </description>
@@ -89,12 +89,12 @@
             <description>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</description>
         </sheet>
         <rules>
-            <grant type="Sub Race" name="Lalafell Subrace" supports="Lalafell Subrace" />
+            <grant type="Sub Race" name="Lalafell Subrace" supports="Lala Subrace" />
         </rules>
     </element>
 
     <element name="Plainsfolk" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_LALAFELL_PLAINSFOLK">
-        <supports>Lalafell Subrace</supports>
+        <supports>Lala Subrace</supports>
         <description>
             <p>As a Plainsfolk, you have spent some time working in agriculture, or have had information passed down to you from your family. Your highly sensitive ears and knowledge of farming has led to the development that sets you apart from your fellow Lalafell, the Dunesfolk.</p>
             <p class="indent"><strong>Ability Score Increase.</strong> Your Dexterity score increases by 1.</p>
@@ -116,7 +116,7 @@
     </element>
     
     <element name="Dunesfolk" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_LALAFELL_DUNESFOLK">
-        <supports>Lalafell Subrace</supports>
+        <supports>Lala Subrace</supports>
         <description>
             <p>As a Dunesfolk, you've adapted to the harsh desert environments and thrived. The land from which you hail is known for its riches and merchantry as much as its known for his corruption.</p>
             <p class="indent"><strong>Ability Score Increase.</strong> Your Intelligence score increases by 1.</p>
@@ -151,7 +151,7 @@
     </element>
 
     <element name="Dwarf" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_LALAFELL_DWARF">
-        <supports>Lalafell Subrace</supports>
+        <supports>Lala Subrace</supports>
         <description>
             <p>In the land of Norvrandt, the Lalafells came to be known as Dwarves. These diminutive folk took to mining and crafts work, developing a distinct set of cultural customs, from giving proper boisterous welcomes by calling out "Lali Ho!" to never revealing their true faces outside of the village, hiding them beneath helmets and large fake beards, they became eccentric by any world's standards.</p>
             <p class="indent"><strong>Ability Score Increase.</strong> Your Constitution score increases by 1.</p>
