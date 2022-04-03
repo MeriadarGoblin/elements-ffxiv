@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Miqo'te</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="race-miqote.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-miqote.xml" />
 		</update>
 	</info>
@@ -108,7 +108,7 @@
         </rules>
     </element>
 
-    <element name="Keepers of the Moon" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_KEEPERS_OF_THE_MOON">
+    <element name="Keepers of the Moon" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_KEEPERS_OF_THE_MOON">
         <supports>Cat Clan</supports>
         <description>
             <p>As a Keeper of the Moon, you come from a highly spiritual matriarchy. Your people worship and moon and the goddess Menphina. Many Keepers make use of war paint as they believe it helps to channel the power of the moon into their bodies. Keepers are renown for their tenacity in battle when defending their homelands, often pushing beyond their limits when pressed.</p>

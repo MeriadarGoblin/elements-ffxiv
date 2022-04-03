@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Roegadyn</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="race-roegadyn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-roegadyn.xml" />
 		</update>
 	</info>
@@ -59,6 +59,17 @@
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_POWERFUL_BUILD" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_SUB_RACE" />
         </rules>
+    </element>
+    <element name="Roegadyn" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_ROEGADYN">
+        <description>
+            <p>Typically spoken by Roegadyn.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="exotic">false</set>
+			<set name="Roegadyn" />
+			<set name="Roegadyn" />
+        </setters>
     </element>
     <element name="Brave" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_BRAVE">
         <description>
