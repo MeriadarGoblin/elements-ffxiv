@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<name>Garlean</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="race-garlean.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-garlean.xml" />
 		</update>
 	</info>
 
-    <element name="name" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_author_source_RACE_name">
+    <element name="Garlean" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_author_source_RACE_name">
         <description>
             <p><em>Only a man of power can rightly steer the course of civilization. And in this land of creeping mendacity, that one truth will prove its salvation.</em></p>
             <p class="indent">-Gaius van Baelsar, Legatus of the XIV Legion</p>
