@@ -55,26 +55,26 @@
 &lt;thead&gt;
 &lt;tr&gt;&lt;td class="col-5"&gt;Level&lt;/td&gt;&lt;td class="col-10"&gt;Trances&lt;/td&gt;&lt;td class="col-60 left"&gt;Features&lt;/td&gt;&lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tr&gt;&lt;td&gt; 1st&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Dragon Trance, Jump&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 2nd&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Fighting Style, Lancet&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 3rd&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Dragoon Archetype&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 4th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 5th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Heavy Thurst, True Thrust&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 6th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Stall&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 7th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 8th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 9th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;High Jump&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;10th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Crash Landing&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;11th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;12th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;13th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Chaos Thrust&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;14th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Invigorate&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;15th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;16th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;17th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Dragonfire Dive&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;18th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Battle Litany&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;19th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;20th&lt;/td&gt;&lt;td&gt;col1&lt;/td&gt;&lt;td class="left"&gt;One with the Sky&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 1st&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td class="left"&gt;Dragon Trance, Jump&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 2nd&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td class="left"&gt;Fighting Style, Lancet&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 3rd&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td class="left"&gt;Dragoon Archetype&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 4th&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 5th&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td class="left"&gt;Heavy Thurst, True Thrust&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 6th&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td class="left"&gt;Stall&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 7th&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 8th&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 9th&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td class="left"&gt;High Jump&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10th&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td class="left"&gt;Crash Landing&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11th&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12th&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13th&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td class="left"&gt;Chaos Thrust&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14th&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td class="left"&gt;Invigorate&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15th&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td class="left"&gt;Archetype Feature&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16th&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17th&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td class="left"&gt;Dragonfire Dive&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18th&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td class="left"&gt;Battle Litany&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19th&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20th&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td class="left"&gt;One with the Sky&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_DRAGON_TRANCE" /&gt;
 &lt;div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP" /&gt;
@@ -134,8 +134,11 @@
 			<description>As a bonus action, you fall into a special dragoon trance, that makes your jump height a minimum of 30ft., and jump distance becomes 15ft. Your trance lasts for 1 minute. It ends early if you are knocked unconscious or you may end your trance as a bonus action. Some Dragoon abilities may cause your trance to end early. You may use your trance {{dragon trance}} times before you must finish a long rest before you can enter a trance again.</description>
 		</sheet>
 		<rules>
-			<stat name="dragon trance" value="1" bonus="base" />
-			<stat name="dragon trance" value="level" bonus="bonus" />
+			<stat name="dragon trance" value="2" bonus="base" />
+			<stat name="dragon trance" value="1" bonus="bonus" level="3" />
+			<stat name="dragon trance" value="1" bonus="bonus" level="6" />
+			<stat name="dragon trance" value="1" bonus="bonus" level="12" />
+			<stat name="dragon trance" value="1" bonus="bonus" level="17" />
 		</rules>
 	</element>
 	<element name="Jump" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DRG_JUMP">
