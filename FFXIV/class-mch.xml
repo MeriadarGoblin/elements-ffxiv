@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Machinist</name>
-		<update version="1.0.0">
+		<update version="1.0.2">
 			<file name="class-mch.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-mch.xml" />
 		</update>
     </info>
@@ -269,7 +269,7 @@
             <description>You may spend your reaction to perform a ricochet shot if you are attacking with a firearm. Upon landing a successful attack, you make a second attack against a creature within 5ft. of the first targeted creature. This second attack does not consume ammunition.</description>
         </sheet>
     </element>
-    <element name="Emergency Rescue" tyoe="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EMERGENCY_RESCUE">
+    <element name="Emergency Rescue" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EMERGENCY_RESCUE">
         <description>
             <p>Beginning at the 15th level, you have developed a life saving device which casts Cure Wounds on creatures with 0 hit points on contact. Intelligence is your spell casting ability for this device.</p>
             <p class="indent">As an action you can throw the palm sized spherical device at a creature within 20ft. of you. If you have 0 hit points at the start of your turn and the device in your possession, it will automatically activate and heal you as a free action.</p>
