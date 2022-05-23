@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Machinist</name>
+		<update version="1.0.0">
+			<file name="class-mch.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-mch.xml" />
+		</update>
+    </info>
+
+    <element name="Machinist" type="Class" source="" id="ID_GMBINDER_FFXIV_CLASS_MCH">
+        <description>
+    <p>A woman stands before a group of goblins. Negotiations have broken down and the goblins have drawn their blades. Before they can take a step towards her, she unleashes a lethal bullet from her pistol, laying their leader low, causing the others to retreat in fear of this unknown weaponry.</p>
+    <p class="indent">Carefully, an exhausted machinist puts the finishing touches on their newest creation. They flip the switch and the small tower shaped machine takes flight. It receives its commands and a tiny pistol lets loose a bullet destroying the target. A smile spreads across the master tinkerer's face.</p>
+    <p class="indent">A man wearing leather armour approaches a horde of invaders who'd overrun their home given the chance. They toss a mechanical sphere into the group and in an instant they're enshrouded in flame.</p>
+    <p class="indent">Machinists have spent many hours in the workshop to progress the art of war. From the creation of firearms, to the production of mechanical constructs for the battle field, the machinist ensure the gears of war continue to turn ever efficiently.</p>
+    <h4>Forefront of Innovation</h4>
+    <p>A Machinist is an incredibly skilled artisan who has decided to push the boundaries of current technology and has managed to do so successfully. They are capable of building a wide variety of machines and firearms which they use to overwhelm enemies of their homes through sheer efficiency. Those who welcome a Machinist to live within their city will be granted the boons of a true genius.</p>
+    <h4>In the name of Advancement</h4>
+    <p>The first step of a Machinist's path is developing an aetherconverter. This device draws the latent magic energy within the Machinist out and uses it to power their devices. Due to their aetherconverter powering their devices, there are few in the world who are able to use them. For that reason, it falls upon the Machinist themselves to head out into the world to field test their creations. The Machinist must push their creations to their limit and continue to modify them. As adventurer's this is the drive of a machinist, to test their equipment and rework it on a long journey in the name of science and innovation.</p>
+    <h4>CREATING A Machinist</h4>
+    <p>When creating a machinist you must keep in mind why they may be heading out on their adventure. Is your machinist field testing their inventions, or seeking inspiration to create even more intricate machines? Perhaps they are on a journey to make the world a better place by bestowing their creations for the common man. A Machinist has the most advanced technology at their finger tips and are using that technology to make life more efficient.</p>
+    <h5 class="caption">QUICK BUILD</h5>
+    <p>You can make a Machinist quickly by following these suggestions. First make Dexterity your highest ability score, following with Intelligence. Second take the Guild Member background.</p>
+    <h2>CLASS FEATURES</h2>
+    <p>As a machinist, you gain the following class features.</p>
+    <h5 class="caption">HIT POINTS</h5>
+    <ul class="unstyled">
+        <li><strong>Hit Dice:</strong> 1d8 per machinist level</li>
+        <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+        <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per machinist level after 1st</li>
+    </ul>
+    <h5 class="caption">PROFICIENCIES</h5>
+    <ul class="unstyled mb">
+        <li><strong>Armor:</strong> Light armor</li>
+        <li><strong>Weapons:</strong> Simple weapons, Pistols, Hunting Rifles, Revolvers, Muskets</li>
+        <li><strong>Tools:</strong> Two sets of Artisan's Tools.</li>
+    </ul>
+    <ul class="unstyled">
+        <li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
+        <li><strong>Skills:</strong> Choose two from Athletics, Arcana, History, Insight, Intimidation, Perception, Survival.</li>
+    </ul>
+    <h5 class="caption">EQUIPMENT</h5>
+    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+    <ul>
+        <li>(a) leather armor or (b) hide armor</li>
+        <li>(a) a pistol and 20 bullets or (b) a dagger</li>
+        <li>(a) a musket and 20 bullets</li>
+        <li>(a) an explorer's pack or (b) a dungeoneer's pack</li>
+        <li>a) a set of artisan's tools of your choosing</li>
+        <li>(a) an aetherconverter</li>
+    </ul>
+        <h5 class="caption">THE Machinist</h5>
+        <table class="class-features">
+            <thead>
+                <tr><td class="col-5">Level</td><td class="col-60 left">Features</td></tr>
+            </thead>
+            <tr><td> 1st</td><td class="left">Suppressive Fire</td></tr>
+            <tr><td> 2nd</td><td class="left">Technical Support, Sounding Sentry</td></tr>
+            <tr><td> 3rd</td><td class="left">Machinist Archetype, Technologist</td></tr>
+            <tr><td> 4th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td> 5th</td><td class="left">Extra Attack, Reload</td></tr>
+            <tr><td> 6th</td><td class="left">Archetype Feature</td></tr>
+            <tr><td> 7th</td><td class="left">Peloton</td></tr>
+            <tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td> 9th</td><td class="left">Eye for Design</td></tr>
+            <tr><td>10th</td><td class="left">Graze</td></tr>
+            <tr><td>11th</td><td class="left">Archetype Feature</td></tr>
+            <tr><td>12th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td>13th</td><td class="left">Combat Roll</td></tr>
+            <tr><td>14th</td><td class="left">Ricochet</td></tr>
+            <tr><td>15th</td><td class="left">Emergency Rescue</td></tr>
+            <tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td>17th</td><td class="left">Archetype Feature</td></tr>
+            <tr><td>18th</td><td class="left">Cloaking Device</td></tr>
+            <tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td>20th</td><td class="left">Midas Touch</td></tr>
+        </table>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SUPPRESSIVE_FIRE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNICAL_SUPPORT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SOUNDING_SENTRY" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MACHINIST_ARCHETYPE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNOLOGIST" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EXTRA_ATTACK" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RELOAD" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_PELOTON" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EYE_FOR_DESIGN" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_GRAZE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_COMBAT_ROLL" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RICOCHET" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EMERGENCY_RESCUE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_CLOAKING_DEVICE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MIDAS_TOUCH" />
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_REVOLVER" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+            <select type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SUPPRESSIVE_FIRE" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNICAL_SUPPORT" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SOUNDING_SENTRY" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MACHINIST_ARCHETYPE" level="3" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNOLOGIST" level="3" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RELOAD" level="5" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_PELOTON" level="6" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EYE_FOR_DESIGN" level="9" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_GRAZE" level="10" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_COMBAT_ROLL" level="13" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RICOCHET" level="14" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EMERGENCY_RESCUE" level="15" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_CLOAKING_DEVICE" level="18" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MIDAS_TOUCH" level="20" />
+        </rules>
+    </element>
+    <element name="Suppressive Fire" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SUPPRESSIVE_FIRE">
+        <description>
+            <p>Beginning at level 1, when you use Ready action to prepare to attack a target creature, you are able to disable your target temporarily. If your attack hits, the target creature must make a Constitution saving throw against your Machinist save DC. On a failed save the creature is knocked prone and their speed becomes 0ft. until the end of their turn.</p>
+            <center>
+				<p><strong>Machinist save DC</strong> = 8 + your proficiency bonus + your Dexterity modifier</p>
+            </center>
+        </description>
+        <sheet>
+            <description>Your Machnist Save DC is {{mch:dc}}. When you use Ready action to prepare to attack a target creature, you are able to disable your target temporarily. If your attack hits, the target creature must make a Constitution saving throw against your Machinist save DC. On a failed save the creature is knocked prone and their speed becomes 0ft. until the end of their turn.</description>
+        </sheet>
+        <rules>
+            <stat name="mch:dc" value="8" />
+            <stat name="mch:dc" value="dexterity:modifier" />
+            <stat name="mch:dc" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Technical Support" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNICAL_SUPPORT">
+        <description>
+            <p>Beginning at the 2nd level, you are able to use your artisan's tools to disarm mechanical traps.</p>
+        </description>
+        <sheet>
+            <description>You are able to use your artisan's tools to disarm mechanical traps.</description>
+        </sheet>
+    </element>
+    <element name="Sounding Sentry" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SOUNDING_SENTRY">
+        <description>
+            <p>Also at the 2nd level, you have developed a tiny device which casts the Alarm spell. You can affix it to a door or window, or have it monitor an area around itself in a 20ft. cube. You may use the device once before needing to charge it during a long rest.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_ALARM" />
+            </div>
+        </description>
+        <sheet usage="Long Rest">
+            <description>You have developed a tiny device which casts the Alarm spell. You can affix it to a door or window, or have it monitor an area around itself in a 20ft. cube. You may use the device once before needing to charge it during a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Machinist Archetype" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MACHINIST_ARCHETYPE">
+        <description>
+            <p>At 3rd level, you choose which area of inventing you wish to pursue. You choose the Marksman, Tinkerer or Grenadier archetype.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Machinist Archetype" supports="Machinist Archetype" />
+        </rules>
+    </element>
+    <element name="Technologist" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNOLOGIST">
+        <description>
+            <p>Also at 3rd level, you may have developed technologies alongside your Machinist archetype. Certain actions may require creatures to make saving throws or you to make attack rolls to hit. These are calculated as follows:</p>
+            <center>
+                <p><strong>Tech Attack Bonus:</strong> your Intelligence modifier + your Proficiency bonus</p>
+                <p><strong>Tech save DC:</strong> 8 + your Intelligence modifier + your Proficiency bonus</p>
+            </center>
+        </description>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (White Mage 4)" supports="Improvement Option,White Mage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (White Mage 8)" supports="Improvement Option,White Mage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (White Mage 12)" supports="Improvement Option,White Mage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (White Mage 16)" supports="Improvement Option,White Mage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (White Mage 19)" supports="Improvement Option,White Mage,19" level="19" />
+		</rules>
+	</element>
+    <element name="Extra Attack" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EXTRA_ATTACK">
+		<description>
+			<html>&lt;p&gt;Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" bonus="extra attack" level="5" />
+		</rules>
+	</element>
+    <element name="Reload" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RELOAD">
+        <description>
+            <p>Beginning at the 5th level, ranged weapons you use lose their loading property.</p>
+        </description>
+        <sheet>
+            <description>Ranged weapons you use lose their loading property.</description>
+        </sheet>
+    </element>
+    <element name="Peloton" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_PELOTON">
+        <description>
+            <p>Beginning at the 6th level, your mental stamina allows you to push your body further. Your base movement increases by 5ft. and you may use your Intelligence modifier for Initiative rolls.</p>
+        </description>
+        <sheet>
+            <description>Your mental stamina allows you to push your body further. Your base movement increases by 5ft. and you may use your Intelligence modifier for Initiative rolls.</description>
+        </sheet>
+    </element>
+    <element name="Eye for Design" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EYE_FOR_DESIGN">
+        <description>
+            <p>Beginning at the 9th Level, when assessing mechanical systems and intentional designs. You gain advantage on Investigation checks to understand how a mechanical system works and advantage on Survival checks to track a creature within a building, village, town or city.</p>
+        </description>
+        <sheet>
+            <description>You gain advantage on Investigation checks to understand how a mechanical system works and advantage on Survival checks to track a creature within a building, village, town or city.</description>
+        </sheet>
+    </element>
+    <element name="Graze" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_GRAZE">
+        <description>
+            <p>Beginning at the 10th level, you are able to target your ranged attacks to cause negative effects on your target. Using your bonus action, you can empower your next shot to target a limb causing different effects. If your attack lands, your target must make a Dexterity saving throw against your Machinist save DC or fall under the selected effect. This effect lasts until your next action where applicable.</p>
+            <table>
+                <h5>Graze</h5>
+                <thead>
+                    <tr><td>Limb</td><td>Effect</td></tr>
+                </thead>
+                <tr><td>Head</td><td>Stunned</td></tr>
+                <tr><td>Heart</td><td>Freightened</td></tr>
+                <tr><td>Arm</td><td>Disarmed</td></tr>
+                <tr><td>Leg</td><td>Prone</td></tr>
+            </table>
+            <p class="indent">You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{graze:count}}/Long Rest">
+            <description>You are able to target your ranged attacks to cause negative effects on your target. Using your bonus action, you can empower your next shot to target a limb causing different effects. If your attack lands, your target must make a Dexterity saving throw against your Machinist save DC or fall under the selected effect. This effect lasts until your next action where applicable. &#13;
+                Head:Stunned | Heart:Freightened | Arm:Disarmed | Leg:Prone 
+            </description>
+        </sheet>
+        <rules>
+            <stat name="graze:count" value="intelligence:modifier" />
+        </rules>
+    </element>
+    <element name="Combat Roll" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_COMBAT_ROLL">
+        <description>
+            <p>Beginning at the 13th level, during battle you are able to perform a combat role. When you are targeted by an attack, you may use your reaction to impose disadvantage on the attack and move 5ft. to an open space without provoking an attack of opportunity. You can use this feature a number of times equal to your Dexterity modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="{{combatroll:count}}/Long Rest">
+            <description>When you are targeted by an attack, you may use your reaction to impose disadvantage on the attack and move 5ft. to an open space without provoking an attack of opportunity. You can use this feature a number of times equal to your Dexterity modifier (a minimum of once). You regain any expended uses when you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="combatroll:count" value="dexterity:modifier" />
+        </rules>
+    </element>
+    <element name="Ricochet" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RICOCHET">
+        <description>
+            <p>Beginning at the 14th level, you may spend your reaction to perform a ricochet shot if you are attacking with a firearm. Upon landing a successful attack, you make a second attack against a creature within 5ft. of the first targeted creature. This second attack does not consume ammunition.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>You may spend your reaction to perform a ricochet shot if you are attacking with a firearm. Upon landing a successful attack, you make a second attack against a creature within 5ft. of the first targeted creature. This second attack does not consume ammunition.</description>
+        </sheet>
+    </element>
+    <element name="Emergency Rescue" tyoe="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EMERGENCY_RESCUE">
+        <description>
+            <p>Beginning at the 15th level, you have developed a life saving device which casts Cure Wounds on creatures with 0 hit points on contact. Intelligence is your spell casting ability for this device.</p>
+            <p class="indent">As an action you can throw the palm sized spherical device at a creature within 20ft. of you. If you have 0 hit points at the start of your turn and the device in your possession, it will automatically activate and heal you as a free action.</p>
+            <p class="indent">The device can cast Cure Wounds once. The device is recharged when you finish a short rest.</p>
+        </description>
+        <sheet action="Action" usage="Short Rest">
+            <description>You have developed a life saving device which casts Cure Wounds on creatures with 0 hit points on contact. Intelligence is your spell casting ability for this device. As an action you can throw the palm sized spherical device at a creature within 20ft. of you. If you have 0 hit points at the start of your turn and the device in your possession, it will automatically activate and heal you as a free action. The device can cast Cure Wounds once. The device is recharged when you finish a short rest.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" />
+        </rules>
+    </element>
+    <element name="Cloaking Device" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_CLOAKING_DEVICE">
+        <description>
+            <p>Beginning at the 18th level, you've developed a cane sized device which turns you and all creatures within a 5ft. radius of you Invisible for 1 minute. All creatures must remain within 5ft. of the device to retain invisibility. You can use the cane once before you need to recharge it during a long rest.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>You've developed a cane sized device which turns you and all creatures within a 5ft. radius of you Invisible for 1 minute. All creatures must remain within 5ft. of the device to retain invisibility. You can use the cane once before you need to recharge it during a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Midas Touch" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MIDAS_TOUCH">
+        <description>
+            <p>Beginning at the 20th level, as a bonus action you can complete maintenance on an invention in an instant. You must then finish a long rest to use Midas Touch again.</p>
+        </description>
+        <div class="sidebar">
+            <h5>Fire Arms and Creations</h5>
+            <p>The cost of firearms and to rebuild lost, destroyed or stolen accessory equipment granted by features can be found in the Machinist Appendix D on page 106.</p>
+        </div>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you can complete maintenance on an invention in an instant. You must then finish a long rest to use Midas Touch again.</description>
+        </sheet>
+    </element>
+
+    <!-- Archetypes -->
+    <element name="Marksman" type="Archetype" source="" id="ID_FFXIV_MCH_ARCHETYPE_MARKSMAN">
+        <description>
+            <p>You have decided to focus on your marksmanship, developing tools and skills to assist in your sharpshooting.</p>
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_GAUSS_BARREL" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_HAWKEYE_GOGGLES" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_LOCKON" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SNIPER" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_GAUSS_BARREL" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_HAWKEYE_GOGGLES" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_LOCKON" level="11" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SNIPER" level="17" />
+        </rules>
+    </element>
+    <element name="Gauss Barrel" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_GAUSS_BARREL">
+        <description>
+            <p>At 3rd level you have completed your work on a specialized barrel to attach to your firearm. While equipped and functioning you gain +2 to your attack and damage rolls. The Gauss barrel can assist a number of shots equal to your Intelligence modifier before requiring a cleaning completed at the end of a short or long rest. This bonus increases by 1 at the 6th, 11th and 17th level.</p>
+        </description>
+        <sheet usage="Short/Long Rest">
+            <description>You have completed your work on a specialized barrel to attach to your firearm. While equipped and functioning you gain +2 to your attack and damage rolls. The Gauss barrel can assist {{gauss:assist}} shots before requiring a cleaning completed at the end of a short or long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="gauss:assist" value="intelligence:modifier" bonus="base" />
+            <stat name="gauss:assist" value="1" level="6" />
+            <stat name="gauss:assist" value="1" level="11" />
+            <stat name="gauss:assist" value="1" level="17" />
+        </rules>
+    </element>
+    <element name="Hawkeye Goggles" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_HAWKEYE_GOGGLES">
+        <description>
+            <p>At 6th level you have completed special goggles to assist in shooting and scouting over long distances. While wearing the goggles you gain proficiency in the perception skill checks involving sight and may use Intelligence for those checks. You can see up to 4 miles in clear conditions and increase the normal range of your ranged weapons by 30ft.</p>
+        </description>
+        <sheet>
+            <description>You have completed special goggles to assist in shooting and scouting over long distances. While wearing the goggles you gain proficiency in the perception skill checks involving sight and may use Intelligence for those checks. You can see up to 4 miles in clear conditions and increase the normal range of your ranged weapons by 30ft.</description>
+        </sheet>
+    </element>
+    <element name="Lock-On" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_LOCKON">
+        <description>
+            <p>At the 11th level, you double the number of Gauss Barrel shots available to you. While wearing your Hawkeye Goggles, when you make an attack roll with with your Gauss Barrel effect your weapon can shoot at maximum range without disadvantage.</p>
+        </description>
+        <sheet>
+            <description>While wearing your Hawkeye Goggles, when you make an attack roll with with your Gauss Barrel effect your weapon can shoot at maximum range without disadvantage.</description>
+        </sheet>
+        <rules>
+            <stat name="gauss:assist" value="intelligence:modifier" />
+            <stat name="gauss:assist" value="1" level="6" />
+            <stat name="gauss:assist" value="1" level="11" />
+            <stat name="gauss:assist" value="1" level="17" />
+        </rules>
+    </element>
+    <element name="Sniper" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SNIPER">
+        <description>
+            <p>Beginning at the 17th level, when you land a critical hit, the damage is tripled. You score a critical hit on a die result 19 or 20.</p>
+        </description>
+        <sheet>
+            <description>When you land a critical hit, the damage is tripled. You score a critical hit on a die result 19 or 20.</description>
+        </sheet>
+    </element>
+
+</elements>
