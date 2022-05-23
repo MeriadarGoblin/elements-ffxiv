@@ -980,11 +980,6 @@
     <append id="ID_PHB_SPELL_PLANE_SHIFT">
         <supports>Astrologian</supports>
     </append>
-    <!-- Regeneration spell doesnt exist??? 
-    <append id="ID_SSSSSSSSSSSSSSSSSSSSSSSS">
-        <supports>Astrologian</supports>
-    </append>
--->
     <append id="ID_PHB_SPELL_RESURRECTION">
         <supports>Astrologian</supports>
     </append>

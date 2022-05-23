@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>White Mage</name>
+		<update version="1.0.0">
+			<file name="class-whm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-whm.xml" />
+		</update>
+	</info>
+
+    <element name="White Mage" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_WHM">
+        <description>
+    <p>A quiet and well groomed man waves his cane around himself, drawing in magical energy from the land and calling forth it's power. With a flick of his wrist the land parted and erupted sending his foe toppling to the ground.</p>
+    <p class="indent">A gentle young woman rushes to their ally's side. Through prayer and reverence for the land, it's power is shared with her, allowing her to close the wounds of her dying friend.</p>
+    <p class="indent">A stern heavily robed figure approached the abomination, raised from the dead. Calling for shining light, she banishes the undead back to the abyss.</p>
+    <p class="indent">Serene and elegant, the White Mages commune with the world around them, borrowing power from elementals present throughout the word. They are level headed, respectful spell casters who are aware that overstepping one's bounds in the world of magic can lead to calamity, and seek to keep order within the magic world while mending the wounds of those around them.</p>
+    <h4>One With the Land</h4>
+    <p>White Mage's strength stems from an art they refer to as conjury. Conjury calls upon the elements of earth, wind, and water and concentrates them to a potency at which spells can be weaved. Through practiced meditation on the essences of creation, conjurers draw forth and absorb magic from their immediate surroundings. A wand or cane made from unworked wood is then utilized to focus the magical energy until it manifests as the desired spell. Versed also in magicks that restore and strengthen, White Mages are regarded as accomplished healers.</p>
+    <h4>Patrons of Light</h4>
+    <p>White Mages find their roots in a society which revered nature as an ally, borrowing the power of the land and elementals to soothe wounds and protect from the wicked. Over time, the White Mages of the past overused this power causing the elementals to act out and smite the land, alongside the damage wrought by the opposing Black Mages, the world fell into a dark age. Today White Mages are few and far between, practicing the forbidden art to wield the powers of nature and light to drive off evil in protection of the world again.</p>
+    <h4>CREATING A White Mage</h4>
+    <p>When creating a White Mage one must question how they came into the art of conjury and the profession of White Mage. Did a kindly mentor take you under their wing? Did your studies of magic from the past lead you to discovering how to draw power from the world you lived in? Perhaps the elementals which inhabit the land reached out to you and their whispers guided you to the path of a White Mage. Nonetheless a White Mage's role in the world is that of a protector, soothing the wounds of those who need it most, settling enraged elementals and driving the beings who bring destruction back from hence they came.</p>
+    <h5 class="caption">QUICK BUILD</h5>
+    <p>You can make a White Mage quickly by following these suggestions. First make Wisdom your highest ability score, following with Charisma. Second select the Healer discipline. Third take the Acolyte background. Fourth, take the Guidance, Light Sacred Flame, and Spare the Dying cantrips and the first level spells Cure Wounds and Heroism.</p>
+    <h2>CLASS FEATURES</h2>
+    <p>As an white mage, you gain the following class features.</p>
+    <h5 class="caption">HIT POINTS</h5>
+    <ul class="unstyled">
+        <li><strong>Hit Dice:</strong> 1d6 per white mage level</li>
+        <li><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</li>
+        <li><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per white mage level after 1st</li>
+    </ul>
+    <h5 class="caption">PROFICIENCIES</h5>
+    <ul class="unstyled mb">
+        <li><strong>Armor:</strong> None</li>
+        <li><strong>Weapons:</strong> Daggers, Darts, Slings, Quarter Staffs, Light Crossbows</li>
+        <li><strong>Tools:</strong> Tools</li>
+    </ul>
+    <ul class="unstyled">
+        <li><strong>Saving Throws:</strong> Wisdom, Charisma</li>
+        <li><strong>Skills:</strong> Choose two from Arcana, Deception, Insight, Persuasion, History, Religion, Medicine.</li>
+    </ul>
+    <h5 class="caption">EQUIPMENT</h5>
+    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+    <ul>
+        <li>a dagger</li>
+        <li>a spellcasting focus (a cane, staff, wand, or similar object)</li>
+        <li>(a)an explorer's pack or (b)a scholar's pack</li>
+    </ul>
+        <h5 class="caption">THE White Mage</h5>
+        <table class="class-features">
+            <thead>
+                <tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+            </thead>
+            <tr><td> 1st</td><td class="left">Spellcasting, Confession, Reach of the Unseen</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 2nd</td><td class="left">Conjury Disciple, Afflatus Solace</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 3rd</td><td class="left">-</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 5th</td><td class="left">-</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 6th</td><td class="left">Discipline Feature</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 7th</td><td class="left">-</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 8th</td><td class="left">Ability Score Feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td> 9th</td><td class="left">-</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>10th</td><td class="left">Discipline Feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>11th</td><td class="left">-</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>12th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+            <tr><td>13th</td><td class="left">-</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+            <tr><td>14th</td><td class="left">Discipline Feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+            <tr><td>15th</td><td class="left">-</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+            <tr><td>16th</td><td class="left">Ability Score Feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+            <tr><td>17th</td><td class="left">-</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+            <tr><td>18th</td><td class="left">Conservation of Life</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+            <tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+            <tr><td>20th</td><td class="left">Graceful Healer</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+        </table>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_SPELLCASTING" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONFESSION" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_REACH_OF_THE_UNSEEN" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONJURY_DISCIPLINE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_AFFLATUS_SOLACE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONVERSATION_OF_LIFE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_GRACEFUL_HEALER" />
+        </description>
+        <setters>
+            <set name="hd">d6</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+            <select type="Proficiency" name="Skill Proficiency (White Mage)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_MEDICINE" number="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_SPELLCASTING" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONFESSION" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_REACH_OF_THE_UNSEEN" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONJURY_DISCIPLINE" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_AFFLATUS_SOLACE" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONVERSATION_OF_LIFE" level="18" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_GRACEFUL_HEALER" level="20" />
+        </rules>
+    </element>
+
+    <element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_SPELLCASTING">
+		<description>
+			<p>Level requirement and general description. See chapter 10 of the PHB for the general rules of spellcasting and the end of this document for the White Mage spell list.</p>
+			<h5 class="caption">CANTRIPS</h5>
+			<p>At 1st level, you know 3 cantrips of your choice from the White Mage spell list. You learn additional White Mage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the White Mage table.</p>
+			<h5 class="caption">PREPARING AND CASTING SPELLS</h5>
+			<p>The White Mage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">You prepare the list of white mage spells that are available for you to cast, choosing from the white mage spell list. When you do so, choose a number of white mage spells equal to your Wisdom modifier + your white mage level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you are a 3rd-level white mage, you have four 1st-levei and two 2nd-levei spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of white mage spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+			<h5 class="caption">SPELLCASTING ABILITY</h5>
+			<p>Wisdom is your spellcasting ability for your White Mage spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a White Mage spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+			<h5 class="caption">RITUAL CASTING</h5>
+			<p>You can cast any White Mage spell you know as a ritual if that spell has the ritual tag.</p>
+			<h5 class="caption">SPELLCASTING FOCUS</h5>
+			<p>You can use a rod, cane, wand or other similar equipment as an arcane focus (found in chapter 5 of the player's handbook) for your White Mage spells.</p>
+		</description>
+		<sheet>
+			<description>You can cast white mage spells as rituals. You can prepare {{white mage:spellcasting:prepare}} spells from the white mage spell list. You can use a holy symbol as your spellcasting focus.</description>
+		</sheet>
+		<spellcasting name="White Mage" ability="Wisdom" prepare="true">
+			<list known="true">White Mage</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
+
+			<stat name="White Mage:spellcasting:slots:1" value="2" level="1" />
+			<stat name="White Mage:spellcasting:slots:1" value="1" level="2" />
+			<stat name="White Mage:spellcasting:slots:1" value="1" level="3" />
+			<stat name="White Mage:spellcasting:slots:2" value="2" level="3" />
+			<stat name="White Mage:spellcasting:slots:2" value="1" level="4" />
+			<stat name="White Mage:spellcasting:slots:3" value="2" level="5" />
+			<stat name="White Mage:spellcasting:slots:3" value="1" level="6" />
+			<stat name="White Mage:spellcasting:slots:4" value="1" level="7" />
+			<stat name="White Mage:spellcasting:slots:4" value="1" level="8" />
+			<stat name="White Mage:spellcasting:slots:4" value="1" level="9" />
+			<stat name="White Mage:spellcasting:slots:5" value="1" level="9" />
+			<stat name="White Mage:spellcasting:slots:5" value="1" level="10" />
+			<stat name="White Mage:spellcasting:slots:5" value="1" level="18" />
+			<stat name="White Mage:spellcasting:slots:6" value="1" level="11" />
+			<stat name="White Mage:spellcasting:slots:6" value="1" level="19" />
+			<stat name="White Mage:spellcasting:slots:7" value="1" level="13" />
+			<stat name="White Mage:spellcasting:slots:7" value="1" level="20" />
+			<stat name="White Mage:spellcasting:slots:8" value="1" level="15" />
+			<stat name="White Mage:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="White Mage:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="White Mage:spellcasting:prepare" value="level:White Mage" />
+
+			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="White Mage" />
+			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="White Mage" />
+		</rules>
+	</element>
+    <element name="Confession" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONFESSION">
+        <description>
+            <p>Beginning at 1st level, you gain the bonus action Prayer. When you use Prayer you gain a charge of Confession. When you use prayer while you already have a charge of confession, you double the number of charges you currently have, then gain 1 charge.</p>
+            <p class="indent">You may hold a number of confession charges equal to your proficiency bonus. You must be in combat to use prayer, your confession charges fade away after spending 1 minute outside of combat.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You gain the bonus action Prayer. When you use Prayer you gain a charge of Confession. When you use prayer while you already have a charge of confession, you double the number of charges you currently have, then gain 1 charge. You may hold a number of confession charges equal to your proficiency bonus. You must be in combat to use prayer, your confession charges fade away after spending 1 minute outside of combat.</description>
+        </sheet>
+    </element>
+    <element name="Reach of the Unseen" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_REACH_OF_THE_UNSEEN">
+        <description>
+            <p>Also beginning at 1st level, when you cast a spell, you may spend 1 charge of confession to commission the elementals of the world to carry your spell. If your spell is a touch spell, you may cast it as a ranged spell up to a distance of 30ft.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell, you may spend 1 charge of confession to commission the elementals of the world to carry your spell. If your spell is a touch spell, you may cast it as a ranged spell up to a distance of 30ft.</description>
+        </sheet>
+    </element>
+    <element name="Conjury Discipline" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+        <description>
+            <p>At 2nd level, you choose the discipline you belong to as a White Mage. Elementalist, Spirit Master, or Ampdapori, all detailed at the end of the class description. Your archetype choice grants you features at the 1st, 6th, 10th and 14th level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Conjury Discpline" supports="Conjury Discipline" />
+        </rules>
+    </element>
+    <element name="Afflatus Solace" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+        <description>
+            <p>Beginning at the 2nd level, as an action you may spend any number of your confession charges. You heal a creature within 30ft. of you for #d4 + your proficiency bonus, where # is equal to the charges of confession spent.</p>
+            <p class="indent">Your Prayer bonus action cannot have been used before or after using Afflatus Solace on your turn. The target creature must have more than 0 hit points.</p>
+        </description>
+        <sheet>
+            <description>As an action you may spend any number of your confession charges. You heal a creature within 30ft. of you for #d4 + your proficiency bonus, where # is equal to the charges of confession spent. Your Prayer bonus action cannot have been used before or after using Afflatus Solace on your turn. The target creature must have more than 0 hit points.</description>
+        </sheet>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (White Mage 4)" supports="Improvement Option,White Mage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (White Mage 8)" supports="Improvement Option,White Mage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (White Mage 12)" supports="Improvement Option,White Mage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (White Mage 16)" supports="Improvement Option,White Mage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (White Mage 19)" supports="Improvement Option,White Mage,19" level="19" />
+		</rules>
+	</element>
+    <element name="Conversation of Life" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+        <description>
+            <p>Beginning at the 18th level, when your hit points are reduced to 0 and you fall unconscious, you release a pulse of healing energy. All allies, excluding yourself, within a 30ft. radius are healed for 2d8 + your Wisdom ability modifier hit points. This is unaffected by Touch of the Padjal. This effect only occurs once. You must then finish a long rest to use Conservation of Life again.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>When your hit points are reduced to 0 and you fall unconscious, you release a pulse of healing energy. All allies, excluding yourself, within a 30ft. radius are healed for 2d8 + your Wisdom ability modifier hit points. This is unaffected by Touch of the Padjal. This effect only occurs once. You must then finish a long rest to use Conservation of Life again.</description>
+        </sheet>
+    </element>
+    <element name="Graceful Healer" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+        <description>
+            <p>Beginning at the 20th level, you gain two Confession charges when you roll for initiative at the beginning of battle.</p>
+        </description>
+        <sheet>
+            <description>You gain two Confession charges when you roll for initiative at the beginning of battle.</description>
+        </sheet>
+    </element>
+    
+    <!-- Archetypes -->
+    <element name="Elementalist" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WHM_ARCHETYPE_ELEMENTALIST">
+        <supports>Conjury Discipline</supports>
+        <description>
+            <p>White Mages who choose to focus on manipulating the elements around them come to be known as elementalists. They are able to work very closely with the elementals living across the land to borrow their strength and knowledge, turning the world itself into an ally.</p>
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_ELEMENTALIST" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_ELEMENTAL_BLESSING" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EYES_OF_THE_ELEMENTALS" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_ELEMENTAL_ARMOUR" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AETHERIAL_CONJURATION" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_ELEMENTALIST" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_ELEMENTAL_BLESSING" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EYES_OF_THE_ELEMENTALS" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_ELEMENTAL_ARMOUR" level="14" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AETHERIAL_CONJURATION" level="20" />
+        </rules>
+    </element>
+    <element name="Expanded Spell List" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_ELEMENTALIST">
+        <description>
+            <p>Your specialization as an elementalist lets you choose from an expanded list of spells when you learn a white mage spell. The following spells are added to the white mage spell list for you.</p>
+            <h5 class="caption">EXPANDED SPELL LIST</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Earth Tremor, Thunderwave</em></td></tr>
+				<tr><td>2nd</td><td><em>Earthbind, Maxmillian's Earthen Grasp</em></td></tr>
+				<tr><td>3rd</td><td><em>Erupting Earth, Melf's Minute Meteors</em></td></tr>
+				<tr><td>4th</td><td><em>Stoneskin, Watery Sphere</em></td></tr>
+				<tr><td>5th</td><td><em>Conjure Elemental, Control Wind</em></td></tr>
+			</table>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="White Mage" extend="true">
+			<extend>ID_XGTE_SPELL_EARTH_TREMOR</extend>
+			<extend>ID_PHB_SPELL_THUNDERWAVE</extend>
+			<extend>ID_XGTE_SPELL_EARTHBIND </extend>
+			<extend>ID_XGTE_SPELL_MAXIMILIANS_EARTHEN_GRASP</extend>
+			<extend>ID_XGTE_SPELL_ERUPTING_EARTH</extend>
+			<extend>ID_XGTE_SPELL_MELFS_MINUTE_METEORS</extend>
+			<extend>ID_PHB_SPELL_STONESKIN</extend>
+			<extend>ID_XGTE_SPELL_WATERY_SPHERE</extend>
+			<extend>ID_PHB_SPELL_CONJURE_ELEMENTAL</extend>
+			<extend>ID_XGTE_SPELL_CONTROL_WINDS</extend>
+		</spellcasting>
+    </element>
+    <element name="Elemental Blessing" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_ELEMENTAL_BLESSING">
+        <description>
+            <p>Beginning at the 2nd level, as an action you may expend Confession charges to bless a weapon within 30ft. of you that you can see with elemental power for a number of rounds equal to your Wisdom modifier. The number of charges you spend increase the effectiveness of your blessing.</p>
+        </description>
+        <h5 class="caption">ELEMENTAL BLESSING EFFECT</h5>
+			<table>
+				<thead>
+					<tr><td>Charges Spent</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>The damage type of the weapon changes to cold, radiant or thunder.</em></td></tr>
+				<tr><td>2nd</td><td><em>The weapon gains a +1 bonus on attack rolls.</em></td></tr>
+				<tr><td>3rd</td><td><em>The weapon's damage rolls deal bonus damage equal to your proficiency bonus.</em></td></tr>
+			</table>
+        <sheet action="Action">
+            <description>As an action you may expend Confession charges to bless a weapon within 30ft. of you that you can see with elemental power for a number of rounds equal to your Wisdom modifier. The number of charges you spend increase the effectiveness of your blessing.&#13;
+                Charges Spent: 1) The damage type of the weapon changes to cold, radiant or thunder, 2) the weapon gains a +1 bonus on attack rolls, 3) the weapon's damage rolls deal bonus damage equal to your proficiency bonus.
+            </description>
+        </sheet>
+    </element>
+    <element name="Eyes of the Elementals" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EYES_OF_THE_ELEMENTALS">
+        <description>
+            <p>Beginning at the 6th level, you may commune with the elementals in the surrounding area. You gain a mental map of an area of 2 mile radius centered on you. You must spend 15 minutes meditating while elementals share this information about the surrounding area with you. You may only commune with the elementals in this way once, your ability to do so refreshing after a long rest.</p>
+            <p class="indent">Also, you can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>You may commune with the elementals in the surrounding area. You gain a mental map of an area of 2 mile radius centered on you. You must spend 15 minutes meditating while elementals share this information about the surrounding area with you. You may only commune with the elementals in this way once, your ability to do so refreshing after a long rest. Also, you can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</description>
+        </sheet>
+    </element>
+    <element name="Elemental Armour" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_ELEMENTAL_ARMOUR">
+        <description>
+            <p>Beginning at the 10th level, as an action, you may spend 1 Confession charge to grant a creature you touch the elementals' protection. The creature gains resistance to one of the following elements: cold, radiant or thunder for a number of rounds equal to your Wisdom modifier.</p>
+        </description>
+        <sheet action="Action">
+            <description>As an action, you may spend 1 Confession charge to grant a creature you touch the elementals' protection. The creature gains resistance to one of the following elements: cold, radiant or thunder for a number of rounds equal to your Wisdom modifier.</description>
+        </sheet>
+    </element>
+    <element name="Aetherial Conjuration" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AETHERIAL_CONJURATION">
+        <description>
+            <p>Beginning at the 14th level, as a bonus action you may spend a number of Confession charges to borrow power from the elementals to cast a spell. You may cast a spell whose level is equal to half the number of Confession charges spent (rounded up).</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you may spend a number of Confession charges to borrow power from the elementals to cast a spell. You may cast a spell whose level is equal to half the number of Confession charges spent (rounded up).</description>
+        </sheet>
+    </element>
+
+    <element name="Spirit Master" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WHM_ARCHETYPE_SPIRIT_MASTER">
+        <supports>Conjury Discipline</supports>
+        <description>
+            <p>A Spirit Master is a White Mage who has focused their efforts into becoming master healers. They are steadfast allies who provide a great deal of support to those around them. Drawing power from the land and the spirits who inhabit it, a Spirit Master is able to unleash incredibly potent healing and support spells. They have taken on the role to soothe the wounds of those who protect the world and those who need protecting.</p>
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_SPIRIT_TAKER" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_SOOTHE_SAYER" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_MEDICINE_MASTER" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_CLERICAL_SMITE" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_TOUCH_OF_THE_PADJAL" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_SPIRIT_TAKER" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_SOOTHE_SAYER" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_MEDICINE_MASTER" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_CLERICAL_SMITE" level="14" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_TOUCH_OF_THE_PADJAL" level="20" />
+        </rules>
+    </element>
+    <element name="Expanded Spell List" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_SPIRIT_TAKER">
+        <description>
+            <p>Your specialization as a spirit master lets you choose from an expanded list of spells when you learn a white mage spell. The following spells are added to the white mage spell list for you.</p>
+            <h5 class="caption">EXPANDED SPELL LIST</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Heroism, Sanctuary</em></td></tr>
+				<tr><td>2nd</td><td><em>Enhance Ability, Protection from Poison</em></td></tr>
+				<tr><td>3rd</td><td><em>Beacon of Hope, Revivify</em></td></tr>
+				<tr><td>4th</td><td><em>Regen, Tetragrammaton</em></td></tr>
+				<tr><td>5th</td><td><em>Assize, Asylum</em></td></tr>
+			</table>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="White Mage" extend="true">
+			<extend>ID_PHB_SPELL_HEROISM</extend>
+			<extend>ID_PHB_SPELL_SANCTUARY</extend>
+			<extend>ID_PHB_SPELL_ENHANCE_ABILITY </extend>
+			<extend>ID_PHB_SPELL_PROTECTION_FROM_POISON</extend>
+			<extend>ID_PHB_SPELL_BEACON_OF_HOPE</extend>
+			<extend>ID_PHB_SPELL_REVIVIFY</extend>
+			<extend>ID_FFXIV_SPELL_REGEN</extend>
+			<extend>ID_FFXIV_SPELL_TETRAGAMMATON</extend>
+			<extend>ID_FFXIV_SPELL_ASSIZE</extend>
+			<extend>ID_FFXIV_SPELL_ASYLUM</extend>
+		</spellcasting>
+    </element>
+    <element name="Soothe Sayer" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_SOOTHE_SAYER">
+        <description>
+            <p>Also beginning at the 2nd level, your healing spells are more effective. Whenever you cast a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your proficiency bonus + the spell's level.</p>
+        </description>
+        <sheet>
+            <description>Whenever you cast a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your proficiency bonus + the spell's level.</description>
+        </sheet>
+    </element>
+    <element name="Medicine Master" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_MEDICINE_MASTER">
+        <description>
+            <p>Beginning at the 6th level, you gain proficiency in the Medicine skill. You have advantage on Wisdom (Medicine) checks to stabilize creatures and when diagnosing diseases.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Wisdom (Medicine) checks to stabilize creatures and when diagnosing diseases.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+        </rules>
+    </element>
+    <element name="Clerical Smite" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_CLERICAL_SMITE">
+        <description>
+            <p>Beginning at the 10th level, when you cast a healing spell you may spend a Confession charge to weaponize the spell, dealing radiant damage instead of healing. The spell must require a die role to be used in this way. The bonus healing that would be applied from Soothe Sayer is applied as bonus damage.</p>
+            <p class="indent">Targeted creatures make a Wisdom saving throw against your Spell Save DC, taking the spell's healing as damage on a failure and half as much on a success.</p>
+        </description>
+        <sheet>
+            <description>When you cast a healing spell you may spend a Confession charge to weaponize the spell, dealing radiant damage instead of healing. The spell must require a die role to be used in this way. The bonus healing that would be applied from Soothe Sayer is applied as bonus damage. Targeted creatures make a Wisdom saving throw against your Spell Save DC, taking the spell's healing as damage on a failure and half as much on a success.</description>
+        </sheet>
+    </element>
+    <element name="Touch of the Padjal" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_TOUCH_OF_THE_PADJAL">
+        <description>
+            <p>Beginning at the 14th level, as a bonus action you may spend a Confession charge. When you cast your next spell which restores hit points, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you may spend a Confession charge. When you cast your next spell which restores hit points, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</description>
+        </sheet>
+    </element>
+
+    <element name="Ampadori" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WHM_ARCHETYPE_AMPADORI">
+        <supports>Conjury Discipline</supports>
+        <description>
+            <p>Some White Mages focus on the role of repelling those who do not belong in the world from it, relying on light and holy magic to drive the undead and fiends from the world through destruction. An Ampdapori White Mage has taken up arms for this very purpose, using a mix of healing magic and holy magic to smite out blasphemous creatures from the land.</p>
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_AMPADORI" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AFFLATUS_MISERY" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_INQUISITORS_REPORT" />
+            <div element="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AURA_OF_AMPADOR" />
+            <div element="ID_GMBIDNER_FFXIV_WHM_ARCHETYPE_FEATURE_VOID_BANE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_AMPADORI" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AFFLATUS_MISERY" level="2" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_INQUISITORS_REPORT" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AURA_OF_AMPADOR" level="14" />
+            <grant type="Archetype Feature" id="ID_GMBIDNER_FFXIV_WHM_ARCHETYPE_FEATURE_VOID_BANE" level="20" />
+        </rules>
+    </element>
+    <element name="Expanded Spell List" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST_AMPADORI">
+        <description>
+            <p>Your specialization as an ampdapori lets you choose from an expanded list of spells when you learn a white mage spell. The following spells are added to the white mage spell list for you.</p>
+            <h5 class="caption">EXPANDED SPELL LIST</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Banish, Bless</em></td></tr>
+				<tr><td>2nd</td><td><em>Moonbeam, Sleep</em></td></tr>
+				<tr><td>3rd</td><td><em>Daylight, Spirit Guardians</em></td></tr>
+				<tr><td>4th</td><td><em>Banishment, Wall of Fire</em></td></tr>
+				<tr><td>5th</td><td><em>Holy, Hallow</em></td></tr>
+			</table>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="White Mage" extend="true">
+			<extend>ID_PHB_SPELL_BLESS</extend>
+			<extend>ID_PHB_SPELL_MOONBEAM </extend>
+			<extend>ID_PHB_SPELL_SLEEP</extend>
+			<extend>ID_PHB_SPELL_DAYLIGHT</extend>
+			<extend>ID_PHB_SPELL_SPIRIT_GUARDIANS</extend>
+			<extend>ID_PHB_SPELL_BANISHMENT</extend>
+			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
+			<extend>ID_FFXIV_SPELL_HOLY</extend>
+			<extend>ID_PHB_SPELL_HALLOW</extend>
+		</spellcasting>
+    </element>
+    <element name="Afflatus Misery" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AFFLATUS_MISERY">
+        <description>
+            <p>Beginning at the 2nd level, as an action you may spend any number of confession charges to make a ranged spell attack against a creature within 60ft. of you. Your attack deals #d6 + your proficiency bonus radiant damage, where # is equal to the number of confession charges spent.</p>
+        </description>
+        <sheet action="Action">
+            <description>As an action you may spend any number of confession charges to make a ranged spell attack against a creature within 60ft. of you. Your attack deals #d6 + your proficiency bonus radiant damage, where # is equal to the number of confession charges spent.</description>
+        </sheet>
+    </element>
+    <element name="Inquisitor's Report" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_INQUISITORS_REPORT">
+        <description>
+            <p>Beginning at the 6th level, you may spend 15 minutes communing with the elementals to learn the location of any undead or fiend creatures within a 1 mile radius. You may only do this once before, your ability to do so refreshing after a long rest.</p>
+        </description>
+        <sheet>
+            <description>You may spend 15 minutes communing with the elementals to learn the location of any undead or fiend creatures within a 1 mile radius. You may only do this once before, your ability to do so refreshing after a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Aura of Ampador" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WHM_ARCHETYPE_FEATURE_AURA_OF_AMPADOR">
+        <description>
+            <p>Beginning at the 10th level, while you hold a Confession charge in your body, you emit an aura in a 10ft. radius that protects you and friendly creatures. While within your aura, creatures have resistance to necrotic damage and when they are the target of a spell which restores hit points, they recover additional hit points equal to your Wisdom modifier.</p>
+        </description>
+        <sheet>
+            <description>While you hold a Confession charge in your body, you emit an aura in a 10ft. radius that protects you and friendly creatures. While within your aura, creatures have resistance to necrotic damage and when they are the target of a spell which restores hit points, they recover additional hit points equal to your Wisdom modifier.</description>
+        </sheet>
+    </element>
+    <element name="Void Bane" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBIDNER_FFXIV_WHM_ARCHETYPE_FEATURE_VOID_BANE">
+        <description>
+            <p>Beginning at the 14th level, as a bonus action you may spend 1 Confession charge to empower your next spell. If the target of your spell is an undead or fiend creature, it become far more effective. If your spell requires you to make a spell attack roll, you gain advantage on your attack roll. If your spell requires the target creature to make a saving throw, they do so with disadvantage.</p>
+            <p class="indent">Additionally, your spell deals bonus damage on hit equal to your proficiency bonus.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you may spend 1 Confession charge to empower your next spell. If the target of your spell is an undead or fiend creature, it become far more effective. If your spell requires you to make a spell attack roll, you gain advantage on your attack roll. If your spell requires the target creature to make a saving throw, they do so with disadvantage. Additionally, your spell deals bonus damage on hit equal to your proficiency bonus.</description>
+        </sheet>
+    </element>
+
+    <!-- Spell Appends - Cantrips -->
+    <append id="ID_XGTE_SPELL_CREATE_BONFIRE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DRUIDCRAFT">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FRIENDS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUIDANCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_GUST">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_INFESTATION">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LIGHT">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MENDING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MOLD_EARTH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RESISTANCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SACRED_FLAME">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SHAPE_WATER">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPARE_THE_DYING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_THUNDERCLAP">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WORD_OF_RADIANCE">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 1st level -->
+    <append id="ID_PHB_SPELL_BANE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CEREMONY">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_COMMAND">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CURE_WOUNDS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ENTANGLE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_GIFT_OF_ALACRITY">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GOODBERRY">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUIDING_BOLT">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEALING_WORD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INFLICT_WOUNDS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGE_ARMOR">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHIELD_OF_FAITH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SNARE">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 2nd level -->
+    <append id="ID_PHB_SPELL_AID">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AUGURY">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BARKSKIN">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CALM_EMOTIONS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTINUAL_FLAME">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DUST_DEVIL">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIND_TRAPS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GENTLE_REPOSE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUST_OF_WIND">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HOLD_PERSON">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LESSER_RESTORATION">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_OBJECT">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PRAYER_OF_HEALING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SILENCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPIKE_GROWTH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPIRITUAL_WEAPON">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_BEAST">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WARDING_BOND">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WARDING_WIND">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+        <supports>White Mage</supports>
+    </append>
+    
+    <!-- 3rd level -->
+    <append id="ID_PHB_SPELL_ANIMATE_DEAD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BESTOW_CURSE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CATNAP">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CLAIRVOYANCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CREATE_FOOD_AND_WATER">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_MAGIC">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FEIGN_DEATH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GLYPH_OF_WARDING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_LIFE_TRANSFERENCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_CIRCLE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_HEALING_WORD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MELD_INTO_STONE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANT_GROWTH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REMOVE_CURSE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SENDING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TIDAL_WAVE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TONGUES">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WALL_OF_SAND">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WALL_OF_WATER">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WATER_BREATHING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WATER_WALK">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WIND_WALL">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 4th level -->
+    <append id="ID_PHB_SPELL_CONJURE_ELEMENTAL">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONJURE_WOODLAND_BEINGS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTROL_WATER">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DEATH_WARD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIVINATION">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GRASPING_VINE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_CREATURE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SICKENING_RADIANCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SUMMON_ELEMENTAL">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STONE_SHAPE">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 5th level -->
+    <append id="ID_PHB_SPELL_COMMUNE_WITH_NATURE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTAGION">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DAWN">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLAME_STRIKE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GEAS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GREATER_RESTORATION">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_HOLY_WEAPON">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INSECT_PLAGUE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEGEND_LORE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANAR_BINDING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RAISE_DEAD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SCRYING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TRANSMUTE_ROCK">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_STONE">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 6th level -->
+    <append id="ID_PHB_SPELL_BLADE_BARRIER">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_BONES_OF_THE_EARTH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CREATE_UNDEAD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DRUID_GROVE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIND_THE_PATH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLESH_TO_STONE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FORBIDDANCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HARM">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEAL">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEROES_FEAST">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_INVESTITURE_OF_STONE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_INVESTITURE_OF_WIND">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MOVE_EARTH">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANAR_ALLY">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SUNBEAM">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_SEEING">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_THORNS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WORD_OF_RECALL">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 7th level -->
+    <append id="ID_PHB_SPELL_CONJURE_CELESTIAL">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CROWN_OF_STARS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIVINE_WORD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ETHEREALNESS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIRE_STORM">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANE_SHIFT">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REGENERATE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RESURRECTION">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SYMBOL">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_WOTC_EGTW_SPELL_TETHER_ESSENCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WHIRLWIND">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 8th level -->
+    <append id="ID_PHB_SPELL_ANTIMAGIC_FIELD">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTROL_WEATHER">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_EARTHQUAKE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HOLY_AURA">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MIGHTY_FORTRESS">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SUNBURST">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TSUNAMI">
+        <supports>White Mage</supports>
+    </append>
+
+    <!-- 9th level -->
+    <append id="ID_PHB_SPELL_ASTRAL_PROJECTION">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GATE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_HEAL">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STORM_OF_VENGEANCE">
+        <supports>White Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+        <supports>White Mage</supports>
+    </append>
+</elements>

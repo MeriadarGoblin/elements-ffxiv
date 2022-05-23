@@ -320,7 +320,7 @@
 		</setters>
 	</element>
 	<element name="Regen" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_REGEN">
-		<supports>White Mage</supports>
+		<supports>White Mage, Astrologian</supports>
 		<description>
 			<html>&lt;p class="indent"&gt;The target's body is enchanted with a blessing which repairs damage to their body over time. For the duration, the creature regains 1d6 hit points at the start of its turn.&lt;/p&gt;
 &lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d6 for each slot level above 4th.&lt;/p&gt;</html>
@@ -383,7 +383,7 @@
 		</setters>
 	</element>
 	<element name="Tetragammaton" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_TETRAGAMMATON">
-		<supports>Sage</supports>
+		<supports>White Mage</supports>
 		<description>
 			<html>&lt;p class="indent"&gt;A creature within range you can see is healed for 3d8 hit points instantaneously.&lt;/p&gt;
 &lt;p class="indent"&gt;At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit points recovered increases by 1d8 for each slot level above 4th.&lt;/p&gt;</html>
