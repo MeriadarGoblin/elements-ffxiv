@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>White Mage</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="class-whm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-whm.xml" />
 		</update>
 	</info>
@@ -182,7 +182,7 @@
             <description>When you cast a spell, you may spend 1 charge of confession to commission the elementals of the world to carry your spell. If your spell is a touch spell, you may cast it as a ranged spell up to a distance of 30ft.</description>
         </sheet>
     </element>
-    <element name="Conjury Discipline" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+    <element name="Conjury Discipline" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONJURY_DISCIPLINE">
         <description>
             <p>At 2nd level, you choose the discipline you belong to as a White Mage. Elementalist, Spirit Master, or Ampdapori, all detailed at the end of the class description. Your archetype choice grants you features at the 1st, 6th, 10th and 14th level.</p>
         </description>
@@ -191,7 +191,7 @@
             <select type="Archetype" name="Conjury Discpline" supports="Conjury Discipline" />
         </rules>
     </element>
-    <element name="Afflatus Solace" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+    <element name="Afflatus Solace" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_AFFLATUS_SOLACE">
         <description>
             <p>Beginning at the 2nd level, as an action you may spend any number of your confession charges. You heal a creature within 30ft. of you for #d4 + your proficiency bonus, where # is equal to the charges of confession spent.</p>
             <p class="indent">Your Prayer bonus action cannot have been used before or after using Afflatus Solace on your turn. The target creature must have more than 0 hit points.</p>
@@ -214,7 +214,7 @@
 			<select type="Class Feature" name="Improvement Option (White Mage 19)" supports="Improvement Option,White Mage,19" level="19" />
 		</rules>
 	</element>
-    <element name="Conversation of Life" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+    <element name="Conversation of Life" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONVERSATION_OF_LIFE">
         <description>
             <p>Beginning at the 18th level, when your hit points are reduced to 0 and you fall unconscious, you release a pulse of healing energy. All allies, excluding yourself, within a 30ft. radius are healed for 2d8 + your Wisdom ability modifier hit points. This is unaffected by Touch of the Padjal. This effect only occurs once. You must then finish a long rest to use Conservation of Life again.</p>
         </description>
@@ -222,7 +222,7 @@
             <description>When your hit points are reduced to 0 and you fall unconscious, you release a pulse of healing energy. All allies, excluding yourself, within a 30ft. radius are healed for 2d8 + your Wisdom ability modifier hit points. This is unaffected by Touch of the Padjal. This effect only occurs once. You must then finish a long rest to use Conservation of Life again.</description>
         </sheet>
     </element>
-    <element name="Graceful Healer" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="">
+    <element name="Graceful Healer" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_GRACEFUL_HEALER">
         <description>
             <p>Beginning at the 20th level, you gain two Confession charges when you roll for initiative at the beginning of battle.</p>
         </description>
