@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Machinist</name>
-		<update version="1.0.2">
+		<update version="1.1.2">
 			<file name="class-mch.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-mch.xml" />
 		</update>
     </info>
