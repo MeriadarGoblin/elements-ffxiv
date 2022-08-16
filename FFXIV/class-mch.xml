@@ -7,7 +7,7 @@
 		</update>
     </info>
 
-    <element name="Machinist" type="Class" source="" id="ID_GMBINDER_FFXIV_CLASS_MCH">
+    <element name="Machinist" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_MCH">
         <description>
     <p>A woman stands before a group of goblins. Negotiations have broken down and the goblins have drawn their blades. Before they can take a step towards her, she unleashes a lethal bullet from her pistol, laying their leader low, causing the others to retreat in fear of this unknown weaponry.</p>
     <p class="indent">Carefully, an exhausted machinist puts the finishing touches on their newest creation. They flip the switch and the small tower shaped machine takes flight. It receives its commands and a tiny pistol lets loose a bullet destroying the target. A smile spreads across the master tinkerer's face.</p>
@@ -124,7 +124,7 @@
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MIDAS_TOUCH" level="20" />
         </rules>
     </element>
-    <element name="Suppressive Fire" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SUPPRESSIVE_FIRE">
+    <element name="Suppressive Fire" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SUPPRESSIVE_FIRE">
         <description>
             <p>Beginning at level 1, when you use Ready action to prepare to attack a target creature, you are able to disable your target temporarily. If your attack hits, the target creature must make a Constitution saving throw against your Machinist save DC. On a failed save the creature is knocked prone and their speed becomes 0ft. until the end of their turn.</p>
             <center>
@@ -140,7 +140,7 @@
             <stat name="mch:dc" value="proficiency" />
         </rules>
     </element>
-    <element name="Technical Support" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNICAL_SUPPORT">
+    <element name="Technical Support" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNICAL_SUPPORT">
         <description>
             <p>Beginning at the 2nd level, you are able to use your artisan's tools to disarm mechanical traps.</p>
         </description>
@@ -148,7 +148,7 @@
             <description>You are able to use your artisan's tools to disarm mechanical traps.</description>
         </sheet>
     </element>
-    <element name="Sounding Sentry" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SOUNDING_SENTRY">
+    <element name="Sounding Sentry" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SOUNDING_SENTRY">
         <description>
             <p>Also at the 2nd level, you have developed a tiny device which casts the Alarm spell. You can affix it to a door or window, or have it monitor an area around itself in a 20ft. cube. You may use the device once before needing to charge it during a long rest.</p>
             <div class="reference">
@@ -159,7 +159,7 @@
             <description>You have developed a tiny device which casts the Alarm spell. You can affix it to a door or window, or have it monitor an area around itself in a 20ft. cube. You may use the device once before needing to charge it during a long rest.</description>
         </sheet>
     </element>
-    <element name="Machinist Archetype" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MACHINIST_ARCHETYPE">
+    <element name="Machinist Archetype" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MACHINIST_ARCHETYPE">
         <description>
             <p>At 3rd level, you choose which area of inventing you wish to pursue. You choose the Marksman, Tinkerer or Grenadier archetype.</p>
         </description>
@@ -168,7 +168,7 @@
             <select type="Archetype" name="Machinist Archetype" supports="Machinist Archetype" />
         </rules>
     </element>
-    <element name="Technologist" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNOLOGIST">
+    <element name="Technologist" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_TECHNOLOGIST">
         <description>
             <p>Also at 3rd level, you may have developed technologies alongside your Machinist archetype. Certain actions may require creatures to make saving throws or you to make attack rolls to hit. These are calculated as follows:</p>
             <center>
@@ -202,7 +202,7 @@
 			<stat name="extra attack:count" value="2" bonus="extra attack" level="5" />
 		</rules>
 	</element>
-    <element name="Reload" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RELOAD">
+    <element name="Reload" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RELOAD">
         <description>
             <p>Beginning at the 5th level, ranged weapons you use lose their loading property.</p>
         </description>
@@ -210,7 +210,7 @@
             <description>Ranged weapons you use lose their loading property.</description>
         </sheet>
     </element>
-    <element name="Peloton" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_PELOTON">
+    <element name="Peloton" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_PELOTON">
         <description>
             <p>Beginning at the 6th level, your mental stamina allows you to push your body further. Your base movement increases by 5ft. and you may use your Intelligence modifier for Initiative rolls.</p>
         </description>
@@ -218,7 +218,7 @@
             <description>Your mental stamina allows you to push your body further. Your base movement increases by 5ft. and you may use your Intelligence modifier for Initiative rolls.</description>
         </sheet>
     </element>
-    <element name="Eye for Design" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EYE_FOR_DESIGN">
+    <element name="Eye for Design" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EYE_FOR_DESIGN">
         <description>
             <p>Beginning at the 9th Level, when assessing mechanical systems and intentional designs. You gain advantage on Investigation checks to understand how a mechanical system works and advantage on Survival checks to track a creature within a building, village, town or city.</p>
         </description>
@@ -226,7 +226,7 @@
             <description>You gain advantage on Investigation checks to understand how a mechanical system works and advantage on Survival checks to track a creature within a building, village, town or city.</description>
         </sheet>
     </element>
-    <element name="Graze" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_GRAZE">
+    <element name="Graze" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_GRAZE">
         <description>
             <p>Beginning at the 10th level, you are able to target your ranged attacks to cause negative effects on your target. Using your bonus action, you can empower your next shot to target a limb causing different effects. If your attack lands, your target must make a Dexterity saving throw against your Machinist save DC or fall under the selected effect. This effect lasts until your next action where applicable.</p>
             <table>
@@ -250,7 +250,7 @@
             <stat name="graze:count" value="intelligence:modifier" />
         </rules>
     </element>
-    <element name="Combat Roll" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_COMBAT_ROLL">
+    <element name="Combat Roll" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_COMBAT_ROLL">
         <description>
             <p>Beginning at the 13th level, during battle you are able to perform a combat role. When you are targeted by an attack, you may use your reaction to impose disadvantage on the attack and move 5ft. to an open space without provoking an attack of opportunity. You can use this feature a number of times equal to your Dexterity modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
         </description>
@@ -261,7 +261,7 @@
             <stat name="combatroll:count" value="dexterity:modifier" />
         </rules>
     </element>
-    <element name="Ricochet" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RICOCHET">
+    <element name="Ricochet" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_RICOCHET">
         <description>
             <p>Beginning at the 14th level, you may spend your reaction to perform a ricochet shot if you are attacking with a firearm. Upon landing a successful attack, you make a second attack against a creature within 5ft. of the first targeted creature. This second attack does not consume ammunition.</p>
         </description>
@@ -269,7 +269,7 @@
             <description>You may spend your reaction to perform a ricochet shot if you are attacking with a firearm. Upon landing a successful attack, you make a second attack against a creature within 5ft. of the first targeted creature. This second attack does not consume ammunition.</description>
         </sheet>
     </element>
-    <element name="Emergency Rescue" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EMERGENCY_RESCUE">
+    <element name="Emergency Rescue" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EMERGENCY_RESCUE">
         <description>
             <p>Beginning at the 15th level, you have developed a life saving device which casts Cure Wounds on creatures with 0 hit points on contact. Intelligence is your spell casting ability for this device.</p>
             <p class="indent">As an action you can throw the palm sized spherical device at a creature within 20ft. of you. If you have 0 hit points at the start of your turn and the device in your possession, it will automatically activate and heal you as a free action.</p>
@@ -282,7 +282,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" />
         </rules>
     </element>
-    <element name="Cloaking Device" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_CLOAKING_DEVICE">
+    <element name="Cloaking Device" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_CLOAKING_DEVICE">
         <description>
             <p>Beginning at the 18th level, you've developed a cane sized device which turns you and all creatures within a 5ft. radius of you Invisible for 1 minute. All creatures must remain within 5ft. of the device to retain invisibility. You can use the cane once before you need to recharge it during a long rest.</p>
         </description>
@@ -290,7 +290,7 @@
             <description>You've developed a cane sized device which turns you and all creatures within a 5ft. radius of you Invisible for 1 minute. All creatures must remain within 5ft. of the device to retain invisibility. You can use the cane once before you need to recharge it during a long rest.</description>
         </sheet>
     </element>
-    <element name="Midas Touch" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MIDAS_TOUCH">
+    <element name="Midas Touch" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MIDAS_TOUCH">
         <description>
             <p>Beginning at the 20th level, as a bonus action you can complete maintenance on an invention in an instant. You must then finish a long rest to use Midas Touch again.</p>
         </description>
@@ -304,7 +304,8 @@
     </element>
 
     <!-- Archetypes -->
-    <element name="Marksman" type="Archetype" source="" id="ID_FFXIV_MCH_ARCHETYPE_MARKSMAN">
+    <element name="Marksman" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MCH_ARCHETYPE_MARKSMAN">
+        <supports>Machinist Archetype</supports>
         <description>
             <p>You have decided to focus on your marksmanship, developing tools and skills to assist in your sharpshooting.</p>
             <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_GAUSS_BARREL" />
@@ -320,7 +321,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SNIPER" level="17" />
         </rules>
     </element>
-    <element name="Gauss Barrel" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_GAUSS_BARREL">
+    <element name="Gauss Barrel" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_GAUSS_BARREL">
         <description>
             <p>At 3rd level you have completed your work on a specialized barrel to attach to your firearm. While equipped and functioning you gain +2 to your attack and damage rolls. The Gauss barrel can assist a number of shots equal to your Intelligence modifier before requiring a cleaning completed at the end of a short or long rest. This bonus increases by 1 at the 6th, 11th and 17th level.</p>
         </description>
@@ -334,7 +335,7 @@
             <stat name="gauss:assist" value="1" level="17" />
         </rules>
     </element>
-    <element name="Hawkeye Goggles" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_HAWKEYE_GOGGLES">
+    <element name="Hawkeye Goggles" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_HAWKEYE_GOGGLES">
         <description>
             <p>At 6th level you have completed special goggles to assist in shooting and scouting over long distances. While wearing the goggles you gain proficiency in the perception skill checks involving sight and may use Intelligence for those checks. You can see up to 4 miles in clear conditions and increase the normal range of your ranged weapons by 30ft.</p>
         </description>
@@ -342,7 +343,7 @@
             <description>You have completed special goggles to assist in shooting and scouting over long distances. While wearing the goggles you gain proficiency in the perception skill checks involving sight and may use Intelligence for those checks. You can see up to 4 miles in clear conditions and increase the normal range of your ranged weapons by 30ft.</description>
         </sheet>
     </element>
-    <element name="Lock-On" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_LOCKON">
+    <element name="Lock-On" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_LOCKON">
         <description>
             <p>At the 11th level, you double the number of Gauss Barrel shots available to you. While wearing your Hawkeye Goggles, when you make an attack roll with with your Gauss Barrel effect your weapon can shoot at maximum range without disadvantage.</p>
         </description>
@@ -356,7 +357,7 @@
             <stat name="gauss:assist" value="1" level="17" />
         </rules>
     </element>
-    <element name="Sniper" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SNIPER">
+    <element name="Sniper" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SNIPER">
         <description>
             <p>Beginning at the 17th level, when you land a critical hit, the damage is tripled. You score a critical hit on a die result 19 or 20.</p>
         </description>
@@ -365,4 +366,283 @@
         </sheet>
     </element>
 
+    <element name="Tinkerer" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MCH_ARCHETYPE_TINKERER">
+        <supports>Machinist Archetype</supports>
+        <description>
+            <p>You have decided to focus your efforts on the production of miniature turrets. These turrets come in many shapes and sizes and serve specific purposes.</p>
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_CLOCKWORK_COMPANION" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SENSORY_INPUT" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_TRIPOD_STANCE" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PROMOTED" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_CLOCKWORK_COMPANION" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SENSORY_INPUT" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_TRIPOD_STANCE" level="11" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PROMOTED" level="17" />
+        </rules>
+    </element>
+    <element name="Clockwork Companion" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_CLOCKWORK_COMPANION">
+        <description>
+            <p>Also 3rd level, you have completed development of your turret companion alongside the selection of your machinist archetype. You select between the Rook Autoturret and Bishop Autoturret stat block.</p>
+            <p class="indent">When you complete a short rest, you are able to decide what load out the turret makes use of, changing its stat block between the two options.</p>
+            <p class="indent">In combat, the turret acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice your one of your attacks when you take the Attack action to command the turret to take the Attack action.</p>
+            <p class="indent">If you are incapacitated, the turret can take any action of its choice, not just Dodge.</p>
+            <p class="indent">If the turret runs out of hit points, it become inoperable. The turret will require 10 GP in materials and 1 day to complete repairs on the machine. When making repairs to your turret while it still has hit points, you spend 1 GP in materials and complete the repairs at the end of a short rest. If your turret is totally lost to you and needs to be fully rebuilt, it will cost you 100 GP in materials at 3rd level, with an additional 50 GP for each additional machinist level. At the end of completing repairs, the turret recovers all of its missing hit points.</p>
+        </description>
+        <sheet>
+            <description>
+                In combat, the turret acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice your one of your attacks when you take the Attack action to command the turret to take the Attack action. If you are incapacitated, the turret can take any action of its choice, not just Dodge. If the turret runs out of hit points, it become inoperable. The turret will require 10 GP in materials and 1 day to complete repairs on the machine. When making repairs to your turret while it still has hit points, you spend 1 GP in materials and complete the repairs at the end of a short rest. If your turret is totally lost to you and needs to be fully rebuilt, it will cost you {{repair:gp}} GP in materials. At the end of completing repairs, the turret recovers all of its missing hit points.
+            </description>
+        </sheet>
+        <rules>
+            <select type="Companion" name="Clockwork Companion" supports="Clockwork Companion" />
+            <stat name="repair:gp" value="100" bonus="base" />
+            <stat name="repair:gp" value="50" level="4" />
+            <stat name="repair:gp" value="50" level="5" />
+            <stat name="repair:gp" value="50" level="6" />
+            <stat name="repair:gp" value="50" level="7" />
+            <stat name="repair:gp" value="50" level="8" />
+            <stat name="repair:gp" value="50" level="9" />
+            <stat name="repair:gp" value="50" level="10" />
+            <stat name="repair:gp" value="50" level="11" />
+            <stat name="repair:gp" value="50" level="12" />
+            <stat name="repair:gp" value="50" level="13" />
+            <stat name="repair:gp" value="50" level="14" />
+            <stat name="repair:gp" value="50" level="15" />
+            <stat name="repair:gp" value="50" level="16" />
+            <stat name="repair:gp" value="50" level="17" />
+            <stat name="repair:gp" value="50" level="18" />
+            <stat name="repair:gp" value="50" level="19" />
+            <stat name="repair:gp" value="50" level="20" />
+        </rules>
+    </element>
+    <element name="Sensory Input" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_SENSORY_INPUT">
+        <description>
+            <p>Beginning at the 6th level, you have developed a head piece which allows you to see what the turret's camera perceives and hear what the turret is able to hear.</p>
+        </description>
+        <sheet>
+            <description>You have developed a head piece which allows you to see what the turret's camera perceives and hear what the turret is able to hear.</description>
+        </sheet>
+    </element>
+    <element name="Tripod Stance" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_TRIPOD_STANCE">
+        <description>
+            <p>Beginning at the 11th level, you have developed stance gear for your turrets. They are able to use their action to use their stance action.</p>
+        </description>
+        <sheet>
+            <description>Your turrets are able to use their action to use their stance action.</description>
+        </sheet>
+    </element>
+    <element name="Promoted" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PROMOTED">
+        <description>
+            <p>Beginning at the 17th level, your turrets activate their promotion ability for a number of rounds equal to your intelligence modifier rounded down. You must then finish a long rest to use Promoted again.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>Your turrets activate their promotion ability for a number of rounds equal to your intelligence modifier rounded down. You must then finish a long rest to use Promoted again.</description>
+        </sheet>
+    </element>
+
+    <element name="Grenadier" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MCH_ARCHETYPE_GRENADIER">
+        <supports>Machinist Archetype</supports>
+        <description>
+            <p>The Grenadier has focused their studies on the creation and mastery of explosive arms.</p>
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_EXPLOSIVE_INNOVATOR" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PLANNED_DETONATION" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PROXIMITY_DETONATION" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PLENTIFUL_AND_POTENT" />
+            <div element="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_BOMB_LAUNCHER" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_EXPLOSIVE_INNOVATOR" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PLANNED_DETONATION" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PROXIMITY_DETONATION" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PLENTIFUL_AND_POTENT" level="11" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_BOMB_LAUNCHER" level="17" />
+        </rules>
+    </element>
+    <element name="Explosive Innovator" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_EXPLOSIVE_INNOVATOR">
+        <description>
+            <p>Beginning at level 3, you've completed the plans to create your grenadier bombs. During a long rest, you are able to prepare and keep a number of bombs equal to your Intelligence modifier. Only you may use these bombs. A bomb costs 1 silver in materials to create.</p>
+            <p class="indent">As an action you throw a bomb within 30ft. of you. All creatures in a 5ft. sphere make a Dexterity saving throw against your Tech save DC. The creatures takes 1d8 fire damage on a failed save and half as much on a success. This damage increases by another d8 at the 6th, 11th and 17th levels.</p>
+            <p class="indent">You may build a specialty bomb to cast its spell at a higher level by temporarily giving up a bomb slot for each level you want to raise the casting level of the specialty bomb. The slots return after the bomb is used.</p>
+            <h5>Specialty Bombs</h5>
+            <table>
+                <thead>
+                    <tr><td>Level</td><td>Spell Bombs</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>Sleep, Thunderwave</td></tr>
+                <tr><td>6th</td><td>Pyrotechnics (no fire required), Web</td></tr>
+                <tr><td>11th</td><td>Shatter, Stinking Cloud</td></tr>
+                <tr><td>17th</td><td>Wall of Fire</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>During a long rest, you are able to prepare and keep a number of bombs equal to your Intelligence modifier. Only you may use these bombs. A bomb costs 1 silver in materials to create. As an action you throw a bomb within 30ft. of you. All creatures in a 5ft. sphere make a Dexterity saving throw against your Tech save DC. The creatures takes {{grenade:dice}}d8 fire damage on a failed save and half as much on a success. You may build a specialty bomb to cast its spell at a higher level by temporarily giving up a bomb slot for each level you want to raise the casting level of the specialty bomb. The slots return after the bomb is used. See spells given below.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="3" />
+            <grant type="Spell" id="ID_XGTE_SPELL_PYROTECHNICS" level="6" />
+            <grant type="Spell" id="ID_PHB_SPELL_WEB" level="6" />
+            <grant type="Spell" id="ID_PHB_SPELL_SHATTER" level="11" />
+            <grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" level="11" />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="17" />
+            <stat name="grenade:dice" value="1" bonus="base" />
+            <stat name="grenade:dice" value="2" level="6" />
+            <stat name="grenade:dice" value="3" level="11" />
+            <stat name="grenade:dice" value="4" level="17" />
+        </rules>
+    </element>
+    <element name="Planned Detonation" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PLANNED_DETONATION">
+        <description>
+            <p>Beginning at the 3rd level, you know how to adjust your bombs to prevent friendly fire. As a bonus action you may select a number of creatures equal to your intelligence modifier who are unaffected by the effects of a bomb you use during the same turn.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you may select a number of creatures equal to your intelligence modifier who are unaffected by the effects of a bomb you use during the same turn.</description>
+        </sheet>
+    </element>
+    <element name="Proximity Detonation" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PROXIMITY_DETONATION">
+        <description>
+            <p>Beginning at the 6th level, you can set your bomb to go off when any creature wanders within 5ft. of the bomb.</p>
+        </description>
+        <sheet>
+            <description>You can set your bomb to go off when any creature wanders within 5ft. of the bomb.</description>
+        </sheet>
+    </element>
+    <element name="Plentiful and Potent" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_PLENTIFUL_AND_POTENT">
+        <description>
+            <p>Beginning at the 11th level, you double the number of bombs you can create during a long rest and can carry. Additionally you may hold two of each specialty bomb. Additionally your basic bombs can be detonated with a range up to 15ft. radius.</p>
+        </description>
+        <sheet>
+            <description>You double the number of bombs you can create during a long rest and can carry. Additionally you may hold two of each specialty bomb. Additionally your basic bombs can be detonated with a range up to 15ft. radius.</description>
+        </sheet>
+    </element>
+    <element name="Bomb Launcher" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_MCH_ARCHETYPE_FEATURE_BOMB_LAUNCHER">
+        <description>
+            <p>Beginning at the 17th level, you've developed a specialized launcher for your bombs which mounts on your forearm. You double the range of your bombs. Additionally, damaging effects of your bombs deal additional damage equal to your Intelligence modifier.</p>
+        </description>
+        <sheet>
+            <description>You've developed a specialized launcher for your bombs which mounts on your forearm. You double the range of your bombs. Additionally, damaging effects of your bombs deal additional damage equal to your Intelligence modifier.</description>
+        </sheet>
+    </element>
+
+    <element name="Rook Autoturret" type="Companion" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ROOK_AUTOTURRET">
+		<requirements>Clockwork Companion</requirements>
+		<setters>
+			<set name="strength">8</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">10</set>
+			<set name="intelligence">1</set>
+			<set name="wisdom">3</set>
+			<set name="charisma">1</set>
+            <set name="damage immunities">poison, psychic</set>
+            <set name="condition immunities">blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned</set>
+            <set name="proficiency bonus">equals your bonus</set>
+			<set name="ac">12 + pb</set>
+			<set name="hp">5 + four times your class level (the turret has a number of Hit Dice [d6s] equal to your machinist level)</set>
+			<set name="speed">30 ft.</set>
+			<set name="senses">passive Perception 12</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Construct</set>
+			<set name="size">Small</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">-</set>
+			<set name="actions">ID_FFXIV_COMPANION_ACTION_ROOK_AUTOFIRE, ID_FFXIV_COMPANION_ACTION_ROOK_STANCE, ID_FFXIV_COMPANION_ACTION_ROOK_PROMOTION</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="12" bonus="base" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="4" />
+			<stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:hp:max" value="level:machinist" />
+            <stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:speed" value="5" bonus="base" />
+            <stat name="companion:speed" value="50" bonus="base" />
+		</rules>
+	</element>
+    <element name="Autofire" type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_ROOK_AUTOFIRE">
+        <description>Ranged Weapon Attack: your tech attack bonus to hit, Reach 60ft., one target. Hit: 8 (1d6 + 2 + PB) piercing damage</description>
+        <sheet>
+            <description>Ranged Weapon Attack: your tech attack bonus to hit, Reach 60ft., one target. Hit: 8 (1d6 + 2 + PB) piercing damage</description>
+        </sheet>
+    </element>
+    <element name="Root Stance (Requires Machinist Level 11)" type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_ROOK_STANCE">
+        <description>As an action the Rook Autoturret releases tripod legs into the ground rooting it in place. The turret now automatically fails all Dexterity saves and it's speed becomes 0 ft. The turret must use an action to retract its tripod legs and leave its stance. The Rook Autoturret doubles the proficiency bonus on its attack and damage rolls.</description>
+        <sheet>
+            <description>As an action the Rook Autoturret releases tripod legs into the ground rooting it in place. The turret now automatically fails all Dexterity saves and it's speed becomes 0 ft. The turret must use an action to retract its tripod legs and leave its stance. The Rook Autoturret doubles the proficiency bonus on its attack and damage rolls.</description>
+        </sheet>
+    </element>
+    <element name="Muscle Stimulator (Requires Machinist Level 17)" type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_ROOK_PROMOTION">
+        <description>As an action, Rook Autoturret releases a field of stimulating energy around itself. Allied creatures within 20ft. of Rook Autoturret deal 2d6 bonus damage when they make a melee or ranged weapon attack for 1d4 rounds.</description>
+        <sheet>
+            <description>As an action, Rook Autoturret releases a field of stimulating energy around itself. Allied creatures within 20ft. of Rook Autoturret deal 2d6 bonus damage when they make a melee or ranged weapon attack for 1d4 rounds.</description>
+        </sheet>
+    </element>
+
+    <element name="Bishop Autoturret" type="Companion" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_BISHOP_AUTOTURRET">
+		<requirements>Clockwork Companion</requirements>
+		<setters>
+			<set name="strength">8</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">10</set>
+			<set name="intelligence">1</set>
+			<set name="wisdom">3</set>
+			<set name="charisma">1</set>
+            <set name="damage immunities">poison, psychic</set>
+            <set name="condition immunities">blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned</set>
+            <set name="proficiency bonus">equals your bonus</set>
+			<set name="ac">12 + pb</set>
+			<set name="hp">5 + four times your class level (the turret has a number of Hit Dice [d6s] equal to your machinist level)</set>
+			<set name="speed">30 ft.</set>
+			<set name="senses">passive Perception 12</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Construct</set>
+			<set name="size">Small</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">-</set>
+			<set name="actions">ID_FFXIV_COMPANION_ACTION_BISHOP_AREASHOCK, ID_FFXIV_COMPANION_ACTION_BISHOP_SINGLESHOCK,ID_FFXIV_COMPANION_ACTION_BISHOP_STANCE, ID_FFXIV_COMPANION_ACTION_BISHOP_PROMOTION</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="12" bonus="base" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="4" />
+			<stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:hp:max" value="level:machinist" />
+            <stat name="companion:hp:max" value="level:machinist" />
+			<stat name="companion:speed" value="5" bonus="base" />
+            <stat name="companion:speed" value="50" bonus="base" />
+		</rules>
+	</element>
+    <element name="Area Shock" type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_BISHOP_AREASHOCK">
+        <description>All creatures within 5ft. of the Bishop Autoturret must make a Dexterity saving throw against your Tech save DC, taking 1d6 + your Intelligence modifier + PB lightning damage on a failed saved, and half as much on a successful save.</description>
+        <sheet>
+            <description>All creatures within 5ft. of the Bishop Autoturret must make a Dexterity saving throw against your Tech save DC, taking 1d6 + your Intelligence modifier + PB lightning damage on a failed saved, and half as much on a successful save.</description>
+        </sheet>
+    </element>
+    <element name="Single Shock" type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_BISHOP_SINGLESHOCK">
+        <description>Magical Ranged Attack: your tech attack bonus to hit, range 20ft., one target. Hit 8 (1d6 + 2 + PB) lightning damage.</description>
+        <sheet>
+            <description>Magical Ranged Attack: your tech attack bonus to hit, range 20ft., one target. Hit 8 (1d6 + 2 + PB) lightning damage.</description>
+        </sheet>
+    </element>
+    <element name="Barrier Stance (Requires Machinist Level 11)." type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_BISHOP_STANCE">
+        <description>As an action the Bishop Autoturret releases tripod legs into the ground rooting it in place. The turret now automatically fails all Dexterity saves and it's speed becomes 0 ft. The turret must use an action to retract its tripod legs and leave its stance. The Bishop Autoturret creates a circular barrier of lightning energy, 10ft. in radius centered on itself. Any creature that attempts to pass through the barrier must make a Constitution check against your Tech save DC. On a failed check, the creature takes 2d6 lightning damage and is paralyzed for one round. On a successful save, half damage is taken and the creature is not paralyzed.</description>
+        <sheet>
+            <description>As an action the Bishop Autoturret releases tripod legs into the ground rooting it in place. The turret now automatically fails all Dexterity saves and it's speed becomes 0 ft. The turret must use an action to retract its tripod legs and leave its stance. The Bishop Autoturret creates a circular barrier of lightning energy, 10ft. in radius centered on itself. Any creature that attempts to pass through the barrier must make a Constitution check against your Tech save DC. On a failed check, the creature takes 2d6 lightning damage and is paralyzed for one round. On a successful save, half damage is taken and the creature is not paralyzed.</description>
+        </sheet>
+    </element>
+    <element name="Mana Capacitor (Requires Machinist Level 17)" type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_BISHOP_PROMOTION">
+        <description>As an action, Bishop Autoturret releases a field of aether amplifying energy around itself. Allied creatures within 20ft. of Bishop Autoturrent gain +3 to their spell save DC and ranged spell attack bonus for 1d4 rounds.</description>
+        <sheet>
+            <description>As an action, Bishop Autoturret releases a field of aether amplifying energy around itself. Allied creatures within 20ft. of Bishop Autoturrent gain +3 to their spell save DC and ranged spell attack bonus for 1d4 rounds.</description>
+        </sheet>
+    </element>
 </elements>

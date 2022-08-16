@@ -1180,4 +1180,526 @@
 	<append id="ID_PHB_SPELL_ACID_SPLASH">
         <supports>Arcanist</supports>
     </append>
+	<append id="ID_PHB_SPELL_BLADE_WARD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CHILL_TOUCH">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CREATE_BONFIRE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DANCING_LIGHTS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FRIENDS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LIGHT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_INFESTATION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAGE_HAND">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MAGIC_STONE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MENDING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MINOR_ILLUSION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_POISON_SPRAY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_EGTW_SPELL_SAPPING_STING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SPARE_THE_DYING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TRUE_STRIKE">
+        <supports>Arcanist</supports>
+    </append>
+
+	<!-- 1st level -->
+	<append id="ID_PHB_SPELL_ALARM">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BANE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CATAPULT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CHARM_PERSON">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CHAOS_BOLT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CHROMATIC_ORB">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_COLOR_SPRAY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CURE_WOUNDS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DISGUISE_SELF">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FAERIE_FIRE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FOG_CLOUD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GREASE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEALING_WORD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEX">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_IDENTIFY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ILLUSORY_SCRIPT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_JUMP">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LONGSTRIDER">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAGE_ARMOR">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAGIC_MISSILE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RAY_OF_SICKNESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SILENT_IMAGE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SLEEP">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_UNSEEN_SERVANT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WITCH_BOLT">
+        <supports>Arcanist</supports>
+    </append>
+
+	<!-- 2nd level -->
+	<append id="ID_PHB_SPELL_ALTER_SELF">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLUR">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CLOUD_OF_DAGGERS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CROWN_OF_MADNESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DARKNESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DARKVISION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_EARTHBIND">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FIND_TRAPS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_HEALING_SPIRIT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HOLD_PERSON">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_EGTW_SPELL_IMMOVABLE_OBJECT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_INVISIBILITY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_KNOCK">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LEVITATE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MELFS_ACID_ARROW">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MISTY_STEP">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_POISON">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SEE_INVISIBILITY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SILENCE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_SKYWRITE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SPIDER_CLIMB">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_TASHAS_MIND_WHIP">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WEB">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_EGTW_SPELL_WRISTPOCKET">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+        <supports>Arcanist</supports>
+    </append>
+
+	<!-- 3rd level -->
+	<append id="ID_PHB_SPELL_BESTOW_CURSE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CATNAP">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONJURE_BARRAGE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_COUNTERSPELL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DISPEL_MAGIC">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_ENEMIES_ABOUND">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FEAR">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FEIGN_DEATH">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GASEOUS_FORM">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GLYPH_OF_WARDING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HASTE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAGIC_CIRCLE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAJOR_IMAGE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_REMOVE_CURSE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_EGTW_SPELL_PULSE_WAVE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SENDING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SLOW">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_STINKING_CLOUD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_SUMMON_FEY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_SUMMON_ELEMENTAL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TONGUES">
+        <supports>Arcanist</supports>
+    </append>
+
+	<!-- 4th level -->
+	<append id="ID_PHB_SPELL_ARCANE_EYE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BANISHMENT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLIGHT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_COMPULSION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONFUSION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DIMENSION_DOOR">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FABRICATE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GIANT_INSECT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LOCATE_CREATURE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_POLYMORPH">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_SICKENING_RADIANCE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">
+        <supports>Arcanist</supports>
+    </append>
+	
+	<!-- 5th level -->
+	<append id="ID_PHB_SPELL_ANIMATE_OBJECTS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BIGBYS_HAND">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONTACT_OTHER_PLANE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONTAGION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DESTRUCTIVE_WAVE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_ENERVATION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HOLD_MONSTER">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_INSECT_PLAGUE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LEGEND_LORE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PASSWALL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RAISE_DEAD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SCRYING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SEEMING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TELEKINESIS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TELEPORTATION_CIRCLE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WALL_OF_FORCE">
+        <supports>Arcanist</supports>
+    </append>
+
+	<!-- 6th level -->
+	<append id="ID_PHB_SPELL_ARCANE_GATE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CREATE_HOMUNCULUS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DRAWMIJS_INSTANT_SUMMONS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_EYEBITE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GUARDS_AND_WARDS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HARM">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEAL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MENTAL_PRISON">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_PRIMORDIAL_WARD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PROGRAMMED_ILLUSION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_SCATTER">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TRUE_SEEING">
+        <supports>Arcanist</supports>
+    </append>
+	
+	<!-- 7th level -->
+	<append id="ID_XGTE_SPELL_CROWN_OF_STARS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ETHEREALNESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MIRAGE_ARCANE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PLANE_SHIFT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RESURRECTION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SYMBOL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TELEPORT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_EGTW_SPELL_TETHER_ESSENCE">
+        <supports>Arcanist</supports>
+    </append>
+
+	<!-- 8th level -->
+	<append id="ID_PHB_SPELL_ANTIMAGIC_FIELD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ANTIPATHY_SYMPATHY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FEEBLEMIND">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MADDENING_DARKNESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MIGHTY_FORTRESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TELEPATHY">
+        <supports>Arcanist</supports>
+    </append>
+
+	<!-- 9th level -->
+	<append id="ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GATE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MASS_HEAL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PRISMATIC_WALL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WEIRD">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WISH">
+        <supports>Arcanist</supports>
+    </append>
 </elements>
