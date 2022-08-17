@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Warrior</name>
+		<update version="1.0.0">
+			<file name="class-war.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-war.xml" />
+		</update>
+	</info>
+
+    <element name="Warrior" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_WAR">
+        <description>
+    <p>A Roegadyn woman stands locked in combat with a hobgoblin. With each swing of his blade, she meets with ferocity and powerful blows. The battle rages on, the woman feeding off the ecstasy of battle, receiving succor with each blow she lands.</p>
+    <p class="indent">A man dashes into the heat of battle, his battleax swinging wildly around him. He lets out an earth shaking battle cry as he crushes the ground and all those around him with explosive force.</p>
+    <p class="indent">A lightly armored figure stands at his ally's sides. His powerful voice echoes out across the field, empowering his allies as he leads his comrades into battle, axe drawn and swinging like a tempest of steel and iron.</p>
+    <p class="indent">Like a symbol crash in an orchestra, a warrior is an explosive force which stands out in any situation. Their booming voice, raw strength and powerful strikes are their tools for victory.</p>
+    <h4>Indomitable Forces</h4>
+    <p>The warrior finds their roots in ancient tribes akin to barbarians. These fearless fighters are peerless in their control of a force which they call the inner beast. Warriors often come from tribal backgrounds in which they learn to nurture and control this inner animal, which in turn grants them beast like strength and ferocity. Warrior bands once roamed unsettled lands as nomads, enjoying the boons which nature offers and defending the weak from those who would do them harm.</p>
+    <h4>Unending Rage</h4>
+    <p>Not unlike nature itself, a Warrior has the potential to become a relentless force of destruction. Like a raging forest fire, or an all consuming tidal wave, a warrior can unleash their inner beast to harness its rage. This state of being is known as berserking. While berserking, Warriors continually chase foes and defend allies, using their bloodlust to keep themselves in the battle as a threat.</p>
+    <h4>CREATING A Warrior</h4>
+    <p>When creating a Warrior, one must consider their origins as a warrior. Are you a descendant of the ancient tribes from which warriors are able to draw their lineage? Perhaps you were a fledgling adventurer who found a mentor in the form of a former warrior who passed on the secrets of the inner beast.</p>
+    <p class="indent">You must also consider why you have set out on your life of adventuring? As a warrior, have you decided to seek out dangerous challenges to sharpen your skills or sate the appetite of the hungry beast inside you? Perhaps you have taken up arms in defense of your tribe, a village or a loved one? Warriors set out for any number of reasons.</p>
+    <h5 class="caption">QUICK BUILD</h5>
+    <p>You can make a Warrior quickly by following these suggestions. First make Strength your highest ability score, following with Constitution. Second take the Outlander background.</p>
+    <h2>CLASS FEATURES</h2>
+    <p>As a Warrior, you gain the following class features.</p>
+    <h5 class="caption">HIT POINTS</h5>
+    <ul class="unstyled">
+        <li><strong>Hit Dice:</strong> 1d12 per warrior level</li>
+        <li><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier</li>
+        <li><strong>Hit Points at Higher Levels:</strong> 1d12 (or 8) + your Constitution modifier per warror level after 1st</li>
+    </ul>
+    <h5 class="caption">PROFICIENCIES</h5>
+    <ul class="unstyled mb">
+        <li><strong>Armor:</strong> All armor, Shields</li>
+        <li><strong>Weapons:</strong> Simple Weapons, Martial Weapons</li>
+        <li><strong>Tools:</strong> None</li>
+    </ul>
+    <ul class="unstyled">
+        <li><strong>Saving Throws:</strong> Strength, Constitution</li>
+        <li><strong>Skills:</strong> Choose two from Animal Handling, Athletics, History, Intimidation, Insight, Survival.</li>
+    </ul>
+    <h5 class="caption">EQUIPMENT</h5>
+    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+    <ul>
+        <li>(a) a martial weapon</li>
+        <li>(a) a short bow and 20 arrows or (b) two hand axes</li>
+        <li>(a) an explorer's pack or (b) a dungeoneer's pack</li>
+        <li>chain mail and a carved wooden idol related to your heritage.</li>
+    </ul>
+    <h5 class="caption">THE WARRIOR</h5>
+    <table class="class-features">
+        <thead>
+            <tr><td class="col-10">Level</td><td>Beserks</td><td>Beserk Damage</td><td class="col-60 left">Features</td></tr>
+        </thead>
+        <tr><td>1st</td><td>2</td><td>+2</td><td class="left">Fighting Style, Berserk</td></tr>
+        <tr><td>2nd</td><td>2</td><td>+2</td><td class="left">Reckless Attack, Beastly Demeanor</td></tr>
+        <tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Warrior Archetype</td></tr>
+        <tr><td>4th</td><td>3</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
+        <tr><td>5th</td><td>3</td><td>+2</td><td class="left">Extra Attack</td></tr>
+        <tr><td>6th</td><td>4</td><td>+2</td><td class="left">Archetype Feature</td></tr>
+        <tr><td>7th</td><td>4</td><td>+2</td><td class="left">Raw Intuition, Bellow of the Beast</td></tr>
+        <tr><td>8th</td><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
+        <tr><td>9th</td><td>4</td><td>+3</td><td class="left">Onslaught</td></tr>
+        <tr><td>10th</td><td>4</td><td>+3</td><td class="left">Archetype Feature</td></tr>
+        <tr><td>11th</td><td>4</td><td>+3</td><td class="left">Revenge</td></tr>
+        <tr><td>12th</td><td>5</td><td>+3</td><td class="left">Ability Score Improvement</td></tr>
+        <tr><td>13th</td><td>5</td><td>+3</td><td class="left">Shake It Off</td></tr>
+        <tr><td>14th</td><td>5</td><td>+3</td><td class="left">Archetype Feature</td></tr>
+        <tr><td>15th</td><td>5</td><td>+3</td><td class="left">Upheaval</td></tr>
+        <tr><td>16th</td><td>5</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
+        <tr><td>17th</td><td>6</td><td>+4</td><td class="left">Beastly Reflexes</td></tr>
+        <tr><td>18th</td><td>6</td><td>+4</td><td class="left">Holmgang</td></tr>
+        <tr><td>19th</td><td>6</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
+        <tr><td>20th</td><td>Unlimited</td><td>+4</td><td class="left">Infuriate</td></tr>
+    </table>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_FIGHTING_STYLE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BESERK" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_RECKLESS_ATTACK" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BEASTLY_DEMEANOR" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_WARRIOR_ARCHETYPE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_EXTRA_ATTACK" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_RAW_INTUITION" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BELLOW_OF_THE_BEAST" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_ONSLAUGHT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_REVENGE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_SHAKE_IT_OFF" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_UPHEAVEL" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BEASTLY_REFLEXES" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_HOLMGANG" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_INFURIATE" />
+        </description>
+        <setters>
+            <set name="hd">d12</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+            <select type="Proficiency" name="Skill Proficiency, Warrior" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_FIGHTING_STYLE" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BESERK" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_RECKLESS_ATTACK" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BEASTLY_DEMEANOR" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_WARRIOR_ARCHETYPE" level="3" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_RAW_INTUITION" level="7" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BELLOW_OF_THE_BEAST" level="7" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_ONSLAUGHT" level="9" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_REVENGE" level="11" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_SHAKE_IT_OFF" level="13" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_UPHEAVEL" level="15" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BEASTLY_REFLEXES" level="17" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_HOLMGANG" level="18" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_INFURIATE" level="20" />
+        </rules>
+    </element>
+    <element name="Fighting Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_FIGHTING_STYLE">
+        <description>
+            <p>Beginning at the 1st level, you adopt a particular style of fighting as your specialty, Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+            <h5>Defense</h5>
+            <p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+            <h5>Dueling</h5>
+            <p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+            <h5>Great Weapon Fighting</h5>
+            <p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+            <h5>Two-Weapon Fighting</h5>
+            <p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Fighting Style, Warrior" supports="Fighting Style, Warrior" />
+        </rules>
+    </element>
+
+    <!-- Fighting Style Appends -->
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+        <supports>Warrior</supports>
+    </append>
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+        <supports>Warrior</supports>
+    </append>'
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+        <supports>Warrior</supports>
+    </append>'
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+        <supports>Warrior</supports>
+    </append>
+
+    <element name="Berserk" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BESERK">
+        <description>
+            <p>Beginning at the 1st level, on your turn, you can enter a Berserk state of mind, letting your inner beast act freely. While under the effect of Berserk you gain the following benefits:</p>
+            <ul>
+                <li>you have advantage on Strength checks and saving throws</li>
+                <li>when you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a Warrior, as shown in the Berserk Damage column of the Warrior table.</li>
+                <li>When you take slashing, piercing or bludgeoning damage, you reduce the damage by half your Constitution modifier rounded up.</li>
+            </ul>
+            <p class="indent">If you are able to cast spells, you are unable to do so while berserking due to an inability to concentrate.</p>
+            <p class="indent">Some warrior class features require target creatures to make saving throws. This is contested by your Berserk DC, calculated below.</p>
+            <center>
+                <p class="indent"><strong>Beserk DC</strong> = 8 + your proficiency modifier + your Strength modifier.</p>
+            </center>
+            <p>Your berserk state lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you have not attacked a hostile creature since your last turn or taken damage since then. You can also end your berserk state on your turn as a bonus action. For a number of rounds equal to 5 minus your Constitution modifier after your berserk state ends, you may not use the extra attack ability and your base movement speed is halved due to fatigue.</p>
+            <p class="indent">Once you have gone berserk the number of times shown in for your warrior level in the Berserks column of the Warrior table, you must finish a long rest before you can go Berserk again.</p>
+        </description>
+        <sheet usage="{{berserk:use}}/Long Rest">
+            <description>Advantage on Strength checks and Strength Saves. 
+                A +{{berserk rage:damage}} to damage rolls with strength melee weapon attacks. 
+                When you take slashing, piercing or bludgeoning damage, you reduce the damage by {{war:berserkreduce}}. 
+                Your berserk DC is {{berserk:dc}}.</description>
+        </sheet>
+        <rules>
+            <stat name="beserk:use" value="2" level="1" />
+            <stat name="beserk:use" value="1" level="3" />
+            <stat name="beserk:use" value="1" level="6" />
+            <stat name="beserk:use" value="1" level="12" />
+            <stat name="beserk:use" value="1" level="17" />
+            <stat name="berserk rage:damage" value="2" level="1" />
+			<stat name="berserk rage:damage" value="1" level="9" />
+			<stat name="berserk rage:damage" value="1" level="17" />
+            <stat name="war:berserkreduce" value="con:modifier:half:up" />
+            <stat name="berserk:dc" value="8" bonus="base" />
+            <stat name="berserk:dc" value="proficiency" bonus="bonus" />
+            <stat name="berserk:dc" value="strength:modifier" bonus="bonus" />
+        </rules>
+    </element>
+    <element name="Reckless Attack" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_RECKLESS_ATTACK">
+        <description>
+            <p>Starting at 2nd level, when you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on all melee weapon attack rolls using Strength during that turn, but attack rolls against you are rolled with advantage until the beginning of your next turn.</p>
+        </description>
+        <sheet>
+            <description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on all melee weapon attack rolls using Strength during that turn, but attack rolls against you are rolled with advantage until the beginning of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Beastly Demeanor" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BEASTLY_DEMEANOR">
+        <description>
+            <p>Beginning at the 2nd level you gain a passive Intimidation score which you may use to replace rolls when making Intimidation ability checks. This passive Intimidation score is equal to 10 + your Strength modifier.</p>
+        </description>
+        <sheet>
+            <description>You gain a passive Intimidation score which you may use to replace rolls when making Intimidation ability checks. This passive Intimidation score is equal to 10 + your Strength modifier.</description>
+        </sheet>
+    </element>
+    <element name="Warrior Archetype" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_WARRIOR_ARCHETYPE">
+        <description>
+            <p>At 3rd level, you select the tradition under which your warrior has trained. The Beast of Defiance tradition focus on restraining the inner beast of the warrior, and letting its power out only when needed.</p>
+            <p class="indent">The Beast of Deliverance tradition focuses on allowing the inner beast to run wild, fighting alongside its power to lay your enemies low. The Marauder has turned from harnessing their inner beast to become fierce fighters on their own power.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" supports="Warrior Archetype" name="Warrior Archetype" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Warrior 4)" supports="Improvement Option,Warrior,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Warrior 8)" supports="Improvement Option,Warrior,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Warrior 12)" supports="Improvement Option,Warrior,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Warrior 16)" supports="Improvement Option,Warrior,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Warrior 19)" supports="Improvement Option,Warrior,19" level="19" />
+		</rules>
+	</element>
+    <element name="Extra Attack" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_EXTRA_ATTACK">
+		<description>
+			<html>&lt;p&gt;Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" bonus="extra attack" level="5" />
+		</rules>
+	</element>
+    <element name="Raw Intuition" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_RAW_INTUITION">
+        <description>
+            <p>Also beginning at 7th level, when you are struck by a melee weapon attack, as a reaction you may move directly back 5ft. from the creature and reduce the damage you have taken by 1d6. This damage reduction is increased to 2d6 at the 13th level and 3d6 at the 18th level. You can do this once. You must then finish a long rest to use Raw Intuition again.</p>
+        </description>
+        <sheet action="Reaction" usage="{{raw:usage}}/Long Rest">
+            <description>When you are struck by a melee weapon attack, as a reaction you may move directly back 5ft. from the creature and reduce the damage you have taken by {{raw intuition}}d6. You can do this once. You must then finish a long rest to use Raw Intuition again.</description>
+        </sheet>
+        <rules>
+            <stat name="raw intuition" value="1" level="7" />
+            <stat name="raw intuition" value="1" level="13" />
+            <stat name="raw intuition" value="1" level="18" />
+            <stat name="raw:usage" value="1" />
+            <stat name="raw:usage" value="1" level="13" />
+            <stat name="raw:usage" value="1" level="18" />
+        </rules>
+    </element>
+    <element name="Onslaught" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_ONSLAUGHT">
+        <description>
+            <p>Beginning at the 9th level, when you use the dash action, you may make a melee weapon attack as a bonus action. You deal bonus damage on the attack equal to your Constitution modifier.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>When you use the dash action, you may make a melee weapon attack as a bonus action. You deal bonus damage on the attack equal to your Constitution modifier.</description>
+        </sheet>
+    </element>
+    <element name="Revenge" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_REVENGE">
+        <description>
+            <p>Beginning at the 11th level, when a creature resolves an melee weapon attack action against you, as a reaction you may make one weapon attack against that creature.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When a creature resolves an melee weapon attack action against you, as a reaction you may make one weapon attack against that creature.</description>
+        </sheet>
+    </element>
+    <element name="Shake It Off" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_SHAKE_IT_OFF">
+        <description>
+            <p>Beginning at the 13th level, while under the effects of Berserk, when you make a saving throw to resist a condition (excluding: Exhaustion, Grappled, Incapacitated, Prone, Restrained, Stunned and Unconscious) you may choose to end your Berserk state to automatically succeed on the saving throw. You may do this after your roll but before the outcome of the resist has been declared.</p>
+        </description>
+        <sheet>
+            <description>While under the effects of Berserk, when you make a saving throw to resist a condition (excluding: Exhaustion, Grappled, Incapacitated, Prone, Restrained, Stunned and Unconscious) you may choose to end your Berserk state to automatically succeed on the saving throw. You may do this after your roll but before the outcome of the resist has been declared.</description>
+        </sheet>
+    </element>
+    <element name="Upheaval" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_UPHEAVEL">
+        <description>
+            <p>Beginning at the 15th level, while you are under the effects of Berserk, you are able to unleash a powerful blow fueled by your vigor. You make an unarmed strike, if you hit, you may declare you are using Upheaval. The creature makes a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failure your unarmed strike deals #d12 force damage, where # is equal to your Constitution modifier with a minimum of 1d12 force damage and half as much damage on a success. Your Berserk state immediately ends after delivering the blow.</p>
+        </description>
+        <sheet>
+            <description>While you are under the effects of Berserk, you are able to unleash a powerful blow fueled by your vigor. You make an unarmed strike, if you hit, you may declare you are using Upheaval. The creature makes a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failure your unarmed strike deals #d12 force damage, where # is equal to your Constitution modifier with a minimum of 1d12 force damage and half as much damage on a success. Your Berserk state immediately ends after delivering the blow.</description>
+        </sheet>
+    </element>
+    <element name="Beastly Reflexes" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BEASTLY_REFLEXES">
+        <description>
+            <p>Beginning at the 17th level, while you are under the effects of Berserk you are able to make two reactions per round.</p>
+        </description>
+        <sheet>
+            <description>While you are under the effects of Berserk you are able to make two reactions per round.</description>
+        </sheet>
+    </element>
+    <element name="Holmgang" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_HOLMGANG">
+        <description>
+            <p>Beginning at the 18th level, while under the effects of Berserk, as a bonus action you are able to enter an indomitable state known as Holmgang. For a number of rounds equal to half your Constitution modifier, rounded down, your hit points can not fall below 1. Additionally, you may attempt to link yourself to a creature within 10ft. of you. If the creature is Large sized or smaller the target creature must make a Strength saving throw against your Berserk DC or be dragged to a space within 5 ft. of you. The creature cannot leave the 5ft. radius around you and your movement speed becomes 0ft. for the duration of Holmgang. You may only do this once. You must then finish a long rest to use Holmgang again.</p>
+        </description>
+        <sheet action="Bonus Action" usage="Long Rest">
+            <description>While under the effects of Berserk, as a bonus action you are able to enter an indomitable state known as Holmgang. For a number of rounds equal to half your Constitution modifier, rounded down, your hit points can not fall below 1. Additionally, you may attempt to link yourself to a creature within 10ft. of you. If the creature is Large sized or smaller the target creature must make a Strength saving throw against your Berserk DC or be dragged to a space within 5 ft. of you. The creature cannot leave the 5ft. radius around you and your movement speed becomes 0ft. for the duration of Holmgang. You may only do this once. You must then finish a long rest to use Holmgang again.</description>
+        </sheet>
+    </element>
+    <element name="Infuriate" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_INFURIATE">
+        <description>
+            <p>Beginning at the 20th level, if you have no uses of Berserk left when you roll for initiative, you recover 2 uses of Berserk instantly.</p>
+        </description>
+        <sheet>
+            <description>If you have no uses of Berserk left when you roll for initiative, you recover 2 uses of Berserk instantly.</description>
+        </sheet>
+    </element>
+
+    <!-- Archetypes -->
+    <element name="The Beast of Defiance" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WAR_ARCHETYPE_DEFIANCE">
+        <supports>Warrior Archetype</supports>
+        <description>
+            <p>A warrior who has cut their teeth under this tradition has tamed the beast within their heart, and gained great control over it. They channel the strength from this force only when it is needed, and are able to fight defensively with the help of such forces. Finding succor in the destruction of their foes and defense of their friends sees a defiant warrior become a powerful ally.</p>
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_DISRUPTION" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_STORMS_PATH" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_VOICE_OF_THE_BEAST" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_INNER_BEAST" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_DISRUPTION" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_STORMS_PATH" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_VOICE_OF_THE_BEAST" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_INNER_BEAST" level="14" />
+        </rules>
+    </element>
+    <element name="Disruption" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_DISRUPTION">
+        <description>
+            <p>Beginning at the 3rd level, while you are under the effects of Berserk, when a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>While you are under the effects of Berserk, when a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll.</description>
+        </sheet>
+    </element>
+    <element name="Storm's Path" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_STORMS_PATH">
+        <description>
+            <p>Beginning at the 6th level, when you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Path. The target creature makes a Strength saving throw against your Berserk DC, on a failed save the creature deals 1d6 less damage on their damage rolls for a number of rounds equal to your Strength modifier. This damage reduction increases to 2d6 at the 14th level. You may only use Storm's Path once during each use of Berserk.</p>
+        </description>
+        <sheet>
+            <description>When you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Path. The target creature makes a Strength saving throw against your Berserk DC, on a failed save the creature deals {{storm:dice}}d6 less damage on their damage rolls for a number of rounds equal to your Strength modifier. You may only use Storm's Path once during each use of Berserk.</description>
+        </sheet>
+        <rules>
+            <stat name="storm:dice" value="1" bonus="base" />
+            <stat name="storm:dice" value="1" level="14" />
+        </rules>
+    </element>
+    <element name="Voice of the Beast" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_VOICE_OF_THE_BEAST">
+        <description>
+            <p>Beginning at the 10th level, you learn the Charm Monster and Beast Sense spells, and may cast each one once. Strength is your spellcasting ability for these spells. You may only cast Charm Monster on beasts. You can do this once. You must then finish a long rest to use Voice of the Beast again.</p>
+            <div class="reference">
+                <div element="ID_XGTE_SPELL_CHARM_MONSTER" />
+                <div element="ID_PHB_SPELL_BEAST_SENSE"/>
+            </div>
+        </description>
+        <sheet>
+            <description>You learn the Charm Monster and Beast Sense spells, and may cast each one once. Strength is your spellcasting ability for these spells. You may only cast Charm Monster on beasts. You can do this once. You must then finish a long rest to use Voice of the Beast again.</description>
+        </sheet>
+    </element>
+    <element name="Inner Beast" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_INNER_BEAST">
+        <description>
+            <p>Beginning at the 14th level, as an action you can use Inner Beast. Make a melee weapon attack against a target creature. On a successful attack roll you deal your normal weapon as well as recover hit points equal to 2d8+6 hit points and deal equal bonus damage. The effects of Berserk ends immediately after you use Inner Beast.</p>
+        </description>
+        <sheet action="Action">
+            <description>As an action you can use Inner Beast. Make a melee weapon attack against a target creature. On a successful attack roll you deal your normal weapon as well as recover hit points equal to 2d8+6 hit points and deal equal bonus damage. The effects of Berserk ends immediately after you use Inner Beast.</description>
+        </sheet>
+    </element>
+    
+    <element name="The Beast of Deliverance" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WAR_ARCHETYPE_DELIVERANCE">
+        <supports>Warrior Archetype</supports>
+        <description>
+            <p>A warrior of the Reckless Tradition has grown alongside their inner beast. They allow this force to take over and push their bodies to incredible feats of strength. They fight without care for their own safety, allowing bloodlust to take over. A reckless warrior's inner beast is hungry, and they allow this overwhelming force to feed without a thought of reserve.</p>
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_INNER_RELEASE" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_STORMS_EYE" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_WILD_EXPERTISE" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_FELL_CLEAVE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_INNER_RELEASE" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_STORMS_EYE" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_WILD_EXPERTISE" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_FELL_CLEAVE" level="14" />
+        </rules>
+    </element>
+    <element name="Inner Release" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_INNER_RELEASE">
+        <description>
+            <p>Beginning at the 3rd level, while you are under the effects of Berserk, your weapon attacks score a critical hit on a roll of 19 or 20. At the 14th level, your weapon attacks score a critical hit on a roll of 18-20.</p>
+        </description>
+        <sheet>
+            <description>While you are under the effects of Berserk, your weapon attacks score a critical hit on a roll of 18 or 20. </description>
+            <description level="14">While you are under the effects of Berserk, your weapon attacks score a critical hit on a roll of 18 or 20. </description>
+        </sheet>
+    </element>
+    <element name="Storm's Eye" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_STORMS_EYE">
+        <description>
+            <p>Beginning at the 6th level, when you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Eye. The target creature makes a Constitution saving throw against your Berserk DC, on a failed save the creature receives 1d6 bonus damage from weapon attacks against it for a number of rounds equal to your Strength ability modifier. This bonus damage is increased to 2d6 at the 14th level. You may only use Storm's Eye once during each use of Berserk.</p>
+        </description>
+        <sheet>
+            <description>When you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Eye. The target creature makes a Constitution saving throw against your Berserk DC, on a failed save the creature receives {{storms:eye}}d6 bonus damage from weapon attacks against it for a number of rounds equal to your Strength ability modifier. You may only use Storm's Eye once during each use of Berserk.</description>
+        </sheet>
+        <rules>
+            <stat name="storms:eye" value="1" bonus="base" />
+            <stat name="storms:eye" value="1" level="14" />
+        </rules>
+    </element>
+    <element name="Wild Expertise" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_WILD_EXPERTISE">
+        <description>
+            <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
+        </description>
+        <sheet>
+            <description>You allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill. Chosen skill:</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Wild Expertise" supports="Wild Expertise" />
+        </rules>
+    </element>
+    <element name="Acrobatics" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WAR_WILD_EXPERTISE_ACROBATICS">
+        <compendium display="false" />
+        <supports>Wild Expertise</supports>
+        <description>
+            <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+        </rules>
+    </element>
+    <element name="Athletics" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WAR_WILD_EXPERTISE_ATHLETICS">
+        <compendium display="false" />
+        <supports>Wild Expertise</supports>
+        <description>
+            <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+        </rules>
+    </element>
+    <element name="Stealth" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WAR_WILD_EXPERTISE_STEALTH">
+        <compendium display="false" />
+        <supports>Wild Expertise</supports>
+        <description>
+            <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+        </rules>
+    </element>
+    <element name="Survival" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WAR_WILD_EXPERTISE_SURVIVAL">
+        <compendium display="false" />
+        <supports>Wild Expertise</supports>
+        <description>
+            <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+        </rules>
+    </element>
+    <element name="Fell Cleave" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_FELL_CLEAVE">
+        <description>
+            <p>Beginning at the 14th level, while you are under the effects of Berserk you may use Fell Cleave as an action. Make an attack roll against a single creature within melee weapon range. This attack has a critical range of 15-20. On a successful attack, you deal the regular damage of the attack and a bonus 5d10 damage. Your Berserk ends immediately after the attack is resolved.</p>
+        </description>
+        <sheet>
+            <description>While you are under the effects of Berserk you may use Fell Cleave as an action. Make an attack roll against a single creature within melee weapon range. This attack has a critical range of 15-20. On a successful attack, you deal the regular damage of the attack and a bonus 5d10 damage. Your Berserk ends immediately after the attack is resolved.</description>
+        </sheet>
+    </element>
+
+    <element name="The Marauder" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WAR_ARCHETYPE_MARAUDER">
+        <supports>Warrior Archetype</supports>
+        <description>
+            <p>Some warriors choose to walk away from their inner beast, or try as they may, never make contact with this ferocious being within their hearts. Despite the abandonment or loss of their inner beast, a Marauder has trained extensively to compensate for these losses. Marauders fight with the same ferocity as those with their beasts intact, but only look to themselves as the source of power.</p>
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_BLOOD_BATH" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_MAIM" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_RUFFIAN_DIPLOMACY" />
+            <div element="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_OVERPOWER" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_BLOOD_BATH" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_MAIM" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_RUFFIAN_DIPLOMACY" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_OVERPOWER" level="14" />
+        </rules>
+    </element>
+    <element name="Blood Bath" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_BLOOD_BATH">
+        <description>
+            <p>Beginning at the 3rd level, while you are under the effects of Berserk, when you land a successful melee weapon attack, you recover 1d4 hit points. You may only recover hit points once per round in this way. You recover 2d4 hit points starting at the 14th level.</p>
+        </description>
+        <sheet>
+            <description>While you are under the effects of Berserk, when you land a successful melee weapon attack, you recover 1d4 hit points. You may only recover hit points once per round in this way.</description>
+            <description level="14">while you are under the effects of Berserk, when you land a successful melee weapon attack, you recover 2d4 hit points. You may only recover hit points once per round in this way.</description>
+        </sheet>
+    </element>
+    <element name="Maim" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_MAIM">
+        <description>
+            <p>Beginning at the 6th level, when you use the Reckless Attack ability under the effects of Berserk, you can declare that you are using Maim. Enemy attacks do not gain advantage against you on their attack rolls for this round. You may use Maim once during each use of Berserk.</p>
+        </description>
+        <sheet>
+            <description>When you use the Reckless Attack ability under the effects of Berserk, you can declare that you are using Maim. Enemy attacks do not gain advantage against you on their attack rolls for this round. You may use Maim once during each use of Berserk.</description>
+        </sheet>
+    </element>
+    <element name="Ruffian Diplomacy" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_RUFFIAN_DIPLOMACY">
+        <description>
+            <p>Beginning at the 10th level, you gain proficiency in the persuasion skill. After interacting with a creature for 1 minute, you gain insight into how the creature will react to boasts of might or intimidation.</p>
+            <p class="indent">Your DM reveals if these tactics would be especially effective against the creature and you gain advantage on the appropriate Persuasion or Intimidation check if applicable.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in the persuasion skill. After interacting with a creature for 1 minute, you gain insight into how the creature will react to boasts of might or intimidation. Your DM reveals if these tactics would be especially effective against the creature and you gain advantage on the appropriate Persuasion or Intimidation check if applicable.</description>
+        </sheet>
+    </element>
+    <element name="Overpower" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAR_ARCHETYPE_FEATURE_OVERPOWER">
+        <description>
+            <p>Beginning at the 14th level, you may cast the spell Destructive Wave at the 5th level, using your Berserk DC for the spell effect. Your Berserk state ends immediately after the spell resolves.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_DESTRUCTIVE_WAVE" />
+            </div>
+        </description>
+        <sheet>
+            <description>You may cast the spell Destructive Wave at the 5th level, using your Berserk DC for the spell effect. Your Berserk state ends immediately after the spell resolves.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" />
+        </rules>
+    </element>
+</elements>
