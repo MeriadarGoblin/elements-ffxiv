@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Warrior</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="class-war.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-war.xml" />
 		</update>
 	</info>
@@ -258,6 +258,14 @@
             <stat name="raw:usage" value="1" level="13" />
             <stat name="raw:usage" value="1" level="18" />
         </rules>
+    </element>
+    <element name="Bellow of the Beast" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BELLOW_OF_THE_BEAST">
+        <description>
+            <p>Beginning at the 7th level, you are able to attempt to dominate a conversation with the assistance of your inner beast. You may expend one use of Berserk to intimidate a creature with advantage and doubling all of your bonuses to the intimidate skill.</p>
+        </description>
+        <sheet>
+            <description>You are able to attempt to dominate a conversation with the assistance of your inner beast. You may expend one use of Berserk to intimidate a creature with advantage and doubling all of your bonuses to the intimidate skill.</description>
+        </sheet>
     </element>
     <element name="Onslaught" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_ONSLAUGHT">
         <description>
