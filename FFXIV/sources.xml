@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
+	<info>
+        <name></name>
+        <update version="0.0.3">
+            <file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/sources.xml" />
+        </update>
+    </info>
 	<element name="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" type="Source" source="Core" id="ID_GMBINDER_SOURCE_FFXIV_DND">
 		<description>
 			<html>&lt;p&gt;A Companion Guidebook for use alongside the Dungeons &amp; Dragons 5th Edition Player's Handbook to bring Final Fantasy XIV to your table&lt;/p&gt;</html>
