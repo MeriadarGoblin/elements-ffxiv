@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Warrior</name>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="class-war.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-war.xml" />
 		</update>
 	</info>
