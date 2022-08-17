@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Arcanist</name>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-acn.xml" />
 		</update>
 	</info>
@@ -174,7 +174,7 @@
 			<select type="Spell" name="Grimoire (Arcanist)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Arcanist" />
 		</rules>
 		<spellcasting name="Arcanist" ability="Intelligence" allowReplace="true">
-			<list>FFXIV_ARCANIST</list>
+			<list>Arcanist</list>
 		</spellcasting>
 	</element>
 	<element name="Tactics" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_ACN_TACTICS">

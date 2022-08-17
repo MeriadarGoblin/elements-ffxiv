@@ -178,11 +178,11 @@
                 Your berserk DC is {{berserk:dc}}.</description>
         </sheet>
         <rules>
-            <stat name="beserk:use" value="2" level="1" />
-            <stat name="beserk:use" value="1" level="3" />
-            <stat name="beserk:use" value="1" level="6" />
-            <stat name="beserk:use" value="1" level="12" />
-            <stat name="beserk:use" value="1" level="17" />
+            <stat name="berserk:use" value="2" level="1" />
+            <stat name="berserk:use" value="1" level="3" />
+            <stat name="berserk:use" value="1" level="6" />
+            <stat name="berserk:use" value="1" level="12" />
+            <stat name="berserk:use" value="1" level="17" />
             <stat name="berserk rage:damage" value="2" level="1" />
 			<stat name="berserk rage:damage" value="1" level="9" />
 			<stat name="berserk rage:damage" value="1" level="17" />
@@ -438,7 +438,6 @@
         <description>
             <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
         </description>
-        <sheet display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
         </rules>
@@ -449,7 +448,6 @@
         <description>
             <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
         </description>
-        <sheet display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
         </rules>
@@ -460,7 +458,6 @@
         <description>
             <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
         </description>
-        <sheet display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
         </rules>
@@ -471,7 +468,6 @@
         <description>
             <p>Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from Acrobatics, Athletics, Stealth or Survival and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill.</p>
         </description>
-        <sheet display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
         </rules>
