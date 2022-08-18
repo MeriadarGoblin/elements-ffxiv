@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dragoon</name>
-		<update version="1.1.12">
+		<update version="1.1.13">
 			<file name="class-drg.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drg.xml" />
 		</update>
 	</info>
