@@ -93,14 +93,14 @@
         </setters>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
-            <select type="Proficiency" name="Skill Proficiency (Astrologian)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_FFXIV_MULTICLASS_AST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_FFXIV_MULTICLASS_AST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_FFXIV_MULTICLASS_AST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_FFXIV_MULTICLASS_AST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_FFXIV_MULTICLASS_AST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_FFXIV_MULTICLASS_AST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FFXIV_MULTICLASS_AST" />
+            <select type="Proficiency" name="Skill Proficiency (Astrologian)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_FFXIV_MULTICLASS_AST" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SPELLCASTING" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_DRAW" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_AST_SECT_STUDY_FOCUS" level="2" />
