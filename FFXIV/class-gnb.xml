@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Gunbreaker</name>
-		<update version="1.4.6">
+		<update version="1.4.7">
 			<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		</update>
 	</info>
@@ -97,17 +97,17 @@
         </setters>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
-            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
-            <select type="Proficiency" name="Skill Proficiency" number="2" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_FFXIV_MULTICLASS_GNB" />
+            <select type="Proficiency" name="Skill Proficiency" number="2" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_FFXIV_MULTICLASS_GNB" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_GNB_ARMS_SMITH" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_GNB_MUNITIONS" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_GNB_BURST_STRIKE" level="1" />
@@ -124,9 +124,9 @@
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_GNB_SONIC_BREAKER" level="17" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_GNB_BLOOD_FEST" level="18" />
         </rules>
-        <multiclass id="ID_WOTC_PHB_MULTICLASS_PALADIN">
-			<prerequisite>Strength 13 and Charisma 13</prerequisite>
-			<requirements>([str:13],[cha:13])</requirements>
+        <multiclass id="ID_FFXIV_MULTICLASS_GNB">
+			<prerequisite>Strength 13</prerequisite>
+			<requirements>[str:13]</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light Armor, Medium Armor, simple weapons, martial weapons, one skill from the class's skill list</set>
 			</setters>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Black Mage</name>
-		<update version="1.2.4">
+		<update version="1.2.6">
 			<file name="class-blm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blm.xml" />
 		</update>
 	</info>
@@ -87,14 +87,14 @@
         <sheet display="false" />
         <rules>
             <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
-            <select type="Proficiency" name="Skill Proficiency (Black Mage)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_FFXIV_MULTICLASS_BLM"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_FFXIV_MULTICLASS_BLM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_FFXIV_MULTICLASS_BLM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_FFXIV_MULTICLASS_BLM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_FFXIV_MULTICLASS_BLM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_FFXIV_MULTICLASS_BLM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FFXIV_MULTICLASS_BLM" />
+            <select type="Proficiency" name="Skill Proficiency (Black Mage)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_FFXIV_MULTICLASS_BLM" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_SPELLCASTING" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MANAFONT" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLM_MAGICAL_DISCIPLINE" level="2" />

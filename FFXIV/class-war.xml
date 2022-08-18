@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Warrior</name>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="class-war.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-war.xml" />
 		</update>
 	</info>
@@ -96,15 +96,15 @@
         </setters>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
-            <select type="Proficiency" name="Skill Proficiency, Warrior" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_FFXIV_MULTICLASS_WAR" />
+            <select type="Proficiency" name="Skill Proficiency, Warrior" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_FFXIV_MULTICLASS_WAR" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_FIGHTING_STYLE" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_BESERK" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WAR_RECKLESS_ATTACK" level="2" />
@@ -124,7 +124,7 @@
         </rules>
         <multiclass id="ID_FFXIV_MULTICLASS_WAR">
 			<prerequisite>Strength 13</prerequisite>
-			<requirements>([str:13])</requirements>
+			<requirements>[str:13]</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light Armor, Medium Armor, Shields, simple weapons, martial weapons</set>
 			</setters>
