@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Spells</name>
-		<update version="0.1.5">
-			<file name="spells.xml" url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv" />
+		<update version="1.1.5">
+			<file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />
 		</update>
 	</info>
 	<element name="Assize" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SPELL_ASSIZE">

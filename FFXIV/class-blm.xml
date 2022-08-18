@@ -104,7 +104,7 @@
         </rules>
         <multiclass id="ID_FFXIV_MULTICLASS_BLM">
 			<prerequisite>Intelligence 13</prerequisite>
-			<requirements>([str:13],[cha:13])</requirements>
+			<requirements>[int:13]</requirements>
 			<setters>
 				<set name="multiclass proficiencies">-</set>
 			</setters>
@@ -257,13 +257,13 @@
     </element>
 
 
-    <element name="Mchachi" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_ARCHETYPE_MCHACHI">
+    <element name="Mhachi" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLM_ARCHETYPE_MHACHI">
         <supports>Magical Discipline</supports>
         <description>
-            <p>The Machi are mages who specialize in the destructive arts. The Mhachi are the ones who created the art of Black Magic. Through deep introspection, they've learned to use their manafont to increase their destructive power.</p>
+            <p>The Mhachi are mages who specialize in the destructive arts. The Mhachi are the ones who created the art of Black Magic. Through deep introspection, they've learned to use their manafont to increase their destructive power.</p>
             <div element="ID_GMBINDER_FFXIV_BLM_MCHACHI_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" />
             <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSTABLE_AETHER" />
-            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGOT" />
+            <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGLOT" />
             <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_AETHERIAL_MANIPULATION" />
             <div element="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEVESTATING_FORCE" />
         </description>
@@ -313,7 +313,7 @@
             <description>When you cast a spell, you may spend one mana point to reroll any damage die which resulted in a 1 or 2. You must use the resulting rolls.</description>
         </sheet>
     </element>
-    <element name="Polygot" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGOT">
+    <element name="Polygot" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGLOT">
         <description>
             <p>Beginning at the 6th level, your magical studies have warped your mind and understanding of the world. You can read all writing.</p>
         </description>
