@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>White Mage</name>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="class-whm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-whm.xml" />
 		</update>
 	</info>
@@ -164,6 +164,16 @@
 			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="White Mage" />
 			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="White Mage" />
 		</rules>
+        <multiclass id="ID_FFXIV_MULTICLASS_WHM">
+			<prerequisite>Wisdom 13</prerequisite>
+			<requirements>([wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">-</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
 	</element>
     <element name="Confession" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_WHM_CONFESSION">
         <description>

@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Machinist</name>
-		<update version="1.1.2">
+		<update version="1.1.3">
 			<file name="class-mch.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-mch.xml" />
 		</update>
     </info>
@@ -123,6 +123,21 @@
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_CLOAKING_DEVICE" level="18" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_MIDAS_TOUCH" level="20" />
         </rules>
+        <multiclass id="ID_FFXIV_MULTICLASS_MCH">
+			<prerequisite>Dexterity 13 or Intelligence 13</prerequisite>
+			<requirements>([dex:13]|[int:13})</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light Armor, Pistols, Hunting Rifles, Revolvers, Muskets</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
+                <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE" />
+                <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_REVOLVER" />
+                <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
+			</rules>
+		</multiclass>
     </element>
     <element name="Suppressive Fire" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_SUPPRESSIVE_FIRE">
         <description>
