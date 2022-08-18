@@ -2,47 +2,47 @@
 <elements>
 	<info>
 		<name>Au Ra</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-au-ra.xml" />
 		</update>
 	</info>
 	<element name="Au Ra" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_AU_RA">
 		<description>
-			<html>&lt;p class="flavor"&gt;We Xaela are nomads who roam and live off the land. My tribe was no different. Yet though we did no harm to those whose lands we traversed, they treated us as vermin. In their ignorance, they feared us, and that fear manifested as spite and violence.&lt;/p&gt;
-&lt;p class="flavor"&gt;My loved ones and I were cursed at, spat upon, beaten, and worse. It was out of the desire to protect them that I began my research.&lt;/p&gt;
-&lt;p class="indent"&gt;-Alaqa the Witch&lt;/p&gt;
-&lt;p class="indent"&gt;The Au Ra are a misunderstood people due to their physical appearance. Their scaled bodies and horns led many to fear them, believing them to be descendants of dragons or demons. This fear led to hate, which gave way to violence, leaving these proud people fewer in number across much of the world. These conditions have led the Au Ra to value their families beyond all else.&lt;/p&gt;
-&lt;h4&gt;Variable Size&lt;/h4&gt;
-&lt;p&gt;Au Ra are characterized by their curved horns and intricate patterning of scales across their bodies. Sleek and powerful tails extend out from behind the Au Ra. There is a striking difference in height between the males and females of the race, the men ranging from just over 6 feet tall to 7 and a half feet tall, while the women are dwarfed, rarely coming close to 6 feet tall. Their faces contain sharp features and piercing eyes, alluding to their normally serious and sullen demeanor.&lt;/p&gt;
-&lt;p class="indent"&gt;Au Ra tend to dress very modestly, wearing simple robes and lengths of cloth draped over their bodies as cloaks, especially amongst the nomadic Xaela tribe.&lt;/p&gt;
-&lt;h4&gt;Divided By Blood&lt;/h4&gt;
-&lt;p&gt;The Auri creation myth tells the tale of two beings, the dawn father and the dusk mother. The two kinds of Au Ra have beliefs about their connection to these beings. The dark scaled Xaela are a nomadic people who believe that the blood of the dusk mother courses through their veins.&lt;/p&gt;
-&lt;p class="indent"&gt;The Xaela view themselves as free spirit folk, who roam the lands hunting, gathering, and battling against other roaming tribes, in honour of their ancestors. The light scaled Raen have instead decided to assimilate into Eastern society, though they are a minority, their loyalty and service has been a great boon to the culture they've ingrained themselves in.&lt;/p&gt;
-&lt;h4&gt;Peaks, Valleys, and Plains&lt;/h4&gt;
-&lt;p&gt;The Au Ra's homeland is known as Othard, a region to the far east. A majority of their homeland is covered by sprawling plains known as the Azim Steppe which dominates the region. The Xaela clans travel across this sea of grasslands in close knit tribes. The northern and western reaches of Othard are shielded with high mountain peaks and deep valleys shrouded in mist. It is from these mists that the Raen originally hailed. Today most live in civilized society or hidden villages allowing them to live peaceful lives.&lt;/p&gt;
-&lt;h4&gt;For My Family&lt;/h4&gt;
-&lt;p&gt;An Au Ra may set off on an adventure for any number of reasons, a thirst of adventure, defense of their tribe or a mission for a master could send them on their path. This could go as far as searching for lost family members, or seeking revenge for a slight against their family.&lt;/p&gt;
-&lt;p class="indent"&gt;It was consideration for their families which helped define the two bloodlines of the Au Ra. The Xaela sought to keep their traditional ways and use power to protect their families. The Raen felt that a peaceful livelihood amongst the other races of the world was the best approach to protect their community.&lt;/p&gt;
-&lt;h4&gt;Au Ra Names&lt;/h4&gt;
-&lt;ul class="unstyled"&gt;
-&lt;li&gt;&lt;strong&gt;Male Raen Names.&lt;/strong&gt;Tosetu, Keimei, Rakuyo, Hien, Genbu, Fugetsu, Unzan, Masatsuchi, Izuna, Sagan, Karaku. Chikamasa Rokuyari, Tanehiro, Yoshikore, Hidetake, Norishig.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Female Raen Names.&lt;/strong&gt;Yachiyo, Kikyo, Awayuki, Narumi, Azami, Kurenai, Tsubaki, Chidori, Suzume, Mizuki, Ibuki.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Male Xaela Names.&lt;/strong&gt;Arslang, Agasiletai, Chaghagan, Chuacenur, Bayan, Luvsan, Bujeg, Khalja, Charakha, Khaishan, Chigu, Jebke, Cirina, Narangerel, Ogul, Altan&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Female Xaela Names.&lt;/strong&gt;Boragchin, Narengawa, Chotan, Qoyar, Khorchi, Ogul, Checheyigen, Altun, Eji, Baguchi, Odchigin, Khorghosun, Yesun, Ariunbold, Bayar.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Clan Names.&lt;/strong&gt;Adarkim, Bolir, Dalamiq, Khatayin, Oronir, Malqir, Khatayin, Ura, Goro, Oroq.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Family Names.&lt;/strong&gt;Yuzuka, Obinata, Yuzuka, Yatsurugi, Rokuyari, Godo, Tabito, Yumishi, Musa.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Au Ra Traits&lt;/h4&gt;
-&lt;p&gt;Your Au Ra character has a variety of natural abilities.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increase.&lt;/em&gt;&lt;/strong&gt; Your Wisdom score increases by 2.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Age.&lt;/em&gt;&lt;/strong&gt; Despite their extraordinary physical features, the Au Ra live about as long as any of the other races of Eorzea, reaching physical maturity around the age of 16, and living to be around 80 years old.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Alignment.&lt;/em&gt;&lt;/strong&gt; The Au Ra as a whole do not tend to neither good nor evil, or towards law or chaos. The Xaela tend strongly towards the chaotic lives of nomads outside of the laws of civilized city states, while the Raen enjoy the order provided by the law. Often times an Au Ra finds themselves to be the product of their upbringing.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; There is a large size disparity between men and women of the Au Ra. Males range anywhere from 6 and a half to 7 feet tall with a lean build dwarfing the females who rarely grow taller than 5 feet. Your size is medium.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your base walking speed is 30ft.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Cranial Horns.&lt;/em&gt;&lt;/strong&gt; You gain proficiency in the perception skill.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Scaled Bodies.&lt;/em&gt;&lt;/strong&gt; When unarmored, your AC is equal to 11 + your dexterity modifier.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read and write Common and Auri. The Auri language does not include gender or numbered nouns or verbs, causing an Au Ra to mislabel things sometimes when speaking another language.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Subrace&lt;/em&gt;&lt;/strong&gt;The Au Ra's bloodline has split into two distinct groups, the nomadic Xaela and the solitary Raen, divided by the divine blood of their creators the Dusk Mother and Dawn Father. Select one of the two subraces of Au Ra.&lt;/p&gt;</html>
+			<p class="flavor">We Xaela are nomads who roam and live off the land. My tribe was no different. Yet though we did no harm to those whose lands we traversed, they treated us as vermin. In their ignorance, they feared us, and that fear manifested as spite and violence.</p>
+			<p class="flavor">My loved ones and I were cursed at, spat upon, beaten, and worse. It was out of the desire to protect them that I began my research.</p>
+			<p class="indent">-Alaqa the Witch</p>
+			<p class="indent">The Au Ra are a misunderstood people due to their physical appearance. Their scaled bodies and horns led many to fear them, believing them to be descendants of dragons or demons. This fear led to hate, which gave way to violence, leaving these proud people fewer in number across much of the world. These conditions have led the Au Ra to value their families beyond all else.</p>
+			<h4>Variable Size</h4>
+			<p>Au Ra are characterized by their curved horns and intricate patterning of scales across their bodies. Sleek and powerful tails extend out from behind the Au Ra. There is a striking difference in height between the males and females of the race, the men ranging from just over 6 feet tall to 7 and a half feet tall, while the women are dwarfed, rarely coming close to 6 feet tall. Their faces contain sharp features and piercing eyes, alluding to their normally serious and sullen demeanor.</p>
+			<p class="indent">Au Ra tend to dress very modestly, wearing simple robes and lengths of cloth draped over their bodies as cloaks, especially amongst the nomadic Xaela tribe.</p>
+			<h4>Divided By Blood</h4>
+			<p>The Auri creation myth tells the tale of two beings, the dawn father and the dusk mother. The two kinds of Au Ra have beliefs about their connection to these beings. The dark scaled Xaela are a nomadic people who believe that the blood of the dusk mother courses through their veins.</p>
+			<p class="indent">The Xaela view themselves as free spirit folk, who roam the lands hunting, gathering, and battling against other roaming tribes, in honour of their ancestors. The light scaled Raen have instead decided to assimilate into Eastern society, though they are a minority, their loyalty and service has been a great boon to the culture they've ingrained themselves in.</p>
+			<h4>Peaks, Valleys, and Plains</h4>
+			<p>The Au Ra's homeland is known as Othard, a region to the far east. A majority of their homeland is covered by sprawling plains known as the Azim Steppe which dominates the region. The Xaela clans travel across this sea of grasslands in close knit tribes. The northern and western reaches of Othard are shielded with high mountain peaks and deep valleys shrouded in mist. It is from these mists that the Raen originally hailed. Today most live in civilized society or hidden villages allowing them to live peaceful lives.</p>
+			<h4>For My Family</h4>
+			<p>An Au Ra may set off on an adventure for any number of reasons, a thirst of adventure, defense of their tribe or a mission for a master could send them on their path. This could go as far as searching for lost family members, or seeking revenge for a slight against their family.</p>
+			<p class="indent">It was consideration for their families which helped define the two bloodlines of the Au Ra. The Xaela sought to keep their traditional ways and use power to protect their families. The Raen felt that a peaceful livelihood amongst the other races of the world was the best approach to protect their community.</p>
+			<h4>Au Ra Names</h4>
+			<ul class="unstyled">
+				<li><strong>Male Raen Names.</strong>Tosetu, Keimei, Rakuyo, Hien, Genbu, Fugetsu, Unzan, Masatsuchi, Izuna, Sagan, Karaku. Chikamasa Rokuyari, Tanehiro, Yoshikore, Hidetake, Norishig.</li>
+				<li><strong>Female Raen Names.</strong>Yachiyo, Kikyo, Awayuki, Narumi, Azami, Kurenai, Tsubaki, Chidori, Suzume, Mizuki, Ibuki.</li>
+				<li><strong>Male Xaela Names.</strong>Arslang, Agasiletai, Chaghagan, Chuacenur, Bayan, Luvsan, Bujeg, Khalja, Charakha, Khaishan, Chigu, Jebke, Cirina, Narangerel, Ogul, Altan</li>
+				<li><strong>Female Xaela Names.</strong>Boragchin, Narengawa, Chotan, Qoyar, Khorchi, Ogul, Checheyigen, Altun, Eji, Baguchi, Odchigin, Khorghosun, Yesun, Ariunbold, Bayar.</li>
+				<li><strong>Clan Names.</strong>Adarkim, Bolir, Dalamiq, Khatayin, Oronir, Malqir, Khatayin, Ura, Goro, Oroq.</li>
+				<li><strong>Family Names.</strong>Yuzuka, Obinata, Yuzuka, Yatsurugi, Rokuyari, Godo, Tabito, Yumishi, Musa.</li>
+			</ul>
+			<h4>Au Ra Traits</h4>
+			<p>Your Au Ra character has a variety of natural abilities.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Despite their extraordinary physical features, the Au Ra live about as long as any of the other races of Eorzea, reaching physical maturity around the age of 16, and living to be around 80 years old.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> The Au Ra as a whole do not tend to neither good nor evil, or towards law or chaos. The Xaela tend strongly towards the chaotic lives of nomads outside of the laws of civilized city states, while the Raen enjoy the order provided by the law. Often times an Au Ra finds themselves to be the product of their upbringing.</p>
+			<p class="indent"><strong><em>Size.</em></strong> There is a large size disparity between men and women of the Au Ra. Males range anywhere from 6 and a half to 7 feet tall with a lean build dwarfing the females who rarely grow taller than 5 feet. Your size is medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
+			<p class="indent"><strong><em>Cranial Horns.</em></strong> You gain proficiency in the perception skill.</p>
+			<p class="indent"><strong><em>Scaled Bodies.</em></strong> When unarmored, your AC is equal to 11 + your dexterity modifier.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and Auri. The Auri language does not include gender or numbered nouns or verbs, causing an Au Ra to mislabel things sometimes when speaking another language.</p>
+			<p class="indent"><strong><em>Subrace</em></strong>The Au Ra's bloodline has split into two distinct groups, the nomadic Xaela and the solitary Raen, divided by the divine blood of their creators the Dusk Mother and Dawn Father. Select one of the two subraces of Au Ra.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -58,7 +58,7 @@
 	</element>
 	<element name="Auri" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_AURI">
 		<description>
-			<html>&lt;p&gt;Typically spoken by Au Ra.&lt;/p&gt;</html>
+			<p>Typically spoken by Au Ra.</p>
 		</description>
 		<setters>
 			<set name="exotic">false</set>
@@ -69,7 +69,7 @@
 	</element>
 	<element name="Cranial Horns" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIL_CRANIAL_HORNS">
 		<description>
-			<html>&lt;p&gt;You gain proficiency in the perception skill.&lt;/p&gt;</html>
+			<p>You gain proficiency in the perception skill.</p>
 		</description>
 		<sheet display="false">
 			<description>Your horns make you hear better, since you don't have ears.</description>
@@ -80,7 +80,7 @@
 	</element>
 	<element name="Scaled Bodies" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_SCALED_BODIES">
 		<description>
-			<html>&lt;p&gt;When unarmored, your AC is equal to 11 + your dexterity modifier.&lt;/p&gt;</html>
+			<p>When unarmored, your AC is equal to 11 + your dexterity modifier.</p>
 		</description>
 		<sheet>
 			<description>When unarmored, your AC is equal to 11 + your dexterity modifier.</description>
@@ -95,7 +95,7 @@
 	</element>
 	<element name="Au Ra Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACIAL_TRAIT_AU_RA_SUBRACE">
 		<description>
-			<html>&lt;p&gt;The Au Ra's bloodline has split into two distinct groups, the nomadic Xaela and the solitary Raen, divided by the divine blood of their creators the Dusk Mother and Dawn Father. Select one of the two subraces of Au Ra.&lt;/p&gt;</html>
+			<p>The Au Ra's bloodline has split into two distinct groups, the nomadic Xaela and the solitary Raen, divided by the divine blood of their creators the Dusk Mother and Dawn Father. Select one of the two subraces of Au Ra.</p>
 		</description>
 		<sheet display="false">
 			<description>Two subraces.</description>
@@ -107,10 +107,10 @@
 	<element name="Xaela" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_XAELA">
 		<supports>Au Ra</supports>
 		<description>
-			<html>&lt;p&gt;As a Xaela, you've been hardened by your life on the road as a part of a nomadic tribe. A life of hunting and warring has led you to martial prowess and improved strength. You are more outgoing than your Raen counterparts and are much more willing to engage in battle to resolve a conflict. Xaela tribes are small but numerous, battling for territory against one another on the Azim Steppe. Despite a willingness to fight, Xaela do not seek war, it is merely a tool to settle differences.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Ability Score Increase.&lt;/strong&gt;Your Strength Score increases by 1.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Nomadic Instincts.&lt;/strong&gt;You gain proficiency in the survival skill.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Savage Attacks.&lt;/strong&gt;When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.&lt;/p&gt;</html>
+			<p>As a Xaela, you've been hardened by your life on the road as a part of a nomadic tribe. A life of hunting and warring has led you to martial prowess and improved strength. You are more outgoing than your Raen counterparts and are much more willing to engage in battle to resolve a conflict. Xaela tribes are small but numerous, battling for territory against one another on the Azim Steppe. Despite a willingness to fight, Xaela do not seek war, it is merely a tool to settle differences.</p>
+			<p class="indent"><strong>Ability Score Increase.</strong>Your Strength Score increases by 1.</p>
+			<p class="indent"><strong>Nomadic Instincts.</strong>You gain proficiency in the survival skill.</p>
+			<p class="indent"><strong>Savage Attacks.</strong>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -121,7 +121,7 @@
 	</element>
 	<element name="Nomadic Instincts" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_NOMADIC_INSTINCTS">
 		<description>
-			<html>&lt;p&gt;You gain proficiency in the survival skill.&lt;/p&gt;</html>
+			<p>You gain proficiency in the survival skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -130,7 +130,7 @@
 	</element>
 	<element name="Savage Attacks" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS_AU_RA">
 		<description>
-			<html>&lt;p&gt;When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.&lt;/p&gt;</html>
+			<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
 		</description>
 		<sheet>
 			<description>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</description>
@@ -139,10 +139,10 @@
 	<element name="Raen" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_RAEN">
 		<supports>Au Ra</supports>
 		<description>
-			<html>&lt;p&gt;The Raen live in harmony with the other civilized races of the East. They've assimilated fully into Doman culture, becoming valued for their unwavering determination to loyalty to their allies. They are largely looked upon favourably by the other races for their peaceful demeanor and respectable approach to life.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Ability Score Increase.&lt;/strong&gt;Your Charisma score increases by 1.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Polite Society.&lt;/strong&gt;You gain proficiency in the Persuasion skill.&lt;/p&gt;
-&lt;p ckass="indent"&gt;&lt;strong&gt;Unwavering Loyalty.&lt;/strong&gt;You have advantage on saves against being charmed.&lt;/p&gt;</html>
+			<p>The Raen live in harmony with the other civilized races of the East. They've assimilated fully into Doman culture, becoming valued for their unwavering determination to loyalty to their allies. They are largely looked upon favourably by the other races for their peaceful demeanor and respectable approach to life.</p>
+			<p class="indent"><strong>Ability Score Increase.</strong>Your Charisma score increases by 1.</p>
+			<p class="indent"><strong>Polite Society.</strong>You gain proficiency in the Persuasion skill.</p>
+			<p ckass="indent"><strong>Unwavering Loyalty.</strong>You have advantage on saves against being charmed.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -153,7 +153,7 @@
 	</element>
 	<element name="Polite Society" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_POLITE_SOCIETY">
 		<description>
-			<html>&lt;p&gt;You gain proficiency in the Persuasion skill.&lt;/p&gt;</html>
+			<p>You gain proficiency in the Persuasion skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -162,7 +162,7 @@
 	</element>
 	<element name="Unwavering Loyalty" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_UNWAVERING_LOYALTY">
 		<description>
-			<html>&lt;p&gt;You have advantage on saves against being charmed.&lt;/p&gt;</html>
+			<p>You have advantage on saves against being charmed.</p>
 		</description>
 		<sheet>
 			<description>You have advantage on saves against being charmed.</description>

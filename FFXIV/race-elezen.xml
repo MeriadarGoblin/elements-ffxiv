@@ -2,29 +2,39 @@
 <elements>
 	<info>
 		<name>Elezen</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
 		</update>
 	</info>
 	<element name="Elezen" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_ELEZEN">
 		<description>
-			<html>&lt;p&gt;For centuries, our nation has been punished for the sins of our forefathers. If our punishment is to end, I believe we must right the wrongs of antiquity and move forward as a nation united. Needless to say, my father did not share this opinion.&lt;/p&gt;
-&lt;h4&gt;HEADING&lt;/h4&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;/p&gt;
-&lt;h4&gt;HEADING&lt;/h4&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;/p&gt;
-&lt;h4&gt;name Traits&lt;/h4&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increase.&lt;/em&gt;&lt;/strong&gt; Your Intelligence score increases by 2.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Age.&lt;/em&gt;&lt;/strong&gt; Though Elezen are one of the longest standing races, they do not live much longer than anyone else. They reach physical maturity around age 18 and live into their nineties.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Alignment.&lt;/em&gt;&lt;/strong&gt; Wildwood Elezen lean towards lawful alignments, be it their upbringing to protect the forest or life within the religious walls of Ishgard. Duskwight's have embraced the wild way of living, leaning towards chaotic alignments, viewing laws as arbitrary things.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; Elezen are known for their tall slender bodies. Men can reach a maximum 6 feet 8 inches and rarely are shorter than 6 foot 3 inches. Women reach a maximum of 6 and a half feet and rarely shorter than 6 feet tall. Your size is medium.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your base walking speed is 30ft.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Super Hearing.&lt;/em&gt;&lt;/strong&gt; You gain advantage when making a perception check using your hearing. &lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Subrace.&lt;/em&gt;&lt;/strong&gt; The Elezen come from two different clans. Select one of the three subraces of Elezen.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read and write Common and one extra language of your choice.&lt;/p&gt;</html>
+			<p><i>For centuries, our nation has been punished for the sins of our forefathers. If our punishment is to end, I believe we must right the wrongs of antiquity and move forward as a nation united. Needless to say, my father did not share this opinion.</i></p>
+			<p class="indent">-Ser Aymeric de Borel, Lord Commander of the Holy See</p>
+			<p>The Elezen are a race divided within themselves, and their often arrogant attitudes keep the other races at an arms reach. The Wildwood live off the lush forests, using their keen eyes to hunt and gather in the dense woods. The Duskwights in contrast are notorious for thievery and pillaging, being the victims of prejudice within the Twelveswood. The Ishgardians have done away with the forest and founded an oligarchy and city state in Northern Eorzea.</p>
+			<h4>Elegance and Pride</h4>
+			<p class="indent">Long legs, slender bodies, pointed ears and sharp features are all marks of an Elezen. Only rivaling their otherworld appearance is the poise with which they carry themselves. Their tall, thin frames only differ within the race by the colour of their skin.</p>
+			<h4>Difference of Opinion</h4>
+			<p>The Elezen race is divided due to their pride. The Wildwood and Duskwights found they could not coexist and distanced themselves from one another. The Wildwood believing they are the true rulers of the forests in which they live and hold dominion. The Duskwights, who historically made their homes in the cavern systems of the forests have rejoined the surface but are eyed with great prejudice by their Wildwood brethren. The Ishgardians were a separate group of Elezen who founded a city state in the North and have a totally unique culture of their own, closed off from the rest of the world.</p>
+			<h4>The Woods and the North</h4>
+			<p>The forest which the Elezen live is the Black Shroud, a massive forest brought to order by the Wildwood, who protect the forest from poachers and other threats which would encroach on it. Duskwights, who disregard the need to protect the forest and hunt to their content. Looking to the Northern city state of Ishgard, towering spires, homes and a grand cathedral hide behind their giant gates. Living conditions in Ishgard are rough, as the poor go hungry in the lower levels of the city, while the wealthy live in exuberance, looking down on the less fortunate citizens, ruled by the religious teachings of the Holy See.</p>
+			<h4>Honour and Vengeance</h4>
+			<p>An Elezen may set out on an adventure for many different reasons. An Ishgardian hungry for revenge against the dragons may set out to seek greater strength, while a Wildwood may take up arms to defend their forest home from an encroaching threat against the Black Shroud. Duskwights may set out to gain honour and riches to support their family or to prove to the world they are more than just a thief. Perhaps you seek glory in battle, and head out to find this fame.</p>
+			<h4>Elezen Names</h4>
+			<p>Both the Wildwood and Duskwight clans of Elezen spell their names very similarly. Men's names are longer and always in -loix, -aux, -mont, or -geant. A female's name will always end in -ne, -ette, -elle, or -ie.</p>
+			<p class="indent">Despite the similarity in their first names, the Elezen tribes over time claimed sur names for either side. These surnames will never cross clans, but only those who live within the race will know the difference.</p>
+			<p class="indent"><strong>Male Elezen Names.</strong> Adeux, Beichault, Dreauchant, Eauplaux, Etrent, Gloffaux, Jodeaux, Joyent, Ulmant, Ulwex.</p>
+			<p class="indent"><strong>Female Elezen Names.</strong> Adreanne, Iflione, Eaupline, Eranne, Etrene, Moriene, Peronne, Cummone ,Phivonne ,Paxeonne.</p>
+			<p class="indent"><strong>Elezen Surnames.</strong> Breaunojuste, Douvionne, Feajorins, Gehon, Glauvefand, Grurubont, Nahame, Prihaux, Shogamie, Zuhepane.</p>
+			<h4>Elezen Traits</h4>
+			<p>Your Elezen character has a variety of natural abilities.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Though Elezen are one of the longest standing races, they do not live much longer than anyone else. They reach physical maturity around age 18 and live into their nineties.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Wildwood Elezen lean towards lawful alignments, be it their upbringing to protect the forest or life within the religious walls of Ishgard. Duskwight's have embraced the wild way of living, leaning towards chaotic alignments, viewing laws as arbitrary things.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Elezen are known for their tall slender bodies. Men can reach a maximum 6 feet 8 inches and rarely are shorter than 6 foot 3 inches. Women reach a maximum of 6 and a half feet and rarely shorter than 6 feet tall. Your size is medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
+			<p class="indent"><strong><em>Super Hearing.</em></strong> You gain advantage when making a perception check using your hearing. </p>
+			<p class="indent"><strong><em>Subrace.</em></strong> The Elezen come from two different clans. Select one of the three subraces of Elezen.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and one extra language of your choice.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -38,7 +48,7 @@
 	</element>
 	<element name="Super Hearing" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_SUPER_HEARING">
 		<description>
-			<html>&lt;p&gt;You gain advantage when making a perception check using your hearing.&lt;/p&gt;</html>
+			<p>You gain advantage when making a perception check using your hearing.</p>
 		</description>
 		<sheet>
 			<description>You gain advantage when making a perception check using your hearing.</description>
@@ -46,7 +56,7 @@
 	</element>
 	<element name="Elezen Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_RACIAL_SUBRACE">
 		<description>
-			<html>The Elezen come from two different clans. Select one of the three subraces of Elezen.</html>
+			<p>The Elezen come from two different clans. Select one of the three subraces of Elezen.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -56,9 +66,9 @@
 	<element name="Wildwood" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_SUBRACE_WILDWOOD">
 		<supports>Elezen Subrace</supports>
 		<description>
-			<html>&lt;p class="indent"&gt;&lt;strong&gt;Ability Score Increase.&lt;/strong&gt;Your Dexterity score increases by 1.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Hawk Sight.&lt;/strong&gt;The normal range of your ranged weapon is increased by 20ft. This cannot exceed the max range of the weapon.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Natural Shrewdness.&lt;/strong&gt; You gain proficiency in the Insight skill.&lt;/p&gt;</html>
+			<p class="indent"><strong>Ability Score Increase.</strong>Your Dexterity score increases by 1.</p>
+			<p class="indent"><strong>Hawk Sight.</strong>The normal range of your ranged weapon is increased by 20ft. This cannot exceed the max range of the weapon.</p>
+			<p class="indent"><strong>Natural Shrewdness.</strong> You gain proficiency in the Insight skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -69,7 +79,7 @@
 	</element>
 	<element name="Hawk Sight" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_HAWK_SIGHT">
 		<description>
-			<html>&lt;p&gt;The normal range of your ranged weapon is increased by 20ft. This cannot exceed the max range of the weapon.&lt;/p&gt;</html>
+			<p>The normal range of your ranged weapon is increased by 20ft. This cannot exceed the max range of the weapon.</p>
 		</description>
 		<sheet>
 			<description>The normal range of your ranged weapon is increased by 20ft. This cannot exceed the max range of the weapon.</description>
@@ -77,7 +87,7 @@
 	</element>
 	<element name="Natural Shrewdness" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_NATURAL_SHREWDNESS">
 		<description>
-			<html>&lt;p&gt;You gain proficiency in the Insight skill.&lt;/p&gt;</html>
+			<p>You gain proficiency in the Insight skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -87,10 +97,10 @@
 	<element name="Duskwight" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_SUBRACE_DUSKWIGHT">
 		<supports>Elezen Subrace</supports>
 		<description>
-			<html>&lt;p&gt;Duskwights are Elezen whose ancestors made their home in the cavernous systems of the Black Shroud. Their light hair and dark skin sets them apart from the Wildwood and marks them to stand out. Duskwights are natural cave explorers after, their forefathers adapting to the caves of Gelmorra. The difficulty fitting into Gridanian society lead the Duskwights to build a reputation of banditry for themselves.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Ability Score Increase.&lt;/strong&gt; Your Constitution score increases by 1.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Cave Dweller.&lt;/strong&gt; You gain advantage when making Stealth checks in caves or dim and dark lighting conditions.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Darkvision.&lt;/strong&gt; Due to life in the caverns your eyes have adapted to help you see in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey.&lt;/p&gt;</html>
+			<p>Duskwights are Elezen whose ancestors made their home in the cavernous systems of the Black Shroud. Their light hair and dark skin sets them apart from the Wildwood and marks them to stand out. Duskwights are natural cave explorers after, their forefathers adapting to the caves of Gelmorra. The difficulty fitting into Gridanian society lead the Duskwights to build a reputation of banditry for themselves.</p>
+			<p class="indent"><strong>Ability Score Increase.</strong> Your Constitution score increases by 1.</p>
+			<p class="indent"><strong>Cave Dweller.</strong> You gain advantage when making Stealth checks in caves or dim and dark lighting conditions.</p>
+			<p class="indent"><strong>Darkvision.</strong> Due to life in the caverns your eyes have adapted to help you see in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -101,7 +111,7 @@
 	</element>
 	<element name="Cave Dweller" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_CAVE_DWELLER">
 		<description>
-			<html>&lt;p&gt;You gain advantage when making Stealth checks in caves or dim and dark lighting conditions.&lt;/p&gt;</html>
+			<p>You gain advantage when making Stealth checks in caves or dim and dark lighting conditions.</p>
 		</description>
 		<sheet>
 			<description>You gain advantage when making Stealth checks in caves or dim and dark lighting conditions.</description>
@@ -110,10 +120,10 @@
 	<element name="Ishgardian" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_SUBRACE_ISHGARDIAN">
 		<supports>Elezen Subrace</supports>
 		<description>
-			<html>&lt;p&gt;The Elezen of Ishgard left the Twelveswood all together over a millenia ago to found the city state of Ishgard. These Elezen have found themselves embroiled in a thousand year war with dragons, and live a life balancing war and strict adherence to their laws.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Ability Score Increase.&lt;/strong&gt; Your Strength score increases by 1.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Conscription.&lt;/strong&gt; You gain proficiency with shortswords, shortbows and spears.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;strong&gt;Halone's Scriptures.&lt;/strong&gt; You gain proficiency in the Religion skill.&lt;/p&gt;</html>
+			<p>The Elezen of Ishgard left the Twelveswood all together over a millenia ago to found the city state of Ishgard. These Elezen have found themselves embroiled in a thousand year war with dragons, and live a life balancing war and strict adherence to their laws.</p>
+			<p class="indent"><strong>Ability Score Increase.</strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong>Conscription.</strong> You gain proficiency with shortswords, shortbows and spears.</p>
+			<p class="indent"><strong>Halone's Scriptures.</strong> You gain proficiency in the Religion skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -124,7 +134,7 @@
 	</element>
 	<element name="Conscription" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_CONSCRIPTION">
 		<description>
-			<html>&lt;p&gt;You gain proficiency with shortswords, shortbows and spears.&lt;/p&gt;</html>
+			<p>You gain proficiency with shortswords, shortbows and spears.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -133,7 +143,7 @@
 	</element>
 	<element name="Halone's Scripture" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_HALONES_SCRIPTURE">
 		<description>
-			<html>You gain proficiency in the Religion skill.</html>
+			You gain proficiency in the Religion skill.
 		</description>
 		<sheet display="false" />
 		<rules>
