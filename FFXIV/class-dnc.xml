@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dancer</name>
+		<update version="1.0.2">
+			<file name="class-dnc.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-dnc.xml" />
+		</update>
+	</info>
+    <element name="Dancer" type="Class" source="source" id="ID_GMBINDER_FFXIV_CLASS_DNC">
+        <description>
+    <p>The light of the room dims, and the spotlights focus on the lightly dressed woman who makes her way across the stage. With a large smile, she moves effortless along with the music, filling everyone's hearts with joy and pushing them to stay determined in whatever challenges they have.</p>
+    <p class="indent">Amid the chaos of the battlefield a maiden expertly slides in and out of combat, soothing her allies' wounds and empowering their wills to continue fighting.</p>
+    <p class="indent">Dressed in fine clothing with their trusty blade at their side, the seemingly sweet woman dances through a group of would-be assailants behind her establishment, cutting them down with ease wielding her signature scimitar.</p>
+    <p class="indent">Dancers have harnessed magics and arts, combining them into a spectacle which turns the battlefield into a show, and it is by their graceful movements which which their allies are guided to a happy conclusion.</p>
+    <h4>Of Silk and Steel</h4>
+    <p>Dancers draw from many different sources and backgrounds, combining them into a single package which covers a wide variety of situations. Using small weapons to pick away at their unwitting foes as their dances debilitate their marks while filling their allies with power. Though a rarity on the battle field few forget the sight of a skilled dancer at work.</p>
+    <h4>Ornaments of Steel</h4>
+    <p>Dancers perform their magical feats not through a stave or rod, but rather specially made jewelry worn on the wrists and ankles. As they dance around the battle field they move their bodies in specific patterns to manipulate the magical power within their bodies and to gather residual magic in the environment. Once they've gathered the required magic they must keep moving to keep their spell active, channeling the magic further.</p>
+    <h4>CREATING A Dancer</h4>
+    <p>Dancers are passionate people dedicated to their craft. Spending years practicing has gifted them with the ability to weave spells and their passions together into a gorgeous display of skill. When creating a Dancer, you must consider where they have honed their craft. Did they pick up the profession naturally, teaching themselves over long hours, or did they study beneath some kind of mentor? One must consider their motivations, does your Dancer seek fame and fortune, or do they want to bring the gifts of joy to the masses. Perhaps they are going on their journey in an attempt to hone their craft even further.</p>
+    <h5 class="caption">QUICK BUILD</h5>
+    <p>You can make a Dancer quickly by following these suggestions. First make Dexterity your highest ability score, following with Charisma. Second take the Entertainer background.</p>
+    <h2>CLASS FEATURES</h2>
+    <p>As a dancer, you gain the following class features.</p>
+    <h5 class="caption">HIT POINTS</h5>
+    <ul class="unstyled">
+        <li><strong>Hit Dice:</strong> 1d8 per Dancer level</li>
+        <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+        <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Dancer level after 1st</li>
+    </ul>
+    <h5 class="caption">PROFICIENCIES</h5>
+    <ul class="unstyled mb">
+        <li><strong>Armor:</strong> Light Armor</li>
+        <li><strong>Weapons:</strong> Chakrams, Rapiers, Scimitars, Short Swords, Simple Weaons, Whips.</li>
+        <li><strong>Tools:</strong> None</li>
+    </ul>
+    <ul class="unstyled">
+        <li><strong>Saving Throws:</strong> Dexterity, Charisma</li>
+        <li><strong>Skills:</strong> Choose two from Acrobatics, Deception, Insight, Perception, Performance, and Persuasion.</li>
+    </ul>
+    <h5 class="caption">EQUIPMENT</h5>
+    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+    <ul>
+        <li>(a) two daggers or (b) two chakrams</li>
+        <li>(a) a whip or (b) a scimitar</li>
+        <li>a set of bracelets and anklets for spell casting</li>
+        <li>a set of clothes</li>
+        <li>(a) a costume or (b) light armor</li>
+        <li>(a) an explorer's pack or (b) a entertainer's pack</li>
+    </ul>
+    <div class="sidebar">
+        <h5>Charkrams</h5>
+        <p>For Chakrams I suggest using the Handaxe statblock. Set the cost to 15 gp and add the Finesse quality to the weapon.</p>
+    </div>
+    <h5 class="caption">THE DANCER</h5>
+    <table class="class-features">
+        <thead>
+            <tr><td class="col-5">Level</td><td class="col-60 left">Features</td><td>Flourish Damage</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+        </thead>
+        <tr><td> 1st</td><td class="left">Dazzling Dance, Flourish</td><td>1d6</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 2nd</td><td class="left">Spellcasting, Whirling Steel</td><td>1d6</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 3rd</td><td class="left">Dancer Archetype</td><td>2d6</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>2d6</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5th</td><td class="left">Uncanny Dodge</td><td>3d6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6th</td><td class="left">Dancer Archetype Feature</td><td>3d6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7th</td><td class="left">Evasion</td><td>4d6</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4d6</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 9th</td><td class="left">—</td><td>5d6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>10th</td><td class="left">Motivating Mambo</td><td>5d6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>11th</td><td class="left">Dancer Archetype Feature</td><td>6d6</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>12th</td><td class="left">Ability Score Improvement</td><td>6d6</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>13th</td><td class="left">Bewildering Grace</td><td>7d6</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+        <tr><td>14th</td><td class="left">Spell Dancer</td><td>7d6</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+        <tr><td>15th</td><td class="left">Dancer Archetype Feature</td><td>8d6</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>16th</td><td class="left">Ability Score Improvement</td><td>8d6</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>17th</td><td class="left">—</td><td>9d6</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>18th</td><td class="left">Stage Presence</td><td>9d6</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>19th</td><td class="left">Ability Score Improvement</td><td>10d6</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+        <tr><td>20th</td><td class="left">Rhythmic Heart</td><td>10d6</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+    </table>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DAZZLING_DANCE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_FLOURISH" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNARMORED_DEFENSE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELLCASTING" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_WHIRLING_STEEL" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DANCER_ARCHETYPE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNCANNY_DODGE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_EVASION" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_MOTIVATING_MAMBO" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_BEWILDERING_GRACE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELL_DANCER" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_STAGE_PRESENCE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_RHYTHMIC_HEART" />
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+            <grant type="Proficiency" id="ID_FFXIV_WEAPON_PROFICIENCY_CHAKRAM" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DAZZLING_DANCE" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_FLOURISH" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNARMORED_DEFENSE" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELLCASTING" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_WHIRLING_STEEL" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DANCER_ARCHETYPE" level="3" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNCANNY_DODGE" level="5" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_EVASION" level="7" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_MOTIVATING_MAMBO" level="10" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_BEWILDERING_GRACE" level="13" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELL_DANCER" level="14" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_STAGE_PRESENCE" level="18" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_RHYTHMIC_HEART" level="20" />
+        </rules>
+    </element>
+    <element name="Dazzling Dance" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DAZZLING_DANCE">
+        <description>
+            <p>At 1st level, as you fight you build towards empowering your movements further. When you use the Attack action against a hostile creature, you gain a charge of Dazzling Dance. You may hold a number of Dazzling Dance charges equal to your Charisma modifier. Your charges dissipate one minute after combat ends.</p>
+            <p class="indent">Additionally, you may spend 1 Dazzling Dance charge to take the Dash or Disengage action as a bonus action.</p>
+        </description>
+        <sheet>
+            <description>When you use the Attack action against a hostile creature, you gain a charge of Dazzling Dance. You may hold a number of Dazzling Dance charges equal to your Charisma modifier. Your charges dissipate one minute after combat ends. Additionally, you may spend 1 Dazzling Dance charge to take the Dash or Disengage action as a bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Flourish" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_FLOURISH">
+        <description>
+            <p>Also beginning at 1st level, once per turn, you can deal an extra 1d6 damage to one creature you hit with a ranged weapon attack if you have advantage on the Attack roll. The Attack must use a finesse weapon.</p>
+            <p class="indent">You don't need advantage on the Attack roll if another enemy of the target is within 5 feet of it, that enemy isn't Incapacitated, and you don't have disadvantage on the Attack roll.</p>
+            <p class="indent">The amount of the extra damage increases as you gain levels in this class, as shown in the Flourish Damage column of the Dancer table.</p>
+        </description>
+        <sheet>
+            <description>Once per turn, you can deal an extra {{flourish:die}}d6 damage to one creature you hit with a ranged weapon attack if you have advantage on the Attack roll. The Attack must use a finesse weapon. You don't need advantage on the Attack roll if another enemy of the target is within 5 feet of it, that enemy isn't Incapacitated, and you don't have disadvantage on the Attack roll.</description>
+        </sheet>
+        <rules>
+            <stat name="flourish:die" value="1" bonus="base" />
+            <stat name="flourish:die" value="1" level="3" />
+            <stat name="flourish:die" value="1" level="5" />
+            <stat name="flourish:die" value="1" level="7" />
+            <stat name="flourish:die" value="1" level="9" />
+            <stat name="flourish:die" value="1" level="11" />
+            <stat name="flourish:die" value="1" level="13" />
+            <stat name="flourish:die" value="1" level="15" />
+            <stat name="flourish:die" value="1" level="17" />
+            <stat name="flourish:die" value="1" level="19" />
+        </rules>
+    </element>
+    <element name="Unarmored Defense" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNARMORED_DEFENSE">
+		<description>
+			<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier.</p>
+		</description>
+		<sheet>
+			<description>While you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defense dnc}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense dnc:base" value="10" />
+			<stat name="ac:unarmored defense dnc:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense dnc:charisma" value="charisma:modifier" />
+			<stat name="ac:unarmored defense dnc" value="ac:unarmored defense dnc:base" />
+			<stat name="ac:unarmored defense dnc" value="ac:unarmored defense dnc:dexterity" />
+			<stat name="ac:unarmored defense dnc" value="ac:unarmored defense dnc:charisma" />
+			<stat name="ac:calculation" value="ac:unarmored defense dnc" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unarmored Defense (Dancer)" />
+		</rules>
+	</element>
+    <element name="Spellcasting" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELLCASTING">
+        <description>
+            <p>By 2nd level, you have learned to draw on in latent magical energies around you into your bangles and use it to cast spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for the Dancer spell list. Preparing and Casting Spells.</p>
+            <h4>Preparing and Casting Spells</h4>
+            <p>The Dancer table shows how many spell slots you have to cast your Dancer spells. To cast one of your Dancer spells of 1st level or higher, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+            <p class="indent">You prepare the list of Dancer spells that are available for you to cast, choosing from the Dancer spell list. When you do so, choose a number of Dancer spells equal to your Charisma modifier + half your Dancer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+            <p class="indent">For example, if you are a 5th-level Dancer, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+            <p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of Dancer spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. Spellcasting Ability.</p>
+            <h4>Dance Magic</h4>
+            <p>As a Dancer, when you cast a Dancer spell you do not have to fulfill the verbal component of the spell. You must spend 10ft. of movement alongside your spell slot to cast a spell or to maintain a spell. See chapter 10 of the PHB for the general rules of spellcasting and the end of this document for the Dancer spell list.</p>
+            <div class="sidebar">
+                <h5>What about Silence?</h5>
+                <p>Most spellcasters shudder at the thought of being silenced as their spells require a verbal component nearly every time. As a Dancer you are able to for go the Verbal component, but that does not mean you're free from having your spells blocked. Instead, any effects which would drop your movement speed to 0ft. will instead cause your spells to be blocked.</p>
+            </div>
+            <h4>Spellcasting Ability</h4>
+            <p>Charisma is your spellcasting ability for your Dancer spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Dancer spell you cast and when making an attack roll with one.</p>
+            <center>
+                <p><strong>Spell save DC =</strong> 8 + your proficiency bonus + your Charisma modifier</p>
+                <p><strong>Spell attack modifier =</strong> your proficiency bonus + your Charisma modifier</p>
+            </center>
+            <h4>Spellcasting Focus</h4>
+            <p>You can use a bangles, anklets or other jewelry inlaid with gem stones (see the Adventuring Gear section) as a spellcasting focus for your Dancer spells.</p>
+        </description>
+        <sheet>
+            <description>As a Dancer, when you cast a Dancer spell you do not have to fulfill the verbal component of the spell. You must spend 10ft. of movement alongside your spell slot to cast a spell or to maintain a spell.</description>
+        </sheet>
+        <spellcasting name="Dancer" ability="Charisma" prepare="true">
+			<list known="true">Dancer</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="dancer:spellcasting:slots:1" value="2" level="2" />
+			<stat name="dancer:spellcasting:slots:1" value="1" level="3" />
+			<stat name="dancer:spellcasting:slots:1" value="1" level="5" />
+			<stat name="dancer:spellcasting:slots:2" value="2" level="5" />
+			<stat name="dancer:spellcasting:slots:2" value="1" level="7" />
+			<stat name="dancer:spellcasting:slots:3" value="2" level="9" />
+			<stat name="dancer:spellcasting:slots:3" value="1" level="11" />
+			<stat name="dancer:spellcasting:slots:4" value="1" level="13" />
+			<stat name="dancer:spellcasting:slots:4" value="1" level="15" />
+			<stat name="dancer:spellcasting:slots:4" value="1" level="17" />
+			<stat name="dancer:spellcasting:slots:5" value="1" level="17" />
+			<stat name="dancer:spellcasting:slots:5" value="1" level="19" />
+			<stat name="dancer:spellcasting:prepare" value="charisma:modifier" />
+			<stat name="dancer:spellcasting:prepare" value="level:dancer:half" />
+		</rules>
+    </element>
+    <element name="Whirling Steel" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_WHIRLING_STEEL">
+        <description>
+            <p>Also at 2nd level, you can spend 1 hour attuning your recently discovered magics with up to two finesse throwing weapons. When you throw a weapon you are attuned with, it returns to your hand after the attack is resolved.</p>
+        </description>
+        <sheet>
+            <description>You can spend 1 hour attuning your recently discovered magics with up to two finesse throwing weapons. When you throw a weapon you are attuned with, it returns to your hand after the attack is resolved.</description>
+        </sheet>
+    </element>
+    <element name="Dancer Archetype" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DANCER_ARCHETYPE">
+        <description>
+            <p>At 3rd level, you choose a style which dictates your growth as a dancer. The Paragon focuses on mastering and pushing the limits of dance as an art. The Exoctic Wonder mixes blade work into their dance moves, mixing martial prowess with grace. The Peace Bringer seeks to bring succor and support to their allies in the heat of battle.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Dancer Archetype" supports="Dancer Archetype" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Dancer 4)" supports="Improvement Option,Dancer,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Dancer 8)" supports="Improvement Option,Dancer,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Dancer 12)" supports="Improvement Option,Dancer,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Dancer 16)" supports="Improvement Option,Dancer,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Dancer 19)" supports="Improvement Option,Dancer,19" level="19" />
+		</rules>
+	</element>
+    <element name="Uncanny Dodge" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNCANNY_DODGE">
+		<description>
+			<p>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When an attacker that you can see hits you with an attack, you can halve the attack’s damage against you.</description>
+		</sheet>
+	</element>
+    <element name="Evasion" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_EVASION">
+		<description>
+			<p>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+		</description>
+		<sheet>
+			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
+		</sheet>
+	</element>
+    <element name="Motivating Mambo" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_MOTIVATING_MAMBO">
+        <description>
+            <p>Beginning at the 10th level, you've learned how to empower your allies in the heat of battle via your dances. When you use the Help action you can expend one Dazzling Dance charge to add your Charisma modifier to their roll.</p>
+            <p class="indent">Additionally, you may spend 1 Dazzling Dance charge to use the help action as a bonus action.</p>
+        </description>
+        <sheet>
+            <description>When you use the Help action you can expend one Dazzling Dance charge to add your Charisma modifier to their roll.</description>
+        </sheet>
+    </element>
+    <element name="Bewildering Grace" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_BEWILDERING_GRACE">
+        <description>
+            <p>Beginning at the 13th level, as an action you perform a mysterious dance whose effects you cannot predict. Roll a d20 die and resolve the effect. Spells cast with Bewildering Grace do not consume spell slots. Non-spell effects from Bewildering Grace last one hour. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+            <h5>Bewildering Grace Effects</h5>
+            <table>
+                <thead>
+                    <tr><td>Die Result</td><td>Effect</td></tr>
+                </thead>
+                <tr><td>1</td><td>You cast the Banishment spell on yourself. You cannot end the spell early, but return to where you were at the end of the spell duration.</td></tr>
+                <tr><td>2</td><td>You become petrified for one round of combat.</td></tr>
+                <tr><td>3</td><td>Lights and small magical explosions surround you in a visual effect. Nothing Happens.</td></tr>
+                <tr><td>4</td><td>All creatures within a 20ft. radius centered on you make a Dexterity saving throw against your spell save DC or are knocked prone. You are excluded from this effect.</td></tr>
+                <tr><td>5</td><td>All creatures within a 20ft. radius centered on you make a Wisdom saving throw against your spell save DC or become blinded. The creature may repeat the save at the end of each of their turns. You are excluded from this effect.</td></tr>
+                <tr><td>6</td><td>All creatures within a 20ft. radius centered on you make a Constitution saving throw against your spell save DC or become poisoned. The creature may repeat the save at the end of each of their turns. You are excluded from this effect.</td></tr>
+                <tr><td>7</td><td>You cast the Faerie Fire spell centered on you. You are excluded from this effect.</td></tr>
+                <tr><td>8</td><td>You cast the Cause Fear spell on an ally within range.</td></tr>
+                <tr><td>9</td><td>You cast the Invisibility spell.</td></tr>
+                <tr><td>10</td><td>You cast the Hold Person spell.</td></tr>
+                <tr><td>11</td><td>You cast the Magic Weapon spell.</td></tr>
+                <tr><td>12</td><td>You cast the Mass Healing Word spell.</td></tr>
+                <tr><td>13</td><td>You select a creature within 30ft. That creature must make a Constitution saving throw against your spell casting DC. On a failure they gain a level of exhaustion.</td></tr>
+                <tr><td>14</td><td>You now have the maximum number of Dazzling Dance charges possible.</td></tr>
+                <tr><td>15</td><td>You cast the Insect Plague spell.</td></tr>
+                <tr><td>16</td><td>You cast the Mass Cure Wounds spell.</td></tr>
+                <tr><td>17</td><td>You cast the Otto's Irresistable Dance spell.</td></tr>
+                <tr><td>18</td><td>You care the Heal spell.</td></tr>
+                <tr><td>19</td><td>You cast the Mordenkainen’s Sword spell.</td></tr>
+                <tr><td>20</td><td>You cast the Reverse Gravity spell.</td></tr>
+            </table>
+        </description>
+        <sheet action="Action">
+            <description>As an action you perform a mysterious dance whose effects you cannot predict. Roll a d20 die and resolve the effect on the Bewildering Grace table. Spells cast with Bewildering Grace do not consume spell slots. Non-spell effects from Bewildering Grace last one hour. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Spell Dancer" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELL_DANCER">
+        <description>
+            <p>Beginning at the 14th level, when you cast a spell you gain a number of Dazzling Dance charges equal to half the level (rounded down) of the expended spell slot. You do not gain Dazzling Dance charges from Bewildering Grace.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell you gain a number of Dazzling Dance charges equal to half the level (rounded down) of the expended spell slot. You do not gain Dazzling Dance charges from Bewildering Grace.</description>
+        </sheet>
+    </element>
+    <element name="Stage Presence" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_STAGE_PRESENCE">
+        <description>
+            <p>Beginning at the 18th level, you've become so accustomed to performing both for crowds and amongst the chaos of the battlefield, you are rarely caught unaware of your surroundings and can protect yourself from the tricks of assailants. Attackers cannot attack you with advantage unless you are under the conditions: grappled, incapacitated, paralyzed or petrified. Additionally when knocked prone, it only costs 5ft. of movement to get back up.</p>
+        </description>
+        <sheet>
+            <description>Attackers cannot attack you with advantage unless you are under the conditions: grappled, incapacitated, paralyzed or petrified. Additionally when knocked prone, it only costs 5ft. of movement to get back up.</description>
+        </sheet>
+    </element>
+    <element name="Rhythmic Heart" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_RHYTHMIC_HEART">
+        <description>
+            <p>Beginning at the 20th level, when you roll initiative you gain 2 Dazzling Dance charges.</p>
+        </description>
+        <sheet>
+            <description>When you roll initiative you gain 2 Dazzling Dance charges.</description>
+        </sheet>
+    </element>
+
+    <element name="Paragon" type="Archetype" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_PARAGON">
+        <supports>Dancer Archetype</supports>
+        <description>
+            <p>You've devoted your training to dance as an art form itself, staying a purist of dance. Your singular focus will allow you to reach mastery few ever hope to achieve in your discipline.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_INSPIRING_SALSA" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_MAGIC_OF_MOVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_IMPROVISED_FLOW" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FORTE_FUSION" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_INSPIRING_SALSA" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_MAGIC_OF_MOVEMENT" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_IMPROVISED_FLOW" level="11" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FORTE_FUSION" level="15" />
+        </rules>
+    </element>
+    <element name="Inspiring Salsa" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_INSPIRING_SALSA">
+        <description>
+            <p>Beginning at the 3rd level, as a bonus action you can spend up to 2 Dazzling Dance charges to inspire an ally within 5ft. of you. Your ally may add a bonus to any attack roll, saving throw or ability check they make equal to twice the number of charges used to inspire them one time. At 10th level you may spend any number of Dazzling Dance charges in the same way.</p>
+        </description>
+        <sheet>
+            <description>As a bonus action you can spend up to 2 Dazzling Dance charges to inspire an ally within 5ft. of you. Your ally may add a bonus to any attack roll, saving throw or ability check they make equal to twice the number of charges used to inspire them one time. At 10th level you may spend any number of Dazzling Dance charges in the same way.</description>
+        </sheet>
+    </element>
+    <element name="Magic of Movement" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_MAGIC_OF_MOVEMENT">
+        <description>
+            <p>Beginning at the 6th level, when you cast a spell, you may spend a number of Dazzling Dance charges equal to the spell level instead of spending a spell slot. Spells cast using this feature do not generate Dazzling Dance charges.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell, you may spend a number of Dazzling Dance charges equal to the spell level instead of spending a spell slot. Spells cast using this feature do not generate Dazzling Dance charges.</description>
+        </sheet>
+    </element>
+    <element name="Improvised Flow" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_IMPROVISED_FLOW">
+        <description>
+            <p>Beginning at the 11th level, when you make a concentration check you may spend a Dazzling Dance charge to roll with advantage.</p>
+        </description>
+        <sheet>
+            <description>When you make a concentration check you may spend a Dazzling Dance charge to roll with advantage.</description>
+        </sheet>
+    </element>
+    <element name="Forte Fusion" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FORTE_FUSION">
+        <description>
+            <p>Beginning at the 15th level, you have learned how to mix known dances into new exciting combinations. You are able to cast a second spell which requires concentration without ending the first. To do so you use your action to spend 1 Dazzling Dance charge to cast the second spell alongside the required spell slot. Each turn you concentrate on the second spell, you must use your action to spend once Dazzling Dance charge and spend 10ft. of movement per spell.</p>
+        </description>
+        <sheet>
+            <description>You have learned how to mix known dances into new exciting combinations. You are able to cast a second spell which requires concentration without ending the first. To do so you use your action to spend 1 Dazzling Dance charge to cast the second spell alongside the required spell slot. Each turn you concentrate on the second spell, you must use your action to spend once Dazzling Dance charge and spend 10ft. of movement per spell.</description>
+        </sheet>
+    </element>
+
+    <element name="Peace Bringer" type="Archetype" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_PEACEBRINGER">
+        <supports>Dancer Archetype</supports>
+        <description>
+            <p>You've learned to effectively wield restorative spells while dancing across the battle field. Offering relief and joy in even the worst situations.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SUCCOR_SWING" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_REFRESHING_ROUND" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SAFE_HAVEN_HOP" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SOLACE_SWING" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SUCCOR_SWING" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_REFRESHING_ROUND" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SAFE_HAVEN_HOP" level="11" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SOLACE_SWING" level="15" />
+        </rules>
+    </element>
+    <element name="Succor Swing" type="Archetpype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SUCCOR_SWING">
+        <description>
+            <p>Beginning at 3rd level, your magical dances are capable of healing wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your Dancer level × 5.</p>
+            <p class="indent">As an action, you can perform for a creature within 5ft. of you and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</p>
+        </description>
+        <sheet usage="{{succor:pool}} / Action">
+            <description>As an action, you can perform for a creature within 5ft. of you and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool ({{succor:pool}}).</description>
+            <description level="6">As an action, you can perform for a creature within 10ft. of you and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool ({{succor:pool}}).</description>
+        </sheet>
+        <rules>
+            <stat name="succor:pool" value="level:paladin" />
+            <stat name="succor:pool" value="level:paladin" />
+            <stat name="succor:pool" value="level:paladin" />
+            <stat name="succor:pool" value="level:paladin" />
+            <stat name="succor:pool" value="level:paladin" />
+        </rules>
+    </element>
+    <element name="Refreshing Round" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_REFRESHING_ROUND">
+        <description>
+            <p>Beginning at the 6th level, you've further developed your healing abilities. When you use your Succor Swing feature, you may target any number of creatures within 10ft. of you.</p>
+        </description>
+        <sheet display="false">
+            <description>When you use your Succor Swing feature, you may target any number of creatures within 10ft. of you.</description>
+            <!-- Making it so succor swing adjusts at level 6 -->
+        </sheet>
+    </element>
+    <element name="Safe Haven Hop" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SAFE_HAVEN_HOP">
+        <description>
+            <p>Beginning at the 11th level, you may select Aura of Life, Aura of Purity or Aura of Vitality and cast it without spending a spell slot. You can use this feature a number of times equal to half your Charisma modifier, rounded down (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>You may select Aura of Life, Aura of Purity or Aura of Vitality and cast it without spending a spell slot. You can use this feature a number of times equal to half your Charisma modifier, rounded down (a minimum of once). You regain any expended uses when you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Safe Heaven Hop, Spells" supports="ID_PHB_SPELL_AURA_OF_LIFE|ID_PHB_SPELL_AURA_OF_PURITY|ID_PHB_SPELL_AURA_OF_VITALITY" />
+        </rules>
+    </element>
+    <element name="The Solace Swing" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SOLACE_SWING">
+        <description>
+            <p>Beginning at the 15th level, you may spend Dazzling Dance charges to restore your pool of healing power. For each point spent you recover points to your pool equal to your Charisma modifier.</p>
+        </description>
+        <sheet>
+            <description>You may spend Dazzling Dance charges to restore your pool of healing power. For each point spent you recover points to your pool equal to your Charisma modifier.</description>
+        </sheet>
+    </element>
+
+    <element name="Exotic Wonder" type="Archetype" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_EXOTIC_WONDER">
+        <supports>Dancer Archetype</supports>
+        <description>
+            <p>You've trained in an exotic dancing style which incorporates weapons into your routines. You mix martial knowledge with graceful steps to create an awe inspiring dance which devastates your foes.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLOURISHING_SWING" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FIGHTING_STYLE" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_DOUBLE_STEP" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLAWLESS_FLOW" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_LAMIA_BITE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLOURISHING_SWING" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FIGHTING_STYLE" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_DOUBLE_STEP" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLAWLESS_FLOW" level="11" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_LAMIA_BITE" level="15" />
+        </rules>
+    </element>
+    <element name="Flourishing Swing" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLOURISHING_SWING">
+        <description>
+            <p>Beginning at 3rd level, your melee weapon attacks with finesse weapons activate your Flourish feature.</p>
+        </description>
+        <sheet>
+            <description>Your melee weapon attacks with finesse weapons activate your Flourish feature.</description>
+        </sheet>
+    </element>
+    <element name="Fighting Style" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FIGHTING_STYLE">
+		<description>
+			<p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5 class="caption">DEFENSE</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5 class="caption">DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+            <h5 class="caption">Fleet Foot</h5>
+            <p>Your movement speed increases by 5ft.</p>
+			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second Attack.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Dancer" />
+		</rules>
+	</element>
+    <element name="Double Step" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_DOUBLE_STEP">
+        <description>
+            <p>Beginning at the 6th level, whenever you use the Attack action, you may spend 1 Dazzling Dance charge to make an extra melee weapon attack.</p>
+        </description>
+        <sheet>
+            <description>Whenever you use the Attack action, you may spend 1 Dazzling Dance charge to make an extra melee weapon attack.</description>
+        </sheet>
+    </element>
+    <element name="Flawless Flow" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLAWLESS_FLOW">
+        <description>
+            <p>Beginning at the 11th level, you may make a melee weapon attack as a bonus action after casting a spell.</p>
+        </description>
+        <sheet>
+            <description>You may make a melee weapon attack as a bonus action after casting a spell.</description>
+        </sheet>
+    </element>
+    <element name="Lamia Bite" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_LAMIA_BITE">
+        <description>
+            <p>Beginning at the 15th level, you may spend 4 Dazzling Dance charges prior to making a weapon attack. Doing so increases the critical hit range of your attack rolls for the remainder of the turn, lowering the threshold by 4.</p>
+        </description>
+        <sheet>
+            <description>You may spend 4 Dazzling Dance charges prior to making a weapon attack. Doing so increases the critical hit range of your attack rolls for the remainder of the turn, lowering the threshold by 4.</description>
+        </sheet>
+    </element>
+
+	<!-- Fighting Styles Appends -->
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+        <supports>Dancer</supports>
+    </append>
+    <element name="Fleet Foot" type="Class Feature" source="" id="ID_FFXIV_CLASS_FEATURE_FIGHTINGSTYLE_FLEET_FOOT">
+		<supports>Fighting Style, Dancer</supports>
+		<description>
+			<p>Your movement speed increases by 5ft.</p>
+		</description>
+		<sheet>
+			<description>Your movement speed increases by 5ft.</description>
+		</sheet>
+        <rules>
+            <stat name="innate speed" value="5" />
+        </rules>
+	</element>
+    <element name="Chakram" type="Weapon" source="" id="ID_FFXIV_WEAPON_CHAKRAM">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_CHAKRAM</supports>
+		<description>
+			<p>This bladed circular disc is an unusual thrown weapon. It glides through the air, slicing through anything in its path. Warriors who specialize with the chakram can learn to throw it in such a way that it returns to them after cutting the enemy.</p>
+			<div element="ID_FFXIV_WEAPON_PROPERTY_SPECIAL_CHAKRAM" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">60/120</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_FFXIV_WEAPON_PROFICIENCY_CHAKRAM</set>
+		</setters>
+	</element>
+
+    <!-- Spell Appends -->
+	<append id="ID_PHB_SPELL_BANE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLESS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CAUSE_FEAR">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_COMPELLED_DUEL">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ENLARGE_REDUCE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FRIENDS">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LIGHT">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_INFESTATION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAGE_HAND">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MAGIC_STONE">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MENDING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MINOR_ILLUSION">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_POISON_SPRAY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_WOTC_EGTW_SPELL_SAPPING_STING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SPARE_THE_DYING">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TRUE_STRIKE">
+        <supports>Arcanist</supports>
+    </append>
+</elements>
