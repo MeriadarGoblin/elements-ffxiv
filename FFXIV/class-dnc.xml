@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dancer</name>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="class-dnc.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-dnc.xml" />
 		</update>
 	</info>
@@ -555,54 +555,269 @@
 
     <!-- Spell Appends -->
 	<append id="ID_PHB_SPELL_BANE">
-        <supports>Arcanist</supports>
+        <supports>Dancer</supports>
     </append>
 	<append id="ID_PHB_SPELL_BLESS">
-        <supports>Arcanist</supports>
+        <supports>Dancer</supports>
     </append>
 	<append id="ID_XGTE_SPELL_CAUSE_FEAR">
-        <supports>Arcanist</supports>
+        <supports>Dancer</supports>
     </append>
 	<append id="ID_PHB_SPELL_COMPELLED_DUEL">
-        <supports>Arcanist</supports>
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CURE_WOUNDS">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FAERIE_FIRE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FOG_CLOUD">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEALING_WORD">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEROISM">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEX">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAGE_ARMOR">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SHIELD_OF_FAITH">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SILENT_IMAGE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WITCH_BOLT">
+        <supports>Dancer</supports>
+    </append>
+
+    <!-- 2nd level spell -->
+    <append id="ID_PHB_SPELL_BARKSKIN">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLUR">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CALM_EMOTIONS">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CHARM_PERSON">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CROWN_OF_MADNESS">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_DUST_DEVIL">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_EARTHBIND">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+        <supports>Dancer</supports>
     </append>
 	<append id="ID_PHB_SPELL_ENLARGE_REDUCE">
-        <supports>Arcanist</supports>
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_FRIENDS">
-        <supports>Arcanist</supports>
+	<append id="ID_PHB_SPELL_GUST_OF_WIND">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_LIGHT">
-        <supports>Arcanist</supports>
+	<append id="ID_PHB_SPELL_HOLD_PERSON">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_XGTE_SPELL_INFESTATION">
-        <supports>Arcanist</supports>
+	<append id="ID_PHB_SPELL_INVISIBILITY">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_MAGE_HAND">
-        <supports>Arcanist</supports>
+	<append id="ID_PHB_SPELL_MAGE_ARMOR">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_XGTE_SPELL_MAGIC_STONE">
-        <supports>Arcanist</supports>
+	<append id="ID_PHB_SPELL_LESSER_RESTORATION">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_MENDING">
-        <supports>Arcanist</supports>
+	<append id="ID_PHB_SPELL_LEVITATE">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
-        <supports>Arcanist</supports>
+	<append id="ID_PHB_SPELL_MAGIC_WEAPON">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_MINOR_ILLUSION">
-        <supports>Arcanist</supports>
+	<append id="ID_XGTE_SPELL_MAXIMILIANS_EARTHEN_GRASP">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_POISON_SPRAY">
-        <supports>Arcanist</supports>
+    <append id="ID_XGTE_SPELL_SKYWRITE">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_WOTC_EGTW_SPELL_SAPPING_STING">
-        <supports>Arcanist</supports>
+    <append id="ID_PHB_SPELL_SPIKE_GROWTH">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_SPARE_THE_DYING">
-        <supports>Arcanist</supports>
+    <append id="ID_XGTE_SPELL_WARDING_WIND">
+        <supports>Dancer</supports>
     </append>
-	<append id="ID_PHB_SPELL_TRUE_STRIKE">
-        <supports>Arcanist</supports>
+    <append id="ID_PHB_SPELL_WEB">
+        <supports>Dancer</supports>
+    </append>
+
+    <!--3rd level spells -->
+    <append id="ID_PHB_SPELL_BESTOW_CURSE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLUR">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLINK">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CLAIRVOYANCE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DISPEL_MAGIC">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ELEMENTAL_WEAPON">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FEAR">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FLY">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ENLARGE_REDUCE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GASEOUS_FORM">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HASTE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MAJOR_IMAGE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MASS_HEALING_WORD">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_REMOVE_CURSE">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REVIVIFY">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SLOW">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WALL_OF_SAND">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WIND_WALL">
+        <supports>Dancer</supports>
+    </append>
+
+    <!--4th level spells -->
+    <append id="ID_PHB_SPELL_ARCANE_EYE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BANISHMENT">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_COMPULSION">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONFUSION">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DOMINATE_BEAST">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_POLYMORPH">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_STONE_SHAPE">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_STONESKIN">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_STORM_SPHERE">
+        <supports>Dancer</supports>
+    </append>
+
+    <!--5th level spells -->
+    <append id="ID_PHB_SPELL_ANIMATE_OBJECTS">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CIRCLE_OF_POWER">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CONTROL_WINDS">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_DAWN">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DOMINATE_PERSON">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_FAR_STEP">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GREATER_RESTORATION">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HOLD_MONSTER">
+        <supports>Dancer</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MISLEAD">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TELEKINESIS">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TREE_STRIDE">
+        <supports>Dancer</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_STONE">
+        <supports>Dancer</supports>
     </append>
 </elements>
