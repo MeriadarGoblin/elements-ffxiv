@@ -6,7 +6,7 @@
 			<file name="class-dnc.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-dnc.xml" />
 		</update>
 	</info>
-    <element name="Dancer" type="Class" source="source" id="ID_GMBINDER_FFXIV_CLASS_DNC">
+    <element name="Dancer" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_DNC">
         <description>
     <p>The light of the room dims, and the spotlights focus on the lightly dressed woman who makes her way across the stage. With a large smile, she moves effortless along with the music, filling everyone's hearts with joy and pushing them to stay determined in whatever challenges they have.</p>
     <p class="indent">Amid the chaos of the battlefield a maiden expertly slides in and out of combat, soothing her allies' wounds and empowering their wills to continue fighting.</p>
@@ -136,7 +136,7 @@
 			</rules>
 		</multiclass>
     </element>
-    <element name="Dazzling Dance" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DAZZLING_DANCE">
+    <element name="Dazzling Dance" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DAZZLING_DANCE">
         <description>
             <p>At 1st level, as you fight you build towards empowering your movements further. When you use the Attack action against a hostile creature, you gain a charge of Dazzling Dance. You may hold a number of Dazzling Dance charges equal to your Charisma modifier. Your charges dissipate one minute after combat ends.</p>
             <p class="indent">Additionally, you may spend 1 Dazzling Dance charge to take the Dash or Disengage action as a bonus action.</p>
@@ -145,7 +145,7 @@
             <description>When you use the Attack action against a hostile creature, you gain a charge of Dazzling Dance. You may hold a number of Dazzling Dance charges equal to your Charisma modifier. Your charges dissipate one minute after combat ends. Additionally, you may spend 1 Dazzling Dance charge to take the Dash or Disengage action as a bonus action.</description>
         </sheet>
     </element>
-    <element name="Flourish" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_FLOURISH">
+    <element name="Flourish" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_FLOURISH">
         <description>
             <p>Also beginning at 1st level, once per turn, you can deal an extra 1d6 damage to one creature you hit with a ranged weapon attack if you have advantage on the Attack roll. The Attack must use a finesse weapon.</p>
             <p class="indent">You don't need advantage on the Attack roll if another enemy of the target is within 5 feet of it, that enemy isn't Incapacitated, and you don't have disadvantage on the Attack roll.</p>
@@ -167,7 +167,7 @@
             <stat name="flourish:die" value="1" level="19" />
         </rules>
     </element>
-    <element name="Unarmored Defense" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNARMORED_DEFENSE">
+    <element name="Unarmored Defense" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNARMORED_DEFENSE">
 		<description>
 			<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier.</p>
 		</description>
@@ -184,7 +184,7 @@
 			<stat name="ac:calculation" value="ac:unarmored defense dnc" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unarmored Defense (Dancer)" />
 		</rules>
 	</element>
-    <element name="Spellcasting" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELLCASTING">
+    <element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELLCASTING">
         <description>
             <p>By 2nd level, you have learned to draw on in latent magical energies around you into your bangles and use it to cast spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for the Dancer spell list. Preparing and Casting Spells.</p>
             <h4>Preparing and Casting Spells</h4>
@@ -231,7 +231,7 @@
 			<stat name="dancer:spellcasting:prepare" value="level:dancer:half" />
 		</rules>
     </element>
-    <element name="Whirling Steel" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_WHIRLING_STEEL">
+    <element name="Whirling Steel" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_WHIRLING_STEEL">
         <description>
             <p>Also at 2nd level, you can spend 1 hour attuning your recently discovered magics with up to two finesse throwing weapons. When you throw a weapon you are attuned with, it returns to your hand after the attack is resolved.</p>
         </description>
@@ -239,7 +239,7 @@
             <description>You can spend 1 hour attuning your recently discovered magics with up to two finesse throwing weapons. When you throw a weapon you are attuned with, it returns to your hand after the attack is resolved.</description>
         </sheet>
     </element>
-    <element name="Dancer Archetype" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DANCER_ARCHETYPE">
+    <element name="Dancer Archetype" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_DANCER_ARCHETYPE">
         <description>
             <p>At 3rd level, you choose a style which dictates your growth as a dancer. The Paragon focuses on mastering and pushing the limits of dance as an art. The Exoctic Wonder mixes blade work into their dance moves, mixing martial prowess with grace. The Peace Bringer seeks to bring succor and support to their allies in the heat of battle.</p>
         </description>
@@ -262,7 +262,7 @@
 			<select type="Class Feature" name="Improvement Option (Dancer 19)" supports="Improvement Option,Dancer,19" level="19" />
 		</rules>
 	</element>
-    <element name="Uncanny Dodge" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNCANNY_DODGE">
+    <element name="Uncanny Dodge" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_UNCANNY_DODGE">
 		<description>
 			<p>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>
 		</description>
@@ -270,7 +270,7 @@
 			<description>When an attacker that you can see hits you with an attack, you can halve the attack’s damage against you.</description>
 		</sheet>
 	</element>
-    <element name="Evasion" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_EVASION">
+    <element name="Evasion" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_EVASION">
 		<description>
 			<p>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
 		</description>
@@ -278,7 +278,7 @@
 			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
 		</sheet>
 	</element>
-    <element name="Motivating Mambo" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_MOTIVATING_MAMBO">
+    <element name="Motivating Mambo" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_MOTIVATING_MAMBO">
         <description>
             <p>Beginning at the 10th level, you've learned how to empower your allies in the heat of battle via your dances. When you use the Help action you can expend one Dazzling Dance charge to add your Charisma modifier to their roll.</p>
             <p class="indent">Additionally, you may spend 1 Dazzling Dance charge to use the help action as a bonus action.</p>
@@ -287,7 +287,7 @@
             <description>When you use the Help action you can expend one Dazzling Dance charge to add your Charisma modifier to their roll.</description>
         </sheet>
     </element>
-    <element name="Bewildering Grace" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_BEWILDERING_GRACE">
+    <element name="Bewildering Grace" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_BEWILDERING_GRACE">
         <description>
             <p>Beginning at the 13th level, as an action you perform a mysterious dance whose effects you cannot predict. Roll a d20 die and resolve the effect. Spells cast with Bewildering Grace do not consume spell slots. Non-spell effects from Bewildering Grace last one hour. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
             <h5>Bewildering Grace Effects</h5>
@@ -321,7 +321,7 @@
             <description>As an action you perform a mysterious dance whose effects you cannot predict. Roll a d20 die and resolve the effect on the Bewildering Grace table. Spells cast with Bewildering Grace do not consume spell slots. Non-spell effects from Bewildering Grace last one hour. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</description>
         </sheet>
     </element>
-    <element name="Spell Dancer" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELL_DANCER">
+    <element name="Spell Dancer" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_SPELL_DANCER">
         <description>
             <p>Beginning at the 14th level, when you cast a spell you gain a number of Dazzling Dance charges equal to half the level (rounded down) of the expended spell slot. You do not gain Dazzling Dance charges from Bewildering Grace.</p>
         </description>
@@ -329,7 +329,7 @@
             <description>When you cast a spell you gain a number of Dazzling Dance charges equal to half the level (rounded down) of the expended spell slot. You do not gain Dazzling Dance charges from Bewildering Grace.</description>
         </sheet>
     </element>
-    <element name="Stage Presence" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_STAGE_PRESENCE">
+    <element name="Stage Presence" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_STAGE_PRESENCE">
         <description>
             <p>Beginning at the 18th level, you've become so accustomed to performing both for crowds and amongst the chaos of the battlefield, you are rarely caught unaware of your surroundings and can protect yourself from the tricks of assailants. Attackers cannot attack you with advantage unless you are under the conditions: grappled, incapacitated, paralyzed or petrified. Additionally when knocked prone, it only costs 5ft. of movement to get back up.</p>
         </description>
@@ -337,7 +337,7 @@
             <description>Attackers cannot attack you with advantage unless you are under the conditions: grappled, incapacitated, paralyzed or petrified. Additionally when knocked prone, it only costs 5ft. of movement to get back up.</description>
         </sheet>
     </element>
-    <element name="Rhythmic Heart" type="Class Feature" source="" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_RHYTHMIC_HEART">
+    <element name="Rhythmic Heart" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_DNC_RHYTHMIC_HEART">
         <description>
             <p>Beginning at the 20th level, when you roll initiative you gain 2 Dazzling Dance charges.</p>
         </description>
@@ -346,7 +346,7 @@
         </sheet>
     </element>
 
-    <element name="Paragon" type="Archetype" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_PARAGON">
+    <element name="Paragon" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_PARAGON">
         <supports>Dancer Archetype</supports>
         <description>
             <p>You've devoted your training to dance as an art form itself, staying a purist of dance. Your singular focus will allow you to reach mastery few ever hope to achieve in your discipline.</p>
@@ -363,7 +363,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FORTE_FUSION" level="15" />
         </rules>
     </element>
-    <element name="Inspiring Salsa" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_INSPIRING_SALSA">
+    <element name="Inspiring Salsa" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_INSPIRING_SALSA">
         <description>
             <p>Beginning at the 3rd level, as a bonus action you can spend up to 2 Dazzling Dance charges to inspire an ally within 5ft. of you. Your ally may add a bonus to any attack roll, saving throw or ability check they make equal to twice the number of charges used to inspire them one time. At 10th level you may spend any number of Dazzling Dance charges in the same way.</p>
         </description>
@@ -371,7 +371,7 @@
             <description>As a bonus action you can spend up to 2 Dazzling Dance charges to inspire an ally within 5ft. of you. Your ally may add a bonus to any attack roll, saving throw or ability check they make equal to twice the number of charges used to inspire them one time. At 10th level you may spend any number of Dazzling Dance charges in the same way.</description>
         </sheet>
     </element>
-    <element name="Magic of Movement" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_MAGIC_OF_MOVEMENT">
+    <element name="Magic of Movement" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_MAGIC_OF_MOVEMENT">
         <description>
             <p>Beginning at the 6th level, when you cast a spell, you may spend a number of Dazzling Dance charges equal to the spell level instead of spending a spell slot. Spells cast using this feature do not generate Dazzling Dance charges.</p>
         </description>
@@ -379,7 +379,7 @@
             <description>When you cast a spell, you may spend a number of Dazzling Dance charges equal to the spell level instead of spending a spell slot. Spells cast using this feature do not generate Dazzling Dance charges.</description>
         </sheet>
     </element>
-    <element name="Improvised Flow" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_IMPROVISED_FLOW">
+    <element name="Improvised Flow" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_IMPROVISED_FLOW">
         <description>
             <p>Beginning at the 11th level, when you make a concentration check you may spend a Dazzling Dance charge to roll with advantage.</p>
         </description>
@@ -387,7 +387,7 @@
             <description>When you make a concentration check you may spend a Dazzling Dance charge to roll with advantage.</description>
         </sheet>
     </element>
-    <element name="Forte Fusion" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FORTE_FUSION">
+    <element name="Forte Fusion" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FORTE_FUSION">
         <description>
             <p>Beginning at the 15th level, you have learned how to mix known dances into new exciting combinations. You are able to cast a second spell which requires concentration without ending the first. To do so you use your action to spend 1 Dazzling Dance charge to cast the second spell alongside the required spell slot. Each turn you concentrate on the second spell, you must use your action to spend once Dazzling Dance charge and spend 10ft. of movement per spell.</p>
         </description>
@@ -396,7 +396,7 @@
         </sheet>
     </element>
 
-    <element name="Peace Bringer" type="Archetype" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_PEACEBRINGER">
+    <element name="Peace Bringer" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_PEACEBRINGER">
         <supports>Dancer Archetype</supports>
         <description>
             <p>You've learned to effectively wield restorative spells while dancing across the battle field. Offering relief and joy in even the worst situations.</p>
@@ -413,7 +413,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SOLACE_SWING" level="15" />
         </rules>
     </element>
-    <element name="Succor Swing" type="Archetpype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SUCCOR_SWING">
+    <element name="Succor Swing" type="Archetpype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SUCCOR_SWING">
         <description>
             <p>Beginning at 3rd level, your magical dances are capable of healing wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your Dancer level × 5.</p>
             <p class="indent">As an action, you can perform for a creature within 5ft. of you and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</p>
@@ -430,7 +430,7 @@
             <stat name="succor:pool" value="level:paladin" />
         </rules>
     </element>
-    <element name="Refreshing Round" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_REFRESHING_ROUND">
+    <element name="Refreshing Round" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_REFRESHING_ROUND">
         <description>
             <p>Beginning at the 6th level, you've further developed your healing abilities. When you use your Succor Swing feature, you may target any number of creatures within 10ft. of you.</p>
         </description>
@@ -439,7 +439,7 @@
             <!-- Making it so succor swing adjusts at level 6 -->
         </sheet>
     </element>
-    <element name="Safe Haven Hop" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SAFE_HAVEN_HOP">
+    <element name="Safe Haven Hop" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SAFE_HAVEN_HOP">
         <description>
             <p>Beginning at the 11th level, you may select Aura of Life, Aura of Purity or Aura of Vitality and cast it without spending a spell slot. You can use this feature a number of times equal to half your Charisma modifier, rounded down (a minimum of once). You regain any expended uses when you finish a long rest.</p>
         </description>
@@ -450,7 +450,7 @@
             <select type="Spell" name="Safe Heaven Hop, Spells" supports="ID_PHB_SPELL_AURA_OF_LIFE|ID_PHB_SPELL_AURA_OF_PURITY|ID_PHB_SPELL_AURA_OF_VITALITY" />
         </rules>
     </element>
-    <element name="The Solace Swing" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SOLACE_SWING">
+    <element name="The Solace Swing" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_SOLACE_SWING">
         <description>
             <p>Beginning at the 15th level, you may spend Dazzling Dance charges to restore your pool of healing power. For each point spent you recover points to your pool equal to your Charisma modifier.</p>
         </description>
@@ -459,7 +459,7 @@
         </sheet>
     </element>
 
-    <element name="Exotic Wonder" type="Archetype" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_EXOTIC_WONDER">
+    <element name="Exotic Wonder" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_EXOTIC_WONDER">
         <supports>Dancer Archetype</supports>
         <description>
             <p>You've trained in an exotic dancing style which incorporates weapons into your routines. You mix martial knowledge with graceful steps to create an awe inspiring dance which devastates your foes.</p>
@@ -478,7 +478,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_LAMIA_BITE" level="15" />
         </rules>
     </element>
-    <element name="Flourishing Swing" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLOURISHING_SWING">
+    <element name="Flourishing Swing" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLOURISHING_SWING">
         <description>
             <p>Beginning at 3rd level, your melee weapon attacks with finesse weapons activate your Flourish feature.</p>
         </description>
@@ -503,7 +503,7 @@
 			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Dancer" />
 		</rules>
 	</element>
-    <element name="Double Step" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_DOUBLE_STEP">
+    <element name="Double Step" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_DOUBLE_STEP">
         <description>
             <p>Beginning at the 6th level, whenever you use the Attack action, you may spend 1 Dazzling Dance charge to make an extra melee weapon attack.</p>
         </description>
@@ -511,7 +511,7 @@
             <description>Whenever you use the Attack action, you may spend 1 Dazzling Dance charge to make an extra melee weapon attack.</description>
         </sheet>
     </element>
-    <element name="Flawless Flow" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLAWLESS_FLOW">
+    <element name="Flawless Flow" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_FLAWLESS_FLOW">
         <description>
             <p>Beginning at the 11th level, you may make a melee weapon attack as a bonus action after casting a spell.</p>
         </description>
@@ -519,7 +519,7 @@
             <description>You may make a melee weapon attack as a bonus action after casting a spell.</description>
         </sheet>
     </element>
-    <element name="Lamia Bite" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_LAMIA_BITE">
+    <element name="Lamia Bite" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_DNC_LAMIA_BITE">
         <description>
             <p>Beginning at the 15th level, you may spend 4 Dazzling Dance charges prior to making a weapon attack. Doing so increases the critical hit range of your attack rolls for the remainder of the turn, lowering the threshold by 4.</p>
         </description>
@@ -538,7 +538,7 @@
 	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
         <supports>Dancer</supports>
     </append>
-    <element name="Fleet Foot" type="Class Feature" source="" id="ID_FFXIV_CLASS_FEATURE_FIGHTINGSTYLE_FLEET_FOOT">
+    <element name="Fleet Foot" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CLASS_FEATURE_FIGHTINGSTYLE_FLEET_FOOT">
 		<supports>Fighting Style, Dancer</supports>
 		<description>
 			<p>Your movement speed increases by 5ft.</p>
@@ -550,7 +550,7 @@
             <stat name="innate speed" value="5" />
         </rules>
 	</element>
-    <element name="Chakram" type="Weapon" source="" id="ID_FFXIV_WEAPON_CHAKRAM">
+    <element name="Chakram" type="Weapon" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WEAPON_CHAKRAM">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_CHAKRAM</supports>
 		<description>
 			<p>This bladed circular disc is an unusual thrown weapon. It glides through the air, slicing through anything in its path. Warriors who specialize with the chakram can learn to throw it in such a way that it returns to them after cutting the enemy.</p>
