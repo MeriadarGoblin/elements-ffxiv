@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dancer</name>
-		<update version="1.0.4">
+		<update version="1.0.5">
 			<file name="class-dnc.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-dnc.xml" />
 		</update>
 	</info>
