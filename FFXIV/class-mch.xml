@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Machinist</name>
-		<update version="1.1.4">
+		<update version="1.1.5">
 			<file name="class-mch.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-mch.xml" />
 		</update>
     </info>
@@ -199,11 +199,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (White Mage 4)" supports="Improvement Option,White Mage,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (White Mage 8)" supports="Improvement Option,White Mage,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (White Mage 12)" supports="Improvement Option,White Mage,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (White Mage 16)" supports="Improvement Option,White Mage,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (White Mage 19)" supports="Improvement Option,White Mage,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Machinist 4)" supports="Improvement Option,Machinist,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Machinist 8)" supports="Improvement Option,Machinist,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Machinist 12)" supports="Improvement Option,Machinist,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Machinist 16)" supports="Improvement Option,Machinist,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Machinist 19)" supports="Improvement Option,Machinist,19" level="19" />
 		</rules>
 	</element>
     <element name="Extra Attack" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_MCH_EXTRA_ATTACK">
