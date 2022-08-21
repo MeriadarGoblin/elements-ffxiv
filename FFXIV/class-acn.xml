@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Arcanist</name>
-		<update version="1.1.6">
+		<update version="1.1.7">
 			<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-acn.xml" />
 		</update>
 	</info>
@@ -91,7 +91,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_FFXIV_MULTICLASS_ACN" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_FFXIV_MULTICLASS_ACN" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FFXIV_MULTICLASS_ACN" />
-			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="Skill,Wizard" number="2" requirements="!ID_FFXIV_MULTICLASS_ACN" />
+			<select type="Proficiency" name="Skill Proficiency (Arcanist)" supports="Skill,Wizard" number="2" requirements="!ID_FFXIV_MULTICLASS_ACN" />
 			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_ACN_SPELLCASTING" />
 			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_ACN_TACTICS" />
 			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_ACN_ARCANIST_SPECIALIZATION" level="2" />
