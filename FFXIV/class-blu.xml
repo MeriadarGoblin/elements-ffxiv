@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Blue Mage</name>
+		<update version="1.0.0">
+			<file name="class-blu.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blu.xml" />
+		</update>
+	</info>
+
+    <element name="Blue Mage" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_BLU">
+        <description>
+            <p>After careful preparation and intensive study, a man wearing blue robes makes careful notes of a dangerous beast just outside of the reach of an arrow. When their study is complete they make the call and their allies strike out against the beast, listening to the insights the researcher had found.</p>
+            <p class="indent">A woman wearing tough leather armour mixed with long following lengths of blue fabric skillfully strikes out with the scimitar. With grace and power, the woman unleashes one of the many monstrous souls she's absorbed, shrouding their foe in flames.</p>
+            <p class="indent">The Blue Mage is a curious soul who has entwined their life with that of the monsters and beasts who roam the world. Whether writing a chronicle of all the monsters in the world, or stealing their powers to defend their homes from the beasts, Blue Mages make for clever, vicious and dependable allies who can find a place of comfort anywhere on the battle field.</p>
+            <h4>Ode to Monsters</h4>
+            <p>The Blue Mage's trademark ability is their uncanny mastery over the souls of monsters. Lore Keepers craft their magic to mimic the skills of monsters, while Fell Guards and Masked Carnevallians go a step forward and absorb the life force of monsters and use it to fuel their magic. Regardless of approach, Blue Mages are renowned for fighting like monsters, unsettling their enemies and at times even their allies.</p>
+            <h4>Gift of the Whalaqee</h4>
+            <p>Blue Magic finds its roots in the New World, a sacred form of magic practiced by the Whalaqee tribe. They consider the powers of monsters to be that of nature and absorb their powers. They've also learned to store monster magic in totems to pass power on to other Blue Mages easily.</p>
+            <h4>CREATING A BLUE MAGE</h4>
+            <p>When creating a Blue Mage one must consider how you came to know of Blue Magic. Did you meet a strange wanderer who assisted you in your studies? Perhaps you encountered a legendary beast when at a young age, affecting you in unforeseen ways. You must also consider the role that you will serve in the world in relation to monsters. Are your pursuits scholarly or are they of a more protective nature? Perhaps you seek out rare monsters to better yourself as a warrior.</p>
+            <h5 class="caption">QUICK BUILD</h5>
+            <p>You can make a Blue Mage quickly by following these suggestions. First make Intelligence your highest ability score, following with Dexterity or Constitution. Second take the Sage background. Third choose the cantrips Fire Bolt and Prestidigitation. Fourth add two monster links to your research journal, one combining Burning Hands and Grease, the other combining Sleep and Witch Bolt.</p>
+            <h2>CLASS FEATURES</h2>
+            <p>As an blue mage, you gain the following class features.</p>
+            <h5 class="caption">HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per blue mage level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per blue mage level after 1st</li>
+            </ul>
+            <h5 class="caption">PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor</li>
+                <li><strong>Weapons:</strong> Simple Weapons, Longswords, Scimitars, Shortswords</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Dex, Intelligence</li>
+                <li><strong>Skills:</strong> Choose two from Athletics, Animal Handling, Arcana, History, Intimidation, Nature, Perception, Survival</li>
+            </ul>
+            <h5 class="caption">EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>a dagger</li>
+                <li>(a) a longsword or (b) scimitar</li>
+                <li>a cane spell casting focus</li>
+                <li>a set of clothes</li>
+                <li>a components pouch</li>
+                <li>leather armour</li>
+                <li>(a) an explorer's pack or (b) a scholar's pack</li>
+                <li>a research journal</li>
+            </ul>
+            <h5 class="caption">THE BLUE MAGE</h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td class="col-10">Cantrips Known</td><td class="col-10">Monster Link Capacity</td><td class="col-10">Spell Slots</td><td>Monster Mimicry</td><td class="col-60 left">Features</td></tr>
+                </thead>
+                <tr><td> 1st</td><td>2</td><td>1</td><td>1</td><td>1st</td><td>-</td><td class="left">Azure Lore, Blue Mage Calling, Libra</td></tr>
+                <tr><td> 2nd</td><td>2</td><td>2</td><td>2</td><td>1st</td><td>2</td><td class="left">Monster Mimicries</td></tr>
+                <tr><td> 3rd</td><td>2</td><td>2</td><td>2</td><td>2nd</td><td>3</td><td class="left">-</td></tr>
+                <tr><td> 4th</td><td>3</td><td>3</td><td>2</td><td>2nd</td><td>3</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td> 5th</td><td>3</td><td>3</td><td>2</td><td>3rd</td><td>4</td><td class="left">-</td></tr>
+                <tr><td> 6th</td><td>3</td><td>4</td><td>2</td><td>3rd</td><td>4</td><td class="left">Magical Discipline</td></tr>
+                <tr><td> 7th</td><td>3</td><td>4</td><td>2</td><td>4th</td><td>5</td><td class="left">-</td></tr>
+                <tr><td> 8th</td><td>3</td><td>5</td><td>2</td><td>4th</td><td>5</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td> 9th</td><td>3</td><td>5</td><td>2</td><td>5th</td><td>5</td><td class="left">-</td></tr>
+                <tr><td>10th</td><td>4</td><td>5</td><td>2</td><td>5th</td><td>6</td><td class="left">Magical Discipline Feature</td></tr>
+                <tr><td>11th</td><td>4</td><td>6</td><td>3</td><td>5th</td><td>6</td><td class="left">Elite Monster Link (6th level)</td></tr>
+                <tr><td>12th</td><td>4</td><td>6</td><td>3</td><td>5th</td><td>6</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>13th</td><td>4</td><td>6</td><td>3</td><td>5th</td><td>7</td><td class="left">Elite Monster Link (7th level)</td></tr>
+                <tr><td>14th</td><td>4</td><td>6</td><td>3</td><td>5th</td><td>7</td><td class="left">Magical Discipline Feature</td></tr>
+                <tr><td>15th</td><td>4</td><td>7</td><td>3</td><td>5th</td><td>7</td><td class="left">Elite Monster Link (8th level)</td></tr>
+                <tr><td>16th</td><td>4</td><td>7</td><td>3</td><td>5th</td><td>8</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>17th</td><td>4</td><td>7</td><td>4</td><td>5th</td><td>8</td><td class="left">Elite Monster Link (9th level)</td></tr>
+                <tr><td>18th</td><td>4</td><td>7</td><td>4</td><td>5th</td><td>8</td><td class="left">-</td></tr>
+                <tr><td>19th</td><td>4</td><td>8</td><td>4</td><td>5th</td><td>9</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>20th</td><td>4</td><td>8</td><td>4</td><td>5th</td><td>9</td><td class="left">Deep Azure</td></tr>
+            </table>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_AZURE_LORE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_BLUE_MAGE_CALLING" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_LIBRA" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_MONSTER_MIMICRIES" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_ELITE_MONSTER_LINK" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_DEEP_AZURE" />
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FFXIV_MULTICLASS_BLU" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_FFXIV_MULTICLASS_BLU" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_FFXIV_MULTICLASS_BLU" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_FFXIV_MULTICLASS_BLU" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_FFXIV_MULTICLASS_BLU" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_FFXIV_MULTICLASS_BLU" />
+            <select type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_AZURE_LORE" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_BLUE_MAGE_CALLING" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_LIBRA" level="1"  />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_MONSTER_MIMICRIES" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_ELITE_MONSTER_LINK" level="11" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_DEEP_AZURE" level="20" />
+        </rules>
+        <multiclass id="ID_FFXIV_MULTICLASS_BLU">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light Armor, Simple Weapons, Longswords, Scimitars, Shortswords</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			</rules>
+		</multiclass>
+    </element>
+    <element name="Azure Lore" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_AZURE_LORE">
+        <description>
+            <p>Your research and experience with monsters and magic has granted you spellcasting abilities. See chapter 10 of the PHB for the general rules of spellcasting and the end of this document for the Blue Mage spell list.</p>
+            <h4>Cantrips</h4>
+            <p>You know two cantrips of your choice from the blue mage spell list. You learn additional blue mage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Blue Mage table.</p>
+            <h4>Spell Slots</h4>
+            <p>The Blue Mage table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your blue mage spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+            <p class="indent">The Blue Mage table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your blue mage spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+            <h4>Monster Links</h4>
+            <p>As a Blue Mage, you develop your spellcasting based on the abilities of monsters. A Monster Link is research linking the traits and abilities of creatures to pairs of spells to emulate their magical properties.</p>
+            <p class="indent">Each monster link you develop grants you two spells while you are you accessing them. When you gain a Blue Mage level, you take the opportunity to further develop your research and may create a new monster link, adding another pairing of spells from the blue mage spell list to your research journal as a pair. You may have any number of monster links in your research journal but may only access a number of monster links per the Monster Link Capacity column of the Blue Mage table, knowing the spells associated with the links you are currently accessing.</p>
+            <p class="indent">At the end of a long rest of which you spent two hours focused on studying, you may exchange one of your monster links you are accessing for another.</p>
+            <div class="sidebar">
+                <h5>Optional Rule</h5>
+                <p>One of the key elements of the Blue Mage is seeking out and gaining power from beasts out in the world. I recommend using monster links as an additional reward for hard fought battles with rare enemies. If the Blue Mage uses its Libra feature before or after a battle with such a creature, the DM may decide they are feeling particularly inspired by their findings and can grant them a bonus monster link to add to their research journal, perhaps even using spells outside the Blue Mage spell list.</p>
+            </div>
+            <h4>Research Journal</h4>
+            <p>At first level, you have a research journal with two monster links created by you.</p>
+            <h4>Spells Known of 1st Level and Higher</h4>
+            <p>The number of spells you are able to cast is dependent on the number of Monster Links you are currently accessing. While accessing a monster link, you gain access to both spells that make up the monster link. At first level you are able to access one of your monster links, your ability to access more monster links at once growing as you gain levels in Blue Mage.</p>
+            <div class="sidebar">
+                <p>The monster links you've discovered are kept in your research journal. As you further your research alone, you may encounter the works of other blue mages or peers who share their findings.</p>
+                <p><strong>Copying a Monster Link into the Book.</strong> When you find the research notes of a peer, or a tome with well detailed monster links, you can copy the pair of spells into your research journal if you have spell slots of the appropriate level and the spare time to decipher and copy the notation. Copying a spell involved reproducing the basic form of the spells, then understanding the unique style of the blue mage who wrote it. For each level of the spells, the process takes 2 hours and costs 50 gp. The cost represents the material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can access the monster link just like your own monster links.</p>
+                <p class="indent">For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components You expend as You experiment with the spell to master it, as well as the fine inks You need to record it. Once You have spent this time and money, You can prepare the spell just like your other spells.</p>
+                <p><strong>Replacing the Book.</strong> You can copy a monster link from your own research journal into another book-for example, if you want to make a backup copy of your research. This is just like copying a new monster link into your journal, but fast and easier, since you understand you own notation and already know how to cast the spells. You need spend only 1 hour and 10gp for each level of the copied spells in order to copy a monster link you are currently accessing. Filling out the remainder of your research journal requires you to find new monster links to do so, as normal. For this reason, many blue mages keep back up copies of their research in a safe place.</p>
+                <p><strong>Book's Appearance.</strong> Your research journal may take any style of tome you wish. A Lore Keeper like has a well kept tome used for taking notes in the field, while the Fell Guard may carry a durable grimoire to record their experiences.</p>
+            </div>
+            <h4>Spellcasting Ability</h4>
+            <p>Your spell casting ability for your blue mage spells changes depending on which blue mage calling you select. As a Lore Keeper, Intelligence is your spell casting ability, as a Fell Guard Wisdom is your spell casting ability and as a Carnevallian your spell casting ability is Charisma. You use the associated ability whenever a spell refers to your spellcasting ability. In addition, you use the ability modifier for the associated ability when setting the saving throw DC for a blue mage spell you cast and when making an attack roll with one.</p>
+            <center>
+                <p><strong>Spell save DC</strong> = 8 + your Proficiency Bonus + your ability modifier</p>
+                <p><strong>Spell Attack Modifier</strong> = your Proficiency Bonus + your ability modifier</p>
+            </center>
+            <h4>Spellcasting Focus</h4>
+            <p>You can use a cane adorned with some kind of arcane focus at its handle as your spell casting focus.</p>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Blue Mage" ability="Charisma" allowReplace="true">
+			<list>Blue Mage</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+
+			<stat name="blue mage:spellcasting:slots:count" value="1" level="1"/>
+			<stat name="blue mage:spellcasting:slots:count" value="1" level="2"/>
+			<stat name="blue mage:spellcasting:slots:count" value="1" level="11"/>
+			<stat name="blue mage:spellcasting:slots:count" value="1" level="17"/>
+
+			<stat name="blue mage:spellcasting:slot" value="1" level="1" />
+			<stat name="blue mage:spellcasting:slot" value="1" level="3" />
+			<stat name="blue mage:spellcasting:slot" value="1" level="5" />
+			<stat name="blue mage:spellcasting:slot" value="1" level="7" />
+			<stat name="blue mage:spellcasting:slot" value="1" level="9" />
+
+			<stat name="blue mage:spellcasting:slots:1" value="blue mage:spellcasting:slots:count" level="1" />
+			<stat name="blue mage:spellcasting:slots:1" value="-blue mage:spellcasting:slots:count" level="3" />
+			<stat name="blue mage:spellcasting:slots:2" value="blue mage:spellcasting:slots:count" level="3" />
+			<stat name="blue mage:spellcasting:slots:2" value="-blue mage:spellcasting:slots:count" level="5" />
+			<stat name="blue mage:spellcasting:slots:3" value="blue mage:spellcasting:slots:count" level="5" />
+			<stat name="blue mage:spellcasting:slots:3" value="-blue mage:spellcasting:slots:count" level="7" />
+			<stat name="blue mage:spellcasting:slots:4" value="blue mage:spellcasting:slots:count" level="7" />
+			<stat name="blue mage:spellcasting:slots:4" value="-blue mage:spellcasting:slots:count" level="9" />
+			<stat name="blue mage:spellcasting:slots:5" value="blue mage:spellcasting:slots:count" level="9" />
+
+			<select type="Spell" name="Cantrip (Blue Mage)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Blue Mage" />
+			<select type="Spell" name="Cantrip (Blue Mage)" supports="$(spellcasting:list),0" level="4" spellcasting="Blue Mage" />
+			<select type="Spell" name="Cantrip (Blue Mage)" supports="$(spellcasting:list),0" level="10" spellcasting="Blue Mage" />
+
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Spellcasting (Blue Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Blue Mage"/>
+		</rules>
+    </element>
+    <element name="Blue Mage Calling" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_BLUE_MAGE_CALLING">
+        <description>
+            <p>At 1st level, you choose the type of Blue Mage you'll become: the Lore Keeper, Fell Guard or Masked Carnevallian. Both are detailed in the next section of the class description. Your choice grants you features at the 3rd, 6th, 10th and 14th level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Blue Mage Calling" supports="Blue Mage Archetype" />
+        </rules>
+    </element>
+    <element name="Libra" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_LIBRA">
+        <description>
+            <p>Also at 1st level, as an expert on monsters and beasts, you are able to discern certain traits about monsters you encounter. If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:</p>
+            <ul>
+                <li>Strength Score</li>
+                <li>Dexterity Score</li>
+                <li>Constitution Score</li>
+                <li>Armor Class</li>
+                <li>Current Hit Points</li>
+                <li>Total Class Levels (if any)</li>
+            </ul>
+            <p class="indent">Additionally, you may spend 1 minute after combat studying a creature's corpse to ascertain the same information.</p>
+        </description>
+        <sheet>
+            <description> If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice: Strength Score, Dexteriy Score, Constitution Score, Armor Class, Current hit points, and Total class levels (if any). Additionally, you may spend 1 minute after combat studying a creature's corpse to ascertain the same information.</description>
+        </sheet>
+    </element>
+    <element name="Monster Mimicries" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_MONSTER_MIMICRIES">
+        <description>
+            <p>As your research into monsters continues, you learn how to use your magics to mimic their abilities.</p>
+            <p class="indent">At 2nd level, you gain two Monster Mimicries. Your Monster Mimicry options are detailed at the end of the class description. When you gain certain blue mage levels, you gain additional mimicries of your choice as shown in the Monster Mimicries Developed column of the Blue Mage table.</p>
+            <p class="indent">Additionally, when you gain a level in this class, you can choose one of the mimicries you have developed and retool your knowledge, replacing it with another mimicry you could learn at that level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Monster Mimicry (level 2)" supports="Monster Mimicry" number="2" />
+            <select type="Class Feature" name="Monster Mimicry (level 3)" supports="Monster Mimicry" level="3" />
+            <select type="Class Feature" name="Monster Mimicry (level 5)" supports="Monster Mimicry" level="5" />
+            <select type="Class Feature" name="Monster Mimicry (level 7)" supports="Monster Mimicry" level="7" />
+            <select type="Class Feature" name="Monster Mimicry (level 10)" supports="Monster Mimicry" level="10" />
+            <select type="Class Feature" name="Monster Mimicry (level 13)" supports="Monster Mimicry" level="13" />
+            <select type="Class Feature" name="Monster Mimicry (level 16)" supports="Monster Mimicry" level="16" />
+            <select type="Class Feature" name="Monster Mimicry (level 19)" supports="Monster Mimicry" level="19" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Blue Mage 4)" supports="Improvement Option,Blue Mage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Blue Mage 8)" supports="Improvement Option,Blue Mage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Blue Mage 12)" supports="Improvement Option,Blue Mage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Blue Mage 16)" supports="Improvement Option,Blue Mage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Blue Mage 19)" supports="Improvement Option,Blue Mage,19" level="19" />
+		</rules>
+	</element>
+    <element name="Elite Monster Link" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_ELITE_MONSTER_LINK">
+        <description>
+            <p>At 11th level, you have made a major breakthrough in emulating creatures of legend. You theorize an Elite Monster link that you commit to memory. Choose one 6th-level spell from the blue mage spell list as this Elite Monster link.</p>
+            <p class="indent">You can cast your elite monster link spell once without expending a spell slot. You must finish a long rest before you can do so again.</p>
+            <p class="indent">At higher levels, you gain more blue mage spells of your choice that can be cast in this way: one 7th-level spell at the 13th level, one 8th-level spell at the 15th level, and one 9th level spell at the 17th level. You regain all uses of your Elite Monster Links when you finish a long rest.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>You theorize an Elite Monster link that you commit to memory. You can cast your elite monster link spell once without expending a spell slot. You must finish a long rest before you can do so again. </description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Elite Monster Link (6th level)" supports="(0)||($(spellcasting:slots))" level="11" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Elite Monster Link (7th level)" supports="(0)||($(spellcasting:slots))" level="13" spellcasting="Blue Mage"/>
+			<select type="Spell" name="Elite Monster Link (8th level)" supports="(0)||($(spellcasting:slots))" level="15" spellcasting="Blue Mage"/>
+            <select type="Spell" name="Elite Monster Link (9th level)" supports="(0)||($(spellcasting:slots))" level="17" spellcasting="Blue Mage"/>
+        </rules>
+    </element>
+    <element name="Deep Azure" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_DEEP_AZURE">
+        <description>
+            <p>At 20th level, you may exchange your monster links when you complete a short rest. Additionally, you can spend 1 minute of highly intensive meditation, regaining all of your expended expended spell slots from your Azure Lore feature. You must then finish a long rest to use Deep Azure again.</p>
+        </description>
+        <sheet>
+            <description>You may exchange your monster links when you complete a short rest. Additionally, you can spend 1 minute of highly intensive meditation, regaining all of your expended expended spell slots from your Azure Lore feature. You must then finish a long rest to use Deep Azure again.</description>
+        </sheet>
+    </element>
+
+    <!-- Subclasses -->
+    <element name="Lore Keeper" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_ARCHETYPE_LORE_KEEPER">
+        <supports>Blue Mage Archetype</supports>
+        <description>
+            <p>You have taken on the duty of becoming a Lore Keeper, researchers who seek out and chronicle the monsters of the world to the finest details possible. In doing so you've learned to create magical bonds which allow you to borrow their power or emulate their magical effects. Be it the fiery breath of a drake or the climbing ability of a spider, you know how to cast spells which pay homage to the beasts you've dedicated yourself to.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_KNOWLEDGE" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_FOCUSED_ASSESSMENT" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_QUICK_ASSESSMENT" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_EXTRACURRICULAR_STUDIES" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ACE_TUTOR" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_KNOWLEDGE" level="1" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_FOCUSED_ASSESSMENT" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_QUICK_ASSESSMENT" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_EXTRACURRICULAR_STUDIES" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ACE_TUTOR" level="14" />
+        </rules>
+    </element>
+    <element name="Azure Knowledge" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_KNOWLEDGE">
+        <description>
+            <p>Beginning at 1st level, you may select an additional two cantrips from the blue mage spell list and add them to your cantrips known list. These do not count against the Cantrips Known in the blue mage class table.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Spell" name="Azure Knowledge Cantrips" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Blue Mage" />
+        </rules>
+    </element>
+    <element name="Focused Assessment" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_FOCUSED_ASSESSMENT">
+        <description>
+            <p>Starting at 3rd level, you gain proficiency in the Investigation skill. If you already have proficiency in the Investigation, you gain expertise in it, doubling your proficiency bonus.</p>
+            <p class="indent">Additionally, you may use Libra as an action on a creature. You also have gained an eye for spotting weaknesses and strengths, allowing you to learn additional types of information:</p>
+            <ul>
+                <li>Damage resistances</li>
+                <li>Damage vulnerbilities</li>
+                <li>Damage immunities.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You gain proficiency in the Investigation skill. If you already have proficiency in the Investigation, you gain expertise in it, doubling your proficiency bonus.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+        </rules>
+    </element>
+    <element name="Quick Assessment" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_QUICK_ASSESSMENT">
+        <description>
+            <p>Beginning at the 6th level, as a bonus action you are able to use Libra during combat on a creature that is within 30ft. of you.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you are able to use Libra during combat on a creature that is within 30ft. of you.</description>
+        </sheet>
+    </element>
+    <element name="Extracurricular Studies" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_EXTRACURRICULAR_STUDIES">
+        <description>
+            <p>Beginning at the 10th level, you may learn two spells of your choice from any class. A spell you choose must be of 5th level or lower, or a cantrip. The chosen spells count as blue mage spells for you.</p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Extracurricular Studies" supports="(0)||($(spellcasting:slots))" number="2" level="10" spellcasting="Bard"/>
+        </rules>
+    </element>
+    <element name="Ace Tutor" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ACE_TUTOR">
+        <description>
+            <p>Beginning at the 14th level, you are able to read the subtle movements of monsters and beasts from afar. As an action you can offer advice on how to approach a beast or monster within 30ft of you, that you have used Libra on.</p>
+            <p class="indent">Choose an ally within 60ft. of you, until your next turn they have advantage on attack rolls against that creature.</p>
+        </description>
+        <sheet>
+            <description>As an action you can offer advice on how to approach a beast or monster within 30ft of you, that you have used Libra on. Choose an ally within 60ft. of you, until your next turn they have advantage on attack rolls against that creature.</description>
+        </sheet>
+    </element>
+
+    <element name="Fell Guard" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_ARCHETYPE_FELL_GUARD">
+        <supports>Blue Mage Archetype</supports>
+        <description>
+            <p>Fell Guard Blue Mages are adventurers who travel the world battling monsters and beasts, bathing in their essence to absorb their power and use it to further defend the world from those same beasts. The exposure to this monstrous power, sometimes referred to as fell energy, comes at a risk. Fell Guard must balance the number of monsters whose energy they tap into or else they'll lose themselves to the power. Walking the line between monster and man, these magical warriors take major risks to protect the world.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_GUARD" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTROUS_VANGUARD" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_SURVIVAL_TACTICS" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ABSORB_ABILITY" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_GUARD" level="1" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTROUS_VANGUARD" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_SURVIVAL_TACTICS" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ABSORB_ABILITY" level="14" />
+        </rules>
+    </element>
+    <element name="Azure Guard" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_GUARD">
+        <description>
+            <p>Beginning at 1st level, you may use one handed melee weapons a spell casting focus for your blue mage spells.</p>
+            <p class="indent">Additionally, you gain proficiency with medium armour and martial weapons. When you level up you gain an additional two hit points.</p>
+        </description>
+        <sheet>
+            <decsription>You may use one handed melee weapons a spell casting focus for your blue mage spells.</decsription>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+        </rules>
+    </element>
+    <element name="Monstrous Vanguard" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTROUS_VANGUARD">
+        <description>
+            <p>Beginning at 3rd level, you choose a fighting style focus to assist you in the type of monster you prefer to hunt.</p>
+            <p class="indent"><strong>Colossus Slayer.</strong> Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.</p>
+            <p class="indent"><strong>Giant Killer.</strong> When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack. provided that you can see the creature.</p>
+            <p class="indent"><strong>Horde Breaker.</strong> Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Monstrous Vanguard, Fighting Style" supports="Vanguard Style" />
+        </rules>
+    </element>
+    <element name="Survival Tactics" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_SURVIVAL_TACTICS">
+        <description>
+            <p>Beginning at the 6th level, you gain one of the following features of your choice.</p>
+            <p class="indent"><strong>Escape the Horde.</strong> Opportunity attacks against you are made with disadvantage.</p>
+            <p class="indent"><strong>Multiattack Defense.</strong> When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>
+            <p class="indent"><strong>Steel Will.</strong> You have advantage on saving throws against being frightened.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Survival Tactics" supports="Surivival Tactics" />
+        </rules>
+    </element>
+    <element name="Azure Corruption" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION">
+        <description>
+            <p>Beginning at the 10th level, you've learned to influence your body using monstrous magics. When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Acid, Cold, Fire, Lightning, Poison, or Thunder. You may only gain two resistances from your monster links at one time, and may only include one resistance within a single monster link.</p>
+        </description>
+        <sheet>
+            <description>When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Acid, Cold, Fire, Lightning, Poison, or Thunder. You may only gain two resistances from your monster links at one time, and may only include one resistance within a single monster link.</description>
+        </sheet>
+    </element>
+    <element name="Absorb Ability" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ABSORB_ABILITY">
+        <description>
+            <p>Beginning at the 14th level, you have learned to drain the natural abilities of your prey. As an action, a you draw energy out of a creature you touch. The creature must make a charisma saving throw against your spell save DC or receive a -2 reduction to an ability score of your choice on a failed save. On a success, the creature becomes immune to this effect for 1 minute. You gain a +2 bonus in the reduced ability score. This change in ability score lasts 10 minutes and may only be used once a day. Failed attempts do not expend the use of this ability.</p>
+            <p class="indent">You must then finish a long rest to use Absorb Ability again.</p>
+        </description>
+        <sheet action="Action" usage="Long Rest">
+            <description> As an action, a you draw energy out of a creature you touch. The creature must make a charisma saving throw against your spell save DC or receive a -2 reduction to an ability score of your choice on a failed save. On a success, the creature becomes immune to this effect for 1 minute. You gain a +2 bonus in the reduced ability score. This change in ability score lasts 10 minutes and may only be used once a day. Failed attempts do not expend the use of this ability. You must then finish a long rest to use Absorb Ability again.</description>
+        </sheet>
+    </element>
+
+    <element name="Masked Carnevallian" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_ARCHETYPE_MASKED_CARNVALLIAN">
+        <supports>Blue Mage Archetype</supports>
+        <description>
+            <p>The powerful and outlandish magics of the Blue Mage provide their practitioners with a large variety of magic few have seen before. As such, some Blue Mages mix their monstrous magic with showmanship, becoming a Masked Carnevallian.</p>
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTER_CARNIVAL" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_DRAMATIC_RECOVERY" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ENTERTAINERS_INTUITION" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_TRAVELING_TROUPE" />
+            <div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTROUS_CONFIDENCE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTER_CARNIVAL" level="1" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_DRAMATIC_RECOVERY" level="3" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ENTERTAINERS_INTUITION" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_TRAVELING_TROUPE" level="10" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTROUS_CONFIDENCE" level="14" />
+        </rules>
+    </element>
+    <element name="Monster Carnival" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTER_CARNIVAL">
+        <description>
+            <p>Beginning at 1st level, you can inspire others through performing with monstrous magics. To do so, you use a Bonus Action on Your Turn to choose one creature other than yourself within 60 feet of you who can see and hear you. That creature gains one Carnevallian Inspiration die, a d6.</p>
+            <p class="indent">Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, Attack roll, or saving throw it makes. The creature can wait until after it rolls The D20 before deciding to use the Carnevallian Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Carnevallian Inspiration die is rolled, it is lost. A creature can have only one Carnevallian Inspiration die at a time.</p>
+            <p class="indent">You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+            <p class="indent">Your Carnevallian Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.</p>
+        </description>
+        <sheet action="Bonus Action" usage="Long Rest">
+            <description>You can inspire others through performing with monstrous magics. To do so, you use a Bonus Action on Your Turn to choose one creature other than yourself within 60 feet of you who can see and hear you. That creature gains one Carnevallian Inspiration die, a d{{carnivalinspirtation:die}}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, Attack roll, or saving throw it makes. The creature can wait until after it rolls The D20 before deciding to use the Carnevallian Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Carnevallian Inspiration die is rolled, it is lost. A creature can have only one Carnevallian Inspiration die at a time. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="carnivalinspiration:die" value="6" bonus="die" level="1" />
+            <stat name="carnivalinspiration:die" value="8" bonus="die" level="5" />
+            <stat name="carnivalinspiration:die" value="10" bonus="die" level="10" />
+            <stat name="carnivalinspiration:die" value="12" bonus="die" level="15" />
+        </rules>
+    </element>
+    <element name="Dramatic Recovery" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_DRAMATIC_RECOVERY">
+        <description>
+            <p>Beginning at 3rd level, when you are hit by a melee attack, you may use your reaction and spend one Carnevallian Inspiration die to move 5ft. backwards away from the attacker and roll the Carnevallian Inspiration die, reducing the damage you take by the result.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When you are hit by a melee attack, you may use your reaction and spend one Carnevallian Inspiration die to move 5ft. backwards away from the attacker and roll the Carnevallian Inspiration die, reducing the damage you take by the result.</description>
+        </sheet>
+    </element>
+    <element name="Entertainer's Intuition" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_ENTERTAINERS_INTUITION">
+        <description>
+            <p>Beginning at 6th level, when making a Charisma related skill check on a creature you have used the Libra feature on, you have adavantage on the check.</p>
+        </description>
+        <sheet>
+            <description>When making a Charisma related skill check on a creature you have used the Libra feature on, you have adavantage on the check.</description>
+        </sheet>
+    </element>
+    <element name="Traveling Troupe" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_TRAVELING_TROUPE">
+        <description>
+            <p>Beginning at 10th level, a creature who has one of your Carnevallian Inspiration die may spend it when they take damage. The damage taken is reduced by the die's result.</p>
+        </description>
+        <sheet>
+            <description>A creature who has one of your Carnevallian Inspiration die may spend it when they take damage. The damage taken is reduced by the die's result.</description>
+        </sheet>
+    </element>
+    <element name="Monstrous Confidence" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_MONSTROUS_CONFIDENCE">
+        <description>
+            <p>Beginning at 14th level, creatures who use your Carnevallian Inspiration die add your Charisma modifier to the die result.</p>
+        </description>
+        <sheet>
+            <description>Creatures who use your Carnevallian Inspiration die add your Charisma modifier to the die result.</description>
+        </sheet>
+    </element>
+    <!-- Mimicry Resistances -->
+    <element name="Acid" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_RESISTANCE_ACID">
+        <prerequisite>Level 10</prerequisite>
+        <requirements>ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION</requirements>
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Acid.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to Acid.</description>
+        </sheet>
+    </element>
+    <element name="Cold" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_RESISTANCE_COLD">
+        <prerequisite>Level 10</prerequisite>
+        <requirements>ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION</requirements>
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Cold.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to Cold.</description>
+        </sheet>
+    </element>
+    <element name="Fire" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_RESISTANCE_FIRE">
+        <prerequisite>Level 10</prerequisite>
+        <requirements>ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION</requirements>
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Fire.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to Fire.</description>
+        </sheet>
+    </element>
+    <element name="Lightning" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_RESISTANCE_LIGHTNING">
+        <prerequisite>Level 10</prerequisite>
+        <requirements>ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION</requirements>
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Lightning.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to Lightning.</description>
+        </sheet>
+    </element>
+    <element name="Poison" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_RESISTANCE_POISON">
+        <prerequisite>Level 10</prerequisite>
+        <requirements>ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION</requirements>
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Poison.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to Poison.</description>
+        </sheet>
+    </element>
+    <element name="Thunder" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_RESISTANCE_THUNDER">
+        <prerequisite>Level 10</prerequisite>
+        <requirements>ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION</requirements>
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you create a monster link, you may substitute one of your spells learned with one of the following damage resistances: Thunder.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to Thunder.</description>
+        </sheet>
+    </element>
+
+    <!-- Monster Mimicries -->
+    <element name="Adamantoise Shell" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_ADAMANTOISE_SHELL">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Mage Armor on yourself at will, without expending a spell slot or material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast Mage Armor on yourself at will, without expending a spell slot or material components.</description>
+        </sheet>
+        <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" />
+		</rules>
+    </element>
+    <element name="Ahriman's Gaze" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_AHRIMANS_GAZE">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Hold Person once using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Hold Person once using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" />
+        </rules>
+    </element>
+    <element name="Bad Breath" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_BAD_BREATH">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You develop a breath weapon you may use as your action. Your breath weapon is a 15ft. cone. Any creature in range must make a Dexterity saving throw against your spell save DC. Your breath weapon deals poison damage. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Each time the damage of your breath weapon increases, the range also increases by 5ft.</p>
+            <p class="indent">Additionally, a creature who fails their saving throw becomes poisoned or blinded for 1 minute. You choose the additional effect when you decide to take this action.</p>
+            <p class="indent">You must finish a long rest to use Bad Breath again.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>Your breath weapon is a {{badbreath:range}}ft. cone. Any creature in range must make a Dexterity saving throw against your spell save DC. Your breath weapon deals poison damage. A creature takes {{badbreath:die}}d6 damage on a failed save, and half as much damage on a successful one. Additionally, a creature who fails their saving throw becomes poisoned or blinded for 1 minute. You choose the additional effect when you decide to take this action.</description>
+        </sheet>
+        <rules>
+            <stat name="badbreath:die" value="2" bonus="base" level="1" />
+            <stat name="badbreath:die" value="1" level="6" />
+            <stat name="badbreath:die" value="1" level="11" />
+            <stat name="badbreath:die" value="1" level="16" />
+            <stat name="badbreath:range" value="15" bonus="base" level="1" />
+            <stat name="badbreath:range" value="5" level="6" />
+            <stat name="badbreath:range" value="5" level="11" />
+            <stat name="badbreath:range" value="5" level="16" />
+        </rules>
+    </element>
+    <element name="Blood Siphon" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_BLOOD_SIPHON">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can cast Vampiric Touch using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Vampiric Touch using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" />
+        </rules>
+    </element>
+    <element name="Behemonth's Destruction" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_BEHEMOTHS_DESTRUCTION">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast Destructive Wave once using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Destructive Wave once using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" />
+        </rules>
+    </element>
+    <element name="Bomb Detonation" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_BOMB_DETONATION">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can cast Fireball at will centered on yourself. You automatically take half the damage of the spell.</p>
+        </description>
+        <sheet>
+            <description>You can cast Fireball at will centered on yourself. You automatically take half the damage of the spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FIREBALL" />
+        </rules>
+    </element>
+    <element name="Cactuar Needles" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_CACTUAR_NEEDLES">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you are attacked by a melee weapon attack, as a reaction you may release a flurry of aetherial needles from your body in a 5ft. radius around you. All creatures in range must make a Dexterity saving throw against your Spell Save DC, taking 1d10 damage on a failure and half as much on a success. Creatures who fail this saving throw become poisoned for one minute.</p>
+        </description>
+        <sheet>
+            <description>When you are attacked by a melee weapon attack, as a reaction you may release a flurry of aetherial needles from your body in a 5ft. radius around you. All creatures in range must make a Dexterity saving throw against your Spell Save DC, taking 1d10 damage on a failure and half as much on a success. Creatures who fail this saving throw become poisoned for one minute.</description>
+        </sheet>
+    </element>
+    <element name="Crab Grab" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_CRAB_GRAB">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you use your Attack action to grapple a creature of your size or smaller, you gain advantage on your Strength (athletics) check.</p>
+        </description>
+        <sheet>
+            <description>When you use your Attack action to grapple a creature of your size or smaller, you gain advantage on your Strength (athletics) check.</description>
+        </sheet>
+    </element>
+    <element name="Chocobo's Dash" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_CHOCOBOS_DASH">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Expeditious Retreat at will, without expending a spell slot or material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast Expeditious Retreat at will, without expending a spell slot or material components.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" />
+        </rules>
+    </element>
+    <element name="Choco Cure" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_CHOCO_CURE">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Cure wounds using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Cure wounds using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" />
+        </rules>
+    </element>
+    <element name="Coblyn's Shatter" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_COBLYNS_SHATTER">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>3rd level</prerequisite>
+        <requirements>[level:3]</requirements>
+        <description>
+            <p>You can cast Shatter at will centered on yourself. You do not take damage from the spell.</p>
+        </description>
+        <sheet>
+            <description>You can cast Shatter at will centered on yourself. You do not take damage from the spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SHATTER" />
+        </rules>
+    </element>
+    <element name="Couerl Blaster" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_COUERL_BLASTER">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can cast Lightning Bolt using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Lightning Bolt using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" />
+        </rules>
+    </element>
+    <element name="Drake Breath" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_DRAKES_BREATH">
+        <supports>Monster Mimciry</supports>
+        <description>
+            <p>You can cast Aganazzar's Scorcher using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Aganazzar's Scorcher using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_AGANAZZARS_SCORCHER" />
+        </rules>
+    </element>
+    <element name="Flam's Body" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_FLANS_BODY">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Absorb Elements at will, without expending a spell slot or material components.</p>
+            <p class="indent">You must finish a long rest to use Flan's Body again.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>You can cast Absorb Elements at will, without expending a spell slot or material components. You must finish a long rest to use Flan's Body again.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
+        </rules>
+    </element>
+    <element name="Funguar's Nature" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_FUNGUARS_NATURE">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast Speak with Plants at will, without expending a spell slot or material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast Speak with Plants at will, without expending a spell slot or material components.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+        </rules>
+    </element>
+    <element name="Gremlin Tongue" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_GREMLIN_TONGUE">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Vicious Mockery. You gain proficiency in the Deception skill.</p>
+        </description>
+        <sheet>
+            <description>You can cast Viscious Mockery.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+        </rules>
+    </element>
+    <element name="Goblin Operations" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_GOBLIN_OPERATIONS">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You gain proficiency in the Sleight of Hand and Stealth skills.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+        </rules>
+    </element>
+    <element name="Goobue Sneeze" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_GOOBUE_SNEEZE">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can cast Stinking Cloud using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Stinking Cloud using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" />
+        </rules>
+    </element>
+    <element name="Mandragora Shriek" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_MANDAGORA_SHRIEK">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast Confusion using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Confusion using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" />
+        </rules>
+    </element>
+    <element name="Mantis Claws" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_MANTIS_CLAWS">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can attack with your weapon twice, instead of once, whenever you take the Attack action on your turn.</p>
+        </description>
+        <sheet>
+            <description>You can attack with your weapon twice, instead of once, whenever you take the Attack action on your turn.</description>
+        </sheet>
+    </element>
+    <element name="Mindflayer's Blast" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_MINDFLAYERS_BLAST">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>As an action, you release a blast of psychic energy from your mouth. All creatures in a 15ft. cone make an Intelligence saving throw against your Spell Save DC. On a failure, they become stunned for 1 minute. They may repeat the save as an action on their turn.</p>
+            <p class="indent">You must finish a long rest to use Mindflayer's Blast again.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>As an action, you release a blast of psychic energy from your mouth. All creatures in a 15ft. cone make an Intelligence saving throw against your Spell Save DC. On a failure, they become stunned for 1 minute. They may repeat the save as an action on their turn.</description>
+        </sheet>
+    </element>
+    <element name="Mimic's Nature" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_MIMICS_NATURE">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Disguise Self at will, without expending a spell slot of material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast Disguise Self at will, without expending a spell slot of material components.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
+        </rules>
+    </element>
+    <element name="Pom's Cure" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_POMS_CURE">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Healing Word using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Healing Word using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" />
+        </rules>
+    </element>
+    <element name="Ochu Vines" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_OCHU_VINES">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast Entangle using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast Entangle using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ENTANGLE" />
+        </rules>
+    </element>
+    <element name="Opo-opo Athletics" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_OPOPO_ATHLETICS">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You gain proficiency in the Athletics and Acrobatics skills.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in the Athletics and Acrobatics skills.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+        </rules>
+    </element>
+    <element name="Sahagin's Curse" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_SAHAGINS_CURSE">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>You can cast polymorph using a blue mage spell slot. You may only select Frog or Giant Frog as the new form. You must finish a long rest to use Sahagin's Curse again.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>You can cast polymorph using a blue mage spell slot. You may only select Frog or Giant Frog as the new form. You must finish a long rest to use Sahagin's Curse again.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" />
+        </rules>
+    </element>
+    <element name="Succubus Charm" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_SUCCUBUS_CURSE">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast Charm Person at will, without spending a spell slot or material components. A creature that resists this effect becomes immune to this spell cast by you for 1 hour.</p>
+        </description>
+        <sheet>
+            <description>You can cast Charm Person at will, without spending a spell slot or material components. A creature that resists this effect becomes immune to this spell cast by you for 1 hour.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
+        </rules>
+    </element>
+    <element name="Frog's Legs" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_FROGS_LEGS">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast Jump on yourself at will, without expending a spell slot or material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast jump on yourself at will, without expending a spell slot or material components.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+        </rules>
+    </element>
+    <element name="Tonberry's Grudge" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_TONBERRYS_GRUDGE">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>When you attack a creature who is stunned or paralyzed with a melee weapon, you deal bonus damage equal to the the average damage of the weapon's damage die.</p>
+        </description>
+        <sheet>
+            <description>When you attack a creature who is stunned or paralyzed with a melee weapon, you deal bonus damage equal to the the average damage of the weapon's damage die.</description>
+        </sheet>
+    </element>
+    <element name="Undead Touch" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_UNDEAD_TOUCH">
+        <supports>Monster Mimicry</supports>
+        <description>
+            <p>You can cast inflict wounds using a blue mage spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast inflict wounds using a blue mage spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" />
+        </rules>
+    </element>
+    <element name="Worm Sense" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_WORM_SENSE">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>15th level</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p>You gain 30ft. of Tremorsense. You can detect and pinpoint the origin of vibrations within a 30ft. radius, provided that you and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.</p>
+        </description>
+        <sheet>
+            <description>You gain 30ft. of Tremorsense. You can detect and pinpoint the origin of vibrations within a 30ft. radius, provided that you and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.</description>
+        </sheet>
+    </element>
+    <element name="Zu's Rage" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_BLU_MIMICRY_ZUS_RAGE">
+        <supports>Monster Mimicry</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>As an action, you leap 20ft. from your current location at blinding speed, delivering a leaping strike with a melee weapon. Once you land, you may make one melee weapon attack against a creature in range. This attack does bonus damage equal to your spell casting ability modifier.</p>
+        </description>
+        <sheet>
+            <description>As an action, you leap 20ft. from your current location at blinding speed, delivering a leaping strike with a melee weapon. Once you land, you may make one melee weapon attack against a creature in range. This attack does bonus damage equal to your spell casting ability modifier.</description>
+        </sheet>
+    </element>
+
+    <!-- Spell Appends -->
+
+
+</elements>
