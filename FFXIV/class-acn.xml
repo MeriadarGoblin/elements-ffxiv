@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Arcanist</name>
-		<update version="1.1.7">
+		<update version="1.1.71">
 			<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-acn.xml" />
 		</update>
 	</info>
@@ -1224,6 +1224,9 @@
         <supports>Arcanist</supports>
     </append>
 	<append id="ID_PHB_SPELL_POISON_SPRAY">
+        <supports>Arcanist</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PRESTIDIGITATION">
         <supports>Arcanist</supports>
     </append>
 	<append id="ID_WOTC_EGTW_SPELL_SAPPING_STING">

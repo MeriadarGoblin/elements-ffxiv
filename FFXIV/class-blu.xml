@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Blue Mage</name>
-		<update version="1.0.0">
+		<update version="1.0.2">
 			<file name="class-blu.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blu.xml" />
 		</update>
 	</info>
@@ -402,7 +402,7 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Archetype Feature" name="Monstrous Vanguard, Fighting Style" supports="Vanguard Style" />
+            <select type="Archetype Feature" name="Monstrous Vanguard, Fighting Style" supports="Hunters Pray" />
         </rules>
     </element>
     <element name="Survival Tactics" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_SURVIVAL_TACTICS">
@@ -414,7 +414,7 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Archetype Feature" name="Survival Tactics" supports="Surivival Tactics" />
+            <select type="Archetype Feature" name="Survival Tactics" supports="Defensive Tactics" />
         </rules>
     </element>
     <element name="Azure Corruption" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_BLU_AZURE_CORRUPTION">
@@ -979,6 +979,486 @@
     </element>
 
     <!-- Spell Appends -->
+    <append id="ID_PHB_SPELL_ACID_SPLASH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CHILL_TOUCH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DANCING_LIGHTS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FIRE_BOLT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_FROSTBITE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_GUST">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_INFESTATION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_SCAG_SPELL_LIGHTNING_LURE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MESSAGE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MINOR_ILLUSION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MOLD_EARTH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_POISON_SPRAY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PRESTIDIGITATION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_PRIMAL_SAVAGERY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RAY_OF_FROST">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RESISTANCE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_WOTC_EGTW_SPELL_SAPPING_STING">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHOCKING_GRASP">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_THUNDERCLAP">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_STRIKE">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 1st Level -->
+    <append id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ARMOR_OF_AGATHYS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BANE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BEAST_BOND">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BURNING_HANDS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CATAPULT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CAUSE_FEAR">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_EARTH_TREMOR">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ENSNARING_STRIKE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FAERIE_FIRE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FEATHER_FALL">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GREASE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GUIDING_BOLT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEROISM">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEX">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_ICE_KNIFE">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_JUMP">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LONGSTRIDER">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RAY_OF_SICKNESS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SHIELD">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SLEEP">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_THUNDERWAVE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WITCH_BOLT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_ZEPHYR_STRIKE">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 2nd Level -->
+    <append id="ID_PHB_SPELL_ALTER_SELF">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ANIMAL_MESSENGER">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BARKSKIN">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BEAST_SENSE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_BLUR">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DARKNESS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DARKVISION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_DRAGONS_BREATH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_DUST_DEVIL">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_EARTHBIND">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FIND_TRAPS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FLAME_BLADE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GUST_OF_WIND">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_HEALING_SPIRIT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HEAT_METAL">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INVISIBILITY">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_ANIMALS_OR_PLANTS">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MAXIMILIANS_EARTHEN_GRASP">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MELFS_ACID_ARROW">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MISTY_STEP">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_POISON">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SCORCHING_RAY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SEE_INVISIBILITY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPIDER_CLIMB">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SPIKE_GROWTH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SPIDER_CLIMB">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 3rd Level -->
+    <append id="ID_XGTE_SPELL_CATNAP">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_DAYLIGHT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_ERUPTING_EARTH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FEAR">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FEIGN_DEATH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FLY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HASTE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PLANT_GROWTH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SLEET_STORM">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SLOW">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_THUNDER_STEP">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TIDAL_WAVE">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WALL_OF_SAND">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WALL_OF_WATER">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WATER_BREATHING">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WIND_WALL">
+        <supports>Blue Mage</supports>
+    </append>
+    
+    <!-- 4th Level -->
+    <append id="ID_PHB_SPELL_BLIGHT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONFUSION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FIRE_SHIELD">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GIANT_INSECT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GRASPING_VINE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ICE_STORM">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_LOCATE_CREATURE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_STONE_SHAPE">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STONESKIN">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_STORM_SPHERE">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_FIRE">
+        <supports>Blue Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WATERY_SPHERE">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 5th Level -->
+    <append id="ID_PHB_SPELL_CLOUDKILL">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONE_OF_COLD">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONTAGION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_CONTROL_WINDS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_ENERVATION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_IMMOLATION">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_INSECT_PLAGUE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_MAELSTROM">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TREE_STRIDE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WALL_OF_STONE">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 6th Level -->
+    <append id="ID_PHB_SPELL_CHAIN_LIGHTNING">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_EYEBITE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FLESH_TO_STONE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_GLOBE_OF_INVULNERABILITY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_MOVE_EARTH">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_OTILUKES_FREEZING_SPHERE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TRUE_SEEING">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WALL_OF_ICE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WIND_WALK">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 7th Level -->
+    <append id="ID_PHB_SPELL_DELAYED_BLAST_FIREBALL">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_ETHEREALNESS">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_FIRE_STORM">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_XGTE_SPELL_POWER_WORD_PAIN">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PRISMATIC_SPRAY">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_REGENERATE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_SEQUESTER">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 8th Level -->
+    <append id="ID_XGTE_SPELL_ABI_DALZIMS_HORRID_WILTING">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_CONTROL_WEATHER">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_EARTHQUAKE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_INCENDIARY_CLOUD">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_POWER_WORD_STUN">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_TSUNAMI">
+        <supports>Blue Mage</supports>
+    </append>
+
+    <!-- 9th Level -->
+    <append id="ID_PHB_SPELL_METEOR_SWARM">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_PRISMATIC_WALL">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_STORM_OF_VENGEANCE">
+        <supports>Blue Mage</supports>
+    </append>
+	<append id="ID_PHB_SPELL_WEIRD">
+        <supports>Blue Mage</supports>
+    </append>
 
 
 </elements>
