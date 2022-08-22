@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Elezen</name>
-		<update version="1.0.1">
+		<update version="1.1.1">
 			<file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
 		</update>
 	</info>
@@ -38,7 +38,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="intelligence" value="2" bonus="base" />
+			<stat name="intelligence" value="2" bonus="base" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Elezen)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Racial Trait" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_SUPER_HEARING" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
@@ -72,7 +73,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="dexterity" value="1" bonus="base" />
+			<stat name="dexterity" value="1" bonus="base" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Wildwood)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<grant type="Racial Trait" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_HAWK_SIGHT" />
 			<grant type="Racial Trait" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_NATURAL_SHREWDNESS" />
 		</rules>
@@ -104,7 +106,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="constitution" value="1" bonus="base" />
+			<stat name="constitution" value="1" bonus="base" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Duskwight)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<grant type="Racial Trait" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_CAVE_DWELLER" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 		</rules>
@@ -127,7 +130,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="strength" value="1" bonus="base" />
+			<stat name="strength" value="1" bonus="base" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Ishgardian)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<grant type="Racial Trait" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_CONSCRIPTION" />
 			<grant type="Racial Trait" id="ID_FFXIV_ELEZEN_RACIAL_TRAIT_HALONES_SCRIPTURE" />
 		</rules>

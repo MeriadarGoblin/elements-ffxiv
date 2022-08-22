@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Roegadyn</name>
-		<update version="1.0.1">
+		<update version="1.1.1">
 			<file name="race-roegadyn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-roegadyn.xml" />
 		</update>
 	</info>
@@ -50,7 +50,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="constitution" value="2" />
+            <stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Roegadyn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
@@ -111,7 +112,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="strength" value="1" />
+            <stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Seawolf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_SAILORS_SWIMMING" />
             <stat name="hp" value="level" />
         </rules>
@@ -137,7 +139,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="charisma" value="1" />
+            <stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hellsguard)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_VOLCANIC_TRAIT" />
         </rules>
