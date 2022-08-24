@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<name>Hyur</name>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="race-hyur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hyur.xml" />
 		</update>
 	</info>
 
-    <element name="Hyur" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_ ">
+    <element name="Hyur" type="Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_RACE_HYUR">
         <description>
             <p><em>Thal's Balls...I'd forgotten what it was like to feel so alive! Not since leaving the Bloodsands have I had the privilege. Not since the Bull of Ala Mhigo hung up his swords. Back then, the outcome might have been different. But I do not begrudge you your victory. I know how far you have come, how much you have endured. Our fight only confirmed it. We shall have to do this again one day, when time allows.</em></p>
             <p class="indent">-Raubahn Aldynn, The Bull of Ala Mhigo</p>
@@ -49,7 +49,8 @@
         <rules>
             <stat name="innate speed" value="30" bonus="base"/>
             <grant type="Size" id="ID_SIZE_MEDIUM"/>
-            <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
             <select type="Racial Trait" name="Ability Score Increase (Hyur)" supports="Hyur Increase" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_SPREAD_OF_CULTURE" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_VERSATILITY" />
@@ -63,7 +64,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Proficiency" name="Spread of Culture (Tools)" supports="Artisan Tools, Gaming Set, Musical Instrument" />
+            <select type="Proficiency" name="Spread of Culture (Tools)" supports="Artisan Tools||Gaming Set||Musical Instrument" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+            <select type="Proficiency" name="Simple Weapon or Tool (Hyur Spread of Culture)" supports="Simple Weapon||Tool||Gaming Set" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
     <element name="Versatility" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_VERSATILITY">
@@ -72,7 +74,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Proficiency" name="Versatility (Hyur)" support="Skill" number="2" /> 
+            <select type="Proficiency" name="Versatility (Hyur)" support="Skill" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			      <select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
     <element name="Hyur Subrace" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_HYUR_SUBRACE">
@@ -92,7 +95,7 @@
             <p class="indent"><strong>Ability Score Increase.</strong> Your Intelligence score increases by 2.</p>
             <p class="indent"><strong>Variable Education.</strong> You are proficient in an additional set of artisan's tools of your choice.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Hyur (Midlander)" display="false" />
         <rules>
             <stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Midlander)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -105,7 +108,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Proficiency" name="Variable Education" supports="Artisan Tools" />
+            <select type="Proficiency" name="Variable Education" supports="Artisan Tools" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+            <select type="Proficiency" name="Simple/Martial Weapon or Tool (Midlander Variable Education)" supports="Weapon||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
 
@@ -116,7 +120,7 @@
             <p class="indent"><strong>Ability Score Increase.</strong> Your Strength score increases by 2.</p>
             <p class="indent"><strong>Naturally Honed Body.</strong> You gain proficiency in the Athletics skill.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Hyur (Highlander)" display="false" />
         <rules>
             <stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Highlander)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -129,7 +133,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			      <select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
 
@@ -140,7 +145,7 @@
             <p class="indent"><strong>Ability Score Increase.</strong> Your Wisdom score increases by 2.</p>
             <p class="indent"><strong>Nature's Blessing.</strong> You gain proficiency in the Nature skill.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Hyur (Padjal)" display="false" />
         <rules>
             <stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Padjal)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -153,7 +158,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			    <select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
 
@@ -224,5 +230,4 @@
           <stat name="charisma" value="1" alt="Hyur Increase" />
         </rules>
       </element>
-
 </elements>

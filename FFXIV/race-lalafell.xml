@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lalafell</name>
-		<update version="1.2.2">
+		<update version="1.2.3">
 			<file name="race-lalafell.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-lalafell.xml" />
 		</update>
 	</info>
@@ -61,7 +61,8 @@
             <stat name="innate speed" value="25" bonus="base" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_CUNNING" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LALAFELLIN_NIMBLENESS" />
-            <grant type="Languages" id="ID_LANGUAGE_COMMON" />
+            <grant type="Languages" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
             <select type="Language" name="Language (Lalafell)" supports="Standard||Exotic"  />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FFXIV_LALAFELL_SUBRACE" />
         </rules>
@@ -86,7 +87,7 @@
         <description>
             <p>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</p>
         </description>
-        <sheet>
+        <sheet display="false" />
             <description>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</description>
         </sheet>
         <rules>
@@ -101,7 +102,7 @@
             <p class="indent"><strong>Ability Score Increase.</strong> Your Dexterity score increases by 1.</p>
             <p class="indent"><strong>Naturally Stealthy.</strong> You can attempt to hide even when when you are obscured only by a creature that is at least one size larger than you.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Lalafell (Plainsfolk)" display="false" />
         <rules>
             <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Plainsfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -125,7 +126,7 @@
             <p class="indent"><strong>Dustshield.</strong> Your eyes have developed a film to protect them from desert conditions. You have advantage on saving throws against being blinded.</p>
             <p class="indent"><strong>Land of Merchants.</strong> You gain proficiency in the Deception skill.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Lalafell (Dunesfolk)" display="false" />
         <rules>
             <stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dunesfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -145,11 +146,12 @@
         <description>
             <p>You gain proficiency in the Deception skill.</p>
         </description>
-        <sheet>
+        <sheet display="false" />
             <description>You gain proficiency in the Deception skill.</description>
         </sheet>
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
 
@@ -162,7 +164,7 @@
             <p class="indent"><strong>Stonecunning.</strong> Whenever you make an Intelligence (History) check related to the Origin of stonework, you are considered proficient in the History skill and add double your Proficiency Bonus to the check, instead of your normal Proficiency Bonus.</p>
             <p class="indent"><strong>Tool Proficiency.</strong> You gain proficiency with the artisan’s tools of your choice from the following: smith’s tools, brewer’s supplies, or mason’s tools.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Lalafell (Dwarf)" display="false" />
         <rules>
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_DWARVEN_RESILIENCE" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY" />
@@ -174,7 +176,7 @@
 			<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on saving throws against poison, and you have resistance against poison damage.</description>
+			<description>You have advantage on saving throws against poison.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
@@ -186,7 +188,8 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Proficiency" name="Dwarven Tool Proficiency" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS" />
+			<select type="Proficiency" name="Dwarven Tool Proficiency" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+            <select type="Proficiency" name="Simple/Martial Weapon or Tool (Dwarven Tool Proficiency)" supports="Weapon||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
     <element name="Stonecunning" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_STONECUNNING">
@@ -203,5 +206,4 @@
 			<stat name="stonecunning:check" value="proficiency" />
 		</rules>
 	</element>
-
 </elements>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Miqo'te</name>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="race-miqote.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-miqote.xml" />
 		</update>
 	</info>
@@ -49,7 +49,8 @@
             <grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_MIQO_PREDATION" />
             <grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
             <select type="Language" name="Languages (Miqo'te)" supports="Standard||Exotic" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_MIQO_SUBRACE" />
         </rules>
@@ -62,7 +63,8 @@
             <description>You gain proficiency in the Perception skill.</description>
         </sheet>
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
     <element name="Miqo'te Sub Race" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_MIQO_SUBRACE">
@@ -78,12 +80,12 @@
     <element name="Seekers of the Sun" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_SEEEKERS_OF_THE_SUN">
         <supports>Cat Clan</supports>
         <description>
-            <p>As a Seeker of the sun, you come from a race of renowned hunters. The Seekers live in a patriarchal society which worships the sun and Azeyma. This past has given you the tools to become a deadly hunter, capable of wounding their marks with great efficiency.</p>
+            <p>As a Seeker of the Sun, you come from a race of renowned hunters. The Seekers live in a patriarchal society which worships the sun and Azeyma. This past has given you the tools to become a deadly hunter, capable of wounding their marks with great efficiency.</p>
             <p class="indent"><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 1.</p>
             <p class="indent"><em><strong>Natural Athleticism.</strong></em> You gain proficiency in the Athletics skill.</p>
             <p class="indent"><em><strong>Graceful Speed.</strong></em> Your walking speed is 35ft.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Miqo'te (Seekers of the Sun)" display="false" />
         <rules>
             <stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Seekers of the Son)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -97,7 +99,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
     <element name="Graceful Speed" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GRACEFUL_SPEED">
@@ -118,7 +121,7 @@
             <p class="indent"><em><strong>Superior Darkvision.</strong></em> Your darkvision has a radius of 120ft.</p>
             <p class="indent"><em><strong>Tenacity.</strong></em> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Miqo'te (Keepers of the Moon)" display="false" />
         <rules>
             <stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Keepers of the Moon)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -139,8 +142,8 @@
         <description>
             <p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>
         </description>
-        <sheet>
-            <description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</description>
+        <sheet usage="1/Long Rest">
+            <description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead.</description>
         </sheet>
     </element>
 </elements>

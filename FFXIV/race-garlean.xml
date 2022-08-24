@@ -57,15 +57,18 @@
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Garlean)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
-            <stat name="innate speed" value="30" bonus="base" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_IMPERIAL_EDUCATION" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_SPATIAL_INSIGHT" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_THIRD_EYE" />
-            <grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_FFXIV_LANGUAGE_GARLEAN" />
-            <select type="Language" name="Language (Everyman)" supports="Standard||Exotic"  />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_FFXIV_LANGUAGE_GARLEAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Customized Language" supports="Custom Race Language||Garlean Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Language (Garlean)" supports="Standard||Exotic"  />
         </rules>
     </element>
+    <append id="ID_FFXIV_LANGUAGE_GARLEAN">
+		<supports>Garlean Language</supports>
+	</append>
     <element name="Magically Inert" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_MAGICALLY_INERT">
         <supports>Optional Racial Trait</supports>
         <description>
@@ -77,25 +80,15 @@
             <description>You have great difficulty casting magic on your own power and require the aid of technology to do so.</description>
         </sheet>
     </element>
-    <element name="Garlean" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_GARLEAN">
-        <description>
-            <p>Typically spoken by Garleans.</p>
-        </description>
-        <sheet display="false" />
-        <setters>
-            <set name="exotic">false</set>
-			<set name="Garlean" />
-			<set name="Garlean" />
-        </setters>
-    </element>
     <element name="Imperial Education" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_IMPERIAL_EDUCATION">
         <description>
             <p>You gain proficiency in one skill of your choice and one set of artisan's tools of your choice.</p>
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Proficiency" name="Imperial Education" supports="Skill" />
-            <select type="Proficiency" name="Imperial Education" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS|ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" />
+            <select type="Proficiency" name="Skill Proficiency, Imperial Education" supports="Skill" />
+            <select type="Proficiency" name="Artisan Tool, Imperial Education" supports="Artisan tools" requirements="!!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple/Martial Weapon or Tool, Imperial Education" supports="Weapon||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
     <element name="Spatial Insight" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_SPATIAL_INSIGHT">
@@ -106,7 +99,8 @@
             <description>You gain proficiency in the Investigation skill.</description>
         </sheet>
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
     <element name="Third Eye" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_GARLEAN_THIRD_EYE">
@@ -116,6 +110,9 @@
         <sheet>
             <description>Your ranged weapon attacks you make have an increased normal range of 10ft.</description>
         </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+        </rules>
     </element>
-
 </elements>
