@@ -87,7 +87,7 @@
         <description>
             <p>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</p>
         </description>
-        <sheet display="false" />
+        <sheet display="false">
             <description>The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.</description>
         </sheet>
         <rules>
@@ -146,7 +146,7 @@
         <description>
             <p>You gain proficiency in the Deception skill.</p>
         </description>
-        <sheet display="false" />
+        <sheet display="false">
             <description>You gain proficiency in the Deception skill.</description>
         </sheet>
         <rules>

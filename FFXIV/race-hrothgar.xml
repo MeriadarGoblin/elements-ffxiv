@@ -86,7 +86,7 @@
         <description>
             <p>The Hrothgar come from two different clans. Select one of the two subraces of Hrothgar.</p>
         </description>
-        <sheet display="false" />
+        <sheet display="false">
             <description>The Hrothgar come from two different clans. Select one of the two subraces of Hrothgar.</description>
         </sheet>
         <rules>
