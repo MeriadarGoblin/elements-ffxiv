@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Roegadyn</name>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="race-roegadyn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-roegadyn.xml" />
 		</update>
 	</info>
@@ -54,24 +54,17 @@
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Roegadyn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
-            <grant type="Language" id="ID_LANGUAGE_COMMON" />
-            <grant type="Language" id="ID_FFXIV_LANGUAGE_ROEGADYN" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Language" id="ID_FFXIV_LANGUAGE_ROEGADYN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language||Roegadyn Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_BRAVE" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_POWERFUL_BUILD" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_SUB_RACE" />
         </rules>
     </element>
-    <element name="Roegadyn" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_ROEGADYN">
-        <description>
-            <p>Typically spoken by Roegadyn.</p>
-        </description>
-        <sheet display="false" />
-        <setters>
-            <set name="exotic">false</set>
-			<set name="Roegadyn" />
-			<set name="Roegadyn" />
-        </setters>
-    </element>
+    <append id="ID_FFXIV_LANGUAGE_ROEGADYN">
+		<supports>Roegadyn Language</supports>
+	</append>
     <element name="Brave" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_BRAVE">
         <description>
             <p>You have advantage on saving throws against being frightened.</p>
@@ -110,7 +103,7 @@
             <p class="indent"><strong>Sailor's Swimming.</strong> You have advantage when making Athletics (swimming) checks.</p>
             <p class="indent"><strong>Toughness.</strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Roegadyn (Seawolf)" display="false" />
         <rules>
             <stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Seawolf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -137,23 +130,34 @@
                 <div element="ID_PHB_SPELL_BURNING_HANDS" />
             </div>
         </description>
-        <sheet display="false" />
+        <sheet alt="Roegadyn (Hellsguard)" display="false" />
         <rules>
             <stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hellsguard)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+            <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_MAGICAL_KNOWLEDGE" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_ROE_VOLCANIC_TRAIT" />
         </rules>
-    </element> 
+    </element>
+    <element name="Magical Knowledge" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_MAGICAL_KNOWLEDGE">
+        <description>
+            <p>You gain proficiency with the Arcana skill.</p>
+        </description>
+        <sheet display="false">
+            <description>You gain proficiency with the Arcana skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+        </rules>
+    </element>
     <element name="Volcanic Children" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_ROE_VOLCANIC_TRAIT">
         <description>
-            <p>You know the Firebolt cantrip. At 3rd level you learn the Burning Hands spell and may cast it at the 2nd level once before requiring a long rest. When you reach 5th level, you can cast the Heat Metal spell once with this trait and regain the ability to do so when you finish a Long Rest. Charisma is your spell casting ability for these spells.</p>
+            <p>You know the Firebolt cantrip. At 3rd level you learn the Burning Hands spell and may cast it at the 2nd level once before requiring a long rest. When you reach 5th level, you can cast the Heat Metal spell once with this trait and regain the ability to do so when you finish a Long Rest. Charisma is your spellcasting ability for these spells.</p>
         </description>
         <sheet>
             <description>You know the Firebolt cantrip.</description>
-            <description level="3">You know the Firebolt cantrip. You can cast the burning hands spell as a 2nd-level spell (1/long rest). (Charisma) </description>
-            <description level="5">You know the Firebolt cantrip. You can cast the burning hands spell as a 2nd-level spell and the heat metal (1/long rest). (Charisma)</description>
+            <description usage="1/Long Rest" level="3">You know the Firebolt cantrip. You can cast the Burning Hands spell as a 2nd-level spell. (Charisma) </description>
+            <description usage="1/Long Rest" level="5">You know the Firebolt cantrip. You can cast the Heat Metal spell and the Burning Hands spell as a 2nd-level spell. (Charisma)</description>
         </sheet>
     </element>
-
 </elements>

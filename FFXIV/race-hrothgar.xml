@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Hrothgar</name>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="race-hrothgar.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hrothgar.xml" />
 		</update>
 	</info>
@@ -50,7 +50,8 @@
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_CLAWS" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_KEEN_SMELL" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_HROTHGAR_SUB_RACE" />
-            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
             <select type="Language" name="Language (Hrothgar)" supports="Standard||Exotic"  />
         </rules>
     </element>
@@ -85,7 +86,7 @@
         <description>
             <p>The Hrothgar come from two different clans. Select one of the two subraces of Hrothgar.</p>
         </description>
-        <sheet>
+        <sheet display="false" />
             <description>The Hrothgar come from two different clans. Select one of the two subraces of Hrothgar.</description>
         </sheet>
         <rules>
@@ -101,9 +102,9 @@
             <p class="indent"><strong>Lionhearted.</strong> You have advantage on saving throws against being frightened.</p>
             <p class="indent"><strong>Aggressive.</strong> As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Hrothgar (Helion)" display="false" />
         <rules>
-            <stat name="dexterity" value="1" />
+            <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Helion)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_LIONHEARTED" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_AGGRESSIVE" />
@@ -121,21 +122,22 @@
         <description>
             <p>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
         </description>
-        <sheet>
-            <description>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
+        <sheet action="Bonus Action">
+            <description>You can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
         </sheet>
     </element>
 
     <element name="The Lost" type="Sub Race" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SUBRACE_HROTHGAR_LOST">
+        <supports>Hrothgar Clan</supports>
         <description>
             <p>Scattered and worldly, The Lost hail from a bloodline of Hrothgar to left the matriarchy which their kind hails from and sought to strike out in the world. Often times they take on the roles of traders and mercenaries, preferring nomadic jobs and lifestyles which prevent them from setting down roots. Their cool coloured fur is said to show the loss of the warmth they had received from their Queen so long ago.</p>
             <p class="indent"><strong>Ability Score Increase.</strong> Your Constitution score increases by 1.</p>
             <p class="indent"><strong>Contractor's Life.</strong> You gain proficiency in the Persuasion skill.</p>
             <p class="indent"><strong>Unbending.</strong> You have advantage on saving throws against being charmed.</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Hrothgar (The Lost)" display="false" />
         <rules>
-            <stat name="constitution" value="1"  />
+            <stat name="constitution" value="1"  requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (The Lost)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_CONTRACTORS_LIFE" />
             <grant type="Racial Trait" id="ID_FFXIV_RACIAL_TRAIT_UNBENDING" />
@@ -147,7 +149,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
         </rules>
     </element>
     <element name="Unbending" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_UNBENDING">

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/languages.xml" />
+		</update>
+	</info>
+
+	<element name="Auri" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_AURI">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Au Ra.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Au Ra</set>
+		</setters>
+	</element>
+	<element name="Garlean" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_GARLEAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Garlean.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Garlean</set>
+		</setters>
+	</element>
+	<element name="Roegadyn" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_ROEGADYN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Roegadyn.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Roegadyn</set>
+		</setters>
+	</element>
+	<element name="Viera" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_VIERA">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Viera.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Viera</set>
+		</setters>
+	</element>
+</elements>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Au Ra</name>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-au-ra.xml" />
 		</update>
 	</info>
@@ -39,7 +39,7 @@
 			<p class="indent"><strong><em>Alignment.</em></strong> The Au Ra as a whole do not tend to neither good nor evil, or towards law or chaos. The Xaela tend strongly towards the chaotic lives of nomads outside of the laws of civilized city states, while the Raen enjoy the order provided by the law. Often times an Au Ra finds themselves to be the product of their upbringing.</p>
 			<p class="indent"><strong><em>Size.</em></strong> There is a large size disparity between men and women of the Au Ra. Males range anywhere from 6 and a half to 7 feet tall with a lean build dwarfing the females who rarely grow taller than 5 feet. Your size is medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30ft.</p>
-			<p class="indent"><strong><em>Cranial Horns.</em></strong> You gain proficiency in the perception skill.</p>
+			<p class="indent"><strong><em>Cranial Horns.</em></strong> You gain proficiency in the Perception skill.</p>
 			<p class="indent"><strong><em>Scaled Bodies.</em></strong> When unarmored, your AC is equal to 11 + your dexterity modifier.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and Auri. The Auri language does not include gender or numbered nouns or verbs, causing an Au Ra to mislabel things sometimes when speaking another language.</p>
 			<p class="indent"><strong><em>Subrace</em></strong>The Au Ra's bloodline has split into two distinct groups, the nomadic Xaela and the solitary Raen, divided by the divine blood of their creators the Dusk Mother and Dawn Father. Select one of the two subraces of Au Ra.</p>
@@ -51,32 +51,26 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIL_CRANIAL_HORNS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCALED_BODIES" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_FFXIV_LANGUAGE_AURI" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_FFXIV_LANGUAGE_AURI" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language||Au Ra Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Racial Trait" id="ID_GMBINDER_FFXIV_RACIAL_TRAIT_AU_RA_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Auri" type="Language" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_LANGUAGE_AURI">
-		<description>
-			<p>Typically spoken by Au Ra.</p>
-		</description>
-		<setters>
-			<set name="exotic">false</set>
-			<set name="Auri" />
-			<set name="Au Ra" />
-		</setters>
-		<sheet display="false" />
-	</element>
+	<append id="ID_FFXIV_LANGUAGE_AURI">
+		<supports>Au Ra Language</supports>
+	</append>
 	<element name="Cranial Horns" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIL_CRANIAL_HORNS">
 		<description>
-			<p>You gain proficiency in the perception skill.</p>
+			<p>You gain proficiency in the Perception skill.</p>
 		</description>
 		<sheet display="false">
 			<description>Your horns make you hear better, since you don't have ears.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Scaled Bodies" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_SCALED_BODIES">
@@ -84,7 +78,7 @@
 			<p>When unarmored, your AC is equal to 11 + your dexterity modifier.</p>
 		</description>
 		<sheet>
-			<description>When unarmored, your AC is equal to 11 + your dexterity modifier.</description>
+			<description>When unarmored, your AC is {{ac:natural armor aura}}.</description>
 		</sheet>
 		<rules>
 			<stat name="ac:natural armor aura:base" value="11" />
@@ -109,11 +103,11 @@
 		<supports>Au Ra</supports>
 		<description>
 			<p>As a Xaela, you've been hardened by your life on the road as a part of a nomadic tribe. A life of hunting and warring has led you to martial prowess and improved strength. You are more outgoing than your Raen counterparts and are much more willing to engage in battle to resolve a conflict. Xaela tribes are small but numerous, battling for territory against one another on the Azim Steppe. Despite a willingness to fight, Xaela do not seek war, it is merely a tool to settle differences.</p>
-			<p class="indent"><strong>Ability Score Increase.</strong>Your Strength Score increases by 1.</p>
-			<p class="indent"><strong>Nomadic Instincts.</strong>You gain proficiency in the survival skill.</p>
-			<p class="indent"><strong>Savage Attacks.</strong>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
+			<p class="indent"><strong>Ability Score Increase.</strong> Your Strength Score increases by 1.</p>
+			<p class="indent"><strong>Nomadic Instincts.</strong> You gain proficiency in the Survival skill.</p>
+			<p class="indent"><strong>Savage Attacks.</strong> When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Au Ra (Xaela)" display="false" />
 		<rules>
 			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Xaela)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -123,11 +117,12 @@
 	</element>
 	<element name="Nomadic Instincts" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_NOMADIC_INSTINCTS">
 		<description>
-			<p>You gain proficiency in the survival skill.</p>
+			<p>You gain proficiency in the Survival skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Savage Attacks" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS_AU_RA">
@@ -142,11 +137,11 @@
 		<supports>Au Ra</supports>
 		<description>
 			<p>The Raen live in harmony with the other civilized races of the East. They've assimilated fully into Doman culture, becoming valued for their unwavering determination to loyalty to their allies. They are largely looked upon favourably by the other races for their peaceful demeanor and respectable approach to life.</p>
-			<p class="indent"><strong>Ability Score Increase.</strong>Your Charisma score increases by 1.</p>
-			<p class="indent"><strong>Polite Society.</strong>You gain proficiency in the Persuasion skill.</p>
-			<p ckass="indent"><strong>Unwavering Loyalty.</strong>You have advantage on saves against being charmed.</p>
+			<p class="indent"><strong>Ability Score Increase.</strong> Your Charisma score increases by 1.</p>
+			<p class="indent"><strong>Polite Society.</strong> You gain proficiency in the Persuasion skill.</p>
+			<p ckass="indent"><strong>Unwavering Loyalty.</strong> You have advantage on saves against being charmed.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Au Ra (Raen)" display="false" />
 		<rules>
 			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Raen)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -160,7 +155,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Unwavering Loyalty" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_RACIAL_TRAIT_UNWAVERING_LOYALTY">

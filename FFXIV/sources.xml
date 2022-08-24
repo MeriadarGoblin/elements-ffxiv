@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
-        <name></name>
-        <update version="0.0.3">
-            <file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/sources.xml" />
-        </update>
-    </info>
-	<element name="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" type="Source" source="Core" id="ID_GMBINDER_SOURCE_FFXIV_DND">
+		<name>Source</name>
+		<update version="0.0.4">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/sources.xml" />
+		</update>
+	</info>
+	<element name="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" type="Source" source="Core" id="ID_SOURCE_FFXIV_DND">
 		<description>
-			<html>&lt;p&gt;A Companion Guidebook for use alongside the Dungeons &amp; Dragons 5th Edition Player's Handbook to bring Final Fantasy XIV to your table&lt;/p&gt;</html>
+			<p>A Companion Guidebook for use alongside the Dungeons &amp; Dragons 5th Edition Player's Handbook to bring Final Fantasy XIV to your table.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">DNDFF14</set>
-			<set name="image">https://media.discordapp.net/attachments/937934997229293568/948966195837665310/Untitled.png?width=325&amp;height=414</set>
+			<set name="image">https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/FFXIV.png</set>
 			<set name="url">https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv</set>
 			<set name="author" abbreviation="USI" url="https://www.reddit.com/r/FFXIVxDnD/">u/SilentSoren</set>
 			<set name="release">20181119</set>
 			<set name="homebrew">true</set>
-			<set name="incomplete">true</set>
 		</setters>
 	</element>
 </elements>
