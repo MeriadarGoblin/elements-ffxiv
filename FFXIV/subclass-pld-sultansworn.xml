@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Paladin Archetype - Oath of the Sultansworn</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="subclass-pld-sultansworn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-pld-sultansworn.xml" />
 		</update>
 	</info>
@@ -11,7 +11,7 @@
 		<description>
 			<p>The Sultansworn were once known as fierce warriors who pledged their lives in the defense of the Sultan or Sultana of their land. These steadfast protectors sworn an oath to their rulers and their ideals, becoming paragons of justice in their cities.</p>
 			<p class="indent">Today, paladins who take the oath of the Sultansworn make this oath to protect someone of great importance, being provided with a wide selection of tools to ensure the safety of their charges.</p>
-			<h5>TENETS OF THE SULTANSWORN</h5>
+			<h5 class="caption">TENETS OF THE SULTANSWORN</h5>
 			<p>The ideals of the Sultansworn change alongside the person who they are sworn to protect. These tenets have guided them through this ever changing path.</p>
 			<p class="indent"><b><i>Shield.</i></b> Your leader is a beacon who will guide the land to prosperity. Protect them at all costs.</p>
 			<p class="indent"><b><i>Sword.</i></b> You are the sword which will protect and enforce their ideals.</p>
