@@ -4,7 +4,7 @@
 		<name>FFXIV</name>
 		<description>The content from the Final Fantatsy XIV DnD Compendium.</description>
 		<author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">SilentSoren</author>
-		<update version="0.2.15">
+		<update version="1.0.18">
 			<file name="FFXIV.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV.index" />
 		</update>
 	</info>
@@ -21,15 +21,18 @@
 		<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drk.xml" />
 		<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		<file name="class-mch.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-mch.xml" />
+		<file name="class-rdm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rdm.xml" />
 		<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
 		<file name="class-whm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-whm.xml" />
 		<file name="class-war.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-war.xml" />
 		<file name="subclass-skysinger-bard.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-skysinger-bard.xml" />
-        	<file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-monk-rhalgr.xml" />
+        <file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-monk-rhalgr.xml" />
+		<file name="subclass-rogue-nin.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-rogue-nin.xml" />
+		<file name="subclass-pld-sultansworn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-pld-sultansworn.xml" />
 
         <!-- Races -->
-        	<file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-au-ra.xml" />
-        	<file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
+        <file name="race-au-ra.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-au-ra.xml" />
+        <file name="race-elezen.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-elezen.xml" />
 		<file name="race-garlean.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-garlean.xml" />
 		<file name="race-hrothgar.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hrothgar.xml" />
 		<file name="race-hyur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-hyur.xml" />
@@ -39,7 +42,7 @@
 		<file name="race-viera.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-viera.xml" />
 
         <!-- Other -->
-        	<file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />
+        <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />
 		<file name="languages.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/languages.xml" />
 	</files>
 </index>

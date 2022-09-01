@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Monk Archetype - Way of Rhalgr</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="subclass-monk-rhalgr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-monk-rhalgr.xml" />
 		</update>
 	</info>
@@ -40,19 +40,29 @@
 			<p class="indent"><strong>Legs of Wind.</strong> You may change the damage type of your unarmed strikes to Thunder. Your movement speed is increased by 10ft. As an action, you may spend 2 Ki points to cast the Jump, Longstrider or spend 4 ki points to cast the Levitate spell on yourself.</p>
 		</description>
 		<sheet usage="Short/Long Rest">
-			<description />
+			<description>After completing a short or long rest you may select an element which to meditate on and gain the following benefits. View the spell cards given below.</description>
 		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_FFXIV_MNK_FISTS_FIRE" />
+			<grant type="Spell" id="ID_FFXIV_MNK_BODY_EARTH" />
+			<grant type="Spell" id="ID_FFXIV_MNK_LEGS_WIND" />
+		</rules>
 	</element>
 	<element name="Forbidden Chakra" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_FORBIDDEN_CHAKRA">
 		<description>
 			<p>Beginning at the 11th level, as an action, you are able to release dangerous amounts of Ki through your chakras. This release of Ki takes different forms depending on your current Embodied Element. While Fists of Fire is active you may use Howling Fist, while Body of Earth is active you may use Elixir Field, and while Legs of Wind is active you may use Tornado Kick. You spend 2 Ki points and may spend up to 3 additional Ki points to use Forbidden Chakra. For each extra Ki point spend, add an extra damage die to the effect.</p>
 			<p class="indent"><strong>Howling Fist.</strong> You release an incredible amount of Ki through your fist, causing a stream of Ki to burst from the ground before you. All creatures in a 40ft. line make a Dexterity saving throw against your Ki save DC, taking 3d8 force damage on a failure and half as much on a success.</p>
 			<p class="indent"><strong>Elixir Field.</strong> You unleash a forceful shower of aether from your body. All creatures in a 10ft. sphere around you make a Constitution saving throw against your Ki save DC, taking 3d6 force damage on a failure and half as much on a success.</p>
-			<p class="indent"><strong>Tornado King.</strong> You leap into the air and unleash a rain of powerful kicks on a single target creature. Make an unarmed strike against the target dealing 3d10 bludgeoning damage. If you hit, you may use your Flurry of Blows feature and both attacks have advantage.</p>
+			<p class="indent"><strong>Tornado Kick.</strong> You leap into the air and unleash a rain of powerful kicks on a single target creature. Make an unarmed strike against the target dealing 3d10 bludgeoning damage. If you hit, you may use your Flurry of Blows feature and both attacks have advantage.</p>
 		</description>
 		<sheet action="Action">
-			<description />
+			<description>As an action, you are able to release dangerous amounts of Ki through your chakras. This release of Ki takes different forms depending on your current Embodied Element. While Fists of Fire is active you may use Howling Fist, while Body of Earth is active you may use Elixir Field, and while Legs of Wind is active you may use Tornado Kick. View the spell cards given below.</description>
 		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_FFXIV_MNK_HOWLING_FIST" />
+			<grant type="Spell" id="ID_FFXIV_MNK_ELIXIR_FIELD" />
+			<grant type="Spell" id="ID_FFXIV_MNK_TORNADO_KICK" />
+		</rules>
 	</element>
 	<element name="Perfect Balance" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_WAY_OF_RHALGR_PERFECT_BALANCE">
 		<description>
@@ -62,4 +72,124 @@
 			<description>As a bonus action you enter a state of perfect balance for 1 minute. When you make an attack roll, after the die result is shown but not before the attack has been confirmed, you may expend a number of Ki points up to your Wisdom modifier, adding that number to your attack and damage roll. You may switch your selected element from your Embodied Elements feature as a bonus action. You must then finish a long rest to use Perfect Balance again.</description>
 		</sheet>
 	</element>
+
+	<!-- Element Stances as Spell Cards -->
+	<element name="Fists of Fire" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MNK_FISTS_FIRE">
+        <description>
+          <p>You may change the damage type of your unarmed strikes to Fire. Your unarmed strikes deal additional damage equal to your Wisdom ability modifier as bonus damage. As an action, you may expend a number of Ki points up to the number of creatures in a 15ft. cone in front of you. You make an unarmed strike against a number of creatures equal to the Ki points used.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Embodied Element</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">15 feet</set>
+          <set name="hasVerbalComponent">false</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+	  <element name="Body of Earth" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MNK_BODY_EARTH">
+        <description>
+          <p>Damage from bludgeoning, piercing and slashing damage from non-magical means is reduced by your Wisdom modifier. As a reaction you may expend 1 Ki point to transfer half the damage a creature within 5ft. of you to yourself. Your resistance applies to this damage.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Embodied Element</set>
+          <set name="time">Reaction</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">Self</set>
+          <set name="hasVerbalComponent">false</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+	  <element name="Legs of Wind" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MNK_LEGS_WIND">
+        <description>
+          <p>You may change the damage type of your unarmed strikes to Thunder. Your movement speed is increased by 10ft. As an action, you may spend 2 Ki points to cast the Jump, Longstrider or spend 4 ki points to cast the Levitate spell on yourself.</p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">1</set>
+          <set name="school">Embodied Element</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">Self</set>
+          <set name="hasVerbalComponent">false</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+
+	  <element name="Forbidden Chakra: Howling Fist" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MNK_HOWLING_FIST">
+        <description>
+          <p>As an action, you are able to release dangerous amounts of Ki through your chakras. You release an incredible amount of Ki through your fist, causing a stream of Ki to burst from the ground before you. All creatures in a 40ft. line make a Dexterity saving throw against your Ki save DC, taking 3d8 force damage on a failure and half as much on a success.</p>
+		  <p class="indent">You spend 2 Ki points and may spend up to 3 additional Ki points to use Forbidden Chakra. For each extra Ki point spend, add an extra damage die to the effect. </p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">2</set>
+          <set name="school">Forbidden Chakra</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">40 feet</set>
+          <set name="hasVerbalComponent">false</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+	  <element name="Forbidden Chakra: Elixir Field" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MNK_ELIXIR_FIELD">
+        <description>
+          <p>As an action, you are able to release dangerous amounts of Ki through your chakras. You unleash a forceful shower of aether from your body. All creatures in a 10ft. sphere around you make a Constitution saving throw against your Ki save DC, taking 3d6 force damage on a failure and half as much on a success.</p>
+		  <p class="indent">You spend 2 Ki points and may spend up to 3 additional Ki points to use Forbidden Chakra. For each extra Ki point spend, add an extra damage die to the effect. </p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">2</set>
+          <set name="school">Forbidden Chakra</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">10 feet sphere on self</set>
+          <set name="hasVerbalComponent">false</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+	  <element name="Forbidden Chakra: Tornado Kick" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_MNK_TORNADO_KICK">
+        <description>
+          <p>As an action, you are able to release dangerous amounts of Ki through your chakras. You leap into the air and unleash a rain of powerful kicks on a single target creature. Make an unarmed strike against the target dealing 3d10 bludgeoning damage. If you hit, you may use your Flurry of Blows feature and both attacks have advantage.</p>
+		  <p class="indent">You spend 2 Ki points and may spend up to 3 additional Ki points to use Forbidden Chakra. For each extra Ki point spend, add an extra damage die to the effect. </p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">2</set>
+          <set name="school">Forbidden Chakra</set>
+          <set name="time">1 action</set>
+          <set name="duration">Instantaneous</set>
+          <set name="range">5 feet</set>
+          <set name="hasVerbalComponent">false</set>
+          <set name="hasSomaticComponent">true</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent" />
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
 </elements>

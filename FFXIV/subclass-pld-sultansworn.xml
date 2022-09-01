@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Paladin Archetype - Oath of the Sultansworn</name>
+		<update version="1.0.0">
+			<file name="subclass-pld-sultansworn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-pld-sultansworn.xml" />
+		</update>
+	</info>
+	<element name="Oath of the Sultansworn" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_SUBCLASS_PLD_SULTANSWORN">
+		<supports>Sacred Oath</supports>
+		<description>
+			<p>The Sultansworn were once known as fierce warriors who pledged their lives in the defense of the Sultan or Sultana of their land. These steadfast protectors sworn an oath to their rulers and their ideals, becoming paragons of justice in their cities.</p>
+			<p class="indent">Today, paladins who take the oath of the Sultansworn make this oath to protect someone of great importance, being provided with a wide selection of tools to ensure the safety of their charges.</p>
+			<h5>TENETS OF THE SULTANSWORN</h5>
+			<p>The ideals of the Sultansworn change alongside the person who they are sworn to protect. These tenets have guided them through this ever changing path.</p>
+			<p class="indent"><b><i>Shield.</i></b> Your leader is a beacon who will guide the land to prosperity. Protect them at all costs.</p>
+			<p class="indent"><b><i>Sword.</i></b> You are the sword which will protect and enforce their ideals.</p>
+			<p class="indent"><b><i>Armor.</i></b> You are the armor that will protect their interests.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_OATH_SPELLS" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_CHANNEL_DIVINITY" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_AURA_DIVINE_VEIL" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_SHIELD_OATH" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_HALLOWED_GROUND" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_OATH_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_CHANNEL_DIVINITY" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_AURA_DIVINE_VEIL" level="7" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_SHIELD_OATH" level="15" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_HALLOWED_GROUND" level="20" />
+		</rules>
+	</element>
+	<element name="Oath Spells" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_OATH_SPELLS">
+		<description>
+			<p>You gain oath spells at the paladin levels listed.</p>
+			<h5 class="caption">OATH OF THE ANCIENTS SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Paladin Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Detect Poison and Disease, Heroism</em></td></tr>
+				<tr><td>5th</td><td><em>Calm Emotions, Find Traps</em></td></tr>
+				<tr><td>9th</td><td><em>Haste, Clairvoyance</em></td></tr>
+				<tr><td>13th</td><td><em>Fire Shield, Locate Creature</em></td></tr>
+				<tr><td>17th</td><td><em>Mass Cure Wounds, Legend Lore</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_TRAPS" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_CLAIRVOYANCE" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="17" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="17" spellcasting="Paladin" prepared="true"/>
+		</rules>
+	</element>
+	<element name="Channel Divinity" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_CHANNEL_DIVINITY">
+		<description>
+			<p>When you take this oath at the 3rd level, you gain the following two Channel Divinity options.</p>
+			<p class="indent"><b>Cover.</b> As an action you are create an aetherial link with a nearby ally. All damage that ally would take is received by you instead. The link lasts a number of rounds equal to your Charisma ability modifier. You may break the link prematurely as a bonus action. The creature you are linked to must remain within 10ft. of you or the link is broken.</p>
+			<p class="indent"><b>Ultimatum.</b> As an action your body releases threatening energy in a 30ft. radius. All hostile creatures make a Wisdom saving throw. On a failed save, the creature is provoked by you, having disadvantage on any battle actions against targets other than you for a number of rounds equal to your Charisma ability modifier. On a successful saving throw, creatures are provoked for half as long, rounded down.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_PLD_CHANNEL_DIVINITY_COVER" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_PLD_CHANNEL_DIVINITY_ULTIMATUM" />
+		</rules>
+	</element>
+	<element name="Channel Divinity: Cover" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_PLD_CHANNEL_DIVINITY_COVER">
+		<description>
+			<p>As an action you are create an aetherial link with a nearby ally. All damage that ally would take is received by you instead. The link lasts a number of rounds equal to your Charisma ability modifier. You may break the link prematurely as a bonus action. The creature you are linked to must remain within 10ft. of you or the link is broken.</p>
+		</description>
+		<sheet alt="Cover" action="Action" usage="Channel Divinity">
+			<description>As an action you are create an aetherial link with a nearby ally. All damage that ally would take is received by you instead. The link lasts a number of rounds equal to your Charisma ability modifier. You may break the link prematurely as a bonus action. The creature you are linked to must remain within 10ft. of you or the link is broken.</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Ultimatum" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_PLD_CHANNEL_DIVINITY_ULTIMATUM">
+		<description>
+			<p>As an action your body releases threatening energy in a 30ft. radius. All hostile creatures make a Wisdom saving throw. On a failed save, the creature is provoked by you, having disadvantage on any battle actions against targets other than you for a number of rounds equal to your Charisma ability modifier. On a successful saving throw, creatures are provoked for half as long, rounded down.</p>
+		</description>
+		<sheet alt="Ultimatum" action="Action" usage="Channel Divinity">
+			<description>As an action your body releases threatening energy in a 30ft. radius. All hostile creatures make a Wisdom saving throw. On a failed save, the creature is provoked by you, having disadvantage on any battle actions against targets other than you for a number of rounds equal to your Charisma ability modifier. On a successful saving throw, creatures are provoked for half as long, rounded down.</description>
+		</sheet>
+	</element>
+	<element name="Aura of the Divine Veil" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_AURA_DIVINE_VEIL">
+		<description>
+			<p>Beginning at the 7th level, allies within 10 ft. of you are protected by a divine veil. As a reaction, you may choose to redirect half the damage an ally would receive to yourself.</p>
+			<p class="indent">At the 18th level, the range of this aura is increased to 30 ft.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Allies within {{divine veil:range}} ft. of you are protected by a divine veil. As a reaction, you may choose to redirect half the damage an ally would receive to yourself.</description>
+		</sheet>
+		<rules>
+			<stat name="divine veil:range" value="10" bonus="base" />
+			<stat name="divine veil:range" value="20" level="18" />
+		</rules>
+	</element>
+	<element name="Shield Oath" tYpe="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_SHIELD_OATH">
+		<description>
+			<p>Beginning at the 15th level, your oath of protection has allowed you to block attacks easier. Using your reaction, you may spend one hit die to reduce the attack roll by the result of the roll.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Using your reaction, you may spend one hit die to reduce the attack roll by the result of the roll.</description>
+		</sheet>
+	</element>
+	<element name="Hallowed Ground" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_HALLOWED_GROUND">
+		<description>
+			<p>Beginning at the 20th level, you mastered a technique to channel your will into an impregnable barrier. As an action, you create a barrier which blocks all damage for a number of rounds equal to half your Charisma ability modifier rounded down. You must then finish a long rest to use Hallowed Ground again.</p>
+		</description>
+		<sheet action="Action" usage="Long Rest">
+			<description>As an action, you create a barrier which blocks all damage for a number of rounds equal to half your Charisma ability modifier rounded down. You must then finish a long rest to use Hallowed Ground again.</description>
+		</sheet>
+	</element>
+
+</elements>

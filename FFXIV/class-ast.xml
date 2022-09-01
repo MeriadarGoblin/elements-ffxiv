@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Astrologian</name>
-		<update version="1.1.4">
+		<update version="1.1.41">
 			<file name="class-ast.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-ast.xml" />
 		</update>
     </info>
@@ -493,8 +493,8 @@
           <set name="isConcentration">false</set>
           <set name="isRitual">false</set>
         </setters>
-      </element>
-      <element name="2. The Bole" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_BOLE">
+    </element>
+    <element name="2. The Bole" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_BOLE">
         <description>
           <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. All damage you take is reduced by 1d6. This increases to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 17th level.</p>
         </description>
@@ -512,8 +512,8 @@
           <set name="isConcentration">false</set>
           <set name="isRitual">false</set>
         </setters>
-      </element>
-      <element name="3. The Arrow" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_ARROW">
+    </element>
+    <element name="3. The Arrow" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_ARROW">
         <description>
           <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. All damage you take is reduced by 1d6. This increases to 2d6 at the 5th level, 3d6 at the 11th level and 4d6 at the 17th level.</p>
         </description>
@@ -531,8 +531,8 @@
           <set name="isConcentration">false</set>
           <set name="isRitual">false</set>
         </setters>
-      </element>
-      <element name="4. The Spear" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_SPEAR">
+    </element>
+    <element name="4. The Spear" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_SPEAR">
         <description>
           <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. Your attack rolls crit on a 19 or 20 die result.</p>
         </description>
@@ -550,8 +550,8 @@
           <set name="isConcentration">false</set>
           <set name="isRitual">false</set>
         </setters>
-      </element>
-      <element name="5. The Ewer" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_EWER">
+    </element>
+    <element name="5. The Ewer" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_EWER">
         <description>
           <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. Temporarily provides one level 1 or 2 spell slot. May be used for level 3 spell slots beginning at the 11th level and level 4 spell slots at the 17th level.</p>
         </description>
@@ -569,8 +569,8 @@
           <set name="isConcentration">false</set>
           <set name="isRitual">false</set>
         </setters>
-      </element>
-      <element name="6. The Spire" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_SPIRE">
+    </element>
+    <element name="6. The Spire" type="Spell" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_CARD_SPELL_SPIRE">
         <description>
           <p>You may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck. Temporarily provides 1, non-spell slot resource to an ally. This increases to 2 resources at the 5th level, 3 resources at the 11th level and 4 resources at the 17th level.</p>
         </description>
@@ -588,7 +588,7 @@
           <set name="isConcentration">false</set>
           <set name="isRitual">false</set>
         </setters>
-      </element>
+    </element>
 
     <!-- Spell List -->
     <append id="ID_PHB_SPELL_BLADE_WARD">

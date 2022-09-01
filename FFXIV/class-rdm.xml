@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Dancer</name>
+		<update version="1.0.0">
+			<file name="class-rdm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rdm.xml" />
+		</update>
+	</info>
+    <element name="Red Mage" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_RDM">
+        <description>
+            <p>Like a lightning bolt streaking through the battlefield, she makes quick work of foe after foe. At the first sign of danger, the crimson beauty flips over the head of the foe behind her, letting loose a wave of energy as a parting gift.</p>
+            <p class="indent">A confident smirk spreads across the face of the veteran red mage. He unleashes spell after spell in quick succession, drawing on countless elements until his foe is annihilated.</p>
+            <p class="indent">As though a flower amongst a sea of weeds, the red mage leads their allies into battle. With a deep trust that they'll stay at their side, she turns her friends into the perfect dancing partners for this adventure, empowering them to match their grace.</p>
+            <p class="indent">Red Mages have drawn on a multitude of disciplines across the world, mixing black and white magic along with focused swordplay and style. All of these abilities have combined in this alluring mix of talent and flair, creating a hero worthy of becoming legendary.</p>
+            <h4>Crimson Mage</h4>
+            <p>Some fairy tales of Gyr Abania speak of the heroic deeds and daring adventures of mages clothed in crimson. These adventurers are known as Red Mages, and travel the world protecting the good in the world by drawing on both white and black magic, while mixing martial prowess into a flawless battle style.</p>
+            <h4>Its Not About Fame</h4>
+            <p>Their thirst for adventure, flashy style and renowned flair may lead many to believe that a Red Mage becomes an adventurer for the admiration of their fellow man, but that is not the case. Those who take the Red do so in order to take up arms to protect the good in the world and bring wrongdoers to justice.</p>
+            <h4>CREATING A RED MAGE</h4>
+            <p>When creating a Red Mage, you must consider why they may be heading out on their adventure. Did they become fed up with the oppressive nature of the world and seek the need to become a hero to the common man? They may have learned of a plot which endangers their home, perhaps the world as a whole and will stop at nothing to end it. Maybe it is simply a need to chase the thrill of adventure and become a hero of legend.</p>
+            <p class="indent">One key consideration to make as a Red Mage is where you came to learn your myriad of skills. Was it through the study of old tomes you discovered in an abandoned warehouse or library? Did you meet a mentor who saw great potential in you and introduced you to the art? Whatever the origin, you wield powerful skills with an artistic flair.</p>
+            <h5 class="caption">QUICK BUILD</h5>
+            <p>You can make a Red Mage quickly by following these suggestions. First make Charisma your highest ability score, followed by Dexterity. Second take the Folk Hero background. Third take the Fire Bolt, Jolt, Mage Hand and Prestidigitation cantrips, and the first level spells Chromatic Orb and Cure Wounds.</p>
+            <h2>CLASS FEATURES</h2>
+            <p>As an red mage, you gain the following class features.</p>
+            <h5 class="caption">HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per red mage level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your red mage modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per red mage level after 1st</li>
+            </ul>
+            <h5 class="caption">PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light Armor, Medium Armor</li>
+                <li><strong>Weapons:</strong> Simple weapos, short swords, rapiers</li>
+                <li><strong>Tools:</strong> Two sets of artisan tools</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Dexterity, Charisma</li>
+                <li><strong>Skills:</strong> Choose two from Athletics, Acrobatics, Arcana, History, Insight, Persuasion.</li>
+            </ul>
+            <h5 class="caption">EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>(a)leather armor or (b) hide armor</li>
+                <li>a rapier</li>
+                <li>a spellcasting focus</li>
+                <li>(a) an explorer's pack or (b) a dungeoneer's pack</li>
+            </ul>
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_SPELLCASTING" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_FLAIR_POINTS" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_DUAL_CASTING" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_RED_MAGE_STYLE" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_EXTRA_ATTACK" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_BATTLE_FLOURISH" />
+            <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_ACCELERATION" />
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_SPELLCASTING" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_FLAIR_POINTS" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_DUAL_CASTING" level="1" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_RED_MAGE_STYLE" level="2" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_BATTLE_FLOURISH" level="18" />
+            <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_ACCELERATION" level="20" />
+        </rules>
+    </element>
+    <element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_SPELLCASTING">
+        <description>
+            <p>Level requirement and general description. See chapter 10 of the PHB for the general rules of spellcasting and the end of this document for the Red Mage spell list.</p>
+            <h4>Cantrips</h4>
+            <p>At 1st level, you know 4 cantrips of your choice from the Red Mage spell list. You learn additional Red Mage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Red Mage table.</p>
+            <h4>Spell Slots</h4>
+            <p>The Red Mage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+            <h4>Spells Known of 1st Level and Higher</h4>
+            <p>You know 2 1st-level spells of your choice from the Red Mage spell list. The Spells Known column of the Red Mage table shows when you learn more Red Mage spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st, 2nd or 3rd level. Additionally, when you gain a level in this class, you can choose one of the Mage spells you know and replace it with another spell from the Red Mage spell list, which also must be of a level for which you have spell slots.</p>
+            <h4>Charisma is your spellcasting ability for your Red Mage spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Red Mage spell you cast and when making an attack roll with one.</h4>
+            <center>
+                <p class="indent"><strong>Spell save DC =</strong> 8 + your proficiency bonus + your Charisma modifier</p>
+                <p class="indent"><strong>Spell attack modifier =</strong> your proficiency bonus + your Charisma modifier</p>
+            </center>
+            <h5>Spellcasting Focus</h5>>
+            <p>You can use a magically conductive stone inlaid in a decorative mount other similar equipment as an arcane focus (found in chapter 5 of the player's handbook) for your Red Mage spells.</p>
+            <h5>Ritual Casting</h5>
+            <p>You can cast any Red Mage spell you know as a ritual if that spell has the ritual tag.</p>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Red Mage" ability="Charisma" allowReplace="true">
+			<list>Red Mage</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<stat name="red mage:spellcasting:slots:1" value="2" level="1" />
+			<stat name="red mage:spellcasting:slots:1" value="1" level="2" />
+			<stat name="red mage:spellcasting:slots:1" value="1" level="3" />
+			<stat name="red mage:spellcasting:slots:2" value="2" level="3" />
+			<stat name="red mage:spellcasting:slots:2" value="1" level="4" />
+			<stat name="red mage:spellcasting:slots:3" value="2" level="5" />
+			<stat name="red mage:spellcasting:slots:3" value="1" level="6" />
+			<stat name="red mage:spellcasting:slots:4" value="1" level="7" />
+			<stat name="red mage:spellcasting:slots:4" value="1" level="8" />
+			<stat name="red mage:spellcasting:slots:4" value="1" level="9" />
+			<stat name="red mage:spellcasting:slots:5" value="1" level="9" />
+			<stat name="red mage:spellcasting:slots:5" value="1" level="10" />
+			<stat name="red mage:spellcasting:slots:5" value="1" level="18" />
+			<stat name="red mage:spellcasting:slots:6" value="1" level="11" />
+			<stat name="red mage:spellcasting:slots:6" value="1" level="19" />
+			<stat name="red mage:spellcasting:slots:7" value="1" level="13" />
+			<stat name="red mage:spellcasting:slots:7" value="1" level="20" />
+			<stat name="red mage:spellcasting:slots:8" value="1" level="15" />
+			<stat name="red mage:spellcasting:slots:9" value="1" level="17" />
+
+			<select type="Spell" name="Cantrip (Red Mage)" supports="$(spellcasting:list),0" level="1" number="4" spellcasting="Red Mage" />
+			<select type="Spell" name="Cantrip (Red Mage)" supports="$(spellcasting:list),0" level="4" spellcasting="Red Mage"/>
+			<select type="Spell" name="Cantrip (Red Mage)" supports="$(spellcasting:list),0" level="10" spellcasting="Red Mage"/>
+
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Red Mage"/>
+			<select type="Spell" name="Spell (Red Mage)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Red Mage"/>
+		</rules>
+    </element>
+    <element name="Flair Points" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_FLAIR_POINTS">
+        <description>
+            <p>At 1st level, you have a number of flair points determined by your red mage level as shown in the Flair Points column of the Red Mage table. You regain all expended flair points when you finish a short or long rest.</p>
+        </description>
+        <sheet actiion="{{flair points}}" usage="Short/Long Rest">
+            <description>You have a number of flair points, {{flair points}}, determined by your red mage level as shown in the Flair Points column of the Red Mage table. You regain all expended flair points when you finish a short or long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="flair points" value="1" bonus="base" />
+            <stat name="flair points" value="1" level="2" />
+            <stat name="flair points" value="1" level="3" />
+            <stat name="flair points" value="1" level="4" />
+            <stat name="flair points" value="1" level="10" />
+            <stat name="flair points" value="1" level="12" />
+            <stat name="flair points" value="1" level="14" />
+            <stat name="flair points" value="1" level="16" />
+            <stat name="flair points" value="1" level="18" />
+            <stat name="flair points" value="1" level="20" />
+        </rules>
+    </element>
+    <element name="Dual Casting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_DUAL_CASTING">
+        <description>
+            <p>At 1st level, when you cast a spell that has a casting time of 1 action, you can spend 1 flair point to change the casting time to 1 bonus action for this casting. You may not do so with a spell greater than 4th level.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell that has a casting time of 1 action, you can spend 1 flair point to change the casting time to 1 bonus action for this casting. You may not do so with a spell greater than 4th level.</description>
+        </sheet>
+    </element>
+    <element name="Red Mage Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_RED_MAGE_STYLE">
+        <decsription>
+            <p>At 2nd level, you choose a style as a Red Mage. Sword Dancer, Spell Slinger or Battle Rose, all detailed at the end of the class description. Your archetype choice grants you features at the 2nd, 6th, 10th and 14th level.</p>
+        </decsription>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Red Mage Style" supports="Red Mage Archetype" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_ABILITY_SCORE_IMPROVEMENT">
+        <compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Red Mage 4)" supports="Improvement Option,Red Mage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Red Mage 8)" supports="Improvement Option,Red Mage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Red Mage 12)" supports="Improvement Option,Red Mage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Red Mage 16)" supports="Improvement Option,Red Mage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Red Mage 19)" supports="Improvement Option,Red Mage,19" level="19" />
+		</rules>
+    </element>
+    <element name="Extra Attack" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" bonus="extra attack" level="5" />
+		</rules>
+	</element>
+    <element name="Battle Flourish" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_BATTLE_FLOURISH">
+        <description>
+            <p>At 18th level, when you roll initiative and have 0 flair points remaining, you recover 1d4 flair points.</p>
+        </description>
+        <sheet>
+            <description>At 18th level, when you roll initiative and have 0 flair points remaining, you recover 1d4 flair points.</description>
+        </sheet>
+    </element>
+    <element name="Acceleration" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_ACCELERATION">
+        <description>
+            <p>At the 20th level, you may cast two spells using Dual Cast, rather than one spell and one cantrip. You must then finish a long rest to use Acceleration again.</p>
+        </description>
+        <sheet>
+            <description>At the 20th level, you may cast two spells using Dual Cast, rather than one spell and one cantrip. You must then finish a long rest to use Acceleration again.</description>
+        </sheet>
+    </element>
+
+    <!-- Archetypes -->
+    <element name="Sword Dancer" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_RDM_SWORD_DANCER">
+        <supports>Red Mage Archetype</supports>
+		<description>
+			<p>You've taken up sword in hand, aiming to weave magic and might into a flawless, deadly dance. Your blade moves like the wind, and you ride the currents perfectly.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_CORPS_A_CORPS" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_HEROIC_CHARM" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_DISPLACEMENT" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_ENCHANTED_BLADE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_CORPS_A_CORPS" level="2" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_HEROIC_CHARM" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_DISPLACEMENT" level="10" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_ENCHANTED_BLADE" level="14" />
+		</rules>
+    </element>
+    <element name="Corps-A-Corps" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_CORPS_A_CORPS">
+        <description>
+            <p>At 2nd level, you have mastered the art of approaching a foe with lightning speed and delivering a powerful strike. As a bonus action, you spend 1 flair point and select one target within 30ft. of you. You move in a straight line towards that target, stopping at the first creature you encounter in your path. This movement does not provoke attacks of opportunity. You make a weapon attack against the target, dealing a bonus 1d8 piercing damage if your attack lands.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action, you spend 1 flair point and select one target within 30ft. of you. You move in a straight line towards that target, stopping at the first creature you encounter in your path. This movement does not provoke attacks of opportunity. You make a weapon attack against the target, dealing a bonus 1d8 piercing damage if your attack lands.</description>
+        </sheet>
+    </element>
+    <element name="Heroic Charm" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_HEROIC_CHARM">
+        <description>
+            <p>At 6th level, your renaissance man nature has given you an edge in conversation. You may spend one flair point to reroll any charisma based ability check. You gain proficiency in a charisma skill of your choice.</p>
+        </description>
+        <sheet>
+            <description>You may spend one flair point to reroll any charisma based ability check. You gain proficiency in a charisma skill of your choice.</description>
+        </sheet>
+    </element>
+    <element name="Displacement" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_DISPLACEMENT">
+        <description>
+            <p>At 10th level, you have learned to flow between martial and magic combat effortlessly. By spending 1 flair point after taking the attack action you leap backwards through the air, landing up to 30ft. in a straight line behind you. You are considered to travel over the heads of medium creatures or smaller, but your travel is stopped by creatures larger than this. This movement does not provoke attacks of opportunity. When you take this action, make a ranged spell attack against the target of your attack action, dealing 2d8 + your Charisma modifier force damage on hit.</p>
+        </description>
+        <sheet>
+            <description>By spending 1 flair point after taking the attack action you leap backwards through the air, landing up to 30ft. in a straight line behind you. You are considered to travel over the heads of medium creatures or smaller, but your travel is stopped by creatures larger than this. This movement does not provoke attacks of opportunity. When you take this action, make a ranged spell attack against the target of your attack action, dealing 2d8 + your Charisma modifier force damage on hit.</description>
+        </sheet>
+    </element>
+    <element name="Enchanted Blade" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_ENCHANTED_BLADE">
+        <description>
+            <p>At 14th level, your magical power seeps into any weapon you hold. After attuning to a one handed weapon for one hour, magical or not, you are able to summon the weapon to your hand as an action. You may spend one flair point to deal an additional 2d8 force damage on each damage roll when you make an attack with this weapon. You must declare you are doing so prior to your attack roll.</p>
+        </description>
+        <sheet>
+            <description>After attuning to a one handed weapon for one hour, magical or not, you are able to summon the weapon to your hand as an action. You may spend one flair point to deal an additional 2d8 force damage on each damage roll when you make an attack with this weapon. You must declare you are doing so prior to your attack roll.</description>
+        </sheet>
+    </element>
+
+    <element name="Spell Slinger" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_RDM_SPELL_SLINGER">
+        <supports>Red Mage Archetype</supports>
+		<description>
+			<p>You've decided to master the casting of myriad magicks as a Red Mage. Your studies of the art have granted you the ability to rapidly cast spells at a speed that has never been seen before.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_MANAFICATION" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_CHARMED_IM_SURE" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_QUICKSILVER_CASTING" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_LIQUIFICATION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_MANAFICATION" level="2" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_CHARMED_IM_SURE" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_QUICKSILVER_CASTING" level="10" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_LIQUIFICATION" level="14" />
+		</rules>
+    </element>
+    <element name="Manafication" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_MANAFICATION">
+        <description>
+            <p>At 2nd level, as a bonus action you may spend a number of flair points equal to twice the level of a spell you wish to cast, in place of using a spell slot.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you may spend a number of flair points equal to twice the level of a spell you wish to cast, in place of using a spell slot.</description>
+        </sheet>
+    </element>
+    <element name="Charmed I'm Sure" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_CHARMED_IM_SURE">
+        <description>
+            <p>At 6th level, the trace amounts of magic in your body influence those you come into contact with. You may spend a flair point to gain advantage on a charisma ability check.</p>
+        </description>
+        <sheet>
+            <description>You may spend a flair point to gain advantage on a charisma ability check.</description>
+        </sheet>
+    </element>
+    <element name="Quicksilver Casting" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_QUICKSILVER_CASTING">
+        <description>
+            <p>At 10th level, if you deal damage to a target with a cantrip, you may spend one flair point to gain advantage on a ranged spell attack against the target or cause the target to make dexterity saving throws against your spells with disadvantage until the end of your turn.</p>
+        </description>
+        <sheet>
+            <description>If you deal damage to a target with a cantrip, you may spend one flair point to gain advantage on a ranged spell attack against the target or cause the target to make dexterity saving throws against your spells with disadvantage until the end of your turn.</description>
+        </sheet>
+    </element>
+    <element name="Liquification" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_LIQUIFICATION">
+        <description>
+            <p>At 14th level, as a bonus action you may spend a spell slot of any level to gain a number of flair points equal to twice the spell slot level. You may not gain flair points over your maximum number of points.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action you may spend a spell slot of any level to gain a number of flair points equal to twice the spell slot level. You may not gain flair points over your maximum number of points.</description>
+        </sheet>
+    </element>
+
+    <element name="Battle Rose" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_RDM_BATTLE_ROSE">
+        <supports>Red Mage Archetype</supports>
+		<description>
+			<p>You've decided to master the casting of myriad magicks as a Red Mage. Your studies of the art have granted you the ability to rapidly cast spells at a speed that has never been seen before.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_DAZZLING_DIVERSION" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_IN_GOOD_COMPANY" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_EMBOLDEN" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_FOLLOW_MY_LEAD" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_DAZZLING_DIVERSION" level="2" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_IN_GOOD_COMPANY" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_EMBOLDEN" level="10" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_FOLLOW_MY_LEAD" level="14" />
+		</rules>
+    </element>
+    <element name="Dazzling Diversion" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_DAZZLING_DIVERSION">
+        <description>
+            <p>At 2nd level, you have learned to mix magic with your movements to pull the attention of an enemy, allowing your allies to strike. As an action you may spend on flair point to distract a target in melee within 5ft. of yourself. All melee weapon attacks performed by your allies against the target gain advantage until your next turn.</p>
+        </description>
+        <sheet action="Action">
+            <description>As an action you may spend on flair point to distract a target in melee within 5ft. of yourself. All melee weapon attacks performed by your allies against the target gain advantage until your next turn.</description>
+        </sheet>
+    </element>
+    <element name="In Good Company" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_IN_GOOD_COMPANY">
+        <description>
+            <p>At 6th level, you may spend 1 flair point to tutor your ally in the art of appealing to others. One ally may use your charisma ability modifiers for charisma ability checks for up to 5 minutes. You may only share your charisma ability modifiers once. You must then finish a short rest to use In Good Company again.</p>
+        </description>
+        <sheet usage="Short Rest">
+            <description>You may spend 1 flair point to tutor your ally in the art of appealing to others. One ally may use your charisma ability modifiers for charisma ability checks for up to 5 minutes. You may only share your charisma ability modifiers once. You must then finish a short rest to use In Good Company again.</description>
+        </sheet>
+    </element>
+    <element name="Embolden" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_EMBOLDEN">
+        <description>
+            <p>At 10th level, you have learned to fill your allies with fervor using your natural appeal. As an action you may spend 1 flair point to empower all allies within 10ft. of you. Damaging effects from your allies deal an extra 1d8 damage for until the end of your next turn.</p>
+        </description>
+        <sheet action="Action">
+            <description>As an action you may spend 1 flair point to empower all allies within 10ft. of you. Damaging effects from your allies deal an extra 1d8 damage for until the end of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Follow My Lead" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RDM_FOLLOW_MY_LEAD">
+        <description>
+            <p>At 14th level, as a bonus action you may spend 2 flair points to move an ally who is lower in the initiative order than you up in the order, such that they act directly after you. You may only do this once. You must then finish a short rest to use Follow My Lead again.</p>
+        </description>
+        <sheet action="Bonus Action" usage="Short Rest">
+            <description>As a bonus action you may spend 2 flair points to move an ally who is lower in the initiative order than you up in the order, such that they act directly after you. You may only do this once. You must then finish a short rest to use Follow My Lead again.</description>
+        </sheet>
+    </element>
+
+    <!-- Cantrips -->
+    <append id="ID_PHB_SPELL_BLADE_WARD">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DANCING_LIGHTS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIRE_BOLT">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_GUST">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_FFXIV_SPELL_JOLT">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_SCAG_SPELL_LIGHTNING_LURE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGE_HAND">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MAGIC_STONE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MOLD_EARTH">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PRESTIDIGITATION">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RAY_OF_FROST">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHOCKING_GRASP">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_SWORD_BURST">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_THUNDERCLAP">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_STRIKE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WORD_OF_RADIANCE">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 1st Level -->
+    <append id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BURNING_HANDS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CHARM_PERSON">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CHROMATIC_ORB">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CURE_WOUNDS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISGUISE_SELF">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_EARTH_TREMOR">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FEATHER_FALL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_WOTC_IDROTF_SPELL_FROST_FINGERS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEALING_WORD">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HELLISH_REBUKE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_JUMP">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGE_ARMOR">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_MISSILE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHIELD">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_THUNDERWAVE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WITCH_BOLT">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_ZEPHYR_STRIKE">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 2nd Level -->
+    <append id="ID_XGTE_SPELL_AGANAZZARS_SCORCHER">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CALM_EMOTIONS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CLOUD_OF_DAGGERS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DRAGONS_BREATH">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DUST_DEVIL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_EARTHBIND">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ENTHRALL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLAME_BLADE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLAMING_SPHERE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUST_OF_WIND">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LESSER_RESTORATION">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_MOUTH">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_WEAPON">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MAXIMILIANS_EARTHEN_GRASP">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MISTY_STEP">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_PYROTECHNICS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SCORCHING_RAY">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHATTER">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPIKE_GROWTH">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WARDING_WIND">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 3rd Level -->
+    <append id="ID_PHB_SPELL_BLINK">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CATNAP">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_COUNTERSPELL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_MAGIC">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ELEMENTAL_WEAPON">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_ERUPTING_EARTH">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIREBALL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLY">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HASTE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LIGHTNING_BOLT">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_CIRCLE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REVIVIFY">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_THUNDER_STEP">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WALL_OF_SAND">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WIND_WALL">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 4th Level -->
+    <append id="ID_XGTE_SPELL_CHARM_MONSTER">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONFUSION">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DOMINATE_BEAST">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_ELEMENTAL_BANE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIRE_SHIELD">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ICE_STORM">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SICKENING_RADIANCE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STONE_SHAPE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STONESKIN">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_FIRE">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 5th Level -->
+    <append id="ID_PHB_SPELL_CIRCLE_OF_POWER">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_CONTROL_WINDS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DAWN">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DOMINATE_PERSON">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLAME_STRIKE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GEAS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_HOLY_WEAPON">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_IMMOLATION">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_STEEL_WIND_STRIKE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TRANSMUTE_ROCK">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WALL_OF_STONE">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 6th Level -->
+    <append id="ID_XGTE_SPELL_BONES_OF_THE_EARTH">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLADE_BARRIER">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CHAIN_LIGHTNING">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_EYEBITE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FLESH_TO_STONE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEAL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MOVE_EARTH">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TENSERS_TRANSFORMATION">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WIND_WALK">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 7th Level -->
+    <append id="ID_XGTE_SPELL_CROWN_OF_STARS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DELAYED_BLAST_FIREBALL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANE_SHIFT">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RESURRECTION">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_WHIRLWIND">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 8th level -->
+    <append id="ID_PHB_SPELL_ANTIMAGIC_FIELD">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DOMINATE_MONSTER">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_EARTHQUAKE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GLIBNESS">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INCENDIARY_CLOUD">
+        <supports>Red Mage</supports>
+    </append>
+
+    <!-- 9th level -->
+    <append id="ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_FFXIV_SPELL_FLARE">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_HEAL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_METEOR_SWARM">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_POWER_WORD_HEAL">
+        <supports>Red Mage</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+        <supports>Red Mage</supports>
+    </append>
+
+</elements>
