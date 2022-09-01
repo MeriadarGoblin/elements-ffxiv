@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Paladin Archetype - Oath of the Sultansworn</name>
-		<update version="1.0.1">
+		<update version="1.0.11">
 			<file name="subclass-pld-sultansworn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-pld-sultansworn.xml" />
 		</update>
 	</info>
@@ -101,7 +101,7 @@
 			<stat name="divine veil:range" value="20" level="18" />
 		</rules>
 	</element>
-	<element name="Shield Oath" tYpe="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_SHIELD_OATH">
+	<element name="Shield Oath" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SULTANSWORN_SHIELD_OATH">
 		<description>
 			<p>Beginning at the 15th level, your oath of protection has allowed you to block attacks easier. Using your reaction, you may spend one hit die to reduce the attack roll by the result of the roll.</p>
 		</description>
