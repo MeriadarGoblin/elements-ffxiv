@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<name>Rogue Archetype - Ninja</name>
-		<update version="1.0.0">
+		<update version="1.1.0">
 			<file name="subclass-rogue-nin.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-rogue-nin.xml" />
 		</update>
 	</info>
-	<element name="Ninja" type="Archetype" source="" id="ID_WOTC_PHB_ARCHETYPE_ASSASSIN">
+	<element name="Ninja" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_WOTC_PHB_ARCHETYPE_ASSASSIN">
 		<supports>Roguish Archetype</supports>
 		<description>
 			<p>You have chosen to study the art of the ninjas of Doma. These talented fighters have learned to channel the power from the world around them, the heavens, the earth and the hearts of man through the use of mudras or hand gestures. These traditional arts are passed down from master to student, father to son and mother to daughter. Their secrets are closely guarded by the practitioners.</p>
@@ -28,7 +28,7 @@
 			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_KASSATSU" level="17"/>
 		</rules>
 	</element>
-	<element name="Ninjutsu" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_OATH_NINJUTSU">
+	<element name="Ninjutsu" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_OATH_NINJUTSU">
 		<description>
 			<p>Beginning at the 3rd level, as an action, you may cast ninjutsu by combining mudra together. Beginning at 3rd level you gain access to the mudra 'Ten'. At 9th level you gain access to the mudra 'Chi', and at 13th level you gain access to the mudra 'Jin'. You may use each mudra a number of times equal to half your rogue level rounded down. You may not use two of the same mudra to cast ninjutsu which require a specific mudra. you regain all of your expended mudra when you finish a long rest.</p>
 			<h5>Ninjutsu</h5>
@@ -77,8 +77,8 @@
 			<div class="reference">
 				<div element="ID_PHB_SPELL_HASTE" />
 			</div>
-			<h5>Performing the Doton ninjutsu allows you to cast the Doton spell.</h5>
-			<p></p>
+			<h5>Doton</h5>
+			<p>Performing the Doton ninjutsu allows you to cast the Doton spell.</p>
 			<div class="reference">
 				<div element="ID_FFXIV_SPELL_DOTON" />
 			</div>
@@ -90,15 +90,15 @@
 		</description>
 		<sheet action="Action" usage="T{{ten:count}}/C{{chi:count}}/J{{jin:count}} / Long Rest">
 			<description>You may cast ninjutsu by combining mudra together. You may not use two of the same mudra to cast ninjutsu which require a specific mudra. you regain all of your expended mudra when you finish a long rest. Refer to the ninjutsu table for details.
-				&amp;Intelligence is the spell modifier for the following abilities. The spell casting focus for these spells is the caster's hands forming the required mudras. Spells cast through ninjutsu are cast at their base level. To cast ninjutsu at a higher spell level, you may spend the required mudra for the ninjutsu again to increase the spell level by one. You may spend mudra to increase the casting level to a maximum of the 9th level.
+				&#38;Intelligence is the spell modifier for the following abilities. The spell casting focus for these spells is the caster's hands forming the required mudras. Spells cast through ninjutsu are cast at their base level. To cast ninjutsu at a higher spell level, you may spend the required mudra for the ninjutsu again to increase the spell level by one. You may spend mudra to increase the casting level to a maximum of the 9th level.
 			</description>
 		</sheet>
 		<rules>
-			<stat name="ten:count" value="level:rogue:half:down" bonus="base" />
+			<stat name="ten:count" value="level:rogue:half" bonus="base" />
 			<stat name="chi:count" value="0" bonus="base" />
-			<stat name="chi:count" value="level:rogue:half:down" bonus="bonus" level="9" />
+			<stat name="chi:count" value="level:rogue:half" level="9" />
 			<stat name="jin:count" value="0" bonus="base" />
-			<stat name="jin:count" value="level:rogue:half:down" bonus="bonus" level="13" />
+			<stat name="jin:count" value="level:rogue:half" level="13" />
 			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" />
 			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="3" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="3" />
@@ -109,7 +109,7 @@
 			<grant type="Spell" id="ID_FFXIV_SPELL_SUITON" level="13" />
 		</rules>
 	</element>
-	<element name="Shukuchi" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_SHUKUCHI">
+	<element name="Shukuchi" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_SHUKUCHI">
 		<description>
 			<p>Also beginning at the 3rd level, when you use the hide action, you may spend one use of your Ten mudra to transform it into Shukuchi. You instantaneously travel a maximum distance of 5ft. per rogue level. You may travel over gaps in the ground, but cannot scale walls or travel through creatures or objects using shukuchi. At the 13th level you leave behind an optional 15ft. cube of smoke which persists for a number of rounds equal to your Intelligence modifier.</p>
 		</description>
@@ -125,7 +125,7 @@
 			<stat name="shukuchi distance" value="level" />
 		</rules>
 	</element>
-	<element name="Infiltrator" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_INFILTRATOR">
+	<element name="Infiltrator" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_INFILTRATOR">
 		<description>
 			<p>Beginning at the 9th level, you've honed your skills in breaking into and out of buildings. As long as you are not engaged in combat, you have advantage on stealth and acrobatics checks in areas with dim or no light.</p>
 		</description>
@@ -133,15 +133,15 @@
 			<description>As long as you are not engaged in combat, you have advantage on stealth and acrobatics checks in areas with dim or no light.</description>
 		</sheet>
 	</element>
-	<element name="Trick Attack" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_TRICK_ATTACK">
-		<descrption>
+	<element name="Trick Attack" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_TRICK_ATTACK">
+		<description>
 			<p>Beginning at the 13th level you are able to perform a trick attack. When you attack an enemy with a sneak attack, you may expend one use of each mudra to perform a trick attack. On a successful attack roll, the target becomes vulnerable causing all attack rolls to have advantage against that creature for one round, beginning after your action.</p>
-		</descrption>
+		</description>
 		<sheet>
 			<description>When you attack an enemy with a sneak attack, you may expend one use of each mudra to perform a trick attack. On a successful attack roll, the target becomes vulnerable causing all attack rolls to have advantage against that creature for one round, beginning after your action.</description>
 		</sheet>
 	</element>
-	<element name="Kassatsu" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_KASSATSU">
+	<element name="Kassatsu" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_NIN_KASSATSU">
 		<description>
 			<p>Beginning at the 17th level, as a bonus action, after using a ninjutsu you may use a second ninjutsu which requires one fewer mudra. You may use Kassatsu once. You must then finish a long rest to use Kassatsu again.</p>
 		</description>
