@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lalafell</name>
-		<update version="1.2.3">
+		<update version="1.2.4">
 			<file name="race-lalafell.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-lalafell.xml" />
 		</update>
 	</info>
@@ -75,7 +75,7 @@
             <description>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</description>
         </sheet>
     </element>
-    <element name="Lalafelling Nimblesness" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_LALAFELLIN_NIMBLENESS">
+    <element name="Lalafellin Nimblesness" type="Racial Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_RACIAL_TRAIT_LALAFELLIN_NIMBLENESS">
         <description>
             <p>You can move through the space of any creature that is of a size larger than yours.</p>
         </description>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Arcanist</name>
-		<update version="1.1.71">
+		<update version="1.1.72">
 			<file name="class-acn.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-acn.xml" />
 		</update>
 	</info>
@@ -882,7 +882,7 @@
 			<set name="charisma">14</set>
 			<set name="ac">12 + pb</set>
 			<set name="hp">5 + five times your class level (the egi has a number of Hit Dice [d8s] equal to your Arcanist level)</set>
-			<set name="speed">30 ft.</set>
+			<set name="speed">hover 30 ft.</set>
 			<set name="immunities">Fire</set>
 			<set name="senses">passive Perception 10</set>
 			<set name="languages">understands the languages of its summoner but cannot speak</set>
@@ -902,7 +902,8 @@
 			<stat name="companion:hp:max" value="level:arcanist" />
 			<stat name="companion:hp:max" value="level:arcanist" />
 			<stat name="companion:hp:max" value="level:arcanist" />
-			<stat name="companion:speed:hover" value="30" bonus="base" />
+			<stat name="companion:speed" value="0" bonus="base" />
+			<stat name="companion:speed:fly" value="30" bonus="base" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
 			<grant type="Spell" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
@@ -961,7 +962,8 @@
 			<stat name="companion:hp:max" value="level:arcanist" />
 			<stat name="companion:hp:max" value="level:arcanist" />
 			<stat name="companion:hp:max" value="level:arcanist" />
-			<stat name="companion:speed:hover" value="30" bonus="base" />
+			<stat name="companion:speed" value="0" bonus="base" />
+			<stat name="companion:speed:fly" value="30" bonus="base" />
 			<grant type="Spell" id="ID_XGTE_SPELL_MAGIC_STONE" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" />
 		</rules>
@@ -1020,7 +1022,8 @@
 			<stat name="companion:hp:max" value="level:arcanist" />
 			<stat name="companion:hp:max" value="level:arcanist" />
 			<stat name="companion:hp:max" value="level:arcanist" />
-			<stat name="companion:speed:hover" value="30" bonus="base" />
+			<stat name="companion:speed" value="0" bonus="base" />
+			<stat name="companion:speed:fly" value="30" bonus="base" />
 			<grant type="Spell" id="ID_XGTE_SPELL_THUNDERCLAP" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
 		</rules>
