@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
-		<name>Dancer</name>
-		<update version="1.0.0">
+		<name>Red Mage</name>
+		<update version="1.0.1">
 			<file name="class-rdm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rdm.xml" />
 		</update>
 	</info>
@@ -32,7 +32,7 @@
             <h5 class="caption">PROFICIENCIES</h5>
             <ul class="unstyled mb">
                 <li><strong>Armor:</strong> Light Armor, Medium Armor</li>
-                <li><strong>Weapons:</strong> Simple weapos, short swords, rapiers</li>
+                <li><strong>Weapons:</strong> Simple weapons, short swords, rapiers</li>
                 <li><strong>Tools:</strong> Two sets of artisan tools</li>
             </ul>
             <ul class="unstyled">
@@ -47,6 +47,32 @@
                 <li>a spellcasting focus</li>
                 <li>(a) an explorer's pack or (b) a dungeoneer's pack</li>
             </ul>
+            <h5 class="caption">THE Reaper</h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Flair Points</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+                </thead>
+                <tr><td> 1st</td><td class="left">Spellcasting, Dual Casting</td><td>1</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 2nd</td><td class="left">Red Mage Style, Style Feature</td><td>2</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 3rd</td><td class="left">-</td><td>3</td><td>4</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>5</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 5th</td><td class="left">Extra Attack</td><td>4</td><td>5</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 6th</td><td class="left">Style Feature</td><td>4</td><td>5</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 7th</td><td class="left">-</td><td>4</td><td>5</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>5</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 9th</td><td class="left">-</td><td>4</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>10th</td><td class="left">Style Feature</td><td>5</td><td>6</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>11th</td><td class="left">-</td><td>5</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>12th</td><td class="left">Ability Score Improvement</td><td>6</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>13th</td><td class="left">-</td><td>6</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>14th</td><td class="left">Style Feature</td><td>7</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>15th</td><td class="left">-</td><td>7</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>16th</td><td class="left">Ability Score Improvement</td><td>8</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>17th</td><td class="left">-</td><td>8</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>18th</td><td class="left">Battle Flourish</td><td>9</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>19th</td><td class="left">Ability Score Improvement</td><td>9</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+                <tr><td>20th</td><td class="left">Acceleration</td><td>10</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+            </table>
             <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_SPELLCASTING" />
             <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_FLAIR_POINTS" />
             <div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_DUAL_CASTING" />
@@ -61,7 +87,15 @@
         </setters>
         <sheet display="false" />
         <rules>
-            
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <select type="Proficiency" name="Tool Proficiency (Red Mage)" supports="Tool" number="2" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <select type="Proficiency" name="Skill Proficiency" number="2" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_FFXIV_MULTICLASS_RDM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_FFXIV_MULTICLASS_RDM" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_SPELLCASTING" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_FLAIR_POINTS" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_DUAL_CASTING" level="1" />
@@ -71,6 +105,21 @@
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_BATTLE_FLOURISH" level="18" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_ACCELERATION" level="20" />
         </rules>
+        <multiclass id="ID_FFXIV_MULTICLASS_RDM">
+			<prerequisite>Charisma 13</prerequisite>
+			<requirements>([cha:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light Armor, Medium Armor, simple weapons, martial weapons, one skill from the class's skill list</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<select type="Proficiency" name="Skill Proficiency" number="2" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION" />
+			</rules>
+		</multiclass>
     </element>
     <element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RDM_SPELLCASTING">
         <description>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Black Mage</name>
-		<update version="1.2.6">
+		<update version="1.2.61">
 			<file name="class-blm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blm.xml" />
 		</update>
 	</info>
@@ -110,7 +110,6 @@
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			</rules>
 		</multiclass>
     </element>
