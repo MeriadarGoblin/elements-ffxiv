@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Reaper</name>
+		<update version="1.0.0">
+			<file name="class-sge.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sge.xml" />
+		</update>
+	</info>
+	<element name="Sage" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_SGE">
+		<description>
+			<p>An escaping mercenary taking cover behind a toppled wagon holds his crossbow steady waiting for his pursuer to come around the corner. To their surprise a crystalline device appears and lets loose a blast of aether, subduing them. A young sage smiles as she knows this was another successful mission.</p>
+			<p class="indent">A young man in crisp white robes watches as his allies brawl on the front line. Whenever danger looms over his friends, with a snap of his fingers a barrier appears, protecting them from harm.</p>
+			<p class="indent">Carefully, an experienced mage begins to weave their spell, but the aether of their work suddenly travels to a nearby shard of crystal, a lightning bolt loosing itself from an unexpected place.</p>
+			<p class="indent">Sages are highly skilled mages who've found a way to fuse magic and technology to bring forth the future of spell casting. Through use of their Nouliths, they push the boundaries of what is possible.</p>
+			<h4>Aetherology Experts</h4>
+			<p>Hailing from scholarly lands such as Sharlayan and Thavnair, Sages are scholars who have spent much of their lives in the world of academia, researching aether in all its forms. Its through this methodical life style that they were able to create cutting edge magitek, the Nouliths, tools which could change the magical world.</p>
+			<h4>Shards of Power</h4>
+			<p>The Noulith is a handcrafted combination of crystal and machinery, fueled by the aether of the user's body. A Sage shares the magic that fills their body with these wing like blades of crystal to allow them to fly around, launch bolts of aether, cast spells and a variety of other effects.</p>
+			<h4>CREATING A Sage</h4>
+			<p>Most sages find their beginning in academia, be it an official education, mentorship or independent research. When creating a sage one might consider how they gained entry into the world of education? Was your character incredibly bright and earned a scholarship via their raw talents? Perhaps they come from a well off noble family and their path was laid out before them by their parents. No matter their reasons for entering the academic world, you'll need to decide what drives their ambition to further their education and push the limits of spell casting and aetherology. They may do this out of a sense of pride and self interest, or for goals as lofty as bettering the world for everyone that lives in it.</p>
+			<p class="indent">Beyond how they entered the world of academics, you'll also need to decide why they would risk their lives and perhaps even expulsion from the world of education. Reasons ranging from the realization that not all lessons can come from books and testing, trialling their hard work, or going on an adventure to improve their own standing in life. Sages are likely to have pragmatic reasons for hitting the road, but each person will have their own true purpose for adventuring.</p>
+			<h5 class="caption">QUICK BUILD</h5>
+			<p>You can make a Sage quickly by following these suggestions. First make Intelligence your highest ability score, following with Constitution. Second take the sage background. Third, take the Mage Hand, Mending and Prestidigitation cantrips and the first level spells Healing Word, Mage Armor and Magic Missile.</p>
+			<h2>CLASS FEATURES</h2>
+			<p>As a Sage, you gain the following class features.</p>
+			<h5 class="caption">HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d6 per Sage level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per sage level after 1st</li>
+			</ul>
+			<h5 class="caption">PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> No armour</li>
+				<li><strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows</li>
+				<li><strong>Tools:</strong> None.</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
+				<li><strong>Skills:</strong> Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</li>
+			</ul>
+			<h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) a Quarterstaff or (b) a Dagger</li>
+				<li>(a) a Component pouch or (b) an arcane focus</li>
+				<li>(a) a Scholar's Pack or (b) an Explorer's Pack</li>
+				<li>A Noulith</li>
+			</ul>
+				<!-- class table here -->
+					<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_SPELLCASTING" />
+					<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_NOULITHS" />
+					<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_AETHER_SHOT" />
+					<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_SAGE_SPECIALIZATION" />
+					<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_ABILITY_SCORE_IMPROVEMENT" />
+					<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_WINGS_OF_AETHER" />
+					<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_NOULITHIC_GOD" />
+		</description>
+		<setters>
+			<set name="hd">d6</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_FFXIV_MULTICLASS_SGE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_FFXIV_MULTICLASS_SGE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_FFXIV_MULTICLASS_SGE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_FFXIV_MULTICLASS_SGE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_FFXIV_MULTICLASS_SGE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_FFXIV_MULTICLASS_SGE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FFXIV_MULTICLASS_SGE" />
+			<select type="Proficiency" name="Skill Proficiency (Sage)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_FFXIV_MULTICLASS_SGE" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_SPELLCASTING" level="1" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_NOULITHS" level="1" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_AETHER_SHOT" level="1" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_SAGE_SPECIALIZATION" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_WINGS_OF_AETHER" level="18" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_NOULITHIC_GOD" level="20" />
+		</rules>
+		<multiclass id="ID_FFXIV_MULTICLASS_SGE">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">-</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_SPELLCASTING">
+		<description>
+			<p>As an aspiring mage, you can cast sage spells, See the spell list included at the end of this document for the sage spell list.</p>
+			<h5>CANTRIPS</h5>
+			<p>At 1st level, you know three cantrips of your choice from the sage spell list. You learn additional sage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sage table.</p>
+			<h5>SPELLBOOK</h5>
+			<p>At 1st level, you have a spellbook containing six 1st-level Black Mage spells of your choice.</p>
+			<h5>PREPARING AND CASTING SPELLS</h5>
+			<p>The Sage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expand a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">You prepare the list of sage spells that are available for you to cast, choosing from the sage spell list. When you do so, choose a number of sage spells equal to your Intelligence modifier + your Sage level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you are a 3rd-level sage, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare teh 1st-level spell cure wounds you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of sage spells requires time spent in study and review: at least 1 minute per spell level for each spell on your list.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Intelligence is your spellcasting ability for your sage spells. The power of your spells comes from your thorough research and preparation into aetherology. You use your Intelligence whenever a sage spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a sage spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+			<h5>RITUAL CASTING</h5>
+			<p>You can cast a sage spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+			<h5>SPELLCASTING FOCUS</h5>
+			<p>You can use your Nouliths as a spell casting focus for your sage spells.</p>
+		</description>
+		<sheet display="false">
+			<description>You can prepare {{sage:spellcasting:prepare}} spells from the your spellbook. You use an arcane focus to cast spells. and can also cast wizard spells as a ritual.</description>
+		</sheet>
+		<spellcasting name="Sage" ability="Intelligence" prepare="true">
+			<list>Sage</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+
+			<stat name="Sage:spellcasting:slots:1" value="2" level="1" />
+			<stat name="Sage:spellcasting:slots:1" value="1" level="2" />
+			<stat name="Sage:spellcasting:slots:1" value="1" level="3" />
+
+			<stat name="Sage:spellcasting:slots:2" value="2" level="3" />
+			<stat name="Sage:spellcasting:slots:2" value="1" level="4" />
+			<stat name="Sage:spellcasting:slots:3" value="2" level="5" />
+			<stat name="Sage:spellcasting:slots:3" value="1" level="6" />
+			<stat name="Sage:spellcasting:slots:4" value="1" level="7" />
+			<stat name="Sage:spellcasting:slots:4" value="1" level="8" />
+			<stat name="Sage:spellcasting:slots:4" value="1" level="9" />
+			<stat name="Sage:spellcasting:slots:5" value="1" level="9" />
+			<stat name="Sage:spellcasting:slots:5" value="1" level="10" />
+			<stat name="Sage:spellcasting:slots:5" value="1" level="18" />
+			<stat name="Sage:spellcasting:slots:6" value="1" level="11" />
+			<stat name="Sage:spellcasting:slots:6" value="1" level="19" />
+			<stat name="Sage:spellcasting:slots:7" value="1" level="13" />
+			<stat name="Sage:spellcasting:slots:7" value="1" level="20" />
+			<stat name="Sage:spellcasting:slots:8" value="1" level="15" />
+			<stat name="Sage:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="sage:spellcasting:prepare" value="intelligence:modifier" />
+			<stat name="sage:spellcasting:prepare" value="level:sage" />
+
+			<select type="Spell" name="Cantrip (Sage)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Sage" />
+			<select type="Spell" name="Cantrip (Sage)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Sage" />
+			<select type="Spell" name="Cantrip (Sage)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Sage" />
+
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), 1" level="1" number="6" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="Sage" />
+			<select type="Spell" name="Spellcasting (Sage)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Sage" />
+		</rules>
+	</element>
+	<element name="Nouliths" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_NOULITHS">
+		<description>
+			<p>Beginning at 1st level, you have achieved mastery over operating your first Noulith. These devices which combine magic and technology feed off the aether of your body to act and can be used to create a variety of different effects. At 5th level, you learn to operate a second Noulith simultaneously. At 10th level, you gain the ability to control a third Noulith, a fourth at the 15th level and a fifth at 20th level. When additional Nouliths become available to you, you are able to build them at no cost.</p>
+			<p class="indent">Nouliths have are tiny constructs with an AC of 15, Hit Points equal to 15 + 5 time your Sage level, and a flying speed of 30ft. Creatures may exist in the same space as your nouliths, and are not blocked by them. Your nouliths must remain within a 60ft. radius of you, losing their aetheric link with you if they travel any further away. If this occurs, they become inoperable and fall to the ground. As an action, you may reactivate them by touching them and re-establishing their aetheric link with your body.</p>
+			<p class="indent">If a Noulith is reduced to 0 hit points, it becomes in operable and falls to the ground. It may be repaired during a long rest at the cost of 10 gold in materials. You are able to restore your Nouliths hit points at no cost during a long rest as long as it is still operable. If they are totally destroyed, you must spend 100 gold and one day of time to rebuild.</p>
+			<p class="indent">As a bonus action you may maneuver your Nouliths, moving them a distance up to their flying speed.</p>
+		</description>
+		<sheet>
+			<description>You are able to control up to {{noulith:count}} nouliths. Creatures may exist in the same space as your nouliths, and are not blocked by them. Your nouliths must remain within a 60ft. radius of you, losing their aetheric link with you if they travel any further away. If this occurs, they become inoperable and fall to the ground. As an action, you may reactivate them by touching them and re-establishing their aetheric link with your body. &#13;
+				If a Noulith is reduced to 0 hit points, it becomes in operable and falls to the ground. It may be repaired during a long rest at the cost of 10 gold in materials. You are able to restore your Nouliths hit points at no cost during a long rest as long as it is still operable. If they are totally destroyed, you must spend 100 gold and one day of time to rebuild. &#13;
+				As a bonus action you may maneuver your Nouliths, moving them a distance up to their flying speed.
+			</description>
+			<description level="5">You are able to control up to {{noulith:count}} nouliths. When additional Nouliths become available to you, you are able to build them at no cost. Creatures may exist in the same space as your nouliths, and are not blocked by them. Your nouliths must remain within a 60ft. radius of you, losing their aetheric link with you if they travel any further away. If this occurs, they become inoperable and fall to the ground. As an action, you may reactivate them by touching them and re-establishing their aetheric link with your body. &#13;
+				If a Noulith is reduced to 0 hit points, it becomes in operable and falls to the ground. It may be repaired during a long rest at the cost of 10 gold in materials. You are able to restore your Nouliths hit points at no cost during a long rest as long as it is still operable. If they are totally destroyed, you must spend 100 gold and one day of time to rebuild. &#13;
+				As a bonus action you may maneuver your Nouliths, moving them a distance up to their flying speed.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="noulith:count" value="1" bonus="base" />
+			<stat name="noulith:count" value="1" level="5" />
+			<stat name="noulith:count" value="1" level="10" />
+			<stat name="noulith:count" value="1" level="15" />
+			<stat name="noulith:count" value="1" level="20" />
+		</rules>
+	</element>
+	<element name="Aether Shot" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_AETHER_SHOT">
+		<description>
+			<p>Also beginning at 1st level, you have learned how to use the aether fueling your Nouliths offensively. As an action, you order your Noulith to make a ranged spell attack, using your ranged spell attack bonus, on a creature within 30ft. of them. On hit, the Aether Shot deals 1d8 force damage.</p>
+			<p class="indent">If you are operating more than one Noulith, each Noulith may make a ranged spell attack. Each Noulith may target a different creature. If a Noulith is equipped to someone they may still be used with Aether Shot.</p>
+		</description>
+		<sheet action="Action">
+			<description>As an action, you order your Noulith to make a ranged spell attack, using your ranged spell attack bonus, on a creature within 30ft. of them. On hit, the Aether Shot deals 1d8 force damage. If you are operating more than one Noulith, each Noulith may make a ranged spell attack. Each Noulith may target a different creature. If a Noulith is equipped to someone they may still be used with Aether Shot.</description>
+		</sheet>
+	</element>
+	<element name="Sage Specialization" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_SAGE_SPECIALIZATION">
+		<description>
+			<p>At 2nd level, you choose your focus as a sage, pushing the limits of your Nouliths in new and exciting directions. As a Savant, you choose to continue to augment your Nouliths for combat. As an Erudite, you have chosen to develop the defensive capabilities of the Nouliths, and as a Philosopher, you've focused on integrating your own spell casting with your Nouliths.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Sage Specialization" supports="Sage Specialization" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Sage 4)" supports="Improvement Option,Sage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Sage 8)" supports="Improvement Option,Sage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Sage 12)" supports="Improvement Option,Sage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Sage 16)" supports="Improvement Option,Sage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Sage 19)" supports="Improvement Option,Sage,19" level="19" />
+		</rules>
+	</element>
+	<element name="Wings of Aether" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_WINGS_OF_AETHER">
+		<description>
+			<p>Beginning at the 18th level, if a Noulith is not deployed, it is considered equipped to you, granting you a flying speed. For each Noulith equipped to you, you gain a flying speed of 10ft.</p>
+		</description>
+		<sheet>
+			<description>If a Noulith is not deployed, it is considered equipped to you, granting you a flying speed. For each Noulith equipped to you, you gain a flying speed of 10ft.</description>
+		</sheet>
+	</element>
+	<element name="Noulithic God" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_SGE_NOULITHIC_GOD">
+		<description>
+			<p>Starting at 20th level, you have mastered combat with Nouliths. As a bonus action you refresh your Overcharge feature. You can do this once. You must complete a long rest before you can use Noulithic God again.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>As a bonus action you refresh your Overcharge feature. You can do this once. You must complete a long rest before you can use Noulithic God again.</description>
+		</sheet>
+	</element>
+	
+	<element name="Savant" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_SGE_SAVANT">
+		<supports>Sage Specialization</supports>
+		<description>
+			<p>The best defense is a good offense is the tactical approach of savants. Making use of their Nouliths, the savant provides remote controlled artillery support for their allies, able to safely blast foes with aether from afar. Be it raining aether from above in a magical hell fire, or precisely chasing down targets that are taking cover, once a Savant sets their eyes on a target there is little to be done to escape their magical wrath.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_PRISMATIC_DESTRUCTION" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_INTENSITY" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_SUNDERING_SHOTS" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_INDIGNATION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_PRISMATIC_DESTRUCTION" level="2" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_INTENSITY" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_SUNDERING_SHOTS" level="10" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_INDIGNATION" level="14" />
+		</rules>
+	</element>
+	<element name="Prismatic Destruction" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_PRISMATIC_DESTRUCTION">
+		<description>
+			<p>Beginning at the 2nd level, you have developed a new offensive technique with your Noulith. As an action you may order each Noulith to release a 15ft. cone of raw magical energy. All creatures in the affected area make a Dexterity save against your spell save DC, taking 2d8 force damage on a failure and half as much on a success. Each cone is calculated separately.</p>
+		</description>
+		<sheet action="Action" usage="{{proficiency}}/Long Rest">
+			<description>As an action you may order each Noulith to release a 15ft. cone of raw magical energy. All creatures in the affected area make a Dexterity save against your spell save DC, taking 2d8 force damage on a failure and half as much on a success. Each cone is calculated separately.</description>
+		</sheet>
+	</element>
+	<element name="Aetheric Intensity" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_INTENSITY">
+		<description>
+			<p>Beginning at the 6th level, when you use the Aether Shot feature, you add your Intelligence modifier to damage rolls.</p>
+		</description>
+		<sheet>
+			<description>When you use the Aether Shot feature, you add your Intelligence modifier to damage rolls.</description>
+		</sheet>
+	</element>
+	<element name="Sundering Shots" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_SUNDERING_SHOTS">
+		<description>
+			<p>Beginning at the 10th, your Aether Shots destabilize target's defenses. When you hit a creature with Aether Shot, your next Aether shot scores a crit on a 19 or 20, each subsequent hit lowering the critical hit threshold, until the end of your turn. This critical hit range change reverts if you land a critical hit</p>
+		</description>
+		<sheet>
+			<description>When you hit a creature with Aether Shot, your next Aether shot scores a crit on a 19 or 20, each subsequent hit lowering the critical hit threshold, until the end of your turn. This critical hit range change reverts if you land a critical hit</description>
+		</sheet>
+	</element>
+	<element name="Overcharge: Indignation" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_INDIGNATION">
+		<description>
+			<p>Beginning at the 14th level, as a bonus action you may use the Aether Shot. You may only use Aether Shot once in this way. You must complete a long rest before you can use Overcharge: Indignation again.</p>
+		</description>
+		<sheet action="Bonus Action" usage="Long Rest">
+			<description>As a bonus action you may use the Aether Shot. You may only use Aether Shot once in this way. You must complete a long rest before you can use Overcharge: Indignation again.</description>
+		</sheet>
+	</element>
+	
+	<element name="Erudite" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_SGE_ERUDITE">
+		<supports>Sage Specialization</supports>
+		<description>
+			<p>Erudites have focused on how to defend their homes and allies via aetheric barriers and healing to provide much needed solace during the heat of battle.</p>
+			<p class="indent">Erudites have focused on how to defend their homes and allies via aetheric barriers and healing to provide much needed solace during the heat of battle.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_GUARDIAN_SHARD" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHER_WALL" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_ARMOUR" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_IMPENETRABLE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_GUARDIAN_SHARD" level="2" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHER_WALL" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_ARMOUR" level="10" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_IMPENETRABLE" level="14" />
+		</rules>
+	</element>
+	<element name="Guardian Shard" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_GUARDIAN_SHARD">
+		<description>
+			<p>Beginning at the 2nd level, as a bonus action you can order any number of your Nouliths to guard an allies within its flight range. As a bonus action you may remove any number of Nouliths from allies.</p>
+			<p class="indent">While equipped to an ally, you may cast touch spells through the Noulith, as though you were standing beside the creature.</p>
+			<p class="indent">Additionally, as a reaction to the equipped creature being targeted by an attack, you may use your reaction to create a temporary barrier, increasing the creature's AC by a number equal to your Intelligence modifier. You may do this a number of times equal to your proficiency bonus. You must complete a long rest before you can use Guardian Shard again.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>As a bonus action you may remove any number of Nouliths from allies. While equipped to an ally, you may cast touch spells through the Noulith, as though you were standing beside the creature. &#13;
+				Additionally, as a reaction to the equipped creature being targeted by an attack, you may use your reaction to create a temporary barrier, increasing the creature's AC by a number equal to your Intelligence modifier.
+			</description>
+		</sheet>
+	</element>
+	<element name="Aether Wall" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHER_WALL">
+		<description>
+			<p>Beginning at the 6th level, as an action, you can link two Nouliths within a 10ft. radius of each other. This link creates a wall of force between them that is 10ft. wide and 10ft. tall. A creature that attempts to push through the wall must make a Strength (Athletics) check contested by your spell save DC. This wall is translucent allowing creatures to see through it without difficulty. The aether wall provides three-quarters cover when calculating ranged attacks and spells that pass through the wall.</p>
+			<p class="indent">It is possible to link multiple nouliths together to enclose a creature. When you use your action to create a wall between two nouliths, if there is a third noulith within a 10ft. radius circle of either end of the wall, you may connect them in the same way. The additional wall may not pass through the creature. A creature who is enclosed within an Aether Wall has disadvantage on their Strength (Athletics) check to push through the barrier.</p>
+			<p class="indent">These walls are strong enough to support the weight of someone standing on them, and may provide footholds made of aether when aligned horizontally.</p>
+			<p class="indent">As a bonus action, you may disassemble any number of Aether Walls created by you.</p>
+		</description>
+		<sheet action="Action">
+			<description>As an action, you can link two Nouliths within a 10ft. radius of each other. This link creates a wall of force between them that is 10ft. wide and 10ft. tall. A creature that attempts to push through the wall must make a Strength (Athletics) check contested by your spell save DC. This wall is translucent allowing creatures to see through it without difficulty. The aether wall provides three-quarters cover when calculating ranged attacks and spells that pass through the wall. &#13;
+				It is possible to link multiple nouliths together to enclose a creature. When you use your action to create a wall between two nouliths, if there is a third noulith within a 10ft. radius circle of either end of the wall, you may connect them in the same way. The additional wall may not pass through the creature. A creature who is enclosed within an Aether Wall has disadvantage on their Strength (Athletics) check to push through the barrier. &#13;
+				These walls are strong enough to support the weight of someone standing on them, and may provide footholds made of aether when aligned horizontally. &#13;
+				As a bonus action, you may disassemble any number of Aether Walls created by you.
+			</description>
+		</sheet>
+	</element>
+	<element name="Aetheric Armor" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_ARMOUR">
+		<description>
+			<p>Beginning at the 10th level, when you protect a creature with your Guardian Shard feature, they gain temporary hit points equal to your Intelligence modifier.</p>
+		</description>
+		<sheet>
+			<description>When you protect a creature with your Guardian Shard feature, they gain temporary hit points equal to your Intelligence modifier.</description>
+		</sheet>
+	</element>
+	<element name="Overcharge: Impenetrable" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_IMPENETRABLE">
+		<description>
+			<p>Beginning at the 14th level, as an action, you can amplify your protective ward for a creature equipped with a Noulith within 30ft. of you. You supercharge the Noulith, coating the creature in an aetheric shell. For a number of rounds equal to your Intelligence modifier, the creature gains a damage threshold equal to 5 + your Intelligence modifier + your proficiency bonus. When the creature is damaged, if the damage does not meet or exceed the damage threshold they do not take any damage from the attack.</p>
+			<p class="indent">You can hyper focus a creature's armour once. You must complete a long rest before you can use Impenetrable again</p>
+		</description>
+		<sheet action="Action" usage="Long Rest">
+			<description>As an action, you can amplify your protective ward for a creature equipped with a Noulith within 30ft. of you. You supercharge the Noulith, coating the creature in an aetheric shell. For a number of rounds equal to your Intelligence modifier, the creature gains a damage threshold value of {{aetheric shell}}. When the creature is damaged, if the damage does not meet or exceed the damage threshold they do not take any damage from the attack. You can hyper focus a creature's armour once.</description>
+		</sheet>
+		<rules>
+			<stat name="aetheric shell" value="5" />
+			<stat name="aetheric shell" value="proficiency" />
+			<stat name="aetheric shell" value="intelligence:modifier" />
+		</rules>
+	</element>
+
+	<element name="Philosopher" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_SGE_PHILOSOPHER">
+		<supports>Sage Specialization</supports>
+		<description>
+			<p>While others focus on their new developments and their various applications, the Philosopher sees nouliths for what they are, tools to assist spell casting. As this is the case to them, philosophers prefer to stick to traditional methods of spell casting to do much of their heavy lifting, making use of nouliths to draw aether from their foes and fueling their own spell casting with it. Their focus on spell casting has provided them with the ability to manipulate their spells, setting them heads and shoulders above their fellow sages in this field.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_SIPHON" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_ADAPTATION" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_EFFIFICIENT_ABSORPTION" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_AETHERIAL_DRAIN" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_SIPHON" level="2" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_ADAPTATION" level="6" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_EFFIFICIENT_ABSORPTION" level="10" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_AETHERIAL_DRAIN" level="14" />
+		</rules>
+	</element>
+	<element name="Aetheric Siphon" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_SIPHON">
+		<description>
+			<p>Beginning at the 2nd level, when you use the Aether Shot feature and hit a target creature, your Noulith draws aether from the target for your use as a Noulith charge. These charges remain available to you for 1 hour, dissipating after 1 hour.</p>
+			<p class="indent">As a bonus action, you can transform Noulith charges into one spell slot as a Bonus Action on Your Turn. The created Spell Slots Vanish at the end of a Long Rest. The Creating Spell Slots table shows the cost of Creating a Spell slot of a given level. You can create Spell Slots no higher in level than 3rd.</p>
+			<p class="indent">Any spell slot you create with this feature vanishes when you finish a Long Rest. You are able to create a number of spells whose cumulative spell level is equal to your Sage level). You must complete a Long Rest before you can create spell slots again.</p>
+		</description>
+		<sheet action="Bonus Action" usage="Long Rest">
+			<description>When you use the Aether Shot feature and hit a target creature, your Noulith draws aether from the target for your use as a Noulith charge. These charges remain available to you for 1 hour, dissipating after 1 hour. As a bonus action, you can transform Noulith charges into one spell slot as a Bonus Action on Your Turn. The created Spell Slots Vanish at the end of a Long Rest. The Creating Spell Slots table shows the cost of Creating a Spell slot of a given level. You can create Spell Slots no higher in level than 3rd. &#13;
+				Any spell slot you create with this feature vanishes when you finish a Long Rest. You are able to create a number of spells whose cumulative spell level is equal to your Sage level). You must complete a Long Rest before you can create spell slots again.
+			</description>
+		</sheet>
+	</element>
+	<element name="Aetheric Adaptation" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_AETHERIC_ADAPTATION">
+		<description>
+			<p>Beginning at the 6th level, you've learned to modify your spells using the aether you gather from your Nouliths.</p>
+			<p class="indent">You gain two of the following Aetheric Adaptation Options of your choice. You gain another one at 10th and 14th level.</p>
+			<p class="indent">You can use only one Aetheric Adaptation option on a spell when you cast it, unless otherwise noted.</p>
+			<p class="indent">You can only use a number of Aetheric Adaptations equal to your proficiency modifier. You must complete a short rest before you can use Aetheric Adaptation again.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Short Rest">
+			<description>You gain Aetheric Adaptation Options of your choice. You can use only one Aetheric Adaptation option on a spell when you cast it, unless otherwise noted. </description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Aetheric Adaptation Options (Level 2)" number="2" supports="Aetheric Adaptation" />
+		</rules>
+	</element>
+	<element name="Careful Spell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_CAREFUL_SPELL">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you Cast a Spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 Noulith charge and choose a number of those creatures up to your Intelligence modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</p>
+		</description>
+		<sheet>
+			<description>When you Cast a Spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 Noulith charge and choose a number of those creatures up to your Intelligence modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</description>
+		</sheet>
+	</element>
+	<element name="Empowered Spell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_EMPOWERED_SPELL">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you roll damage for a spell, you can spend 1 Noulith charge to reroll a number of the damage dice up to your Intelligence modifier (minimum of one). You must use the new rolls.</p>
+			<p class="indent">You can use Empowered Spell even if you have already used a different Aetheric Adaptation option during the casting of the spell.</p>
+		</description>
+		<sheet>
+			<description>When you roll damage for a spell, you can spend 1 Noulith charge to reroll a number of the damage dice up to your Intelligence modifier (minimum of one). You must use the new rolls. &#13;
+				You can use Empowered Spell even if you have already used a different Aetheric Adaptation option during the casting of the spell.
+			</description>
+		</sheet>
+	</element>
+	<element name="Extended Spell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_EXTENDED_SPELL">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you Cast a Spell that has a Duration of 1 minute or longer, you can spend 1 Noulith charge to double its Duration, to a maximum Duration of 24 hours.</p>
+		</description>
+		<sheet>
+			<description>When you Cast a Spell that has a Duration of 1 minute or longer, you can spend 1 Noulith charge to double its Duration, to a maximum Duration of 24 hours.</description>
+		</sheet>
+	</element>
+	<element name="Heightened Spell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_HEIGHTENED_SPELL">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you Cast a Spell that forces a creature to make a saving throw to resist its Effects, you can spend 3 Noulith charges to give one target of the spell disadvantage on its first saving throw made against the spell.</p>
+		</description>
+		<sheet>
+			<description>When you Cast a Spell that forces a creature to make a saving throw to resist its Effects, you can spend 3 Noulith charges to give one target of the spell disadvantage on its first saving throw made against the spell.</description>
+		</sheet>
+	</element>
+	<element name="Noulithic Casting" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_NOULITHIC_CASTING">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you Cast a Spell, you spend 1 Noulith charge to cast the spell as though you were standing at the location of one of your Nouliths.</p>
+		</description>
+		<sheet>
+			<description>When you Cast a Spell, you spend 1 Noulith charge to cast the spell as though you were standing at the location of one of your Nouliths.</description>
+		</sheet>
+	</element>
+	<element name="Quickened Spell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_QUICKENED_SPELL">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you Cast a Spell that has a Casting Time of 1 action, you can spend 2 Noulith charges to change the Casting Time to 1 Bonus Action for this casting.</p>
+		</description>
+		<sheet>
+			<description>When you Cast a Spell that has a Casting Time of 1 action, you can spend 2 Noulith charges to change the Casting Time to 1 Bonus Action for this casting.</description>
+		</sheet>
+	</element>
+	<element name="Subtle Spell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_SUBTLE_SPELL">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you Cast a Spell, you can spend 1 Noulith charge to cast it without any somatic or verbal Components.</p>
+		</description>
+		<sheet>
+			<description>When you Cast a Spell, you can spend 1 Noulith charge to cast it without any somatic or verbal Components.</description>
+		</sheet>
+	</element>
+	<element name="Twinned Spell" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_SGE_AETHERIC_TWINNED_SPELL">
+		<supports>Aetheric Adaptation</supports>
+		<description>
+			<p>When you Cast a Spell that Targets only one creature and doesn’t have a range of self, you can spend a number of Noulith charges equal to the spell’s level to target a second creature in range with the same spell (1 Noulith charge if the spell is a cantrip).</p>
+			<p class="indent">To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, Magic Missile and Scorching Ray aren’t eligible, but Ray of Frost is.</p>
+		</description>
+		<sheet>
+			<description>When you Cast a Spell that Targets only one creature and doesn’t have a range of self, you can spend a number of Noulith charges equal to the spell’s level to target a second creature in range with the same spell (1 Noulith charge if the spell is a cantrip). &#13;
+				To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, Magic Missile and Scorching Ray aren’t eligible, but Ray of Frost is.
+			</description>
+		</sheet>
+	</element>
+	<element name="Efficienct Absorption" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_EFFIFICIENT_ABSORPTION">
+		<description>
+			<p>Beginning at the 10th level, you siphon aether far more efficiently. You gain 2 Noulith charges when you use the Aether Shot feature.</p>
+		</description>
+		<sheet>
+			<description>You gain 2 Noulith charges when you use the Aether Shot feature.</description>
+		</sheet>
+	</element>
+	<element name="Overcharge: Aetherial Drain" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_SGE_OVERCHARGE_AETHERIAL_DRAIN">
+		<description>
+			<p>Beginning at the 14th level, as a bonus action, you forcefully draw Noulith charges from the aether of the world itself. You gain 3 Noulith charges for each active Noulith you control.</p>
+		</description>
+		<sheet action="Bonus Action" usage="Long Rest">
+			<description>As a bonus action, you forcefully draw Noulith charges from the aether of the world itself. You gain 3 Noulith charges for each active Noulith you control. You may only do this once.</description>
+		</sheet>
+	</element>
+
+	<!-- Cantrips -->
+	<append id="ID_PHB_SPELL_BLADE_WARD">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DANCING_LIGHTS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LIGHT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_SCAG_SPELL_LIGHTNING_LURE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAGE_HAND">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_MAGIC_STONE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MENDING">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MESSAGE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MINOR_ILLUSION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PRESTIDIGITATION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RESISTANCE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPARE_THE_DYING">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_THUNDERCLAP">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TRUE_STRIKE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_WORD_OF_RADIANCE">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 1st Level -->
+	<append id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ALARM">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BANE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CATAPULT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CHROMATIC_ORB">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COLOR_SPRAY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CURE_WOUNDS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_MAGIC">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FAERIE_FIRE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIND_FAMILIAR">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_HEALING_WORD">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HEROISM">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_IDENTIFY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ILLUSORY_SCRIPT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_JUMP">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LONGSTRIDER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAGE_ARMOR">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAGIC_MISSILE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SANCTUARY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SHIELD">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SILENT_IMAGE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SLEEP">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TENSERS_FLOATING_DISK">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_UNSEEN_SERVANT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WITCH_BOLT">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 2nd level -->
+	<append id="ID_PHB_SPELL_AID">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ARCANE_LOCK">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BLUR">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CROWN_OF_MADNESS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DARKVISION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ENLARGE_REDUCE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIND_TRAPS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_PERSON">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_INVISIBILITY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_KNOCK">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LESSER_RESTORATION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LEVITATE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LOCATE_OBJECT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_MIND_SPIKE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MIRROR_IMAGE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MISTY_STEP">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_POISON">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SEE_INVISIBILITY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SHATTER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SILENCE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SKYWRITE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 3rd level -->
+	<append id="ID_PHB_SPELL_BLINK">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COUNTERSPELL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CREATE_FOOD_AND_WATER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DAYLIGHT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DISPEL_MAGIC">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FLY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HASTE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_LIFE_TRANSFERENCE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LIGHTNING_BOLT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAGIC_CIRCLE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAJOR_IMAGE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_HEALING_WORD">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_NONDETECTION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REMOVE_CURSE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REVIVIFY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SENDING">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SLOW">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TONGUES">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 4th level -->
+	<append id="ID_PHB_SPELL_ARCANE_EYE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BANISHMENT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMPULSION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONFUSION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DIMENSION_DOOR">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FABRICATE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LOCATE_CREATURE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PHANTASMAL_KILLER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SICKENING_RADIANCE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 5th level -->
+	<append id="ID_PHB_SPELL_ANTILIFE_SHELL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_AWAKEN">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BIGBYS_HAND">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CIRCLE_OF_POWER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONTACT_OTHER_PLANE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CREATION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DREAM">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_FAR_STEP">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GREATER_RESTORATION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LEGEND_LORE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MISLEAD">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PASSWALL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAISE_DEAD">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SCRYING">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SEEMING">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TELEKINESIS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TELEPORTATION_CIRCLE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WALL_OF_FORCE">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 6th level -->
+	<append id="ID_PHB_SPELL_ARCANE_GATE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CHAIN_LIGHTNING">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DISINTEGRATE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_EYEBITE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIND_THE_PATH">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FLESH_TO_STONE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GLOBE_OF_INVULNERABILITY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GUARDS_AND_WARDS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HEAL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HEROES_FEAST">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_MENTAL_PRISON">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROGRAMMED_ILLUSION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SCATTER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SUNBEAM">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TRUE_SEEING">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WORD_OF_RECALL">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 7th level -->
+	<append id="ID_PHB_SPELL_ETHEREALNESS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FORCECAGE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MIRAGE_ARCANE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PLANE_SHIFT">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PRISMATIC_SPRAY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROJECT_IMAGE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REGENERATE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RESURRECTION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REVERSE_GRAVITY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SEQUESTER">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SIMULACRUM">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SYMBOL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TELEPORT">
+		<supports>Sage</supports>
+	</append>
+
+	<!-- 8th level -->
+	<append id="ID_PHB_SPELL_ANTIMAGIC_FIELD">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ANTIPATHY_SYMPATHY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CLONE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FEEBLEMIND">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GLIBNESS">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_ILLUSORY_DRAGON">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MIND_BLANK">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SUNBURST">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TELEPATHY">
+		<supports>Sage</supports>
+	</append>
+	
+	<!-- 9th level -->
+	<append id="ID_PHB_SPELL_ASTRAL_PROJECTION">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GATE">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_INVULNERABILITY">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_HEAL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_POWER_WORD_HEAL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PRISMATIC_WALL">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TIME_STOP">
+		<supports>Sage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+		<supports>Sage</supports>
+	</append>
+	
+</elements>

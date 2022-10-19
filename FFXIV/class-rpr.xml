@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Reaper</name>
+		<update version="1.0.0">
+			<file name="class-rpr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rpr.xml" />
+		</update>
+	</info>
+	<element name="Reaper" type="Class" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_RPR">
+		<description>
+			<p>As a honed blade cuts through the air, the satisfying shearing of wind echoes through the night, interrupted only by the sound of rending flesh. Those who'd harm the realm further are cut down one by one in a flurry of steel by a figure draped in black.</p>
+			<p class="indent">Two black figures surround a ferocious beast, one wielding a blade like a talon, the other rending the beast with claws, working together to take down the formidable foe in tandem.</p>
+			<p class="indent">Cloaked in shadows, a figure receits ancient spells, raining destruction on the battle field as a haunting specter keeps the legion of invaders busy. Those who survive the ordeal will have nightmares for the rest of their days.</p>
+			<p class="indent">The Reaper is an avenger whose goals are achieved through the assistance of the void, leaving a trail of destruction in their wake. Just as a wicked force destroyed their lands, they've taken up arms to bring destructive balance to the world.</p>
+			<h4>In the Wake of Destruction</h4>
+			<p>When disaster strikes and countless lives are lost, voidsent are attracted to intense scent of death and the residual aether of the corpses. Seeking to sate their endless hunger for magical energy they appear in these death laden lands. Sometimes unlikely alliances are born from these disasters as those who would seek the power to take revenge for the loss of life promise these scavenging voidsent further nourishment, if they'd only only lend their power to them. Together they set off on a path of destruction to hold those in power accountable at any cost.</p>
+			<h4>Dark Vows</h4>
+			<p>Reapers draw their power from their contract with their special voidsent ally, the Void Avatar. Using the gift of some kind of macabe momento to channel dark magics, Reapers mix martial prowess with magic pulled from the void itself to bring destruction to evil doers.</p>
+			<h4>CREATING A Reaper</h4>
+			<p>When creating a reaper, you must consider how they came upon the voidsent that they would form their alliance with. Did they survive a grave disaster? Were they a traveller who was too late to protect the razed location? Perhaps they merely stumbled upon the scene and wanted to stop it from happening again. Whatever their reason, the Reaper has tossed away sentiments of right and wrong and seek only to take retribution for those who have suffered greatly.</p>
+			<p class="indent">You must also consider where they've learned to balance their martial prowess with dark magics. Has the voidsent imparted more than just arcane arts to the warrior? Did they have a mentor who helped them harness their rage and focus it on the single minded quest for vengeance? The reaper has many talents and combines new found power with them to become the deadly avenger they wish to be.</p>
+			<h5 class="caption">QUICK BUILD</h5>
+			<p>You can make a Reaper quickly by following these suggestions. First make Strength your highest ability score, following with Wisdom. Second take the Folk Hero background.</p>
+			<h2>CLASS FEATURES</h2>
+			<p>As a Reaper, you gain the following class features.</p>
+			<h5 class="caption">HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d10 per Reaper level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per Reaper level after 1st</li>
+			</ul>
+			<h5 class="caption">PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light Armour, Medium Armour</li>
+				<li><strong>Weapons:</strong> Simple Weapons, Martial Weapons</li>
+				<li><strong>Tools:</strong> None</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Strength, Wisdom</li>
+				<li><strong>Skills:</strong> Choose two from Arcana, Athletics, Insight, Intimidation, Perception and Religion.</li>
+				<li><strong>Languages:</strong> Abyssal</li>
+			</ul>
+			<h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) Battle Scythe or (b) one martial melee weapon</li>
+				<li>(a) two Handaxes or (b) a Light Crossbow and 20 bolts</li>
+				<li>(a) scale mail or (b) leather armor</li>
+				<li>(a) a Dungeoneer's Pack or (b) an Explorer's Pack</li>
+				<li>A Momento bestowed to the reaper by the voidsent</li>
+			</ul>
+			<h5 class="caption">THE Reaper</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Dark Alliance,</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Fighting Style, Spellcasting</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Reaper archetype, Veil of Shadows</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Sixth Sense</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Archetype Feature</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">Reaper Art: Reaping Rondo</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Reaper Art: Momento Mori</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Archetype Feature</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">Shadow Walk</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Void Gaze</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Archetype Feature</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">Dark Martyr</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Gate of Tartarus</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Vessel of Death</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_DARK_ALLIANCE" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SPELLCASTING" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_FIGHTING_STYLE" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ARCHETYPE" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VEIL_OF_SHADOWS" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ABILITY_SCORE_IMPROVEMENT" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_EXTRA_ATTACK" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SIXTH_SENSE" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ART_REAPING_RONDO" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ART_MOMENTO_MORI" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SHADOW_WALK" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VOID_GAZE" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_DARK_MARTYR" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_GATE_OF_TARTARUS" />
+			<div element="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VESSEL_OF_DEATH" />
+		</description>
+		<setters>
+			<set name="hd">d10</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+			<select type="Proficiency" name="Skill Proficiency" number="2" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" requirements="!ID_FFXIV_MULTICLASS_RPR" />
+			<grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_DARK_ALLIANCE" level="1" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SPELLCASTING" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_FIGHTING_STYLE" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ARCHETYPE" level="3" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VEIL_OF_SHADOWS" level="3" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SIXTH_SENSE" level="6" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ART_REAPING_RONDO" level="9" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ART_MOMENTO_MORI" level="10" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SHADOW_WALK" level="13" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VOID_GAZE" level="14" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_DARK_MARTYR" level="17" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_GATE_OF_TARTARUS" level="18" />
+			<grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VESSEL_OF_DEATH" level="20" />
+		</rules>
+		<multiclass id="ID_FFXIV_MULTICLASS_RPR">
+			<prerequisite>Wisdom 13</prerequisite>
+			<requirements>([wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light Armor, Medium Armor, simple weapons, martial weapons, one skill from the class's skill list</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<select type="Proficiency" name="Skill Proficiency" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Dark Alliance" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_DARK_ALLIANCE">
+		<description>
+			<p>At 1st level, you form a contract with a voidsent known as a Void Avatar. Drawn to your location due to massive loss of life, you've formed a contract to borrow power from the voidsent and received a momento from it to symbolize your contract. You can review their stats in the statblock below.</p>
+			<p class="indent">In combat, the voidsent acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the voidsent to take the Attack action. If you are incapacitated, the voidsent can take any action of its choice, not just Dodge.</p>
+			<p class="indent">When the voidsent is killed, its essence returns to your momento. You can use your action to touch your momento and expaned a spell slot of 1st level or higher. The voidsent regains its form after 1 minute with all its hit points restored.</p>
+			<p class="indent">When you finish a long rest, you may resummon your voidsent from its momento. If it is still active it regains all its hit points.</p>
+		</description>
+		<sheet usage="Long Rest">
+			<description>In combat, the voidsent acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the voidsent to take the Attack action. If you are incapacitated, the voidsent can take any action of its choice, not just Dodge. &#13;
+				When the voidsent is killed, its essence returns to your momento. You can use your action to touch your momento and expaned a spell slot of 1st level or higher. The voidsent regains its form after 1 minute with all its hit points restored. &#13;
+				When you finish a long rest, you may resummon your voidsent from its momento. If it is still active it regains all its hit points.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Companion" name="Dark Alliance, Reaper" supports="Dark Alliance" />
+		</rules>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SPELLCASTING">
+        <description>
+            <p>By 2nd level, you have learned to draw on the power of the void to cast spells as with your avatar's help. See chapter 10 of the Player's Handbook for the general rules of spellcasting and the end of this document for the Reaper spell list.</p>
+            <h4>Preparing and Casting Spells</h4>
+            <p>You prepare the list of Reaper spells that are available for you to cast, choosing from the Reaper spell list. When you do so, choose a number of Reaper spells equal to your Wisdom modifier + your Reaper level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+            <p class="indent">You prepare the list of Reaper spells that are available for you to cast, choosing from the Reaper spell list. When you do so, choose a number of Reaper spells equal to your Wisdom modifier + your Reaper level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+            <p class="indent">For example, if you are a 3rd-level Reaper, you have four 1st-level and two 2nd-level spell slots. With an Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare teh 1st-level spell cure wounds you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+            <p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of Reaper spells requires time spent in study and review: at least 1 minute per spell level for each spell on your list.</p>
+            <h4>Spellcasting Ability</h4>
+            <p>Wisdom is your spellcasting ability for your Reaper spells. The power of your spells comes from your bond with your void avatar. You use your Wisdom whenever a Reaper spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a Reaper spell you cast and when making an attack roll with one.</p>
+            <center>
+                <p><strong>Spell save DC =</strong> 8 + your proficiency bonus + your Wisdom modifier</p>
+                <p><strong>Spell attack modifier =</strong> your proficiency bonus + your Wisdom modifier</p>
+            </center>
+			<h4>Ritual Casting</h4>
+			<p>You can cast a Reaper spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+            <h4>Spellcasting Focus</h4>
+            <p>You can use your momento from the voidsent as a spell casting focus for your Reaper spells.</p>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Reaper" ability="Wisdom" prepare="true">
+			<list known="true">Wisdom</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="reaper:spellcasting:slots:1" value="2" level="2" />
+			<stat name="reaper:spellcasting:slots:1" value="1" level="3" />
+			<stat name="reaper:spellcasting:slots:1" value="1" level="5" />
+			<stat name="reaper:spellcasting:slots:2" value="2" level="5" />
+			<stat name="reaper:spellcasting:slots:2" value="1" level="7" />
+			<stat name="reaper:spellcasting:slots:3" value="2" level="9" />
+			<stat name="reaper:spellcasting:slots:3" value="1" level="11" />
+			<stat name="reaper:spellcasting:slots:4" value="1" level="13" />
+			<stat name="reaper:spellcasting:slots:4" value="1" level="15" />
+			<stat name="reaper:spellcasting:slots:4" value="1" level="17" />
+			<stat name="reaper:spellcasting:slots:5" value="1" level="17" />
+			<stat name="reaper:spellcasting:slots:5" value="1" level="19" />
+			<stat name="reaper:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="reaper:spellcasting:prepare" value="level:reaper:half" />
+		</rules>
+    </element>
+	<element name="Fighting Style" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_FIGHTING_STYLE">
+		<description>
+			<p>Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5>Blind Fighting</h5>
+			<p>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>
+			<h5>Defense</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5>Dueling</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5>Great weapon Fighting</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5>Interception</h5>
+			<p>When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.</p>
+			<h5>Thrown Weapon Fighting</h5>
+			<p>You can draw a weapon that has the thrown property as part of the attack you make with the weapon.</p>
+			<p class="indent">In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.</p>
+			<h5>Two Weapon Fighting</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Fighting Style, Reaper" supports="Fighting Style, Reaper" />
+		</rules>
+	</element>
+	<append id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLIND_FIGHTING">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_INTERCEPTION">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_THROWN_WEAPON_FIGHTING">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+		<supports>Reaper</supports>
+	</append>
+	<element name="Reaper Archetype" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ARCHETYPE">
+		<description>
+			<p>At 3rd level, you choose your focus as a Reaper: Death's Blade, Grim Keeper or Doomsinger. Your choice grants you features at 3rd level and again at 7th, 11th and 15th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Reaper Archetype" supports="Reaper Focus" />
+		</rules>
+	</element>
+	<element name="Veil of Shadows" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VEIL_OF_SHADOWS">
+		<description>
+			<p>Also, beginning at 3rd level, while your voidsent is active you may use your bonus action to act as a host for your void avatar. The Void Avatar becomes one with you, cloaking you in its dark magic. When you do so, you may spend a number of hit die up to your proficiency bonus and gain temporary hit points equal to the result.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While your voidsent is active you may use your bonus action to act as a host for your void avatar. The Void Avatar becomes one with you, cloaking you in its dark magic. When you do so, you may spend a number of hit die up to your proficiency bonus and gain temporary hit points equal to the result.</description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ABILITY_SCORE_IMPROVEMENT">
+		<description>
+			<html>&lt;p&gt;When you reach 4th level, and again at 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Reaper 4)" supports="Improvement Option,Reaper,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Reaper 8)" supports="Improvement Option,Reaper,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Reaper 12)" supports="Improvement Option,Reaper,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Reaper 14)" supports="Improvement Option,Reaper,14" level="14" />
+			<select type="Class Feature" name="Improvement Option (Reaper 16)" supports="Improvement Option,Reaper,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Reaper 19)" supports="Improvement Option,Reaper,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_EXTRA_ATTACK">
+		<description>
+			<html>&lt;p&gt;Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" bonus="extra attack" level="5" />
+		</rules>
+	</element>
+	<element name="Sixth Sense" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SIXTH_SENSE">
+		<description>
+			<p>Beginning at 6th level, you may cast the See Invisibility or Speak with Dead spell without expending a spell slot once per day.</p>
+		</description>
+		<sheet usage="Once per Day">
+			<description>You may cast the See Invisibility or Speak with Dead spell without expending a spell slot once per day.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SEE_INVISIBILITY" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
+		</rules>
+	</element>
+	<element name="Reaper Art: Reaping Rondo" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ART_REAPING_RONDO">
+		<description>
+			<p>Beginning at 9th level, as an action, you unleash a large sweeping attack imbued in necrotic energy. All creatures in a 10ft. centered on you make a Dexterity saving throw against your Reaper spell save DC, taking damage equal to your weapon damage + 1d12 necrotic on a failure, and half as much on a success.</p>
+			<p class="indent">If you are hosting your void avatar, this attack deals bonus necrotic damage equal to your wisdom modifier.</p>
+		</description>
+		<sheet action="Action">
+			<decsription>As an action, you unleash a large sweeping attack imbued in necrotic energy. All creatures in a 10ft. centered on you make a Dexterity saving throw against your Reaper spell save DC, taking damage equal to your weapon damage + 1d12 necrotic on a failure, and half as much on a success. &#13;
+				If you are hosting your void avatar, this attack deals bonus necrotic damage equal to your wisdom modifier.
+			</decsription>
+		</sheet>
+	</element>
+	<element name="Reaper Art: Memento Mori" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_ART_MOMENTO_MORI">
+		<description>
+			<p>Beginning at 10th level, you when you hit a creature with a melee weapon attack, you can expend one Reaper spell slot to empower your swing, filling your target with dark energies. The creature must make a Charisma saving throw against your Reaper spell save DC. On a failure a creature takes 3d8 necrotic damage and becomes frightened. On a success, the creature takes half as much damage and does not become frightened. This damage increases by 1d8 for each spell above 1st.</p>
+			<p class="indent">A frightened creature has disadvantage on Ability Checks and Attack Rolls while the source of its fear is within Line of Sight and the creature can’t willingly move closer to the source of its fear.</p>
+		</description>
+		<sheet>
+			<description>When you hit a creature with a melee weapon attack, you can expend one Reaper spell slot to empower your swing, filling your target with dark energies. The creature must make a Charisma saving throw against your Reaper spell save DC. On a failure a creature takes 3d8 necrotic damage and becomes frightened. On a success, the creature takes half as much damage and does not become frightened. This damage increases by 1d8 for each spell above 1st. &#13;
+				A frightened creature has disadvantage on Ability Checks and Attack Rolls while the source of its fear is within Line of Sight and the creature can’t willingly move closer to the source of its fear.
+			</description>
+		</sheet>
+	</element>
+	<element name="Shadow Walk" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_SHADOW_WALK">
+		<description>
+			<p>Beginning at 13th level, while you are hosting the Void Avatar, as a bonus action you can become incorporeal until the end of your turn. You can move through other creatures and Objects as if they were Difficult Terrain.</p>
+			<p class="indent">You take 5 (1d10) force damage and are ejected to the nearest unoccupied space if you end your turn inside an object.</p>
+			<p class="indent">You may do so a number of times equal to your Wisdom ability modifier. Uses of this feature are recovered when you complete a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="Long Rest">
+			<description>While you are hosting the Void Avatar, as a bonus action you can become incorporeal until the end of your turn. You can move through other creatures and Objects as if they were Difficult Terrain.</description>
+		</sheet>
+	</element>
+	<element name="Void Gaze" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VOID_GAZE">
+		<description>
+			<p>Beginning at 14th level, when you are hosting the Void Avatar, you gain 30ft. of True Sight.</p>
+		</description>
+		<sheet>
+			<description>Beginning at 14th level, when you are hosting the Void Avatar, you gain 30ft. of True Sight.</description>
+		</sheet>
+	</element>
+	<element name="Dark Martyr" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_DARK_MARTYR">
+		<description>
+			<p>Beginning at 17th level, when you are reduced to 0 hit points and not outright killed, as a reaction, you may dismiss your void avatar to recover 4d8 + your Wisdom modifier hit points before falling prone. You may not summon your void avatar again until you complete a long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="Long Rest">
+			<description>hen you are reduced to 0 hit points and not outright killed, as a reaction, you may dismiss your void avatar to recover 4d8 + your Wisdom modifier hit points before falling prone. You may not summon your void avatar again until you complete a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Gate of Tartarus" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_GATE_OF_TARTARUS">
+		<description>
+			<p>Beginning at the 18th level, you may cast the Plane Shift spell without requiring the material components. You may not use the spell to banish an unwilling an unwilling creature. You may cast Plane Shift in this way once without experiencing detrimental effects, additional uses of the spell before completing a long rest cause a level of exhaustion to all creatures affected.</p>
+		</description>
+		<sheet>
+			<description>You may cast the Plane Shift spell without requiring the material components. You may not use the spell to banish an unwilling an unwilling creature. You may cast Plane Shift in this way once without experiencing detrimental effects, additional uses of the spell before completing a long rest cause a level of exhaustion to all creatures affected.</description>
+		</sheet>
+	</element>
+	<element name="Vessel of Death" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_RPR_VESSEL_OF_DEATH">
+		<description>
+			<p>Starting at 20th level, you always have the benefit of hosting the void avatar.</p>
+		</description>
+		<sheet>
+			<description>You always have the benefit of hosting the void avatar.</description>
+		</sheet>
+	</element>
+	
+	<element name="Death's Blade" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_RPR_DEATHS_BLADE">
+		<supports>Reaper Focus</supports>
+		<description>
+			<p>Reapers who decide to focus on their skill with the scythe come to be known as Death's Blades. These specialized fighters spend most of their time focused on their procifiency in martial combat, using their voidsent partner to augment their natural fighting abilities.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_WICKED_STRIKE" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_WRAITH_WALK" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_REAPERS_REND" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_HANDS_OF_DEATH" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_WICKED_STRIKE" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_WRAITH_WALK" level="7" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_REAPERS_REND" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_HANDS_OF_DEATH" level="15" />
+		</rules>
+	</element>
+	<element name="Wicked Strike" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_WICKED_STRIKE">
+		<description>
+			<p>Beginning at the 3rd level, when you hit a creature with a melee weapon attack, you can expend one Reaper spell slot to deal empower your swing, striking all creatures within 5ft. of the original target. All affected creatures must make a Dexterity saving throw aginst your Reaper spell save DC. On a failure a creature takes 2d6 necrotic damage and half as much on a success. This damage increases by 1d6 for each spell above 1st.</p>
+			<p class="indent">While you are acting as a host for your Void Avatar, instead of all creatures within 5ft. of the original target, the range is increased to a 15ft. cone originating from the original target creature.</p>
+		</description>
+		<sheet>
+			<description>When you hit a creature with a melee weapon attack, you can expend one Reaper spell slot to deal empower your swing, striking all creatures within 5ft. of the original target. All affected creatures must make a Dexterity saving throw aginst your Reaper spell save DC. On a failure a creature takes 2d6 necrotic damage and half as much on a success. This damage increases by 1d6 for each spell above 1st. &#13;
+				While you are acting as a host for your Void Avatar, instead of all creatures within 5ft. of the original target, the range is increased to a 15ft. cone originating from the original target creature.
+			</description>
+		</sheet>
+	</element>
+	<element name="Wraith Walk" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_WRAITH_WALK">
+		<description>
+			<p>Beginning at the 7th level, you may spend a spell slot of 1st level or higher to gain the effects of hovering and increase your base speed by 5ft. for 1 minute. For each spell slot above 1st, your movement speed increases by an additional 5ft.</p>
+		</description>
+		<sheet>
+			<description>You may spend a spell slot of 1st level or higher to gain the effects of hovering and increase your base speed by 5ft. for 1 minute. For each spell slot above 1st, your movement speed increases by an additional 5ft.</description>
+		</sheet>
+	</element>
+	<element name="Reaper's Rend" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_REAPERS_REND">
+		<description>
+			<p>Beginning at the 11th, while you are hosting your void avatar, as a bonus action you may order the avatar to make an attack.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While you are hosting your void avatar, as a bonus action you may order the avatar to make an attack.</description>
+		</sheet>
+	</element>
+	<element name="Hands of Death" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_HANDS_OF_DEATH">
+		<description>
+			<p>Beginning at the 15th level, while you are hosting your void avatar, necrotic energies swirl around your weapon, increasing the range of your melee weapon attacks by 5ft. Additionally, other creatures provoke an opportunity attack from you when they enter the reach you have with your weapon.</p>
+		</description>
+		<sheet>
+			<description>While you are hosting your void avatar, necrotic energies swirl around your weapon, increasing the range of your melee weapon attacks by 5ft. Additionally, other creatures provoke an opportunity attack from you when they enter the reach you have with your weapon.</description>
+		</sheet>
+	</element>
+
+	<element name="Grim Keeper" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_RPR_GRIM_KEEPER">
+		<supports>Reaper Focus</supports>
+		<description>
+			<p>Reapers who work in tandem with their voidsent ally are known as Grim Keepers. Acting as partners in crime, the Grim Keeper guides the voidsent through the world of the living and directing their wrath to the proper targets.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_SHARED_PRESENCE" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_DEATH_PERCEPTION" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_RAVENOUS_RENDING" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_VOID_GUARDIAN" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_SHARED_PRESENCE" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_DEATH_PERCEPTION" level="7" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_RAVENOUS_RENDING" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_VOID_GUARDIAN" level="15" />
+		</rules>
+	</element>
+	<element name="Shared Presence" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_SHARED_PRESENCE">
+		<description>
+			<p>Beginning at the 3rd level, when you cast a spell you may cast the spell as if you were standing where your avatar is. Spells which use you as their point of origin may instead use your avatar as the point of origin. These spells do not cause damage to your avatar. You can use this feature three times. You regain expended uses of this feature when you finish a long rest.</p>
+		</description>
+		<sheet usage="3/Long Rest">
+			<description>When you cast a spell you may cast the spell as if you were standing where your avatar is. Spells which use you as their point of origin may instead use your avatar as the point of origin. These spells do not cause damage to your avatar. You can use this feature three times. You regain expended uses of this feature when you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Death Perception" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_DEATH_PERCEPTION">
+		<description>
+			<p>Beginning at the 7th level, while your void avatar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your avatar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any Special Senses that the avatar has. During this time, you are deaf and blind with regard to your own Senses.</p>
+		</description>
+		<sheet>
+			<description>While your void avatar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your avatar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any Special Senses that the avatar has. During this time, you are deaf and blind with regard to your own Senses.</description>
+		</sheet>
+	</element>
+	<element name="Ravenous Rending" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_RAVENOUS_RENDING">
+		<description>
+			<p>Beginning at the 11th, your void avatar can make two attacks when you command it to use the Attack action.</p>
+		</description>
+		<sheet>
+			<description>Your void avatar can make two attacks when you command it to use the Attack action.</description>
+		</sheet>
+	</element>
+	<element name="Reaper Art: Void Guardian" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_FEATURE_RPR_ART_VOID_GUARDIAN">
+		<description>
+			<p>Beginning at the 15th level, as an action, you imbue the void avatar with immense necrotic energy. Any creature hostile to you that moves to a space within 10 feet of the Avatar for the first time on a turn must succeeed on a Dexterity saving throw against your Reaper spell save DC. The creature takes 20 necrotic damage on a failed save, or half as much damage on a successful one. The energy fades when it has dealt a total of 60 damage.</p>
+			<p class="indent">You may do this a number of times equal to half your proficiency bonus, rounded down. Uses of this feature recover when you complete a long rest.</p>
+		</description>
+		<sheet usage="Long Rest">
+			<description>As an action, you imbue the void avatar with immense necrotic energy. Any creature hostile to you that moves to a space within 10 feet of the Avatar for the first time on a turn must succeeed on a Dexterity saving throw against your Reaper spell save DC. The creature takes 20 necrotic damage on a failed save, or half as much damage on a successful one. The energy fades when it has dealt a total of 60 damage. &#13;
+				You may do this a number of times equal to half your proficiency bonus, rounded down. Uses of this feature recover when you complete a long rest.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Doomsinger" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_RPR_DOOMSINGER">
+		<supports>Reaper Focus</supports>
+		<description>
+			<p>Speaking in long forgotten tongues accessing forbidden techniques, Doomsingers use the souls of the recently deceased to fuel their spells and continue the mayhem they sought to create. Doomsingers have leaned more heavily into the magical arts, defending themselves with powerful spells instead of brutish weapons.</p>
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_SONET_OF_SOULS" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_BONUS_CANTRIP" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_KEEPER_OF_SHADOW_SECRETS" />
+			<div element="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_EXCLUSIVE_DEATH" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_SONET_OF_SOULS" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_BONUS_CANTRIP" level="3" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_TWISTING_FATE" level="7" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_KEEPER_OF_SHADOW_SECRETS" level="11" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_EXCLUSIVE_DEATH" level="15" />
+		</rules>
+	</element>
+	<element name="Sonet of Souls" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_SONET_OF_SOULS">
+		<description>
+			<p>Beginning at the 3rd level, when a hostile creature dies within 30ft. of you, you capture its life essence in your momento. You are able to hold a number of souls in your momento equal to your proficiency bonus. When you complete a long rest, the souls in your momento dissipate. You may cast a Reaper spell by spending a number of souls equal to twice the level of the spell you are casting.</p>
+			<p class="indent">While you are hosting your void avatar, the range of soul capture is increased to 60ft.</p>
+		</description>
+		<sheet>
+			<description>When a hostile creature dies within 30ft. of you, you capture its life essence in your momento. You are able to hold a number of souls in your momento equal to your proficiency bonus. When you complete a long rest, the souls in your momento dissipate. You may cast a Reaper spell by spending a number of souls equal to twice the level of the spell you are casting. &#13;
+				While you are hosting your void avatar, the range of soul capture is increased to 60ft.
+			</description>
+		</sheet>
+	</element>
+	<element name="Bonus Cantrip" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_BONUS_CANTRIP">
+		<description>
+			<p>Also beginning at the 3rd level, you know the Toll the Dead cantrip.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+		</rules>
+	</element>
+	<element name="Keeper of Shadow Secrets" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_KEEPER_OF_SHADOW_SECRETS">
+		<description>
+			<p>Beginning at the 7th level, choose a skill from the following: Arcana, History, Insight, Medicine or Religion. You gain proficiency in that skill. If you are already proficient, you gain expertise in that skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Keeper of Shadow Secrets" supports="Keeper Expertise" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="KibblesTasty's Warlord" id="ID_FFXIV_RPR_KEEPER_EXPERTISE_PROF">
+        <supports>Keeper Expertise</supports>
+        <description>
+            <p>You gain an additional proficiency.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Keeper Expertise" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" />
+        </rules>
+    </element>
+    <element name="Bonus Expertise" type="Archetype Feature" source="KibblesTasty's Warlord" id="ID_FFXIV_RPR_KEEPER_EXPERTISE_EXP">
+        <supports>Keeper Expertise</supports>
+        <description>
+            <p>You gain a skill expertise.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Keeper Expertise" supports="ID_EXPERTISE_SKILL_ARCANA|ID_EXPERTISE_SKILL_HISTORY|ID_EXPERTISE_SKILL_INSIGHT|ID_EXPERTISE_SKILL_MEDICINE|ID_EXPERTISE_SKILL_RELIGION" />
+        </rules>
+    </element>
+	<element name="Twisting Fate" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_TWISTING_FATE">
+		<description>
+			<p>Beginning at the 11th level, while you are hosting your avatar, as a bonus action you may spend 2 souls to attempt to curse a creature within 30ft. of you. The target creature makes a Charisma saving throw against your Reaper spell save DC. On a failure, the next saving throw that creature makes has a penalty equal to your proficiency bonus.</p>
+		</description>
+		<sheet>
+			<description>While you are hosting your avatar, as a bonus action you may spend 2 souls to attempt to curse a creature within 30ft. of you. The target creature makes a Charisma saving throw against your Reaper spell save DC. On a failure, the next saving throw that creature makes has a penalty equal to your proficiency bonus.</description>
+		</sheet>
+	</element>
+	<element name="Reaper Art: Exclusive Death" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_EXCLUSIVE_DEATH">
+		<description>
+			<p>Beginning at the 15th level, when you are hit with a melee weapon attack, as a reaction, you may spend 1 soul and become briefly surrounded in a shadowy mist and teleport up to 30 feet to an unoccupied space that you can see.</p>
+			<p class="indent">While you are hosting your void avatar, you do not need to spend a soul to use this feature.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When you are hit with a melee weapon attack, as a reaction, you may spend 1 soul and become briefly surrounded in a shadowy mist and teleport up to 30 feet to an unoccupied space that you can see. &#13;
+				While you are hosting your void avatar, you do not need to spend a soul to use this feature.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Void Avatar" type="Companion" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_VOID_AVATAR">
+		<supports>Dark Alliance</supports>
+		<description>
+			<p>At 1st level, you form a contract with a voidsent known as a Void Avatar. Drawn to your location due to massive loss of life, you've formed a contract to borrow power from the voidsent and received a momento from it to symbolize your contract. You can review their stats in the statblock below.</p>
+			<p class="indent">In combat, the voidsent acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the voidsent to take the Attack action. If you are incapacitated, the voidsent can take any action of its choice, not just Dodge.</p>
+			<p class="indent">When the voidsent is killed, its essence returns to your momento. You can use your action to touch your momento and expaned a spell slot of 1st level or higher. The voidsent regains its form after 1 minute with all its hit points restored.</p>
+			<p class="indent">When you finish a long rest, you may resummon your voidsent from its momento. If it is still active it regains all its hit points.</p>
+        </description>
+		<setters>
+			<set name="strength">14</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">11</set>
+			<set name="ac">13+PB</set>
+			<set name="hp">5 + four times your class level (the Avatar has a number of Hit Dice [d6s] equal to your Reaper level)</set>
+			<set name="speed">30ft. hover</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">understands the languages of its summoner but cannot speak</set>
+			<set name="skills">-</set>
+			<set name="type">Fiend</set>
+			<set name="size">Medium</set>
+			<set name="alignment">-</set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_FFXIV_COMPANION_TRAIT_VOID_AVATAR_VOID_BOND</set>
+			<set name="actions">ID_FFXIV_COMPANION_ACTION_VOID_AVATAR_REND</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:hp" value="level:reaper" />
+			<stat name="companion:hp" value="level:reaper" />
+			<stat name="companion:hp" value="level:reaper" />
+			<stat name="companion:hp" value="level:reaper" />
+			<stat name="companion:speed:hover" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Void Bond" type="Companion Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_TRAIT_VOID_AVATAR_VOID_BOND">
+		<description>
+			<p>You can add your proficiency bonus to any ability check or saving throw that the void avatar makes.</p>
+		</description>
+		<sheet>
+			<description>You can add your proficiency bonus to any ability check or saving throw that the void avatar makes.</description>
+		</sheet>
+	</element>
+	<element name="Rend" type="Companion Action" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_ACTION_VOID_AVATAR_REND">
+		<description>
+			<p>Melee Weapon Attack: your spell attack modifier to hit, Reach 5ft., one target. Hit: 9 (1d8 + 2 + PB) slashing damage</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: your spell attack modifier to hit, Reach 5ft., one target. Hit: 9 (1d8 + 2 + PB) slashing damage</description>
+		</sheet>
+	</element>
+
+	<!-- Spell Appends
+	1st level Spells -->
+	<append id="ID_WOTC_UA20190228_SPELL_ARCANE_WEAPON">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ARMOR_OF_AGATHYS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ARMS_OF_HADAR">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BANE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CAUSE_FEAR">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CHAOS_BOLT">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMPELLED_DUEL">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CURE_WOUNDS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_MAGIC">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FALSE_LIFE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIND_STEED">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FOG_CLOUD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GENTLE_REPOSE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HELLISH_REBUKE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HEX">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HUNTERS_MARK">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_ICE_KNIFE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_IDENTIFY">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_INFLICT_WOUNDS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_JUMP">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LONGSTRIDER">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAY_OF_SICKNESS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SHIELD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SILENT_IMAGE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_UNSEEN_SERVANT">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WRATHFUL_SMITE">
+		<supports>Reaper</supports>
+	</append>
+
+	<!-- 2nd level -->
+	<append id="ID_PHB_SPELL_ALTER_SELF">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_AUGURY">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CROWN_OF_MADNESS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DARKNESS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DARKVISION">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ENTHRALL">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIND_TRAPS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_PERSON">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_INVISIBILITY">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LEVITATE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAGIC_WEAPON">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MIRROR_IMAGE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MISTY_STEP">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PHANTASMAL_FORCE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SEE_INVISIBILITY">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SHADOW_BLADE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SILENCE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPIRITUAL_WEAPON">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+		<supports>Reaper</supports>
+	</append>
+
+	<!-- 3rd level -->
+	<append id="ID_PHB_SPELL_ANIMATE_DEAD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BESTOW_CURSE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DISPEL_MAGIC">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ELEMENTAL_WEAPON">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FEAR">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FEIGN_DEATH">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FLY">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GASEOUS_FORM">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HASTE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HUNGER_OF_HADAR">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_LIFE_TRANSFERENCE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PHANTOM_STEED">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REMOVE_CURSE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPIRIT_GUARDIANS">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_WOTC_TCOE_SPELL_SUMMON_UNDEAD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_VAMPIRIC_TOUCH">
+		<supports>Reaper</supports>
+	</append>
+
+	<!-- 4th level -->
+	<append id="ID_PHB_SPELL_ARCANE_EYE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BANISHMENT">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BLIGHT">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMPULSION">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONFUSION">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DEATH_WARD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DIMENSION_DOOR">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_FIND_GREATER_STEED">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PHANTASMAL_KILLER">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SHADOW_OF_MOIL">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_STAGGERING_SMITE">
+		<supports>Reaper</supports>
+	</append>
+
+	<!-- 5th level  -->
+	<append id="ID_PHB_SPELL_ANTILIFE_SHELL">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BANISHING_SMITE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CIRCLE_OF_POWER">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CLOUDKILL">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONTACT_OTHER_PLANE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONTAGION">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_DANSE_MACABRE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DESTRUCTIVE_WAVE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_ENERVATION">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_MONSTER">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAISE_DEAD">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SCRYING">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_STEEL_WIND_STRIKE">
+		<supports>Reaper</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TELEPORTATION_CIRCLE">
+		<supports>Reaper</supports>
+	</append>
+</elements>

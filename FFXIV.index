@@ -4,7 +4,7 @@
 		<name>FFXIV</name>
 		<description>The content from the Final Fantatsy XIV DnD Compendium.</description>
 		<author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">SilentSoren</author>
-		<update version="1.0.18">
+		<update version="1.0.19">
 			<file name="FFXIV.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV.index" />
 		</update>
 	</info>
@@ -21,8 +21,10 @@
 		<file name="class-drk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-drk.xml" />
 		<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		<file name="class-mch.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-mch.xml" />
+		<file name="class-rpr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rpr.xml" />
 		<file name="class-rdm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rdm.xml" />
 		<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
+		<file name="class-sge.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sge.xml" />
 		<file name="class-whm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-whm.xml" />
 		<file name="class-war.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-war.xml" />
 		<file name="subclass-skysinger-bard.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-skysinger-bard.xml" />
@@ -42,6 +44,7 @@
 		<file name="race-viera.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/race-viera.xml" />
 
         <!-- Other -->
+		<file name="items.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />
         <file name="spells.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/spells.xml" />
 		<file name="languages.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/languages.xml" />
 	</files>

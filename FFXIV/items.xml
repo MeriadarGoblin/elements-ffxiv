@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<info>
+        <name>Items</name>
+		<update version="0.0.1">
+			<file name="class-ast.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-items.xml" />
+		</update>
+    </info>
+
+	<element name="Battle Scythe" type="Weapon" source="" id="ID_FFXIV_WEAPON_SCYTHE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="4">10 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d4</set>
+			<set name="proficiency">ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Battle Scythe)" type="Proficiency" source="D&amp;D Wiki" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
+		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+	</element>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
+		</rules>
+	</append>
+</elements>
