@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Reaper</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="class-rpr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rpr.xml" />
 		</update>
 	</info>
@@ -582,11 +582,11 @@
 		<rules>
 			<stat name="companion:ac" value="13" />
 			<stat name="companion:ac" value="proficiency" />
-			<stat name="companion:hp:max" value="5" bonus="base" />
-			<stat name="companion:hp" value="level:reaper" />
-			<stat name="companion:hp" value="level:reaper" />
-			<stat name="companion:hp" value="level:reaper" />
-			<stat name="companion:hp" value="level:reaper" />
+			<stat name="companion:hp" value="5" bonus="base" />
+			<stat name="companion:hp" value="level:reaper" bonus="bonus" />
+			<stat name="companion:hp" value="level:reaper" bonus="bonus" />
+			<stat name="companion:hp" value="level:reaper" bonus="bonus" />
+			<stat name="companion:hp" value="level:reaper" bonus="bonus" />
 			<stat name="companion:speed:hover" value="30" bonus="base" />
 		</rules>
 	</element>
