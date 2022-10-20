@@ -2,8 +2,8 @@
 <elements>
 	<info>
         <name>Items</name>
-		<update version="0.0.1">
-			<file name="class-ast.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-items.xml" />
+		<update version="0.0.2">
+			<file name="items.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/items.xml" />
 		</update>
     </info>
 
