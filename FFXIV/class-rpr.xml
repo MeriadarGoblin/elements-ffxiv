@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Reaper</name>
-		<update version="1.0.1">
+		<update version="1.0.11">
 			<file name="class-rpr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rpr.xml" />
 		</update>
 	</info>
@@ -587,7 +587,7 @@
 			<stat name="companion:hp" value="level:reaper" bonus="bonus" />
 			<stat name="companion:hp" value="level:reaper" bonus="bonus" />
 			<stat name="companion:hp" value="level:reaper" bonus="bonus" />
-			<stat name="companion:speed:hover" value="30" bonus="base" />
+			<stat name="companion:speed:fly" value="30" bonus="base" />
 		</rules>
 	</element>
 	<element name="Void Bond" type="Companion Trait" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_COMPANION_TRAIT_VOID_AVATAR_VOID_BOND">
