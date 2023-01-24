@@ -2,12 +2,12 @@
 <elements>
 	<info>
         <name>Items</name>
-		<update version="0.0.2">
+		<update version="0.1.1">
 			<file name="items.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/items.xml" />
 		</update>
     </info>
 
-	<element name="Battle Scythe" type="Weapon" source="" id="ID_FFXIV_WEAPON_SCYTHE">
+	<element name="Battle Scythe" type="Weapon" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WEAPON_SCYTHE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
 		<description>
 			<p></p>
@@ -21,7 +21,7 @@
 			<set name="proficiency">ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
 		</setters>
 	</element>
-	<element name="Weapon Proficiency (Battle Scythe)" type="Proficiency" source="D&amp;D Wiki" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
+	<element name="Weapon Proficiency (Battle Scythe)" type="Proficiency" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
@@ -29,4 +29,23 @@
 			<grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
 		</rules>
 	</append>
+
+	<element name="Chakram" type="Weapon" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WEAPON_CHAKRAM">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Chakram)" type="Proficiency" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM">
+		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+	</element>
 </elements>
