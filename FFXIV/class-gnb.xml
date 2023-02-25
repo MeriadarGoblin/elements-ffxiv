@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Gunbreaker</name>
-		<update version="1.4.7">
+		<update version="1.4.8">
 			<file name="class-gnb.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-gnb.xml" />
 		</update>
 	</info>
@@ -506,7 +506,7 @@
             <description>You now deal bonus damage on your Elemental Slash and Fated Circle abilities equal to your Intelligence ability modifier. Additionally, you may choose Force, Necrotic or Radiant damage when using those abilities.</description>
         </sheet>
     </element>
-   <element name="Renzokuken" type="Archetype Featuure" source="" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN">
+   <element name="Renzokuken" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_GNB_RENZOKUKEN">
        <description>
            <p>Beginning at the 20th level, when you make a successful melee weapon attack with a gunblade, you may expend one Munitions charge to make another melee weapon attack.</p>
        </description>

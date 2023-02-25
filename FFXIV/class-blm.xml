@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Black Mage</name>
-		<update version="1.2.61">
+		<update version="1.2.7">
 			<file name="class-blm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blm.xml" />
 		</update>
 	</info>
@@ -275,7 +275,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEVESTATING_FORCE" level="14" />
         </rules>
     </element>
-    <element name="Expanded Spell List" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_BLM_MCHACHI_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST">
+    <element name="Expanded Spell List" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_MCHACHI_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST">
         <description>
             <p>Your specialization as a Mhachi lets you choose from an expanded list of spells when you learn a blackmage spell. The following spells are added to the blackmage spell list for you.</p>
             <h5 class="caption">EXPANDED SPELL LIST</h5>
@@ -357,7 +357,7 @@
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEEP_WILL" level="14" />
         </rules>
     </element>
-    <element name="Expanded Spell List" type="Archetype Feature" source="" id="ID_GMBINDER_FFXIV_BLM_ENCHANTER_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST">
+    <element name="Expanded Spell List" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_BLM_ENCHANTER_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST">
         <description>
             <p>Your specialization as an Enchanter lets you choose from an expanded list of spells when you learn a blackmage spell. The following spells are added to the blackmage spell list for you.</p>
             <h5 class="caption">EXPANDED SPELL LIST</h5>
