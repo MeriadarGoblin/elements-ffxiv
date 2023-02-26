@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Samurai</name>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
 		</update>
 	</info>
