@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Samurai</name>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="class-sam.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-sam.xml" />
 		</update>
 	</info>
@@ -156,9 +156,9 @@
 			<stat name="ac:unarmored defense sam:base" value="10" />
 			<stat name="ac:unarmored defense sam:strength" value="strength:modifier" />
 			<stat name="ac:unarmored defense sam:wisdom" value="wisdom:modifier" />
-			<stat name="ac:unarmored defense sam" value="ac:unarmored defense monk:base" />
-			<stat name="ac:unarmored defense sam" value="ac:unarmored defense monk:strength" />
-			<stat name="ac:unarmored defense sam" value="ac:unarmored defense monk:wisdom" />
+			<stat name="ac:unarmored defense sam" value="ac:unarmored defense sam:base" />
+			<stat name="ac:unarmored defense sam" value="ac:unarmored defense sam:strength" />
+			<stat name="ac:unarmored defense sam" value="ac:unarmored defense sam:wisdom" />
 			<stat name="ac:calculation" value="ac:unarmored defense sam" bonus="calculation" equipped="[shield:none]" alt="Unarmored Defense (Samurai)" />
 		</rules>
 	</element>

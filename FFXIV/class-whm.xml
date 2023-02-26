@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>White Mage</name>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="class-whm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-whm.xml" />
 		</update>
 	</info>
@@ -252,7 +252,7 @@
     </element>
     
     <!-- Archetypes -->
-    <element name="Elementalist" type="Class Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WHM_ARCHETYPE_ELEMENTALIST">
+    <element name="Elementalist" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_WHM_ARCHETYPE_ELEMENTALIST">
         <supports>Conjury Discipline</supports>
         <description>
             <p>White Mages who choose to focus on manipulating the elements around them come to be known as elementalists. They are able to work very closely with the elementals living across the land to borrow their strength and knowledge, turning the world itself into an ally.</p>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Blue Mage</name>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="class-blu.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blu.xml" />
 		</update>
 	</info>
@@ -95,7 +95,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_FFXIV_MULTICLASS_BLU" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_FFXIV_MULTICLASS_BLU" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_FFXIV_MULTICLASS_BLU" />
-            <select type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+            <select type="Proficiency" name="Skill Proficiency, Blue Mage" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_FFXIV_MULTICLASS_BLU" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_AZURE_LORE" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_BLUE_MAGE_CALLING" level="1" />
             <grant type="Class Feature" id="ID_GMBINDER_FFXIV_CLASS_FEATURE_BLU_LIBRA" level="1"  />
