@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>College of the Skysinger</name>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="subclass-skysinger-bard.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-skysinger-bard.xml" />
 		</update>
 	</info>
@@ -32,7 +32,7 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" name="Bonus Proficiency" supports="Skill" />
+            <select type="Proficiency" name="Bonus Proficiency (College of Skysinger)" supports="Skill" />
             <grant type="Proficiency" id="ID_WOTC_PHB_WEAPON_LONGBOW" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
         </rules>
