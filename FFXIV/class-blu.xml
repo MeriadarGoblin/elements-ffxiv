@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Blue Mage</name>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="class-blu.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blu.xml" />
 		</update>
 	</info>
@@ -461,10 +461,12 @@
             <p class="indent">You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
             <p class="indent">Your Carnevallian Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.</p>
         </description>
-        <sheet action="Bonus Action" usage="Long Rest">
-            <description>You can inspire others through performing with monstrous magics. To do so, you use a Bonus Action on Your Turn to choose one creature other than yourself within 60 feet of you who can see and hear you. That creature gains one Carnevallian Inspiration die, a d{{carnivalinspirtation:die}}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, Attack roll, or saving throw it makes. The creature can wait until after it rolls The D20 before deciding to use the Carnevallian Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Carnevallian Inspiration die is rolled, it is lost. A creature can have only one Carnevallian Inspiration die at a time. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</description>
+        <sheet action="Bonus Action" usage="{{carnival die:usage}}/Long Rest">
+            <description>As a bonus action, choose one creature other than yourself within 60 feet of you who can see and hear you. That creature gains one Carnevallian Inspiration die, a d{{carnivalinspiration:die}}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, Attack roll, or saving throw it makes. The creature can wait until after it rolls The D20 before deciding to use the Carnevallian Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Carnevallian Inspiration die is rolled, it is lost. A creature can have only one Carnevallian Inspiration die at a time. You regain any expended uses when you finish a long rest.</description>
         </sheet>
         <rules>
+            <stat name="carnival die:usage" value="1" bonus="base" />
+            <stat name="carnival die:usage" value="charisma:modifier" bonus="base" />
             <stat name="carnivalinspiration:die" value="6" bonus="die" level="1" />
             <stat name="carnivalinspiration:die" value="8" bonus="die" level="5" />
             <stat name="carnivalinspiration:die" value="10" bonus="die" level="10" />
