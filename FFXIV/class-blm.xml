@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Black Mage</name>
-		<update version="1.2.62">
+		<update version="1.2.63">
 			<file name="class-blm.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-blm.xml" />
 		</update>
 	</info>
@@ -270,7 +270,7 @@
         <rules>
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_MCHACHI_ARCHETYPE_FEATURE_EXPANDED_SPELL_LIST" level="2" />
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_UNSTABLE_AETHER" level="2" />
-            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGOT" level="6" />
+            <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_POLYGLOT" level="6" />
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_AETHERIAL_MANIPULATION" level="10" />
             <grant type="Archetype Feature" id="ID_GMBINDER_FFXIV_BLM_ARCHETYPE_FEATURE_DEVESTATING_FORCE" level="14" />
         </rules>

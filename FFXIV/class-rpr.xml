@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Reaper</name>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="class-rpr.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/class-rpr.xml" />
 		</update>
 	</info>
@@ -175,7 +175,7 @@
         </description>
         <sheet display="false" />
         <spellcasting name="Reaper" ability="Wisdom" prepare="true">
-			<list known="true">Wisdom</list>
+			<list known="true">Reaper</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
@@ -452,7 +452,7 @@
 			<description>Your void avatar can make two attacks when you command it to use the Attack action.</description>
 		</sheet>
 	</element>
-	<element name="Reaper Art: Void Guardian" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_FFXIV_ARCHETYPE_FEATURE_RPR_ART_VOID_GUARDIAN">
+	<element name="Reaper Art: Void Guardian" type="Archetype Feature" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_ARCHETYPE_FEATURE_RPR_ART_VOID_GUARDIAN">
 		<description>
 			<p>Beginning at the 15th level, as an action, you imbue the void avatar with immense necrotic energy. Any creature hostile to you that moves to a space within 10 feet of the Avatar for the first time on a turn must succeeed on a Dexterity saving throw against your Reaper spell save DC. The creature takes 20 necrotic damage on a failed save, or half as much damage on a successful one. The energy fades when it has dealt a total of 60 damage.</p>
 			<p class="indent">You may do this a number of times equal to half your proficiency bonus, rounded down. Uses of this feature recover when you complete a long rest.</p>
