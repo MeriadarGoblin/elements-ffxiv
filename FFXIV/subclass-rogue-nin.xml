@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<name>Rogue Archetype - Ninja</name>
-		<update version="1.1.0">
+		<update version="1.1.1">
 			<file name="subclass-rogue-nin.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/subclass-rogue-nin.xml" />
 		</update>
 	</info>
-	<element name="Ninja" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_WOTC_PHB_ARCHETYPE_ASSASSIN">
+	<element name="Ninja" type="Archetype" source="5th Edition D&amp;D x Final Fantasy XIV - Classes and Races Compendium" id="ID_GMBINDER_FFXIV_SUBCLASS_ROGUE_NIN">
 		<supports>Roguish Archetype</supports>
 		<description>
 			<p>You have chosen to study the art of the ninjas of Doma. These talented fighters have learned to channel the power from the world around them, the heavens, the earth and the hearts of man through the use of mudras or hand gestures. These traditional arts are passed down from master to student, father to son and mother to daughter. Their secrets are closely guarded by the practitioners.</p>
